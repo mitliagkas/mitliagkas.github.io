@@ -7,8 +7,8 @@ body {
   padding: 0px;
   background: #ebebeb url(images/bg01.png) repeat scroll 0% 50%;
   font-weight: 300;
+  font-family: Helvetica Neue;
   font-size: 12pt;
-  font-family: 'Source Sans Pro',sans-serif;
   color: #363636;
 }
 h1, h2, h3 {
@@ -59,7 +59,7 @@ hr {
   display: none;
 }
 #wrapper {
-  background: #ffffff url(images/bg01.png) repeat scroll 0%;
+  background: #ffffff url(images/bg01.png) repeat scroll 0% 50%;
 }
 .container {
   margin: 0px auto;
@@ -125,7 +125,7 @@ hr {
 #menu li:hover a, #menu li.active a, #menu li.active span {
 }
 #menu .current_page_item a {
-  background: #ffffff url(images/bg01.png) repeat scroll 0%;
+  background: #ffffff url(images/bg01.png) repeat scroll 0% 50%;
   color: #333333;
 }
 #page {
@@ -185,7 +185,7 @@ ul.style2 li:first-child {
 #portfolio-wrapper {
   border-top: 1px solid #d4d4d4;
   padding: 5em 0em 3em;
-  background: #ebebeb url(images/bg01.png) repeat scroll 0%;
+  background: #ebebeb url(images/bg01.png) repeat scroll 0% 50%;
 }
 #portfolio {
   overflow: hidden;
@@ -247,7 +247,7 @@ ul.style2 li:first-child {
 }
 .button {
   padding: 0.5em 3em 0.5em 2em;
-  background: #e3c714 none repeat scroll 0%;
+  background: #e3c714 none repeat scroll 0% 50%;
   margin-top: 1.5em;
   letter-spacing: 0.2em;
   text-decoration: none;
