@@ -7,13 +7,17 @@
     <script src="http://trifacta.github.com/vega/vega.js"></script>
   </head>
   <body>
-    <div id="vis"></div>
+		Cycle graph
+    <div id="visCycle"></div>
+		Barbell graph
+    <div id="visBarbell"></div>
   </body>
 <script type="text/javascript">
 // parse a spec and create a visualization view
-function parse(spec) {
-  vg.parse.spec(spec, function(chart) { chart({el:"#vis"}).update(); });
+function parse(spec,id) {
+  vg.parse.spec(spec, function(chart) { chart({el:id}).update(); });
 }
-parse("cycle.json");
+parse("cycle.json","#visCycle");
+parse("barbell.json","#visBarbell");
 </script>
 </html>
