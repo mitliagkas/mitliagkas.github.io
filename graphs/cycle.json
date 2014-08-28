@@ -1,0 +1,333 @@
+{
+  "axes": [
+    {
+      "scale": "x",
+      "title": "Vertex",
+      "type": "x"
+    },
+    {
+      "scale": "y",
+      "title": "Juice",
+      "type": "y"
+    }
+  ],
+  "data": [
+    {
+      "name": "table",
+      "values": [
+        {
+          "col": "deaths",
+          "idx": 0,
+          "val": 0.11
+        },
+        {
+          "col": "deaths",
+          "idx": 1,
+          "val": 0.12
+        },
+        {
+          "col": "deaths",
+          "idx": 2,
+          "val": 0.11
+        },
+        {
+          "col": "deaths",
+          "idx": 3,
+          "val": 0.040000000000000001
+        },
+        {
+          "col": "deaths",
+          "idx": 4,
+          "val": 0.080000000000000002
+        },
+        {
+          "col": "deaths",
+          "idx": 5,
+          "val": 0.080000000000000002
+        },
+        {
+          "col": "deaths",
+          "idx": 6,
+          "val": 0.10000000000000001
+        },
+        {
+          "col": "deaths",
+          "idx": 7,
+          "val": 0.14000000000000001
+        },
+        {
+          "col": "deaths",
+          "idx": 8,
+          "val": 0.089999999999999997
+        },
+        {
+          "col": "deaths",
+          "idx": 9,
+          "val": 0.13
+        },
+        {
+          "col": "degrees",
+          "idx": 0,
+          "val": 0.10000000000000001
+        },
+        {
+          "col": "degrees",
+          "idx": 1,
+          "val": 0.10000000000000001
+        },
+        {
+          "col": "degrees",
+          "idx": 2,
+          "val": 0.10000000000000001
+        },
+        {
+          "col": "degrees",
+          "idx": 3,
+          "val": 0.10000000000000001
+        },
+        {
+          "col": "degrees",
+          "idx": 4,
+          "val": 0.10000000000000001
+        },
+        {
+          "col": "degrees",
+          "idx": 5,
+          "val": 0.10000000000000001
+        },
+        {
+          "col": "degrees",
+          "idx": 6,
+          "val": 0.10000000000000001
+        },
+        {
+          "col": "degrees",
+          "idx": 7,
+          "val": 0.10000000000000001
+        },
+        {
+          "col": "degrees",
+          "idx": 8,
+          "val": 0.10000000000000001
+        },
+        {
+          "col": "degrees",
+          "idx": 9,
+          "val": 0.10000000000000001
+        },
+        {
+          "col": "visits",
+          "idx": 0,
+          "val": 0.10081881698333912
+        },
+        {
+          "col": "visits",
+          "idx": 1,
+          "val": 0.09895355821820366
+        },
+        {
+          "col": "visits",
+          "idx": 2,
+          "val": 0.097657361449211222
+        },
+        {
+          "col": "visits",
+          "idx": 3,
+          "val": 0.096803768454996678
+        },
+        {
+          "col": "visits",
+          "idx": 4,
+          "val": 0.099206474660933894
+        },
+        {
+          "col": "visits",
+          "idx": 5,
+          "val": 0.10119819164743447
+        },
+        {
+          "col": "visits",
+          "idx": 6,
+          "val": 0.10132464986879959
+        },
+        {
+          "col": "visits",
+          "idx": 7,
+          "val": 0.10189371186494262
+        },
+        {
+          "col": "visits",
+          "idx": 8,
+          "val": 0.10097688976004553
+        },
+        {
+          "col": "visits",
+          "idx": 9,
+          "val": 0.1011665770920932
+        },
+        {
+          "col": "visits_fixed",
+          "idx": 0,
+          "val": 0.1022
+        },
+        {
+          "col": "visits_fixed",
+          "idx": 1,
+          "val": 0.099099999999999994
+        },
+        {
+          "col": "visits_fixed",
+          "idx": 2,
+          "val": 0.093299999999999994
+        },
+        {
+          "col": "visits_fixed",
+          "idx": 3,
+          "val": 0.094100000000000003
+        },
+        {
+          "col": "visits_fixed",
+          "idx": 4,
+          "val": 0.098599999999999993
+        },
+        {
+          "col": "visits_fixed",
+          "idx": 5,
+          "val": 0.10050000000000001
+        },
+        {
+          "col": "visits_fixed",
+          "idx": 6,
+          "val": 0.10059999999999999
+        },
+        {
+          "col": "visits_fixed",
+          "idx": 7,
+          "val": 0.10199999999999999
+        },
+        {
+          "col": "visits_fixed",
+          "idx": 8,
+          "val": 0.1053
+        },
+        {
+          "col": "visits_fixed",
+          "idx": 9,
+          "val": 0.1043
+        }
+      ]
+    }
+  ],
+  "height": 300,
+  "legends": [
+    {
+      "fill": "color",
+      "offset": 0,
+      "properties": {},
+      "shape": "shape",
+      "title": "Results"
+    }
+  ],
+  "marks": [
+    {
+      "from": {
+        "data": "table",
+        "transform": [
+          {
+            "keys": [
+              "data.col"
+            ],
+            "type": "facet"
+          }
+        ]
+      },
+      "marks": [
+        {
+          "properties": {
+            "enter": {
+              "fill": {
+                "field": "data.col",
+                "scale": "color"
+              },
+              "opacity": {
+                "value": 1
+              },
+              "shape": {
+                "field": "data.col",
+                "scale": "shape"
+              },
+              "size": {
+                "value": 100
+              },
+              "x": {
+                "field": "data.idx",
+                "scale": "x"
+              },
+              "y": {
+                "field": "data.val",
+                "scale": "y"
+              }
+            },
+            "hover": {
+              "size": {
+                "value": 200
+              }
+            },
+            "update": {
+              "size": {
+                "value": 100
+              }
+            }
+          },
+          "type": "symbol"
+        }
+      ],
+      "type": "group"
+    }
+  ],
+  "padding": "auto",
+  "scales": [
+    {
+      "domain": {
+        "data": "table",
+        "field": "data.idx"
+      },
+      "name": "x",
+      "range": "width",
+      "type": "linear"
+    },
+    {
+      "domain": {
+        "data": "table",
+        "field": "data.val"
+      },
+      "name": "y",
+      "nice": true,
+      "range": "height"
+    },
+    {
+      "domain": {
+        "data": "table",
+        "field": "data.col"
+      },
+      "name": "color",
+      "range": "category20",
+      "type": "ordinal"
+    },
+    {
+      "domain": {
+        "data": "table",
+        "field": "data.col"
+      },
+      "name": "shape",
+      "range": [
+        "square",
+        "circle",
+        "triangle-down",
+        "triangle-up"
+      ],
+      "type": "ordinal"
+    }
+  ],
+  "width": 400
+}
