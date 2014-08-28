@@ -7,6 +7,19 @@
     <script src="http://trifacta.github.com/vega/vega.js"></script>
   </head>
   <body>
+		<h2>Setup</h2>
+		Random walks on four graphs.
+
+		100 frogs walking.
+		
+		- Fixed walk length (L=100*log(n)) 
+		
+		- Geometrically distributed length with expectation L. From the latter
+		I collected the number of visits and the number of frog deaths (w.p. 1/L)
+		on every vertex.
+
+		Counting deaths doesn't seem to be doing as well.
+
 		<h2>Cycle graph</h2>
     <div id="visCycle"></div>
 		<h2>Barbell graph</h2>
