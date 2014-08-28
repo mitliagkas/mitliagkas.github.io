@@ -16,204 +16,204 @@
       "name": "table",
       "values": [
         {
-          "col": "deaths",
+          "col": "Deaths",
           "idx": 0,
-          "val": 0.11
+          "val": 0.050000000000000003
         },
         {
-          "col": "deaths",
+          "col": "Deaths",
           "idx": 1,
-          "val": 0.12
+          "val": 0.080000000000000002
         },
         {
-          "col": "deaths",
+          "col": "Deaths",
           "idx": 2,
-          "val": 0.11
-        },
-        {
-          "col": "deaths",
-          "idx": 3,
-          "val": 0.040000000000000001
-        },
-        {
-          "col": "deaths",
-          "idx": 4,
-          "val": 0.080000000000000002
-        },
-        {
-          "col": "deaths",
-          "idx": 5,
-          "val": 0.080000000000000002
-        },
-        {
-          "col": "deaths",
-          "idx": 6,
           "val": 0.10000000000000001
         },
         {
-          "col": "deaths",
+          "col": "Deaths",
+          "idx": 3,
+          "val": 0.059999999999999998
+        },
+        {
+          "col": "Deaths",
+          "idx": 4,
+          "val": 0.12
+        },
+        {
+          "col": "Deaths",
+          "idx": 5,
+          "val": 0.10000000000000001
+        },
+        {
+          "col": "Deaths",
+          "idx": 6,
+          "val": 0.089999999999999997
+        },
+        {
+          "col": "Deaths",
           "idx": 7,
           "val": 0.14000000000000001
         },
         {
-          "col": "deaths",
+          "col": "Deaths",
           "idx": 8,
-          "val": 0.089999999999999997
+          "val": 0.12
         },
         {
-          "col": "deaths",
+          "col": "Deaths",
           "idx": 9,
-          "val": 0.13
+          "val": 0.14000000000000001
         },
         {
-          "col": "degrees",
+          "col": "Degree",
           "idx": 0,
           "val": 0.10000000000000001
         },
         {
-          "col": "degrees",
+          "col": "Degree",
           "idx": 1,
           "val": 0.10000000000000001
         },
         {
-          "col": "degrees",
+          "col": "Degree",
           "idx": 2,
           "val": 0.10000000000000001
         },
         {
-          "col": "degrees",
+          "col": "Degree",
           "idx": 3,
           "val": 0.10000000000000001
         },
         {
-          "col": "degrees",
+          "col": "Degree",
           "idx": 4,
           "val": 0.10000000000000001
         },
         {
-          "col": "degrees",
+          "col": "Degree",
           "idx": 5,
           "val": 0.10000000000000001
         },
         {
-          "col": "degrees",
+          "col": "Degree",
           "idx": 6,
           "val": 0.10000000000000001
         },
         {
-          "col": "degrees",
+          "col": "Degree",
           "idx": 7,
           "val": 0.10000000000000001
         },
         {
-          "col": "degrees",
+          "col": "Degree",
           "idx": 8,
           "val": 0.10000000000000001
         },
         {
-          "col": "degrees",
+          "col": "Degree",
           "idx": 9,
           "val": 0.10000000000000001
         },
         {
-          "col": "visits",
+          "col": "Visits",
           "idx": 0,
-          "val": 0.10081881698333912
+          "val": 0.10223814805335153
         },
         {
-          "col": "visits",
+          "col": "Visits",
           "idx": 1,
-          "val": 0.09895355821820366
+          "val": 0.10101527173449365
         },
         {
-          "col": "visits",
+          "col": "Visits",
           "idx": 2,
-          "val": 0.097657361449211222
+          "val": 0.099451127605721917
         },
         {
-          "col": "visits",
+          "col": "Visits",
           "idx": 3,
-          "val": 0.096803768454996678
+          "val": 0.095469669823393902
         },
         {
-          "col": "visits",
+          "col": "Visits",
           "idx": 4,
-          "val": 0.099206474660933894
+          "val": 0.092654210391604819
         },
         {
-          "col": "visits",
+          "col": "Visits",
           "idx": 5,
-          "val": 0.10119819164743447
+          "val": 0.096379717316497457
         },
         {
-          "col": "visits",
+          "col": "Visits",
           "idx": 6,
-          "val": 0.10132464986879959
+          "val": 0.10161249040184285
         },
         {
-          "col": "visits",
+          "col": "Visits",
           "idx": 7,
-          "val": 0.10189371186494262
+          "val": 0.10442794983363195
         },
         {
-          "col": "visits",
+          "col": "Visits",
           "idx": 8,
-          "val": 0.10097688976004553
+          "val": 0.10400136507123965
         },
         {
-          "col": "visits",
+          "col": "Visits",
           "idx": 9,
-          "val": 0.1011665770920932
+          "val": 0.10275004976822227
         },
         {
-          "col": "visits_fixed",
+          "col": "Visits (fixed duration)",
           "idx": 0,
-          "val": 0.1022
+          "val": 0.1019
         },
         {
-          "col": "visits_fixed",
+          "col": "Visits (fixed duration)",
           "idx": 1,
-          "val": 0.099099999999999994
+          "val": 0.099900000000000003
         },
         {
-          "col": "visits_fixed",
+          "col": "Visits (fixed duration)",
           "idx": 2,
-          "val": 0.093299999999999994
+          "val": 0.097799999999999998
         },
         {
-          "col": "visits_fixed",
+          "col": "Visits (fixed duration)",
           "idx": 3,
-          "val": 0.094100000000000003
+          "val": 0.094500000000000001
         },
         {
-          "col": "visits_fixed",
+          "col": "Visits (fixed duration)",
           "idx": 4,
-          "val": 0.098599999999999993
+          "val": 0.091499999999999998
         },
         {
-          "col": "visits_fixed",
+          "col": "Visits (fixed duration)",
           "idx": 5,
-          "val": 0.10050000000000001
+          "val": 0.091899999999999996
         },
         {
-          "col": "visits_fixed",
+          "col": "Visits (fixed duration)",
           "idx": 6,
-          "val": 0.10059999999999999
+          "val": 0.095799999999999996
         },
         {
-          "col": "visits_fixed",
+          "col": "Visits (fixed duration)",
           "idx": 7,
-          "val": 0.10199999999999999
-        },
-        {
-          "col": "visits_fixed",
-          "idx": 8,
           "val": 0.1053
         },
         {
-          "col": "visits_fixed",
+          "col": "Visits (fixed duration)",
+          "idx": 8,
+          "val": 0.113
+        },
+        {
+          "col": "Visits (fixed duration)",
           "idx": 9,
-          "val": 0.1043
+          "val": 0.1084
         }
       ]
     }
