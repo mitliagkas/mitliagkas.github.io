@@ -1,0 +1,12 @@
+# Site settings
+title: Ioannis' Research Website
+email: ioannis@utexas.edu
+description: > # this means to ignore newlines until "baseurl:"
+  My adventures with probability, statistics and software. 
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://mitliagkas.github.io" # the base hostname & protocol for your site
+twitter_username: bouzoukipunks
+github_username:  mitliagkas
+
+# Build settings
+markdown: kramdown
