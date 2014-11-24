@@ -8,5 +8,7 @@ url: "http://mitliagkas.github.io" # the base hostname & protocol for your site
 twitter_username: bouzoukipunks
 github_username:  mitliagkas
 
+projects: "projects"
+
 # Build settings
 markdown: kramdown
