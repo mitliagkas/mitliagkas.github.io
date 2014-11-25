@@ -8,7 +8,12 @@ url: "http://mitliagkas.github.io" # the base hostname & protocol for your site
 twitter_username: bouzoukipunks
 github_username:  mitliagkas
 
-projects: "projects"
+flickr:
+  cache_dir:       "./_cache/flickr"
+  api_key:          b2029c6d511d0853aa78f53841f67034
+  shared_secret:    b625fb58cfe85bd3
+  access_token:     72157649043569120-c7e2504cfdc6e0ca
+  access_secret:    90af57e5738fc3d2
 
 # Build settings
 markdown: kramdown
