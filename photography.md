@@ -4,6 +4,6 @@ title: Photography
 permalink: /photography/
 ---
 
-{% flickr_photoset 72157649045306388 %}
-
+<!-- {==% flickr_photoset 72157649045306388 %}
+ -->
 
