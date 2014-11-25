@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: photo
 title: Photography
 permalink: /photography/
 ---
