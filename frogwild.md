@@ -13,7 +13,9 @@ Our latest project on approximating PageRank on graph engines. Using random walk
 
 We complement our experiments with theoretical guarantees on the quality of the achieved solution.
 
-Get the [latest manuscript]({{ site.baseurl}}/papers/FrogWild.pdf).
+Get the [latest manuscript]({{ site.baseurl}}/papers/FrogWild.pdf),
+[poster]({{ site.baseurl}}/presentation/FrogWildPoster.pdf),
+[slides]({{ site.baseurl}}/presentation/FrogWildSlides.pdf).
 
 Github [repository](https://github.com/michaelbor/frogwild).
 
