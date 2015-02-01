@@ -44,8 +44,6 @@ Tight hamstrings
 
 The Python GIL
 
-The Spanish civil war
-
 Western vs carnatic music
 
 non-reversible markov chains
