@@ -18,3 +18,37 @@ MSc. in ECE, [Technical University of Crete](http://en.tuc.gr/) Greece 2008-2009
 
 Advised by Prof. [Nikos Sidiropoulos](http://www.telecom.tuc.gr/%7Enikos/)
 
+## Ask me about
+Fast PageRank on Graph Engines
+
+Streaming PCA
+
+Finding Dense Subgraphs of Large Graphs
+
+
+Drop-d tuning
+
+Shell vs Environment variables
+
+Grilling the perfect lamb chop
+
+Non-blocking I/O
+
+Mic vs line levels
+
+Slide Guitar
+
+Side stitches
+
+Tight hamstrings
+
+The Python GIL
+
+The Spanish civil war
+
+Western vs carnatic music
+
+non-reversible markov chains
+
+Wait-free parallelization
+
