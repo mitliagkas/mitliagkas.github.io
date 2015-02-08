@@ -7,6 +7,8 @@ permalink: /frogwild/
 FrogWild!
 =========
 
+Our work has been **accepted for presentation at VLDB, 2015**.
+
 Joint work with Michael Borokhovich, Alex Dimakis and Constantine Caramanis.
 
 Our latest project on approximating PageRank on graph engines. Using random walks and a simple modification of the GraphLab egine, we manage to get a 7x improvement compared to the state of the art.
