@@ -12,13 +12,23 @@ Detailed [cv]({{ site.baseurl }}/cv.pdf) in pdf format.
 
 ## Past Education
 
-Diploma, ECE, [Technical University of Crete](http://en.tuc.gr/), Greece 2002-2008.
 
-MSc. in ECE, [Technical University of Crete](http://en.tuc.gr/) Greece 2008-2009.
+PhD in ECE, [The University of Texas at Austin](http://www.ece.utexas.edu/) Austin, TX 2015.
+
+MSc. in ECE, [Technical University of Crete](http://en.tuc.gr/) Greece, 2010.
+
+Diploma, ECE, [Technical University of Crete](http://en.tuc.gr/), Greece, 2008.
 
 Advised by Prof. [Nikos Sidiropoulos](http://www.telecom.tuc.gr/%7Enikos/)
 
 ## Ask me about
+
+How asynchrony brings about momentum
+
+Does scan order affect Gibbs samplers?
+
+How to optimize Gibbs for features
+
 Fast PageRank on Graph Engines
 
 Streaming PCA
