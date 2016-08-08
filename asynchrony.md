@@ -13,4 +13,6 @@ In the companion [systems paper](http://bit.ly/ovore), we use this
 theory to understand statistical efficiency and train deep networks
 faster.
 
-![Momentum from asynchrony]({{ site.baseurl }}/images/model-momentum.png "Momentum vs asynchrony")
+Theory discussed more extensively in this [blog post](http://stanford.edu/~imit/tuneyourmomentum/theory/).
+
+![Momentum from asynchrony]({{ site.baseurl }}/images/theory-prediction.png "Momentum vs asynchrony")
