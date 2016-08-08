@@ -5,12 +5,12 @@ layout: default
 <div class="home">
 
 <!--   <table style="text-align: left; width: 90%;" border="0" cellpadding="2" cellspacing="2"> --> 
-				I am a Postdoctoral Scholar with the Department of Statistics at Stanford University working with
-				<a href="http://web.stanford.edu/~lmackey/">Lester Mackey</a> and <a href="http://cs.stanford.edu/people/chrismre/">Chris R&eacute;</a> in Computer Science.
-				I did my PhD at The University of Texas at Austin with <a href="http://users.ece.utexas.edu/%7Ecmcaram/">Constantine Caramanis</a> and <a href="http://www.ece.utexas.edu/people/faculty/sriram-vishwanath">Sriram Vishwanath</a>,
-				where I also worked with <a href="http://users.ece.utexas.edu/~dimakis/">Alex Dimakis</a>.
-				<br>
-				<br>
+	I am a Postdoctoral Scholar with the Department of Statistics and Computer Science at Stanford University.
+        I work 	with <a href="http://web.stanford.edu/~lmackey/">Lester Mackey</a> and <a href="http://cs.stanford.edu/people/chrismre/">Chris R&eacute;</a>.
+	I got my PhD at The University of Texas at Austin with <a href="http://users.ece.utexas.edu/%7Ecmcaram/">Constantine Caramanis</a> and <a href="http://www.ece.utexas.edu/people/faculty/sriram-vishwanath">Sriram Vishwanath</a>,
+	where I also worked with <a href="http://users.ece.utexas.edu/~dimakis/">Alex Dimakis</a>.
+	<br>
+	<br>
 
 <table style="text-align: left;" border="0">
     <tbody>
@@ -23,7 +23,8 @@ layout: default
           Machine Learning, High Dimensional Statistics, Large Scale Distributed Computation.
           <br><br>
 
-          I like resource-limited problems and have worked on memory-limited streaming PCA as well as streaming PCA with overwhelming erasures in the entries of each sample.
+	  Recent interests include asynchronous optimization and scan orders for Gibbs sampling.
+          I have worked on resource-limited problems like memory-limited streaming PCA as well as streaming PCA with overwhelming erasures in the entries of each sample.
           <br><br>
 
           I also like breaking things in a way that makes them better/stronger/faster. FrogWild!, our latest work on PageRank approximation is a good example of this. Therein, working both atop of GraphLab and under the hood, we manage to get an improvement of 7x.
@@ -67,19 +68,20 @@ layout: default
       </div></a>
       </li>
       <li>
+      <a href="http://arxiv.org/pdf/1606.03432">
+      <img src="{{ site.baseurl }}/images/scan-order.png" alt="Gibbs Sampling Scan Order" title="[redacted]">
+      <div>
+	Gibbs Sampling Scan Order
+	<em>Does systematic scan mix at most O(logn) slower than random scan? NO!<br>
+	Can we, in some cases, find an optimized scan order? YES!</em>
+      </div></a>
+      </li> 
+      <li>
       <a href="{{ site.baseurl}}/frogwild/">
       <img src="{{ site.baseurl }}/images/frog.png" alt="Picture of cute yet slightly deranged frog." title="Ribbit!">
       <div>
         FrogWild!
         <em>Fast PageRank approximations on Graph Engines</em>
-      </div></a>
-      </li> 
-      <li>
-      <a href="{{ site.baseurl}}/papers/erasures2014long.pdf">
-      <img src="{{ site.baseurl }}/images/nvectorsErased.png" alt="Stream of vectors with many erasures." title="[redacted]">
-      <div>
-        Streaming PCA with Erasures
-        <em>Recovery of principle subspaces under severe erasures and with very little memory</em>
       </div></a>
       </li> 
     </ul>
@@ -95,6 +97,8 @@ layout: default
 
   <h2>Recent News</h2>
   <ul>
+	  	<li>Visit at NVIDIA.
+	  	<li>Visit at Google.
 		<li>In a recent <a href="http://bit.ly/22wAt0e">note</a>,
 		we show that asynchrony in SGD introduces momentum. 
 		In the companion <a href="http://bit.ly/ovore">systems paper</a>, we use this
@@ -105,22 +109,8 @@ layout: default
 		<li>Excited to start Postdoc at Stanford University. Will be working with Lester Mackey and Chris R&eacute;.</li>
 		<li>Successfully defended my PhD thesis!</li>
 		<li>SILO <a href="http://wid.wisc.edu/featured-events/silo032515/">seminar talk</a> at the Wisconsin Institute of Discovery. Loved both Madison and the WID!</li>
-		<li>Densest k-Subgraph work <a href="http://devblogs.nvidia.com/parallelforall/gpu-accelerated-graph-analytics-python-numba/">picked up by NVidia</a>!</li>
+		<li>Densest k-Subgraph work <a href="http://devblogs.nvidia.com/parallelforall/gpu-accelerated-graph-analytics-python-numba/">picked up by NVIDIA</a>!</li>
 		<li>Our latest <a href="papers/FrogWild.pdf">work</a> has been accepted for presentation at VLDB 2015!</li>
-		<li>Presenting at ITA Graduation day.</li>
-    <li>Presenting FrogWild! at the <a href="http://stanford.edu/~rezab/nips2014workshop/">Distributed Machine Learning and Matrix Computations</a> NIPS 2014 workshop.</li>
-    <li>New paper on approximating PageRank! Get it while it's hot; it's lovely. [<a href="papers/FrogWild.pdf">.pdf</a>].</li>
-    <li>Presenting Densest k-subgraph paper accepted at ICML 2014 [<a href="presentation/icml2014Presentation.pdf" target="_blank">slides</a>
-      |<a href="http://techtalks.tv/talks/finding-dense-subgraphs-via-low-rank-bilinear-optimization/61123/" target="_blank">video</a>].</li>
-      <li>Work on Streams with Overwhelming erasures preprint available.</li>
-      <li>Succesfully defended my proposal in April 2014.</li>
-      <li>Visiting Technion, Haifa, April 2014.<br>
-      </li>
-      <li>Our work at the "Resoure-efficient Machine Learning" <a href="https://sites.google.com/site/resefml2013/">workshop</a> at NIPS.<br>
-      </li>
-      <li>Presented our work on Memory-limited Streaming PCA at <a href="http://nips.cc/Conferences/2013/Program/event.php?ID=4055">NIPS</a>.</li>
-      <li><a href="http://youtu.be/wA1FZ4qjQmA">Talk</a> on our work by my advisor, Constantine, at the Simons Workshop, Berkeley.<br>
-      </li>
     </ul>
     <br>
 
