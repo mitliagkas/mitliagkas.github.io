@@ -5,51 +5,34 @@ layout: default
 <div class="home">
 
 <!--   <table style="text-align: left; width: 90%;" border="0" cellpadding="2" cellspacing="2"> --> 
+
+<table style="text-align: left;" border="0">
+    <tbody>
+      <tr>
+        <td style="vertical-align: top;">
 	I am a Postdoctoral Scholar with the Departments of Computer Science and Statistics at Stanford University.
         I work 	with <a href="http://cs.stanford.edu/people/chrismre/">Chris R&eacute;</a> and <a href="http://web.stanford.edu/~lmackey/">Lester Mackey</a>.
 	I got my PhD at The University of Texas at Austin with <a href="http://users.ece.utexas.edu/%7Ecmcaram/">Constantine Caramanis</a> and <a href="http://www.ece.utexas.edu/people/faculty/sriram-vishwanath">Sriram Vishwanath</a>,
 	where I also worked with <a href="http://users.ece.utexas.edu/~dimakis/">Alex Dimakis</a>.
 	<br>
 	<br>
+	<span style="font-weight:bold">
 	I am currently on the job market:  <a href="cv.pdf">CV</a> and <a href="rs.pdf">research statement</a>. 
+	</span>
 	<br>
 	<br>
-
-<table style="text-align: left;" border="0">
-    <tbody>
-      <tr>
-        <td style="vertical-align: top;">
-
-
-          <h2>Research Interests</h2>
-
-		Machine Learning, High Dimensional Statistics, Large-scale Distributed Computation.
-		<br><br>
-
-		My work is motivated by the goal of making modern machine learning and data analysis accessible to non-experts and organizations with limited resources. Achieving this goal requires a number of theoretical and systems advances that will keep producing interesting research questions for years to come:
-		fast and resource-efficient algorithms,
-		self-tuning methods,
-		data-dependent guarantees
-		and distributed, large-scale computation 
-		are all necessary for a simple to use, automated ML pipeline. 
-		<br><br>
-
-		My favorite problems span the intersection of theory and systems.
-		Our recent work on <a href="{{ site.baseurl}}/asynchrony/">asynchronous optimization</a> identifies a previously unknown connection between optimization and system dynamics, with important implications for the setup and tuning of large-scale learning systems.
-		More recently, I have been working on producing a self-tuning optimization algorithm for deep learning.
-		I also work on inference, trying to understand the importance of and optimize the scan order used in Gibbs sampling.
-		<br><br>
-
-		In the past, I have worked on resource-limited problems like memory-limited streaming PCA as well as streaming PCA with overwhelming erasures in the entries of each sample.
-		I have also worked on approximate but fast solutions for large-scale graph problems, like PageRank and finding dense subgraphs.
-		Throughout our work I strive to bring together our very real implementation and the theory that will guarantee we get a good result.
-		<br><br>
-
-
-          <br>
-        </td>
+	I am interested in the intersection of systems and theory applied to modern machine learning and data analysis.
+	Some recent topics include:
+	<ul>
+		<li>Statistical learning and inference</li>
+		<li>Large-scale, distributed systems</li>
+		<li>System-aware algorithms</li>
+		<li>Data-dependent guarantees</li>
+		<li>Self-tuning systems</li>
+	</ul>
+	</td>
         <td width=30px></td>
-        <td style="width=32%;vertical-align: top;">
+        <td style="width=30%;vertical-align: top;">
         <br>
         <br>
         <!--img title="Istanbul, 2013", style="max-width:200px;" alt="That's me." src="colourPortrait.jpg"></td-->
@@ -115,14 +98,15 @@ layout: default
   <ul>
 		<li>February 2017: Invited to talk at ITA in San Diego.
 		<li>January 2017: Visiting Microsoft Research, Cambridge
-		<li>December 2016: In Barcelona for NIPS.
+		<li>December 2016: At NIPS, presenting our
+			<a href="https://arxiv.org/abs/1606.03432">Gibbs sampling paper</a>
+		  	dispelling some common beliefs regarding scan orders.
 		<li>November 2016: Visiting Microsoft Research New England
 		<li>November 2016: Full version of asynchrony <a href="papers/asynchrony-begets-momentum.pdf">paper</a>.
 	  	<li>September 2016: Talk at Allerton
 	  	<li>August 2016: I had the pleasure to give a talk MIT Lincoln Labs.
 	  	<li>August 2016: Gave an <a href="{{ site.baseurl}}/asynchrony/">asynchronous optimization</a> talk at Google.
 		<li>August 2016: <a href="http://stanford.edu/~imit/tuneyourmomentum/">Blog post</a> on our momentum work.
-		<li>July 2016: <a href="https://arxiv.org/abs/1606.03432">Scan order paper</a> accepted at NIPS 2016!
 	  	<li>July 2016: Invited to talk at NVIDIA.
 		<li>June 2016: <a href="{{ site.baseurl}}/asynchrony/">Poster</a> at non-convex optimization ICML <a href="http://sites.google.com/site/noncvxicml16/">workshop</a>.
 		<li>June 2016: <a href="https://arxiv.org/abs/1606.07365">Poster</a> at OptML 2016 workshop.
@@ -130,7 +114,6 @@ layout: default
 		we show that asynchrony in SGD introduces momentum. 
 		In the companion <a href="http://bit.ly/ovore">systems paper</a>, we use this
 		theory to train deep networks faster.
-		  <li>Our <a href="http://arxiv.org/pdf/1606.03432.pdf">paper</a> dispelling some common beliefs regarding the scan order
 		 in Gibbs sampling.
 		  <li>Does periodic model averaging always help? Recent <a href="https://arxiv.org/abs/1606.07365">results</a>.
 		<li>Excited to start Postdoc at Stanford University. Will be working with Lester Mackey and Chris R&eacute;.</li>
@@ -145,6 +128,11 @@ layout: default
   <!-- {==% bibtex _plugins/style.bst biblio/biblio.bib %} -->
 
   {% include biblio.html %}
+
+  <h2>Older Publications</h2>
+  <!-- {==% bibtex _plugins/style.bst biblio/biblio.bib %} -->
+
+  {% include biblio_older.html %}
 
   <h2>Software</h2>
   Git <a href="http://github.com/mitliagkas" target="_blank">repositories</a> for the projects I'm working on.
