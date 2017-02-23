@@ -1,6 +1,7 @@
 ---
 layout: default
 title: YellowFin
+permalink: /async-tuner/
 ---
 
 # YellowFin:
