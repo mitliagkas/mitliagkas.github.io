@@ -36,9 +36,9 @@ Winter 2018 semester:
 
 Evaluation
 ----------
-Midterm: a small percentage of the grade will be based on midterm exam testing knowledge of some basic tools we introduced.
+Homeworks and midterm: a small percentage of the grade will be based on homeworks and possibly a midterm exam testing knowledge of some basic tools we introduced.
 
-Project: report handed in and poster presentation in April (TBA).
+Project: report handed in and presentation in April (TBA).
 
 Tentative topics--to be updated as we go along
 ---------
