@@ -31,8 +31,8 @@ Lecturer: [Ioannis Mitliagkas](https://mitliagkas.github.io),
 Class info
 ----------
 Winter 2018 semester:
-- Tuesdays 14h30-16h30  
-- Friday 14h30-16h30  
+- Wednesday 9h30-11h30  
+- Thursday 9h30-11h30  
 
 Evaluation
 ----------
