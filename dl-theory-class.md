@@ -58,12 +58,6 @@ Tentative topics--to be updated as we go along
 Resources
 ---------
 
-- Nice iPython notebo
-
-
-Resources
----------
-
 1. iPython [notebook](https://github.com/anadim/ECE901/blob/master/sgd_vs_gd.ipynb) 
 	demonstrating basic ideas of gradient descent and stochastic gradient descent,
 	simple and complex models as well as generalization.
