@@ -34,6 +34,8 @@ Winter 2018 semester:
 - Wednesday 9h30-11h30  
 - Thursday 9h00-11h00  
 
+Room: André-Aisestadt 3195
+
 **Note the earlier starting time on Thursday. This will allow students
 to also attend the Advanced RL class at McGill.**
 
