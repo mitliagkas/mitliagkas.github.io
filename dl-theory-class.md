@@ -58,11 +58,11 @@ Tentative topics--to be updated as we go along
 Resources
 ---------
 1. [Convex Optimization: Algorithms and Complexity](https://arxiv.org/pdf/1405.4980.pdf), Sebastien Bubeck.
-2. [Understanding Machine Learning: From Theory to Algorithms](http://www.cs.huji.ac.il/~shais/UnderstandingMachineLearning/index.html), by Shai Shalev-Shwartz and Shai Ben-David.
+2. [THEORY OF CLASSIFICATION: A SURVEY OF SOME RECENT ADVANCES](https://www.esaim-ps.org/articles/ps/pdf/2005/01/ps0420.pdf) Stephane Boucheron, Olivier Bousquet and Gabor Lugosi
 3. iPython [notebook](https://github.com/anadim/ECE901/blob/master/sgd_vs_gd.ipynb) 
 	demonstrating basic ideas of gradient descent and stochastic gradient descent,
 	simple and complex models as well as generalization.
-4. [THEORY OF CLASSIFICATION: A SURVEY OF SOME RECENT ADVANCES](https://www.esaim-ps.org/articles/ps/pdf/2005/01/ps0420.pdf) Stephane Boucheron, Olivier Bousquet and Gabor Lugosi
+4. [Understanding Machine Learning: From Theory to Algorithms](http://www.cs.huji.ac.il/~shais/UnderstandingMachineLearning/index.html), by Shai Shalev-Shwartz and Shai Ben-David.
 
 
 
