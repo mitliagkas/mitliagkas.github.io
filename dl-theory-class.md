@@ -57,11 +57,11 @@ Tentative topics--to be updated as we go along
 
 Resources
 ---------
-
-1. iPython [notebook](https://github.com/anadim/ECE901/blob/master/sgd_vs_gd.ipynb) 
+1. [Convex Optimization: Algorithms and Complexity](https://arxiv.org/pdf/1405.4980.pdf), Sebastien Bubeck.
+2. [Understanding Machine Learning: From Theory to Algorithms](http://www.cs.huji.ac.il/~shais/UnderstandingMachineLearning/index.html), by Shai Shalev-Shwartz and Shai Ben-David.
+3. iPython [notebook](https://github.com/anadim/ECE901/blob/master/sgd_vs_gd.ipynb) 
 	demonstrating basic ideas of gradient descent and stochastic gradient descent,
 	simple and complex models as well as generalization.
-
 
 
 
