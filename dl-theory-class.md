@@ -36,14 +36,14 @@ Winter 2018 semester:
 
 Room: André-Aisestadt 3195
 
-**Note the earlier starting time on Thursday. This will allow students
-to also attend the Advanced RL class at McGill.**
 
 Evaluation
 ----------
-Homeworks and midterm: a small percentage of the grade will be based on homeworks and possibly a midterm exam testing knowledge of some basic tools we introduced.
+Class project: 60%
+Paper presentation: 25%
+Scribing: 10%
+Class participation: 5%
 
-Project: report handed in and presentation in April (TBA).
 
 Tentative topics--to be updated as we go along
 ---------
