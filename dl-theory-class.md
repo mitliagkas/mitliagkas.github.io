@@ -58,10 +58,30 @@ Schedule
 -------
 
 **January 10th**
+
 Class introduction
 [[slides](ift6085/ift-6085-lecture-1.pdf),
 [quiz](ift6085/quiz-first-class.pdf)]
 
+**January 11th**
+
+Indroduction to basic results in convexity, gradient descent and convergence gaurantees.
+
+Reading: Section 3 of [1] ('Convex Optimization...' by S.Bubeck under References)
+
+(*scribed notes due a week after class*)
+
+**January 17th**
+Accelerated methods for optimization: momentum and Nesterov's accelerated method
+
+Reading: coming soon
+
+
+**January 18th**
+Stochastic gradient descent
+
+**January 24th**
+Elements of statistical learning theory
 
 Resources
 ---------
