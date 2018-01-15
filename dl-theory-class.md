@@ -9,6 +9,8 @@ IFT 6085: Theoretical principles for deep learning (new class)
 
 **NEW! Class discussion group:** please [sign up](https://groups.google.com/forum/#!forum/ift6085-h18) to receive announcements and participate in discussion.
 
+**NEW!** [Scribing template](ift6085/scribing_template.zip) 
+
 Description
 ----- 
 
@@ -45,6 +47,8 @@ Class project: 60%
 Paper presentation: 25%
 Scribing: 10%
 Class participation: 5%
+
+Use this Latex [template](ift6085/scribing_template.zip) for scribing.
 
 
 Tentative topics--to be updated as we go along
