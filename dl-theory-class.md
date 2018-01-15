@@ -7,6 +7,8 @@ permalink: /ift6085-dl-theory-class/
 IFT 6085: Theoretical principles for deep learning (new class)
 =========
 
+**NEW! Class discussion group:** please [sign up](https://groups.google.com/forum/#!forum/ift6085-h18) to receive announcements and participate in discussion.
+
 Description
 ----- 
 
@@ -65,16 +67,33 @@ Class introduction
 
 **January 11th**
 
-Indroduction to basic results in convexity, gradient descent and convergence gaurantees.
+Indroduction to basic ideas in convex analysis, gradient descent and convergence guarantees.
 
-Reading: Section 3 of [1] ('Convex Optimization...' by S.Bubeck under References)
+Reading:
+
+Convex analysis basics from 'Convex Optimization' by Boyd, Vandenberge ([5] under references):
+- Chapter 2 (required: beginning of chapter to 2.1.4,
+recommended: 2.1.5 to end of section)
+- Chapter 3 (required: beginning of chapter to 3.1,
+recommended: 3.2, 3.3 and 3.4)
+
+Convergence proofs:
+from Chapter 3 of [1] ('Convex Optimization...' by S.Bubeck under References)
+- Required: Convergence proof of Theorem 3.2 (note that we studied the unconstrained 
+case. In this case the projection operator PiX(x) is the identity operator)
 
 (*scribed notes due a week after class*)
 
 **January 17th**
-Accelerated methods for optimization: momentum and Nesterov's accelerated method
+Results for strongly convex functions and accelerated methods
 
-Reading: coming soon
+Reading:
+
+Convergence proofs from Chapter 3 of [1] ('Convex Optimization...' by S.Bubeck under References)
+- Required: Convergence proof of Theorem 3.10 
+
+[Nesterov's Accelerated Gradient Descent for Smooth and Strongly Convex Optimization](https://blogs.princeton.edu/imabandit/2014/03/06/nesterovs-accelerated-gradient-descent-for-smooth-and-strongly-convex-optimization/), blog post by Sebastien Bubeck.
+
 
 
 **January 18th**
@@ -86,11 +105,13 @@ Elements of statistical learning theory
 Resources
 ---------
 1. [Convex Optimization: Algorithms and Complexity](https://arxiv.org/pdf/1405.4980.pdf), Sebastien Bubeck.
-2. [THEORY OF CLASSIFICATION: A SURVEY OF SOME RECENT ADVANCES](https://www.esaim-ps.org/articles/ps/pdf/2005/01/ps0420.pdf) Stephane Boucheron, Olivier Bousquet and Gabor Lugosi
+2. [Theory of classification: a survey of some recent advances](https://www.esaim-ps.org/articles/ps/pdf/2005/01/ps0420.pdf) Stephane Boucheron, Olivier Bousquet and Gabor Lugosi
 3. iPython [notebook](https://github.com/anadim/ECE901/blob/master/sgd_vs_gd.ipynb) 
 	demonstrating basic ideas of gradient descent and stochastic gradient descent,
 	simple and complex models as well as generalization.
 4. [Understanding Machine Learning: From Theory to Algorithms](http://www.cs.huji.ac.il/~shais/UnderstandingMachineLearning/index.html), by Shai Shalev-Shwartz and Shai Ben-David.
+5. [Convex Optimization](https://web.stanford.edu/~boyd/cvxbook/), Stephen Boyd and Lieven Vandenberghe.
+6. [Nesterov's Accelerated Gradient Descent for Smooth and Strongly Convex Optimization](https://blogs.princeton.edu/imabandit/2014/03/06/nesterovs-accelerated-gradient-descent-for-smooth-and-strongly-convex-optimization/), blog post by Sebastien Bubeck.
 
 
 
