@@ -7,6 +7,8 @@ permalink: /ift6085-dl-theory-class/
 IFT 6085: Theoretical principles for deep learning (new class)
 =========
 
+**NEW! Thursday time change:** we are back to the original 9:30am time for Thursday starting January 17th.
+
 **NEW! Class discussion group:** please [sign up](https://groups.google.com/forum/#!forum/ift6085-h18) to receive announcements and participate in discussion.
 
 **NEW!** [Scribing template](ift6085/scribing_template.zip) 
@@ -35,10 +37,12 @@ Lecturer: [Ioannis Mitliagkas](https://mitliagkas.github.io),
 Class info
 ----------
 Winter 2018 semester:
-- Wednesday 9h30-11h30  
-- Thursday 9h00-11h00  
+- Wednesday 9h30-11h15  
+- Thursday 9h30-11h15
 
 Room: André-Aisestadt 3195
+
+Office hours: 11:15am-12:15pm on Thursday right after class.
 
 
 Evaluation
