@@ -100,7 +100,7 @@ Convergence proofs from Chapter 3 of [1] ('Convex Optimization...' by S.Bubeck u
 **January 18th**
 Lower bounds and accelerated methods
 
-Reading: [1, Theorem 3.15], [6], [7, pages 71-81], [8], [9]
+Reading: [1, Theorem 3.15], [6], [7, pages 67-76], [8], [9]
 
 **January 24th**
 Stochastic gradient descent
