@@ -9,9 +9,9 @@ IFT 6085: Theoretical principles for deep learning (new class)
 
 **NEW! Thursday time change:** we are back to the original 9:30am time for Thursday starting January 17th.
 
-**NEW! Class discussion group:** please [sign up](https://groups.google.com/forum/#!forum/ift6085-h18) to receive announcements and participate in discussion.
+**NEW!** Scribed notes from Lecture 2 posted
 
-**NEW!** [Scribing template](ift6085/scribing_template.zip) 
+**NEW! Class discussion group:** please [sign up](https://groups.google.com/forum/#!forum/ift6085-h18) to receive announcements and participate in discussion.
 
 Description
 ----- 
@@ -68,14 +68,12 @@ Schedule
 -------
 
 **January 10th**
-
 Class introduction
 [[slides](ift6085/ift-6085-lecture-1.pdf),
 [quiz](ift6085/quiz-first-class.pdf)]
 
 **January 11th**
-
-Indroduction to basic ideas in convex analysis, gradient descent and convergence guarantees.
+Basics of convex analysis and gradient descent
 [[scribed notes](ift6085/ift-6085-lecture-2-notes.pdf)]
 
 Reading:
