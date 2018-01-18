@@ -76,6 +76,7 @@ Class introduction
 **January 11th**
 
 Indroduction to basic ideas in convex analysis, gradient descent and convergence guarantees.
+[[scribed notes](ift6085/ift-6085-lecture-2-notes.pdf)]
 
 Reading:
 
@@ -90,7 +91,6 @@ from Chapter 3 of [1] ('Convex Optimization...' by S.Bubeck under References)
 - Required: Convergence proof of Theorem 3.2 (note that we studied the unconstrained 
 case. In this case the projection operator PiX(x) is the identity operator)
 
-(*scribed notes due a week after class*)
 
 **January 17th**
 Results for strongly convex functions and accelerated methods
