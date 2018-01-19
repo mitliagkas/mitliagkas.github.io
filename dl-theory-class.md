@@ -98,14 +98,19 @@ Convergence proofs from Chapter 3 of [1] ('Convex Optimization...' by S.Bubeck u
 - Required: Convergence proof of Theorem 3.12 
 
 **January 18th**
-Lower bounds and accelerated methods
+Black box models and lower bounds 
 
-Reading: [1, Theorem 3.15], [6], [7, pages 67-76], [8], [9]
+Reading: [1, Theorem 3.15], [6]
 
 **January 24th**
-Stochastic gradient descent
+Accelerated methods
+
+Reading: [6], [7, pages 67-76], [8], [9]
 
 **January 25th**
+Stochastic gradient descent
+
+**January 31st**
 Elements of statistical learning theory
 
 
