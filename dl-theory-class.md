@@ -91,6 +91,7 @@ case. In this case the projection operator PiX(x) is the identity operator)
 
 **January 17th**
 The different rates of gradient descent: from Lipschitz to strongly convex
+[[scribed notes](ift6085/ift-6085-lecture-3-notes.pdf)]
 
 Reading:
 
