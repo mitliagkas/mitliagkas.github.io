@@ -111,6 +111,9 @@ Reading: [6], [7, pages 67-76], [8], [9]
 **January 25th**
 Stochastic gradient descent
 
+Reading: Section 6 until 6.2 of [1], Section 14.3 of [4]
+
+
 **January 31st**
 Elements of statistical learning theory
 
