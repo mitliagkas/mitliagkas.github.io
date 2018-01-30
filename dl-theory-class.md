@@ -123,6 +123,7 @@ Reading: Sections 2 (if you need the intro), 3, 4 and 6 of [4].
 Statistical learning theory: PAC-Bayes bounds
 
 Reading: [12]
+
 Reading (harder): Section 6 of [2]
 
 **February 7th**
