@@ -117,7 +117,17 @@ Reading: Section 6 until 6.2 of [1], Section 14.3 of [4]
 **January 31st**
 Elements of statistical learning theory
 
-Reading: Sections 2 (if you need the intro), 3, 4 and 6 of [2].
+Reading: Sections 2 (if you need the intro), 3, 4 and 6 of [4].
+
+**February 1st**
+Statistical learning theory: PAC-Bayes bounds
+
+Reading: [12]
+Reading (harder): Section 6 of [2]
+
+**February 7th**
+Statistical learning theory: Stabitility and generalization
+
 
 
 Resources
@@ -135,7 +145,7 @@ Resources
 9. [YellowFin and the Art of Momentum Tuning](papers/yellowfin2017.pdf), preprint J. Zhang, I. Mitliagkas, C. Ré.
 10. [Large-scale Machine Learning and Optimization (class)](http://papail.io/901), Dimitris Papailiopoulos, University of Wisconsin.
 11. [Advanced Machine Learning Systems (class)](http://www.cs.cornell.edu/courses/cs6787/2017fa/), Chris De Sa, Cornell University.
-
+12. [A PAC-Bayesian Tutorial with A Dropout Bound](https://arxiv.org/abs/1307.2118), David McAllester.
 
 
 
