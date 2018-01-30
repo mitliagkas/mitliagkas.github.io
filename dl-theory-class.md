@@ -126,7 +126,10 @@ Reading: [12]
 Reading (harder): Section 6 of [2]
 
 **February 7th**
-Statistical learning theory: Stabitility and generalization
+Statistical learning theory: Stability and generalization
+
+Reading: [13,14]
+
 
 
 
@@ -146,6 +149,8 @@ Resources
 10. [Large-scale Machine Learning and Optimization (class)](http://papail.io/901), Dimitris Papailiopoulos, University of Wisconsin.
 11. [Advanced Machine Learning Systems (class)](http://www.cs.cornell.edu/courses/cs6787/2017fa/), Chris De Sa, Cornell University.
 12. [A PAC-Bayesian Tutorial with A Dropout Bound](https://arxiv.org/abs/1307.2118), David McAllester.
+13. [Stability and generalization](http://www.jmlr.org/papers/volume2/bousquet02a/bousquet02a.pdf), O. Bousquet, A. Elisseeff.
+14. [Train faster, generalize better: Stability of stochastic gradient descent](https://arxiv.org/pdf/1509.01240.pdf), M. Hardt, B. Recht, Y. Singer.
 
 
 
