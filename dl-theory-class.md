@@ -72,6 +72,11 @@ Class introduction
 [[slides](ift6085/ift-6085-lecture-1.pdf),
 [quiz](ift6085/quiz-first-class.pdf)]
 
+
+---
+### Crash course in optimization
+
+
 **January 11th**
 Basics of convex analysis and gradient descent
 [[scribed notes](ift6085/ift-6085-lecture-2-notes.pdf)]
@@ -113,6 +118,9 @@ Stochastic gradient descent
 
 Reading: Section 6 until 6.2 of [1], Section 14.3 of [4]
 
+---
+### Crash course in statistical learning theory 
+
 
 **January 31st**
 Elements of statistical learning theory
@@ -131,6 +139,21 @@ Statistical learning theory: Stability and generalization
 
 Reading: [13,14]
 
+---
+### Seminar part of class
+
+**February 8th**
+Topic TBA
+
+
+**February 14th**
+Topic TBA
+
+**February 15th**
+**NO CLASS** - Instructor is travelling
+
+**February 21st**
+Student paper presentations A
 
 
 
