@@ -7,11 +7,9 @@ permalink: /ift6085-dl-theory-class/
 IFT 6085: Theoretical principles for deep learning (new class)
 =========
 
-**NEW! Thursday time change:** we are back to the original 9:30am time for Thursday starting January 17th.
+**NEW!**  [Extensive class bibliography](/ift6085-papers)
 
-**NEW!** Scribed notes from Lecture 2 posted
-
-**NEW! Class discussion group:** please [sign up](https://groups.google.com/forum/#!forum/ift6085-h18) to receive announcements and participate in discussion.
+**Class discussion group:** please [sign up](https://groups.google.com/forum/#!forum/ift6085-h18) to receive announcements and participate in discussion.
 
 Description
 ----- 
@@ -144,7 +142,6 @@ Reading: [13,14]
 
 **February 8th**
 Topic TBA
-
 
 **February 14th**
 Topic TBA
