@@ -3,7 +3,7 @@ layout: default
 permalink: /ift6085-papers/
 ---
 
-Class bibliography
+IFT6085: Class bibliography
 =========
 
 This is a (non-exhaustive) list of recent papers that include theoretical or theory-driven work
