@@ -28,14 +28,31 @@ Behnam Neyshabur, Ryota Tomioka, Ruslan Salakhutdinov, Nathan Srebro
 **High-dimensional dynamics of generalization error in neural networks**,
 Madhu S. Advani, Andrew M. Saxe
 
+**\*Robustness and Generalization**,
+Huan Xu, Shie Mannor
+
 **A PAC-Bayesian Approach to Spectrally-Normalized Margin Bounds for Neural Networks**,
 Behnam Neyshabur, Srinadh Bhojanapalli, David McAllester, Nathan Srebro
+
+**\*Computing Nonvacuous Generalization Bounds for Deep (Stochastic) Neural
+Networks with Many More Parameters than Training Data**,
+Gintare Karolina Dziugaite, Daniel M. Roy
+
+**\*Entropy-SGD optimizes the prior of a PAC-Bayes bound: Data-dependent PAC-Bayes priors via differential privacy**,
+Gintare Karolina Dziugaite, Daniel M. Roy
 
 **Exponential convergence of testing error for stochastic gradient methods**,
 Loucas Pillaud-Vivien, Alessandro Rudi, Francis Bach
 
 **Spectrally-normalized margin bounds for neural networks**,
 Peter Bartlett, Dylan J. Foster, Matus Telgarsky
+
+**\*Data-Dependent Stability of Stochastic Gradient Descent**,
+Ilja Kuzborskij, Christoph H. Lampert 
+
+**\*Why and When Can Deep – but Not Shallow – Networks Avoid the Curse of Dimensionality: a Review**,
+Tomaso Poggio, Hrushikesh Mhaskar, Lorenzo Rosasco, Brando Miranda, Qianli Liao
+
 
 
 Optimization landscape of deep networks
@@ -83,6 +100,20 @@ James Martens, Roger Grosse
 **The Marginal Value of Adaptive Gradient Methods in Machine Learning**,
 Ashia C. Wilson, Rebecca Roelofs, Mitchell Stern, Nathan Srebro, Benjamin Recht
 
+**\*Statistical inference using SGD**,
+Tianyang Li, Liu Liu, Anastasios Kyrillidis, Constantine Caramanis
+
+**\*Stochastic Gradient Descent as Approximate Bayesian Inference**,
+Stephan Mandt, Matthew D. Hoffman, David M. Blei
+
+**\*Non-Convex Learning via Stochastic Gradient Langevin
+Dynamics: A Nonasymptotic Analysis**,
+Maxim Raginsky, Alexander Rakhlin, Matus Telgarsky
+
+**\*Trust Region Policy Optimization**,
+John Schulman, Sergey Levine, Philipp Moritz, Michael I. Jordan, Pieter Abbeel
+
+
 
 Generative models 
 ------
@@ -103,6 +134,9 @@ Mikołaj Bińkowski, Dougal J. Sutherland, Michael Arbel, Arthur Gretton
 
 **Generalization and Equilibrium in Generative Adversarial Nets (GANs)**,
 Sanjeev Arora, Rong Ge, Yingyu Liang, Tengyu Ma, Yi Zhang
+
+**\*Do GANs actually learn the distribution? An empirical study**,
+Sanjeev Arora, Yi Zhang
 
 **The Numerics of GANs**,
 Lars Mescheder, Sebastian Nowozin, Andreas Geiger
