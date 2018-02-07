@@ -125,6 +125,7 @@ Reading: Section 6 until 6.2 of [1], Section 14.3 of [4]
 
 **January 31st**
 Elements of statistical learning theory
+[[scribed notes](ift6085/ift-6085-lecture-7-notes.pdf)]
 
 Reading: Sections 2 (if you need the intro), 3, 4 and 6 of [4].
 
