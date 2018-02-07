@@ -109,11 +109,13 @@ Reading: [1, Theorem 3.15], [6]
 
 **January 24th**
 Accelerated methods
+[[scribed notes](ift6085/ift-6085-lecture-5-notes.pdf)]
 
 Reading: [6], [7, pages 67-76], [8], [9]
 
 **January 25th**
-Stochastic gradient descent
+Nesterov's Accelearted Gradient, Stochastic gradient descent
+[[scribed notes](ift6085/ift-6085-lecture-6-notes.pdf)]
 
 Reading: Section 6 until 6.2 of [1], Section 14.3 of [4]
 
