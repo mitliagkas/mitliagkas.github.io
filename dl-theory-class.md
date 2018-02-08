@@ -130,14 +130,14 @@ Elements of statistical learning theory
 Reading: Sections 2 (if you need the intro), 3, 4 and 6 of [4].
 
 **February 1st**
-Statistical learning theory: PAC-Bayes bounds
+PAC-Bayes bounds
 
 Reading: [12]
 
 Reading (harder): Section 6 of [2]
 
 **February 7th**
-Statistical learning theory: Stability and generalization
+Stability and generalization
 
 Reading: [13,14]
 
@@ -145,7 +145,8 @@ Reading: [13,14]
 ### Seminar part of class
 
 **February 8th**
-Topic TBA
+Stability of regularized models and SGD
+Reading: [14]
 
 **February 14th**
 Topic TBA
