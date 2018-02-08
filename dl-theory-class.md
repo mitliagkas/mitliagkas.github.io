@@ -131,6 +131,7 @@ Reading: Sections 2 (if you need the intro), 3, 4 and 6 of [4].
 
 **February 1st**
 PAC-Bayes bounds
+[[scribed notes](ift6085/ift-6085-lecture-8-notes.pdf)]
 
 Reading: [12]
 
