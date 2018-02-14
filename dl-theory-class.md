@@ -147,10 +147,12 @@ Reading: [13]
 
 **February 8th**
 Stability and generalization: Part II
+
 Reading: [13,14]
 
 **February 14th**
 Applications of stability and PAC Bayes
+
 Reading: [14,15]
 
 **February 15th**
