@@ -140,17 +140,18 @@ Reading (harder): Section 6 of [2]
 **February 7th**
 Stability and generalization
 
-Reading: [13,14]
+Reading: [13]
 
 ---
 ### Seminar part of class
 
 **February 8th**
-Stability of regularized models and SGD
-Reading: [14]
+Stability and generalization: Part II
+Reading: [13,14]
 
 **February 14th**
-Topic TBA
+Applications of stability and PAC Bayes
+Reading: [14,15]
 
 **February 15th**
 **NO CLASS** - Instructor is travelling
@@ -178,6 +179,7 @@ Resources
 12. [A PAC-Bayesian Tutorial with A Dropout Bound](https://arxiv.org/abs/1307.2118), David McAllester.
 13. [Stability and generalization](http://www.jmlr.org/papers/volume2/bousquet02a/bousquet02a.pdf), O. Bousquet, A. Elisseeff.
 14. [Train faster, generalize better: Stability of stochastic gradient descent](https://arxiv.org/pdf/1509.01240.pdf), M. Hardt, B. Recht, Y. Singer.
+15. [Computing Nonvacuous Generalization Bounds for Deep (Stochastic) Neural Networks with Many More Parameters than Training Data](https://arxiv.org/abs/1703.11008), Gintare Karolina Dziugaite, Daniel M. Roy
 
 
 
