@@ -162,6 +162,33 @@ Reading: [14,15]
 **February 21st**
 Student paper presentations A
 
+- Understanding deep learning requires rethinking generalization, Zhang C, Bengio S, Hardt M, Recht B, Vinyals O.
+- Emergence of invariance and disentanglement in Deep Representations,
+Alessandro Achille, Stefano Soatto
+- High-dimensional dynamics of generalization error in neural networks, Madhu S. Advani, Andrew M. Saxe
+
+**February 22nd**
+Generative models
+
+
+**February 28th**
+Student paper presentations B
+
+- Optimizing Neural Networks with Kronecker-factored Approximate Curvature, James Martens, Roger Grosse
+- Opening the black box of Deep Neural Networks via Information, Ravid Shwartz-Ziv, Naftali Tishby
+- Why and When Can Deep -- but Not Shallow -- Networks Avoid the Curse of Dimensionality, Tomaso Poggio, Hrushikesh Mhaskar, Lorenzo Rosasco, Brando Miranda, Qianli Liao
+- Flow-GAN: Combining Maximum Likelihood and Adversarial Learning in Generative Models, Aditya Grover, Manik Dhar, Stefano Ermon
+
+**March 14th**
+Student paper presentations C
+
+- Compressed Sensing using Generative Models, Ashish Bora, Ajil Jalal, Eric Price, Alexandros G. Dimakis
+- Generalization and Equilibrium in Generative Adversarial Nets (GANs), Sanjeev Arora, Rong Ge, Yingyu Liang, Tengyu Ma, Yi Zhang
+- Do GANs actually learn the distribution? An empirical study, Sanjeev Arora, Yi Zhang
+- Stabilizing GAN Training with Multiple Random Projections, Behnam Neyshabur, Srinadh Bhojanapalli, Ayan Chakrabarti
+
+
+
 
 
 Resources
