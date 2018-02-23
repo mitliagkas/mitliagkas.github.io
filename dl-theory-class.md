@@ -143,16 +143,19 @@ Stability and generalization
 
 Reading: [13]
 
----
-### Seminar part of class
-
 **February 8th**
 Stability and generalization: Part II
+[[scribed notes](ift6085/ift-6085-lecture-10-notes.pdf)]
 
 Reading: [13,14]
 
+---
+### Seminar part of class
+
+
 **February 14th**
 Applications of stability and PAC Bayes
+[[scribed notes](ift6085/ift-6085-lecture-11-notes.pdf)]
 
 Reading: [14,15]
 
