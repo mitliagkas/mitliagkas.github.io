@@ -189,8 +189,8 @@ Student paper presentations C
 - Compressed Sensing using Generative Models, Ashish Bora, Ajil Jalal, Eric Price, Alexandros G. Dimakis
 - Generalization and Equilibrium in Generative Adversarial Nets (GANs), Sanjeev Arora, Rong Ge, Yingyu Liang, Tengyu Ma, Yi Zhang
 - Do GANs actually learn the distribution? An empirical study, Sanjeev Arora, Yi Zhang
-- Stabilizing GAN Training with Multiple Random Projections, Behnam Neyshabur, Srinadh Bhojanapalli, Ayan Chakrabarti
-
+- Demystifying MMD GANs,
+Mikołaj Bińkowski, Dougal J. Sutherland, Michael Arbel, Arthur Gretton
 
 
 
