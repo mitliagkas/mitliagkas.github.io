@@ -165,23 +165,31 @@ Reading: [14,15]
 **February 21st**
 Student paper presentations A
 
-- Understanding deep learning requires rethinking generalization, Zhang C, Bengio S, Hardt M, Recht B, Vinyals O.
-- Emergence of invariance and disentanglement in Deep Representations,
-Alessandro Achille, Stefano Soatto
-- High-dimensional dynamics of generalization error in neural networks, Madhu S. Advani, Andrew M. Saxe
+- [Understanding deep learning requires rethinking generalization, Zhang C, Bengio S, Hardt M, Recht B, Vinyals O.](ift6085/student_slides/IFT6085_Presentation_Rethinking.pdf)
+**Presented by**: Aldo Lamarre, Matthew C. Scicluna
+- [Emergence of invariance and disentanglement in Deep Representations,
+Alessandro Achille, Stefano Soatto](ift6085/student_slides/IFT6085_Presentation_Emergence.pdf)
+**Presented by**: Aristide Baratin, Brady Neal, Nithin Vasisth 
+- [High-dimensional dynamics of generalization error in neural networks, Madhu S. Advani, Andrew M. Saxe](ift6085/student_slides/IFT6085_Presentation_High_Dimensional_Dynamics.pdf)
+**Presented by**: Reyhane Askari, Arian Hosseini, Mohammad Pezeshki
 
 **February 22nd**
 Generative models
+[[scribed notes](ift6085/ift-6085-lecture-12-notes.pdf)]
 
 Reading: [16,17]
 
 **February 28th**
 Student paper presentations B
 
-- Optimizing Neural Networks with Kronecker-factored Approximate Curvature, James Martens, Roger Grosse
-- Opening the black box of Deep Neural Networks via Information, Ravid Shwartz-Ziv, Naftali Tishby
-- Why and When Can Deep -- but Not Shallow -- Networks Avoid the Curse of Dimensionality, Tomaso Poggio, Hrushikesh Mhaskar, Lorenzo Rosasco, Brando Miranda, Qianli Liao
-- Flow-GAN: Combining Maximum Likelihood and Adversarial Learning in Generative Models, Aditya Grover, Manik Dhar, Stefano Ermon
+- [Optimizing Neural Networks with Kronecker-factored Approximate Curvature, James Martens, Roger Grosse](ift6085/student_slides/IFT6085_Presentation_KFAC.pdf)
+**Presented by**: Josh Romoff & Riashat Islam 
+- [Opening the black box of Deep Neural Networks via Information, Ravid Shwartz-Ziv, Naftali Tishby](ift6085/student_slides/IFT6085_Presentation_IB.pdf)
+**Presented by**: Philip Amortila and Nicolas Gagné
+- [Why and When Can Deep -- but Not Shallow -- Networks Avoid the Curse of Dimensionality, Tomaso Poggio, Hrushikesh Mhaskar, Lorenzo Rosasco, Brando Miranda, Qianli Liao](ift6085/student_slides/IFT6085_Presentation_WhyAndWhen.pdf)
+**Presented by**: William Fedus, Christos Tsirigotis, Breandan Considine
+- [Flow-GAN: Combining Maximum Likelihood and Adversarial Learning in Generative Models, Aditya Grover, Manik Dhar, Stefano Ermon](ift6085/student_slides/IFT6085_Presentation_FlowGAN.pdf)
+**Presented by**: Amy Zhang, Kyle Kastner, Lluís Castrejón
 
 **March 1st**
 Wasserstein GANs
