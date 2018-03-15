@@ -211,6 +211,19 @@ Student paper presentations C
 - Demystifying MMD GANs,
 Mikołaj Bińkowski, Dougal J. Sutherland, Michael Arbel, Arthur Gretton
 
+**March 15th**
+The Numerics of GANs
+
+Reading: [20]
+
+**March 21st**
+TBA
+
+Reading: TBA
+
+
+**March 28th**
+**NO CLASS** - Instructor is travelling
 
 
 
@@ -237,6 +250,7 @@ Resources
 17. [Generative Adversarial Nets](https://papers.nips.cc/paper/5423-generative-adversarial-nets.pdf), Ian Goodfellow et al.
 18. [Wasserstein GAN](https://arxiv.org/abs/1701.07875), Martin Arjovsky, Soumith Chintala, Léon Bottou 
 19. [Read-through: Wasserstein GAN](https://www.alexirpan.com/2017/02/22/wasserstein-gan.html), Alex Irpan
+20. [The Numerics of GANs](https://arxiv.org/pdf/1705.10461.pdf), Lars Mescheder, Sebastian Nowozin, Andreas Geiger
 
 
 
