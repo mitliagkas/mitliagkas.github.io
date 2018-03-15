@@ -193,6 +193,7 @@ Student paper presentations B
 
 **March 1st**
 Wasserstein GANs
+[[scribed notes](ift6085/ift-6085-lecture-13-notes.pdf)]
 
 Reading: [18,19]
 
