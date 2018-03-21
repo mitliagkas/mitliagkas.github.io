@@ -218,9 +218,9 @@ The Numerics of GANs
 Reading: [20]
 
 **March 21st**
-TBA
+Variance reduction techniques for stochastic optimization
 
-Reading: TBA
+Reading: [22], Section 5.3 of [21]
 
 
 **March 28th**
@@ -252,6 +252,7 @@ Resources
 18. [Wasserstein GAN](https://arxiv.org/abs/1701.07875), Martin Arjovsky, Soumith Chintala, Léon Bottou 
 19. [Read-through: Wasserstein GAN](https://www.alexirpan.com/2017/02/22/wasserstein-gan.html), Alex Irpan
 20. [The Numerics of GANs](https://arxiv.org/pdf/1705.10461.pdf), Lars Mescheder, Sebastian Nowozin, Andreas Geiger
+21. [Optimization Methods for Large-Scale Machine Learning](https://arxiv.org/pdf/1606.04838v1.pdf), Léon Bottou, Frank E. Curtis, Jorge Nocedal
 
 
 
