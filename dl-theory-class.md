@@ -222,6 +222,11 @@ Variance reduction techniques for stochastic optimization
 
 Reading: [22], Section 5.3 of [21]
 
+**March 22nd**
+Weighted Sums of Random Kitchen Sinks: Replacingminimization with randomization in learning
+
+Reading: [23]
+
 
 **March 28th**
 **NO CLASS** - Instructor is travelling
@@ -254,6 +259,7 @@ Resources
 20. [The Numerics of GANs](https://arxiv.org/pdf/1705.10461.pdf), Lars Mescheder, Sebastian Nowozin, Andreas Geiger
 21. [Optimization Methods for Large-Scale Machine Learning](https://arxiv.org/pdf/1606.04838v1.pdf), Léon Bottou, Frank E. Curtis, Jorge Nocedal
 22. [Accelerating Stochastic Gradient Descent using Predictive Variance Reduction](http://papers.nips.cc/paper/4937-accelerating-stochastic-gradient-descent-using-predictive-variance-reduction.pdf), Rie Johnson, Tong Zhang
+23. [Weighted Sums of Random Kitchen Sinks: Replacingminimization with randomization in learning](https://people.eecs.berkeley.edu/~brecht/papers/08.rah.rec.nips.pdf), Ali Rahimi, Ben Recht
 
 
 
