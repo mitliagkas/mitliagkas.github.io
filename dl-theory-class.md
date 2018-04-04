@@ -223,13 +223,24 @@ Variance reduction techniques for stochastic optimization
 Reading: [22], Section 5.3 of [21]
 
 **March 22nd**
-Weighted Sums of Random Kitchen Sinks: Replacingminimization with randomization in learning
+Weighted Sums of Random Kitchen Sinks: Replacing
+minimization with randomization in learning
 
 Reading: [23]
 
 
 **March 28th**
 **NO CLASS** - Instructor is travelling
+
+**March 29th**
+PacGAN: The power of two samples in generative adversarial networks
+
+Reading: [24]
+
+**April 4th**
+Some results on non-convex optimization
+
+Reading: [25,26]
 
 
 
@@ -260,6 +271,9 @@ Resources
 21. [Optimization Methods for Large-Scale Machine Learning](https://arxiv.org/pdf/1606.04838v1.pdf), Léon Bottou, Frank E. Curtis, Jorge Nocedal
 22. [Accelerating Stochastic Gradient Descent using Predictive Variance Reduction](http://papers.nips.cc/paper/4937-accelerating-stochastic-gradient-descent-using-predictive-variance-reduction.pdf), Rie Johnson, Tong Zhang
 23. [Weighted Sums of Random Kitchen Sinks: Replacingminimization with randomization in learning](https://people.eecs.berkeley.edu/~brecht/papers/08.rah.rec.nips.pdf), Ali Rahimi, Ben Recht
+24. [PacGAN: The power of two samples in generative adversarial networks](https://arxiv.org/abs/1712.04086), Zinan Lin, Ashish Khetan, Giulia Fanti, Sewoong Oh
+25. [Stochastic First- and Zeroth-order Methods for Nonconvex Stochastic Programming](https://arxiv.org/abs/1309.5549), Saeed Ghadimi, Guanghui Lan
+26. [Linear Convergence of Gradient and Proximal-Gradient Methods Under the Polyak-Łojasiewicz Condition](https://arxiv.org/abs/1608.04636), Hamed Karimi, Julie Nutini, Mark Schmidt
 
 
 
