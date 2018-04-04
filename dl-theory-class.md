@@ -214,6 +214,7 @@ Mikołaj Bińkowski, Dougal J. Sutherland, Michael Arbel, Arthur Gretton
 
 **March 15th**
 The Numerics of GANs
+[[scribed notes](ift6085/ift-6085-lecture-14-notes.pdf)]
 
 Reading: [20]
 
