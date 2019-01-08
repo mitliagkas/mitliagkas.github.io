@@ -9,7 +9,7 @@ IFT 6085: Theoretical principles for deep learning (new class)
 
 **NEW!**  [Extensive class bibliography](/ift6085-papers)
 
-**Class discussion group:** please [sign up](https://groups.google.com/forum/#!forum/ift6085-h18) to receive announcements and participate in discussion.
+**Class discussion group:** please [sign up](https://groups.google.com/forum/#!forum/ift6085-hiver-2019-theoretical-principles-for-deep-learning) to receive announcements and participate in discussion.
 
 Description
 ----- 
@@ -264,9 +264,9 @@ Reading: [30]
 
 **April 25th**
 **Class project poster presentation**
-
+<details>
 16 group posters, pizza, and science. All are welcome!
-
+</details>
 
 
 
