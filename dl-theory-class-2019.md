@@ -5,7 +5,7 @@ menu: main
 permalink: /ift6085-dl-theory-class-2019/
 ---
 
-IFT 6085: Theoretical principles for deep learning (new class)
+IFT 6085: Theoretical principles for deep learning
 =========
 
 
@@ -30,7 +30,6 @@ People
 ------
 
 Lecturer: [Ioannis Mitliagkas](https://mitliagkas.github.io), 
-	Office: 3359, André-Aisenstadt
 
 Class info
 ----------
@@ -41,6 +40,13 @@ Winter 2019 semester:
 Room: The new Mila auditorium, 6650 St. Urbain.
 
 Office hours: 10:45am-11:45am on Thursday right after class.
+
+Communication
+------------- 
+We will use the class [discussion group](https://groups.google.com/forum/#!forum/ift6085-hiver-2019-theoretical-principles-for-deep-learning) to receive announcements and participate in discussion.
+for all questions. 
+If you have something personal/sensitive to discuss, feel free to email me. 
+Starting your email subject with 'IFT6085:' will ensure that your email is not miscategorized. 
 
 
 Evaluation
