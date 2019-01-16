@@ -1,6 +1,7 @@
 ---
 layout: default
-title: New class!
+title: DL Theory class
+menu: main
 permalink: /ift6085-dl-theory-class/
 ---
 
@@ -220,6 +221,7 @@ Reading: [20]
 
 **March 21st**
 Variance reduction techniques for stochastic optimization
+[[scribed notes](ift6085/ift-6085-lecture-15-notes.pdf)]
 
 Reading: [22], Section 5.3 of [21]
 
@@ -246,6 +248,7 @@ Reading: [25,26]
 **April 5th**
 Escaping saddle points
 [slides by Yang Yuan](http://www.callowbird.com/uploads/8/6/6/4/8664563/1.pdf)
+[[scribed notes](ift6085/ift-6085-lecture-16-notes.pdf)]
 
 Reading: [27, 28]
 
