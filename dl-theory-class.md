@@ -247,8 +247,8 @@ Reading: [25,26]
 
 **April 5th**
 Escaping saddle points
-[slides by Yang Yuan](http://www.callowbird.com/uploads/8/6/6/4/8664563/1.pdf)
 [[scribed notes](ift6085/ift-6085-lecture-16-notes.pdf)]
+[slides by Yang Yuan](http://www.callowbird.com/uploads/8/6/6/4/8664563/1.pdf)
 
 Reading: [27, 28]
 
