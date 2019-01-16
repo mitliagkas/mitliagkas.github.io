@@ -43,7 +43,7 @@ Office hours: 10:45am-11:45am on Thursday right after class.
 
 Communication
 ------------- 
-We will use the class [discussion group](https://groups.google.com/forum/#!forum/ift6085-hiver-2019-theoretical-principles-for-deep-learning) to receive announcements and participate in discussion.
+We will use the class [discussion group](https://groups.google.com/forum/#!forum/ift6085-hiver-2019-theoretical-principles-for-deep-learning) 
 for all questions. 
 If you have something personal/sensitive to discuss, feel free to email me. 
 Starting your email subject with 'IFT6085:' will ensure that your email is not miscategorized. 
