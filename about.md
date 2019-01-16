@@ -1,6 +1,7 @@
 ---
 layout: page
 title: About
+menu: main
 permalink: /about/
 ---
 In my website you will find some things I have come to understand 
