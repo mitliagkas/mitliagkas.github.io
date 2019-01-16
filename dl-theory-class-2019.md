@@ -34,19 +34,20 @@ Lecturer: [Ioannis Mitliagkas](https://mitliagkas.github.io),
 
 Class info
 ----------
-Winter 2018 semester:
+Winter 2019 semester:
 - Wednesday 9h30-11h15  
-- Thursday 9h30-11h15
+- Thursday 9-10h45
 
-Room: André-Aisestadt 3195
+Room: The new Mila auditorium, 6650 St. Urbain.
 
-Office hours: 11:15am-12:15pm on Thursday right after class.
+Office hours: 10:45am-11:45am on Thursday right after class.
 
 
 Evaluation
 ----------
-Class project: 60%
+Class project: 40%
 Paper presentation: 25%
+Surprise quizzes, midterm: 20%
 Scribing: 10%
 Class participation: 5%
 
