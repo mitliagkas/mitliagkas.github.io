@@ -1,12 +1,17 @@
 ---
 layout: default
 title: DL Theory class
-menu: main
 permalink: /ift6085-dl-theory-class/
 ---
 
-IFT 6085: Theoretical principles for deep learning (new class)
+IFT 6085: Theoretical principles for deep learning 
 =========
+
+Winter 2018
+========= 
+
+
+**This is an old version of the class.**
 
 **NEW!**  [Extensive class bibliography](/ift6085-papers)
 

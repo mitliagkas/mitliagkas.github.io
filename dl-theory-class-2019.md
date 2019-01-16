@@ -73,8 +73,8 @@ Schedule
 
 **January 9th**
 Class introduction
-[[slides](ift6085/ift-6085-lecture-1.pdf),
-[quiz](ift6085/quiz-first-class.pdf)]
+[[slides](ift6085-2019/ift-6085-lecture-1.pdf),
+[quiz](ift6085-2019/quiz-first-class.pdf)]
 
 
 ---
