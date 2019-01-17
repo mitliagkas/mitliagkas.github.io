@@ -57,7 +57,7 @@ Surprise quizzes, midterm: 20%
 Scribing: 10%
 Class participation: 5%
 
-Use this Latex [template](ift6085/scribing_template.zip) for scribing.
+Use this Latex [template](ift6085-2019/scribing_template.zip) for scribing.
 
 
 Tentative topics--to be updated as we go along
