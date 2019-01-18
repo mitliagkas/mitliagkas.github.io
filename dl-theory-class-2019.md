@@ -48,7 +48,6 @@ for all questions.
 If you have something personal/sensitive to discuss, feel free to email me. 
 Starting your email subject with 'IFT6085:' will ensure that your email is not miscategorized. 
 
-
 Evaluation
 ----------
 Class project: 40%
@@ -202,4 +201,22 @@ Resources
 29. [RANDOM MATRICES AND COMPLEXITY OF SPIN GLASSES](https://arxiv.org/pdf/1003.1129.pdf), ANTONIO AUFFINGER, GERARD BEN AROUS, AND JIRI CERNY 
 30. [The Loss Surfaces of Multilayer Networks](https://arxiv.org/abs/1412.0233), Anna Choromanska, Mikael Henaff, Michael Mathieu, Gérard Ben Arous, Yann LeCun 
 
+
+Recent discussion
+-----------------
+
+
+<iframe id="forum_embed"
+  src="javascript:void(0)"
+  scrolling="no"
+  frameborder="0"
+  width="900"
+  height="700">
+</iframe>
+<script type="text/javascript">
+  document.getElementById('forum_embed').src =
+     'https://groups.google.com/forum/embed/?place=forum/ift6085-hiver-2019-theoretical-principles-for-deep-learning'
+     + '&showsearch=true&showpopout=true&showtabs=false'
+     + '&parenturl=' + encodeURIComponent(window.location.href);
+</script>
 
