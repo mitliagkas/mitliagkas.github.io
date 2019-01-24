@@ -121,7 +121,8 @@ Reading: [1, Theorem 3.15], [6]
 
 **January 23th**
 Accelerated methods
-[[scribed notes](ift6085/ift-6085-lecture-5-notes.pdf)]
+[[scribed notes](ift6085/ift-6085-lecture-5-notes.pdf)
+[slides](ift6085-2019/ift-6085-lecture-5-slides.pdf)]
 
 Reading: [6], [7, pages 67-76], [8], [9]
 
