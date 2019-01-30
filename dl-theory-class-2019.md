@@ -115,14 +115,14 @@ Convergence proofs from Chapter 3 of [1] ('Convex Optimization...' by S.Bubeck u
 
 **January 23rd**
 Black box models and lower bounds 
-[[scribed notes](ift6085/ift-6085-lecture-4-notes.pdf)]
+[[**new** scribed notes](ift6085-2019/ift-6085-lecture-4-notes.pdf)]
 
 Reading: [1, Theorem 3.15], [6]
 
 **January 24th**
 Accelerated methods
-[[scribed notes](ift6085/ift-6085-lecture-5-notes.pdf)
-[slides](ift6085-2019/ift-6085-lecture-5-slides.pdf)]
+[[scribed notes](ift6085/ift-6085-lecture-5-notes.pdf)]
+[[slides](ift6085-2019/ift-6085-lecture-5-slides.pdf)]
 
 Reading: [6], [7, pages 67-76], [8], [9]
 
