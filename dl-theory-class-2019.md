@@ -104,30 +104,30 @@ from Chapter 3 of [1] ('Convex Optimization...' by S.Bubeck under References)
 - Required: Convergence proof of Theorem 3.2 (note that we studied the unconstrained 
 case. In this case the projection operator PiX(x) is the identity operator)
 
-**January 16th**
+**January 16th-17th**
 The different rates of gradient descent: from Lipschitz to strongly convex
-[[scribed notes](ift6085/ift-6085-lecture-3-notes.pdf)]
+[[**new** scribed notes](ift6085-2019/ift-6085-lecture-3-notes.pdf)]
 
 Reading:
 
 Convergence proofs from Chapter 3 of [1] ('Convex Optimization...' by S.Bubeck under References)
 - Required: Convergence proof of Theorem 3.12 
 
-**January 17th**
+**January 23rd**
 Black box models and lower bounds 
 [[scribed notes](ift6085/ift-6085-lecture-4-notes.pdf)]
 
 Reading: [1, Theorem 3.15], [6]
 
-**January 23th**
+**January 24th**
 Accelerated methods
 [[scribed notes](ift6085/ift-6085-lecture-5-notes.pdf)
 [slides](ift6085-2019/ift-6085-lecture-5-slides.pdf)]
 
 Reading: [6], [7, pages 67-76], [8], [9]
 
-**January 24th**
-Nesterov's Accelearted Gradient, Stochastic gradient descent
+**January 30th**
+Nesterov's Accelerated Gradient, Stochastic gradient descent
 [[scribed notes](ift6085/ift-6085-lecture-6-notes.pdf)]
 
 Reading: Section 6 until 6.2 of [1], Section 14.3 of [4]
@@ -136,13 +136,13 @@ Reading: Section 6 until 6.2 of [1], Section 14.3 of [4]
 ### Crash course in statistical learning theory 
 
 
-**January 30th**
+**January 31st**
 Elements of statistical learning theory
 [[scribed notes](ift6085/ift-6085-lecture-7-notes.pdf)]
 
 Reading: Sections 2 (if you need the intro), 3, 4 and 6 of [4].
 
-**January 31st**
+**February 6th**
 PAC-Bayes bounds
 [[scribed notes](ift6085/ift-6085-lecture-8-notes.pdf)]
 
@@ -150,13 +150,13 @@ Reading: [12]
 
 Reading (harder): Section 6 of [2]
 
-**February 6th**
+**February 7th**
 Stability and generalization
 [[scribed notes](ift6085/ift-6085-lecture-9-notes.pdf)]
 
 Reading: [13]
 
-**February 7th**
+**February 12th (tentative)**
 Stability and generalization: Part II
 [[scribed notes](ift6085/ift-6085-lecture-10-notes.pdf)]
 
