@@ -1,15 +1,17 @@
 ---
 layout: default
-permalink: /ift6085-papers/
+permalink: /ift6085-papers-2019/
 ---
 
-(Winter 2018) IFT6085: Class bibliography
+IFT6085: Class bibliography
 =========
-**This list was created in early 2018 for the first edition of this class. An updated list will be available by the end of February 2019 [here](/ift6085-papers-2019).**
 
+**This list was created in early 2018 for the first edition of this class, 
+and will be updated with recent advances soon.**
 
-This is a (non-exhaustive) list of recent papers that include theoretical or theory-driven work
+This is a non-exhaustive list of relatively recent papers that include theoretical or theory-driven work
 that applies on deep learning.
+
 We will draw from this list for the seminar section of the class,
 including student paper presentations.
 Students are welcome to suggest other papers that they like as long as they
@@ -18,7 +20,7 @@ are relevant to the class.
 Note: some of these results are not given in a deep learning setting, however the ideas 
 and techniques there are very useful for our exploration in class.
 
-[back to class page](/ift6085-dl-theory-class)
+[back to class page](/ift6085-dl-theory-class-2019)
 
 
 Generalization
