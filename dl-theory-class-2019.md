@@ -120,8 +120,8 @@ Black box models and lower bounds
 Reading: [1, Theorem 3.15], [6]
 
 **January 24th**
-Accelerated methods
-[[scribed notes](ift6085/ift-6085-lecture-5-notes.pdf)]
+Accelerated methods: Polyak's momentum (the heavy ball method)
+[[**new** scribed notes](ift6085-2019/ift-6085-lecture-5-notes.pdf)]
 [[slides](ift6085-2019/ift-6085-lecture-5-slides.pdf)]
 
 Reading: [6], [7, pages 67-76], [8], [9]
@@ -151,16 +151,18 @@ Reading: [12]
 Reading (harder): Section 6 of [2]
 
 **February 7th**
-Stability and generalization
+Stability and generalization: Parts I and II 
 [[scribed notes](ift6085/ift-6085-lecture-9-notes.pdf)]
-
-Reading: [13]
-
-**February 12th (tentative)**
-Stability and generalization: Part II
 [[scribed notes](ift6085/ift-6085-lecture-10-notes.pdf)]
 
 Reading: [13,14]
+
+**February 12th: Guest lecturer, Guillaume Rabusseau**
+Expressivity and universal approximation theorems
+
+**February 13th: Guest lecturer, Guillaume Rabusseau**
+Expressivity and universal approximation theorems
+
 
 ---
 
