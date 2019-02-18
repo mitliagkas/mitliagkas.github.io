@@ -128,7 +128,7 @@ Reading: [6], [7, pages 67-76], [8], [9]
 
 **January 30th**
 Nesterov's Accelerated Gradient, Stochastic gradient descent
-[[scribed notes](ift6085/ift-6085-lecture-6-notes.pdf)]
+[[**new** scribed notes](ift6085-2019/ift-6085-lecture-6-notes.pdf)]
 
 Reading: Section 6 until 6.2 of [1], Section 14.3 of [4]
 
