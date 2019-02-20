@@ -157,17 +157,47 @@ Stability and generalization: Parts I and II
 
 Reading: [13,14]
 
+### Seminar part of class
+
 **February 12th: Guest lecturer, Guillaume Rabusseau**
 Expressivity and universal approximation theorems
 
 **February 13th: Guest lecturer, Guillaume Rabusseau**
 Expressivity and universal approximation theorems
 
-**February 19th**
+**February 20th**
 Applications of stability 
 [[scribed notes](ift6085/ift-6085-lecture-11-notes.pdf)]
 
 Reading: [14,15]
+
+**February 21st**
+Generative models
+[[scribed notes](ift6085/ift-6085-lecture-12-notes.pdf)]
+
+Reading: [16,17]
+
+
+**February 27th**
+Wasserstein GANs
+[[scribed notes](ift6085/ift-6085-lecture-13-notes.pdf)]
+
+Reading: [18,19]
+
+**February 28th**
+The Numerics of GANs
+[[scribed notes](ift6085/ift-6085-lecture-14-notes.pdf)]
+
+
+**March 6th**
+**BREAK** No class
+
+**March 7th**
+**BREAK** No class
+
+**March 13th**
+**Midterm exam**
+
 
 ---
 
