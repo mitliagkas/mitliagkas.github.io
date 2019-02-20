@@ -7,7 +7,7 @@ IFT6085: Class bibliography
 =========
 
 **This list was created in early 2018 for the first edition of this class, 
-and will be updated with recent advances soon.**
+and updated in February 2019. Please feel free to make paper suggestions in the class's discussion group.**
 
 This is a non-exhaustive list of relatively recent papers that include theoretical or theory-driven work
 that applies on deep learning.
@@ -38,7 +38,8 @@ Sanjeev Arora, Aditya Bhaskara, Rong Ge, Tengyu Ma
 **\*Understanding deep learning requires rethinking generalization**,
 Chiyuan Zhang, Samy Bengio, Moritz Hardt, Benjamin Recht, Oriol Vinyals
 
-
+**\*Tighter Variational Bounds are Not Necessarily Better**,
+Tom Rainforth, Adam R. Kosiorek, Tuan Anh Le, Chris J. Maddison, Maximilian Igl, Frank Wood, Yee Whye Teh
 
 **Data-dependent path normalization in neural networks**,
 Behnam Neyshabur, Ryota Tomioka, Ruslan Salakhutdinov, Nathan Srebro
@@ -94,6 +95,13 @@ Mahdi Soltanolkotabi, Adel Javanmard, Jason D. Lee
 
 Optimization methods
 ----- 
+
+**\*Negative Momentum for Improved Game Dynamics**,
+Gauthier Gidel, Reyhane Askari Hemmat, Mohammad Pezeshki, Remi Lepriol, Gabriel Huang, Simon Lacoste-Julien, Ioannis Mitliagkas
+
+**\*The Mechanics of n-Player Differentiable Games**, 
+David Balduzzi, Sebastien Racaniere, James Martens, Jakob Foerster, Karl Tuyls, Thore Graepel
+
 **A geometric alternative to Nesterov’s accelerated gradient descent**,
 Sébastien Bubeck, Yin Tat Lee, Mohit Singh
 
@@ -187,6 +195,10 @@ Ishmael Belghazi, Sai Rajeswar, Aristide Baratin, R Devon Hjelm, Aaron Courville
 ----- 
 **\*Are Deep Policy Gradient Algorithms Truly Policy Gradient Algorithms?**,
 Andrew Ilyas, Logan Engstrom, Shibani Santurkar, Dimitris Tsipras, Firdaus Janoos, Larry Rudolph, Aleksander Madry
+
+**\*A Distributional Perspective on Reinforcement Learning**,
+Marc G. Bellemare, Will Dabney, Rémi Munos
+
 
 
 
