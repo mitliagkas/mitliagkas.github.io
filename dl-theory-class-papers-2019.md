@@ -26,14 +26,11 @@ and techniques there are very useful for our exploration in class.
 Learning 
 ------ 
 
-**\*A Modern Take on the Bias-Variance Tradeoff in Neural Networks**,
-Brady Neal, Sarthak Mittal, Aristide Baratin, Vinayak Tantia, Matthew Scicluna, Simon Lacoste-Julien, Ioannis Mitliagkas
-
 **\*Provable Bounds for Learning Some Deep Representations**,
 Sanjeev Arora, Aditya Bhaskara, Rong Ge, Tengyu Ma
 
-**\*Tighter Variational Bounds are Not Necessarily Better**,
-Tom Rainforth, Adam R. Kosiorek, Tuan Anh Le, Chris J. Maddison, Maximilian Igl, Frank Wood, Yee Whye Teh
+**\*A Modern Take on the Bias-Variance Tradeoff in Neural Networks**,
+Brady Neal, Sarthak Mittal, Aristide Baratin, Vinayak Tantia, Matthew Scicluna, Simon Lacoste-Julien, Ioannis Mitliagkas
 
 **\*Meta-Learning and Universality: Deep Representations and Gradient Descent can Approximate any Learning Algorithm**
 Chelsea Finn, Sergey Levine
@@ -44,8 +41,10 @@ Alex Nichol, Joshua Achiam, John Schulman
 **\*Understanding Short-Horizon Bias in Stochastic Meta-Optimization**,
 Yuhuai Wu, Mengye Ren, Renjie Liao, Roger Grosse
 
+**\*Tighter Variational Bounds are Not Necessarily Better**,
+Tom Rainforth, Adam R. Kosiorek, Tuan Anh Le, Chris J. Maddison, Maximilian Igl, Frank Wood, Yee Whye Teh
 
-Generalization and learning
+Generalization
 ------
 
 **\*On Generalization Error Bounds of Noisy Gradient Methods for Non-Convex Learning**,
