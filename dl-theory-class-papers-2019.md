@@ -23,20 +23,14 @@ and techniques there are very useful for our exploration in class.
 [back to class page](/ift6085-dl-theory-class-2019)
 
 
-Generalization and learning
-------
+Learning 
+------ 
 
-**\*On Generalization Error Bounds of Noisy Gradient Methods for Non-Convex Learning**,
-Jian Li, Xuanyuan Luo, Mingda Qiao
-
-**\*Data-Dependent Stability of Stochastic Gradient Descent**, 
-Ilja Kuzborskij, Christoph H. Lampert
+**\*A Modern Take on the Bias-Variance Tradeoff in Neural Networks**,
+Brady Neal, Sarthak Mittal, Aristide Baratin, Vinayak Tantia, Matthew Scicluna, Simon Lacoste-Julien, Ioannis Mitliagkas
 
 **\*Provable Bounds for Learning Some Deep Representations**,
 Sanjeev Arora, Aditya Bhaskara, Rong Ge, Tengyu Ma
-
-**\*Understanding deep learning requires rethinking generalization**,
-Chiyuan Zhang, Samy Bengio, Moritz Hardt, Benjamin Recht, Oriol Vinyals
 
 **\*Tighter Variational Bounds are Not Necessarily Better**,
 Tom Rainforth, Adam R. Kosiorek, Tuan Anh Le, Chris J. Maddison, Maximilian Igl, Frank Wood, Yee Whye Teh
@@ -50,6 +44,21 @@ Alex Nichol, Joshua Achiam, John Schulman
 **\*Understanding Short-Horizon Bias in Stochastic Meta-Optimization**,
 Yuhuai Wu, Mengye Ren, Renjie Liao, Roger Grosse
 
+
+Generalization and learning
+------
+
+**\*On Generalization Error Bounds of Noisy Gradient Methods for Non-Convex Learning**,
+Jian Li, Xuanyuan Luo, Mingda Qiao
+
+**\*Data-Dependent Stability of Stochastic Gradient Descent**, 
+Ilja Kuzborskij, Christoph H. Lampert
+
+**\*Understanding deep learning requires rethinking generalization**,
+Chiyuan Zhang, Samy Bengio, Moritz Hardt, Benjamin Recht, Oriol Vinyals
+
+**Certifiable distributional robustness with principled adversarial training**,
+Aman Sinha, Hongseok Namkoong, John Duchi
 
 **Data-dependent path normalization in neural networks**,
 Behnam Neyshabur, Ryota Tomioka, Ruslan Salakhutdinov, Nathan Srebro
@@ -103,7 +112,7 @@ Anna Choromanska, Mikael Henaff, Michael Mathieu, Gérard Ben Arous, Yann LeCun
 Mahdi Soltanolkotabi, Adel Javanmard, Jason D. Lee
 
 
-Optimization methods
+Optimization and Games
 ----- 
 
 **\*Negative Momentum for Improved Game Dynamics**,
@@ -111,6 +120,13 @@ Gauthier Gidel, Reyhane Askari Hemmat, Mohammad Pezeshki, Remi Lepriol, Gabriel 
 
 **\*The Mechanics of n-Player Differentiable Games**, 
 David Balduzzi, Sebastien Racaniere, James Martens, Jakob Foerster, Karl Tuyls, Thore Graepel
+
+**\*Qualitatively characterizing neural network optimization problems**,
+Ian J. Goodfellow, Oriol Vinyals, Andrew M. Saxe
+
+**\*SGD Converges to Global Minimum in Deep Learning via Star-convex Path**,
+Yi Zhou, Junjie Yang, Huishuai Zhang, Yingbin Liang, Vahid Tarokh
+
 
 **A geometric alternative to Nesterov’s accelerated gradient descent**,
 Sébastien Bubeck, Yin Tat Lee, Mohit Singh
@@ -151,10 +167,10 @@ John Schulman, Sergey Levine, Philipp Moritz, Michael I. Jordan, Pieter Abbeel
 
 
 
-Generative models 
+Generative models (mostly GANs)
 ------
-**Certifiable distributional robustness with principled adversarial training**,
-Aman Sinha, Hongseok Namkoong, John Duchi
+**\*Approximability of Discriminators Implies Diversity in GANs**,
+Yu Bai, Tengyu Ma, Andrej Risteski
 
 **Stabilizing GAN Training with Multiple Random Projections**,
 Behnam Neyshabur, Srinadh Bhojanapalli, Ayan Chakrabarti
@@ -187,6 +203,9 @@ Information Theory
 
 **\*On variational lower bounds of mutual information**,
 Ben Poole, Sherjil Ozair, Aaron van den Oord, Alexander A. Alemi, George Tucker
+
+**\*Estimating Information Flow in Neural Networks**,
+Ziv Goldfeld, Ewout van den Berg, Kristjan Greenewald, Igor Melnyk, Nam Nguyen, Brian Kingsbury, Yury Polyanskiy
 
 **Opening the Black Box of Deep Neural Networks via Information**,
 Ravid Shwartz-Ziv, Naftali Tishby
