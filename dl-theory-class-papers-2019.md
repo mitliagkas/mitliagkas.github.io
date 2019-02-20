@@ -26,23 +26,27 @@ and techniques there are very useful for our exploration in class.
 Generalization
 ------
 
+**\* On Generalization Error Bounds of Noisy Gradient Methods for Non-Convex Learning**,
+Jian Li, Xuanyuan Luo, Mingda Qiao
+
+
 **Data-dependent path normalization in neural networks**,
 Behnam Neyshabur, Ryota Tomioka, Ruslan Salakhutdinov, Nathan Srebro
 
 **High-dimensional dynamics of generalization error in neural networks**,
 Madhu S. Advani, Andrew M. Saxe
 
-**\*Robustness and Generalization**,
+**Robustness and Generalization**,
 Huan Xu, Shie Mannor
 
 **A PAC-Bayesian Approach to Spectrally-Normalized Margin Bounds for Neural Networks**,
 Behnam Neyshabur, Srinadh Bhojanapalli, David McAllester, Nathan Srebro
 
-**\*Computing Nonvacuous Generalization Bounds for Deep (Stochastic) Neural
+**Computing Nonvacuous Generalization Bounds for Deep (Stochastic) Neural
 Networks with Many More Parameters than Training Data**,
 Gintare Karolina Dziugaite, Daniel M. Roy
 
-**\*Entropy-SGD optimizes the prior of a PAC-Bayes bound: Data-dependent PAC-Bayes priors via differential privacy**,
+**Entropy-SGD optimizes the prior of a PAC-Bayes bound: Data-dependent PAC-Bayes priors via differential privacy**,
 Gintare Karolina Dziugaite, Daniel M. Roy
 
 **Exponential convergence of testing error for stochastic gradient methods**,
@@ -51,10 +55,10 @@ Loucas Pillaud-Vivien, Alessandro Rudi, Francis Bach
 **Spectrally-normalized margin bounds for neural networks**,
 Peter Bartlett, Dylan J. Foster, Matus Telgarsky
 
-**\*Data-Dependent Stability of Stochastic Gradient Descent**,
+**Data-Dependent Stability of Stochastic Gradient Descent**,
 Ilja Kuzborskij, Christoph H. Lampert 
 
-**\*Why and When Can Deep – but Not Shallow – Networks Avoid the Curse of Dimensionality: a Review**,
+**Why and When Can Deep – but Not Shallow – Networks Avoid the Curse of Dimensionality: a Review**,
 Tomaso Poggio, Hrushikesh Mhaskar, Lorenzo Rosasco, Brando Miranda, Qianli Liao
 
 
@@ -104,17 +108,17 @@ James Martens, Roger Grosse
 **The Marginal Value of Adaptive Gradient Methods in Machine Learning**,
 Ashia C. Wilson, Rebecca Roelofs, Mitchell Stern, Nathan Srebro, Benjamin Recht
 
-**\*Statistical inference using SGD**,
+**Statistical inference using SGD**,
 Tianyang Li, Liu Liu, Anastasios Kyrillidis, Constantine Caramanis
 
-**\*Stochastic Gradient Descent as Approximate Bayesian Inference**,
+**Stochastic Gradient Descent as Approximate Bayesian Inference**,
 Stephan Mandt, Matthew D. Hoffman, David M. Blei
 
-**\*Non-Convex Learning via Stochastic Gradient Langevin
+**Non-Convex Learning via Stochastic Gradient Langevin
 Dynamics: A Nonasymptotic Analysis**,
 Maxim Raginsky, Alexander Rakhlin, Matus Telgarsky
 
-**\*Trust Region Policy Optimization**,
+**Trust Region Policy Optimization**,
 John Schulman, Sergey Levine, Philipp Moritz, Michael I. Jordan, Pieter Abbeel
 
 
@@ -139,7 +143,7 @@ Mikołaj Bińkowski, Dougal J. Sutherland, Michael Arbel, Arthur Gretton
 **Generalization and Equilibrium in Generative Adversarial Nets (GANs)**,
 Sanjeev Arora, Rong Ge, Yingyu Liang, Tengyu Ma, Yi Zhang
 
-**\*Do GANs actually learn the distribution? An empirical study**,
+**Do GANs actually learn the distribution? An empirical study**,
 Sanjeev Arora, Yi Zhang
 
 **The Numerics of GANs**,
