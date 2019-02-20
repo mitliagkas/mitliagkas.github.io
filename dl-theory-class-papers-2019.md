@@ -113,6 +113,24 @@ Anna Choromanska, Mikael Henaff, Michael Mathieu, Gérard Ben Arous, Yann LeCun
 Mahdi Soltanolkotabi, Adel Javanmard, Jason D. Lee
 
 
+
+*(Deep) Reinforcement Learning
+----- 
+**\*Are Deep Policy Gradient Algorithms Truly Policy Gradient Algorithms?**,
+Andrew Ilyas, Logan Engstrom, Shibani Santurkar, Dimitris Tsipras, Firdaus Janoos, Larry Rudolph, Aleksander Madry
+
+**\*A Distributional Perspective on Reinforcement Learning**,
+Marc G. Bellemare, Will Dabney, Rémi Munos
+
+**\*Equivalence Between Policy Gradients and Soft Q-Learning**,
+John Schulman, Xi Chen, Pieter Abbeel
+
+**\*Reinforcement Learning and Control as Probabilistic Inference: Tutorial and Review**,
+Sergey Levine
+
+
+
+
 Optimization and Games
 ----- 
 
@@ -219,21 +237,5 @@ Alessandro Achille, Stefano Soatto
 
 **MINE: Mutual information neural estimation**,
 Ishmael Belghazi, Sai Rajeswar, Aristide Baratin, R Devon Hjelm, Aaron Courville
-
-
-*(Deep) Reinforcement Learning
------ 
-**\*Are Deep Policy Gradient Algorithms Truly Policy Gradient Algorithms?**,
-Andrew Ilyas, Logan Engstrom, Shibani Santurkar, Dimitris Tsipras, Firdaus Janoos, Larry Rudolph, Aleksander Madry
-
-**\*A Distributional Perspective on Reinforcement Learning**,
-Marc G. Bellemare, Will Dabney, Rémi Munos
-
-**\*Equivalence Between Policy Gradients and Soft Q-Learning**,
-John Schulman, Xi Chen, Pieter Abbeel
-
-**\*Reinforcement Learning and Control as Probabilistic Inference: Tutorial and Review**,
-Sergey Levine
-
 
 
