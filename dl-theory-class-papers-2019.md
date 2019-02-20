@@ -23,7 +23,7 @@ and techniques there are very useful for our exploration in class.
 [back to class page](/ift6085-dl-theory-class-2019)
 
 
-Generalization
+Generalization and learning
 ------
 
 **\*On Generalization Error Bounds of Noisy Gradient Methods for Non-Convex Learning**,
@@ -31,6 +31,14 @@ Jian Li, Xuanyuan Luo, Mingda Qiao
 
 **\*Data-Dependent Stability of Stochastic Gradient Descent**, 
 Ilja Kuzborskij, Christoph H. Lampert
+
+**\*Provable Bounds for Learning Some Deep Representations**,
+Sanjeev Arora, Aditya Bhaskara, Rong Ge, Tengyu Ma
+
+**\*Understanding deep learning requires rethinking generalization**,
+Chiyuan Zhang, Samy Bengio, Moritz Hardt, Benjamin Recht, Oriol Vinyals
+
+
 
 **Data-dependent path normalization in neural networks**,
 Behnam Neyshabur, Ryota Tomioka, Ruslan Salakhutdinov, Nathan Srebro
@@ -158,6 +166,10 @@ Zinan Lin, Ashish Khetan, Giulia Fanti, Sewoong Oh
 
 Information Theory
 ----- 
+
+**\*On variational lower bounds of mutual information**,
+Ben Poole, Sherjil Ozair, Aaron van den Oord, Alexander A. Alemi, George Tucker
+
 **Opening the Black Box of Deep Neural Networks via Information**,
 Ravid Shwartz-Ziv, Naftali Tishby
 
@@ -170,6 +182,11 @@ Alessandro Achille, Stefano Soatto
 **MINE: Mutual information neural estimation**,
 Ishmael Belghazi, Sai Rajeswar, Aristide Baratin, R Devon Hjelm, Aaron Courville
 
+
+*Deep Reinforcement Learning
+----- 
+**\*Are Deep Policy Gradient Algorithms Truly Policy Gradient Algorithms?**,
+Andrew Ilyas, Logan Engstrom, Shibani Santurkar, Dimitris Tsipras, Firdaus Janoos, Larry Rudolph, Aleksander Madry
 
 
 
