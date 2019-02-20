@@ -7,7 +7,9 @@ IFT6085: Class bibliography
 =========
 
 **This list was created in early 2018 for the first edition of this class, 
-and updated in February 2019. Please feel free to make paper suggestions in the class's discussion group.**
+and updated in February 2019.
+Recently added papers' names are marked with an asterisk.
+Please feel free to make paper suggestions in the class's discussion group.**
 
 This is a non-exhaustive list of relatively recent papers that include theoretical or theory-driven work
 that applies on deep learning.
