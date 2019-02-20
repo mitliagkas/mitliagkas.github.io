@@ -26,9 +26,11 @@ and techniques there are very useful for our exploration in class.
 Generalization
 ------
 
-**\* On Generalization Error Bounds of Noisy Gradient Methods for Non-Convex Learning**,
+**\*On Generalization Error Bounds of Noisy Gradient Methods for Non-Convex Learning**,
 Jian Li, Xuanyuan Luo, Mingda Qiao
 
+**\*Data-Dependent Stability of Stochastic Gradient Descent**, 
+Ilja Kuzborskij, Christoph H. Lampert
 
 **Data-dependent path normalization in neural networks**,
 Behnam Neyshabur, Ryota Tomioka, Ruslan Salakhutdinov, Nathan Srebro
