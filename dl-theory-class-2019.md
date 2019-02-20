@@ -170,7 +170,7 @@ Expressivity and universal approximation theorems
 Applications of stability 
 [[scribed notes](ift6085/ift-6085-lecture-11-notes.pdf)]
 
-Reading: [14,15]
+Reading: [14]
 
 **February 21st**
 Generative models
