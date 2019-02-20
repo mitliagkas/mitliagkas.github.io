@@ -41,6 +41,16 @@ Chiyuan Zhang, Samy Bengio, Moritz Hardt, Benjamin Recht, Oriol Vinyals
 **\*Tighter Variational Bounds are Not Necessarily Better**,
 Tom Rainforth, Adam R. Kosiorek, Tuan Anh Le, Chris J. Maddison, Maximilian Igl, Frank Wood, Yee Whye Teh
 
+**\*Meta-Learning and Universality: Deep Representations and Gradient Descent can Approximate any Learning Algorithm**
+Chelsea Finn, Sergey Levine
+
+**\*On First-Order Meta-Learning Algorithms**,
+Alex Nichol, Joshua Achiam, John Schulman
+
+**\*Understanding Short-Horizon Bias in Stochastic Meta-Optimization**,
+Yuhuai Wu, Mengye Ren, Renjie Liao, Roger Grosse
+
+
 **Data-dependent path normalization in neural networks**,
 Behnam Neyshabur, Ryota Tomioka, Ruslan Salakhutdinov, Nathan Srebro
 
@@ -191,7 +201,7 @@ Alessandro Achille, Stefano Soatto
 Ishmael Belghazi, Sai Rajeswar, Aristide Baratin, R Devon Hjelm, Aaron Courville
 
 
-*Deep Reinforcement Learning
+*(Deep) Reinforcement Learning
 ----- 
 **\*Are Deep Policy Gradient Algorithms Truly Policy Gradient Algorithms?**,
 Andrew Ilyas, Logan Engstrom, Shibani Santurkar, Dimitris Tsipras, Firdaus Janoos, Larry Rudolph, Aleksander Madry
@@ -199,6 +209,11 @@ Andrew Ilyas, Logan Engstrom, Shibani Santurkar, Dimitris Tsipras, Firdaus Janoo
 **\*A Distributional Perspective on Reinforcement Learning**,
 Marc G. Bellemare, Will Dabney, Rémi Munos
 
+**\*Equivalence Between Policy Gradients and Soft Q-Learning**,
+John Schulman, Xi Chen, Pieter Abbeel
+
+**\*Reinforcement Learning and Control as Probabilistic Inference: Tutorial and Review**,
+Sergey Levine
 
 
 
