@@ -163,6 +163,9 @@ Expressivity and universal approximation theorems
 **February 13th: Guest lecturer, Guillaume Rabusseau**
 Expressivity and universal approximation theorems
 
+**February 19th**
+Applications of stability 
+[[scribed notes](ift6085/ift-6085-lecture-11-notes.pdf)]
 
 ---
 
