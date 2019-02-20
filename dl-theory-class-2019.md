@@ -157,6 +157,7 @@ Stability and generalization: Parts I and II
 
 Reading: [13,14]
 
+---
 ### Seminar part of class
 
 **February 12th: Guest lecturer, Guillaume Rabusseau**
