@@ -188,6 +188,7 @@ Reading: [18,19]
 **February 28th**
 The Numerics of GANs
 [[scribed notes](ift6085/ift-6085-lecture-14-notes.pdf)]
+[[slides](ift6085-2019/ift-6085-gan-dynamics-slides.pdf)]
 
 
 **March 6th**
