@@ -211,7 +211,6 @@ Weighted Sums of Random Kitchen Sinks: Replacing
 minimization with randomization in learning
 
 Reading: [23]
----
 
 
 
