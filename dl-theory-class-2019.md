@@ -200,7 +200,17 @@ The Numerics of GANs
 **March 13th**
 **Midterm exam**
 
+**March 14th: Guest lecturer, Guillaume Lajoie**
+Topic to be announced shortly 
 
+**March 20th**
+Student paper presentations
+
+**March 21st**
+Weighted Sums of Random Kitchen Sinks: Replacing
+minimization with randomization in learning
+
+Reading: [23]
 ---
 
 
