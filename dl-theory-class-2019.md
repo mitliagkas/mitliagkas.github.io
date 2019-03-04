@@ -168,7 +168,7 @@ Expressivity and universal approximation theorems
 
 **February 20th**
 Applications of stability 
-[[scribed notes](ift6085/ift-6085-lecture-11-notes.pdf)]
+[[**new** scribed notes](ift6085-2019/ift-6085-lecture-11-notes.pdf)]
 
 Reading: [14]
 
