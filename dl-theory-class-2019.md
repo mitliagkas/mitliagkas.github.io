@@ -174,7 +174,7 @@ Reading: [14]
 
 **February 21st**
 Generative models
-[[scribed notes](ift6085/ift-6085-lecture-12-notes.pdf)]
+[[**new** scribed notes](ift6085-2019/ift-6085-lecture-12-notes.pdf)]
 
 Reading: [16,17]
 
