@@ -160,11 +160,9 @@ Reading: [13,14]
 ---
 ### Seminar part of class
 
-**February 12th: Guest lecturer, Guillaume Rabusseau**
-Expressivity and universal approximation theorems
-
 **February 13th: Guest lecturer, Guillaume Rabusseau**
 Expressivity and universal approximation theorems
+[[**new** scribed notes](ift6085-2019/ift-6085-guest-lecture-expressivity.pdf)]
 
 **February 20th**
 Applications of stability 
