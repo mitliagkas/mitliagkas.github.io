@@ -152,7 +152,7 @@ Reading (harder): Section 6 of [2]
 
 **February 7th**
 Stability and generalization
-[[*new* scribed notes](ift6085-2019/ift-6085-lecture-9-notes.pdf)]
+[[**new** scribed notes](ift6085-2019/ift-6085-lecture-9-notes.pdf)]
 
 Reading: [13,14]
 
