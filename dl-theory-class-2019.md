@@ -203,8 +203,11 @@ Intro to dynamical systems with application to neural networks
 Reading: [31, 32, 33]
 
 
-**March 20th**
-Student paper presentations
+**March 20th, morning**
+Student paper presentations, A
+
+**March 20th, afternoon**
+Student paper presentations, B
 
 **March 21st**
 Weighted Sums of Random Kitchen Sinks: Replacing
@@ -213,7 +216,70 @@ minimization with randomization in learning
 Reading: [23]
 
 
+**March 25th, afternoon**
+Student paper presentations, C
 
+
+**March 27th, morning**
+Lecture by instructor. Topic to be announced.
+
+
+**March 27th, afternoon**
+Student paper presentations, D
+
+**March 28th**
+Lecture by instructor. Topic to be announced.
+
+
+**April 3rd**
+Lecture by instructor. Topic to be announced.
+
+
+
+Bonus lectures
+--------
+This section contains useful material (older lectures) that have been replaced by new material,
+but are still very interesting and useful.
+Students will not be examined on this material.
+
+
+**March 21st, 2018**
+Variance reduction techniques for stochastic optimization
+[[scribed notes](ift6085/ift-6085-lecture-15-notes.pdf)]
+
+Reading: [22], Section 5.3 of [21]
+
+
+**March 29th, 2018**
+PacGAN: The power of two samples in generative adversarial networks
+
+Reading: [24]
+
+
+**April 4th, 2018**
+Some results on non-convex optimization
+
+Reading: [25,26]
+
+**April 5th, 2018**
+Escaping saddle points
+[[scribed notes](ift6085/ift-6085-lecture-16-notes.pdf)]
+[slides by Yang Yuan](http://www.callowbird.com/uploads/8/6/6/4/8664563/1.pdf)
+
+Reading: [27, 28]
+
+**April 11th, 2018**
+The theory of spin glasses
+
+Guest lecture by **Alex Fribergh**, UdeM Math.
+
+Reading: [29]
+
+
+**April 12th, 2018**
+The Loss Surfaces of Multilayer Networks
+
+Reading: [30]
 
 Resources
 ---------
