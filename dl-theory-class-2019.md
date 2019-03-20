@@ -206,6 +206,8 @@ Reading: [31, 32, 33]
 **March 20th, morning**
 Student paper presentations, A
 
+[Evaluation form](https://goo.gl/forms/gTq4joUnXK6ejNsW2)
+
 - [The expressive power of neural networks: a view from the width](https://arxiv.org/abs/1709.02540)
 **Presented by**: Andrew Williams, Gabriel Laberge, Ian Porada, Mingde Zhao
 - ["Evaluating the Robustness of Neural Networks: An Extreme Value Theory Approach"](https://arxiv.org/abs/1801.10578)
@@ -213,8 +215,11 @@ Student paper presentations, A
 - [Stabilizing GAN Training with Multiple Random Projections](https://arxiv.org/abs/1705.07831)
 **Presented by**: Moustafa ElAraby, Kun Ni, Stephan Anh Vu Tran
 
+
 **March 20th, afternoon**
 Student paper presentations, B
+
+[Evaluation form](https://goo.gl/forms/H8n9aCYjah3Rd4W22)
 
 - [Adaptive Gradient Methods with Dynamic Bound of Learning Rate](https://arxiv.org/abs/1902.09843)
 **Presented by**: Anirudh Goyal, Alex Lamb
