@@ -206,8 +206,22 @@ Reading: [31, 32, 33]
 **March 20th, morning**
 Student paper presentations, A
 
+- [The expressive power of neural networks: a view from the width](https://arxiv.org/abs/1709.02540)
+**Presented by**: Andrew Williams, Gabriel Laberge, Ian Porada, Mingde Zhao
+- ["Evaluating the Robustness of Neural Networks: An Extreme Value Theory Approach"](https://arxiv.org/abs/1801.10578)
+**Presented by**: Fabrice Normandin, Rémi Piché-Taillefer, Théo Moins, Sanae Lotfi
+- [Stabilizing GAN Training with Multiple Random Projections](https://arxiv.org/abs/1705.07831)
+**Presented by**: Moustafa ElAraby, Kun Ni, Stephan Anh Vu Tran
+
 **March 20th, afternoon**
 Student paper presentations, B
+
+- [Adaptive Gradient Methods with Dynamic Bound of Learning Rate](https://arxiv.org/abs/1902.09843)
+**Presented by**: Anirudh Goyal, Alex Lamb
+- [Neural Ordinary Differential Equations](https://arxiv.org/abs/1806.07366)
+**Presented by**: Parviz Haggi	Jacob Miller	Eugene Vorontsov
+- [Metalearning and Universality](https://arxiv.org/abs/1710.11622)
+**Presented by**: Bhairav Mehta, Bhargav Kanuparthi, Amir Raza, Maximilien Le Clei
 
 **March 21st**
 Weighted Sums of Random Kitchen Sinks: Replacing
@@ -219,6 +233,13 @@ Reading: [23]
 **March 25th, afternoon**
 Student paper presentations, C
 
+- [Entropy-SGD: Biasing gradient descent into wide valleys](https://arxiv.org/pdf/1611.01838.pdf)
+**Presented by**: Chin-Wei Huang, Philippe Lacaille, Shawn Tan, Jonathan Plante
+- [Wasserstein Auto-Encoders](https://arxiv.org/abs/1711.01558)
+**Presented by**: Jose Gallego, Ankit Vani, Andre Cianflone
+- [Are Deep Policy Gradient Algorithms Truly Policy Gradient Algorithms?](https://arxiv.org/abs/1811.02553)
+**Presented by**: Zafarali Ahmed, Veronica Chelu, Nishanth Anand, Nadeem Ward
+
 
 **March 27th, morning**
 Lecture by instructor. Topic to be announced.
@@ -226,6 +247,13 @@ Lecture by instructor. Topic to be announced.
 
 **March 27th, afternoon**
 Student paper presentations, D
+
+- [Hyperspherical Variational Auto-Encoders](https://arxiv.org/pdf/1804.00891.pdf)
+**Presented by**: Jonathan Guymont, Marzieh Mehdizadeh, Jonathan Pilault
+- [A Distributional Perspective on Reinforcement Learning](https://arxiv.org/abs/1707.06887)
+**Presented by**: Dylan Troop, William St-Arnaud, Yann Bouteiller, Guillaume LeBerre
+- [SGD CONVERGES TO GLOBAL MINIMUM IN DEEP LEARNING VIA STAR-CONVEX PATH](https://openreview.net/pdf?id=BylIciRcYQ)
+**Presented by**: Charles Guille-Escuret, Zumer Jérémie, Adam Ibrahim, Sauvé Léonard
 
 **March 28th**
 Lecture by instructor. Topic to be announced.
