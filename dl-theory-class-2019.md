@@ -241,6 +241,19 @@ Reading: [34], Chapters 3 and 4
 
 
 **March 27th, afternoon**
+Student paper presentations, D
+
+[Evaluation form](https://forms.gle/DpMymFsYfeqx5qTq5)
+
+- [Hyperspherical Variational Auto-Encoders](https://arxiv.org/pdf/1804.00891.pdf)
+**Presented by**: Jonathan Guymont, Marzieh Mehdizadeh, Jonathan Pilault
+- [A Distributional Perspective on Reinforcement Learning](https://arxiv.org/abs/1707.06887)
+**Presented by**: Dylan Troop, William St-Arnaud, Yann Bouteiller, Guillaume LeBerre
+- [SGD CONVERGES TO GLOBAL MINIMUM IN DEEP LEARNING VIA STAR-CONVEX PATH](https://openreview.net/pdf?id=BylIciRcYQ)
+**Presented by**: Charles Guille-Escuret, Zumer Jérémie, Adam Ibrahim, Sauvé Léonard
+
+
+**March 28th, morning**
 Student paper presentations, C
 
 - [Entropy-SGD: Biasing gradient descent into wide valleys](https://arxiv.org/pdf/1611.01838.pdf)
@@ -250,20 +263,6 @@ Student paper presentations, C
 - [Are Deep Policy Gradient Algorithms Truly Policy Gradient Algorithms?](https://arxiv.org/abs/1811.02553)
 **Presented by**: Zafarali Ahmed, Veronica Chelu, Nishanth Anand, Nadeem Ward
 
-
-
-**March 27th, afternoon**
-Student paper presentations, D
-
-- [Hyperspherical Variational Auto-Encoders](https://arxiv.org/pdf/1804.00891.pdf)
-**Presented by**: Jonathan Guymont, Marzieh Mehdizadeh, Jonathan Pilault
-- [A Distributional Perspective on Reinforcement Learning](https://arxiv.org/abs/1707.06887)
-**Presented by**: Dylan Troop, William St-Arnaud, Yann Bouteiller, Guillaume LeBerre
-- [SGD CONVERGES TO GLOBAL MINIMUM IN DEEP LEARNING VIA STAR-CONVEX PATH](https://openreview.net/pdf?id=BylIciRcYQ)
-**Presented by**: Charles Guille-Escuret, Zumer Jérémie, Adam Ibrahim, Sauvé Léonard
-
-**March 28th**
-Lecture by instructor. Topic to be announced.
 
 
 **April 3rd**
