@@ -178,13 +178,13 @@ Reading: [16,17]
 
 **February 27th**
 Wasserstein GANs
-[[scribed notes](ift6085/ift-6085-lecture-13-notes.pdf)]
+[[**new** scribed notes](ift6085-2019/ift-6085-lecture-13-notes.pdf)]
 
 Reading: [18,19]
 
 **February 28th**
 The Numerics of GANs
-[[scribed notes](ift6085/ift-6085-lecture-14-notes.pdf)]
+[[**new** scribed notes](ift6085-2019/ift-6085-lecture-14-notes.pdf)]
 [[slides](ift6085-2019/ift-6085-gan-dynamics-slides.pdf)]
 
 
@@ -234,8 +234,13 @@ minimization with randomization in learning
 
 Reading: [23]
 
+**March 27th, morning**
+Basic results on reinforcement learning
 
-**March 25th, afternoon**
+Reading: [34], Chapters 3 and 4
+
+
+**March 27th, afternoon**
 Student paper presentations, C
 
 - [Entropy-SGD: Biasing gradient descent into wide valleys](https://arxiv.org/pdf/1611.01838.pdf)
@@ -245,9 +250,6 @@ Student paper presentations, C
 - [Are Deep Policy Gradient Algorithms Truly Policy Gradient Algorithms?](https://arxiv.org/abs/1811.02553)
 **Presented by**: Zafarali Ahmed, Veronica Chelu, Nishanth Anand, Nadeem Ward
 
-
-**March 27th, morning**
-Lecture by instructor. Topic to be announced.
 
 
 **March 27th, afternoon**
@@ -351,6 +353,7 @@ Resources
 31. [Learning Long-Term Dependencies with Gradient Descent is Difficult](http://www.comp.hkbu.edu.hk/~markus/teaching/comp7650/tnn-94-gradient.pdf), Y Bengio, P Simard, P Frasconi
 32. [On the difficulty of training Recurrent Neural Networks](https://arxiv.org/abs/1211.5063), Razvan Pascanu, Tomas Mikolov, Yoshua Bengio
 33. [Opening the Black Box: Low-Dimensional Dynamics in High-Dimensional Recurrent Neural Networks](https://www.mitpressjournals.org/doi/full/10.1162/NECO_a_00409), David Sussillo and Omri Barak 
+34. [Reinforcement Learning: An Introduction](http://incompleteideas.net/book/the-book-2nd.html), Richard S. Sutton and Andrew G. Barto
 
 
 Recent discussion
