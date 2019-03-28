@@ -256,6 +256,9 @@ Student paper presentations, D
 **March 28th, morning**
 Student paper presentations, C
 
+[Evaluation form](https://forms.gle/st3NfMi9k4yj1nCs8)
+
+
 - [Entropy-SGD: Biasing gradient descent into wide valleys](https://arxiv.org/pdf/1611.01838.pdf)
 **Presented by**: Chin-Wei Huang, Philippe Lacaille, Shawn Tan, Jonathan Plante
 - [Wasserstein Auto-Encoders](https://arxiv.org/abs/1711.01558)
