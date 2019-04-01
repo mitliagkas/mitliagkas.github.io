@@ -199,6 +199,7 @@ The Numerics of GANs
 
 **March 14th: Guest lecturer, Guillaume Lajoie**
 Intro to dynamical systems with application to neural networks
+[[**new** scribed notes](ift6085-2019/ift-6085-lecture-15-notes.pdf)]
 
 Reading: [31, 32, 33]
 
@@ -231,6 +232,7 @@ Student paper presentations, B
 **March 21st**
 Weighted Sums of Random Kitchen Sinks: Replacing
 minimization with randomization in learning
+[[**new** scribed notes](ift6085-2019/ift-6085-lecture-16-notes.pdf)]
 
 Reading: [23]
 
