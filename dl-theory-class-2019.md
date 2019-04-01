@@ -282,7 +282,7 @@ Students will not be examined on this material.
 
 **March 21st, 2018**
 Variance reduction techniques for stochastic optimization
-[[scribed notes](ift6085/ift-6085-lecture-15-notes.pdf)]
+[[scribed notes](ift6085-2019/ift-6085-bonus-lecture-variance-reduction.pdf)]
 
 Reading: [22], Section 5.3 of [21]
 
@@ -300,7 +300,7 @@ Reading: [25,26]
 
 **April 5th, 2018**
 Escaping saddle points
-[[scribed notes](ift6085/ift-6085-lecture-16-notes.pdf)]
+[[scribed notes](ift6085-2019/ift-6085-bonus-lecture-saddle-points-notes.pdf)]
 [slides by Yang Yuan](http://www.callowbird.com/uploads/8/6/6/4/8664563/1.pdf)
 
 Reading: [27, 28]
