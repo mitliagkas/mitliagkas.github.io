@@ -238,6 +238,7 @@ Reading: [23]
 
 **March 27th, morning**
 Basic results on reinforcement learning
+[[**new** scribed notes](ift6085-2019/ift-6085-lecture-17-notes.pdf)]
 
 Reading: [34], Chapters 3 and 4
 
@@ -271,8 +272,8 @@ Student paper presentations, C
 
 
 **April 3rd**
-Lecture by instructor. Topic to be announced.
-
+Distributional reinforcement learning
+[[**new** scribed notes](ift6085-2019/ift-6085-lecture-18-notes.pdf)]
 
 
 Bonus lectures
