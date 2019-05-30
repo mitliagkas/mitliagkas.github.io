@@ -22,9 +22,11 @@ layout: default
 	<br>
 	Assistant Professor
 	<br>
-	Computer Science and Operations Research, University of Montr&eacute;al
+	Computer Science, University of Montr&eacute;al
+	<br>
 	<br>
 	Core member of Mila
+	<br>
 	<br>
 	Canada CIFAR AI Chair
 
@@ -67,14 +69,15 @@ layout: default
 	your <a href="https://mila.quebec/en/study/" target="_blank">application</a> 
 	by December 15th. 
 	<br>
+	<br>
 
 
 	<center>
 	Contact:
 	<a href="mailto:ioannis@iro.umontreal.ca" target="_blank">Email,</a>
 	<a href="https://scholar.google.com/citations?user=K757SxgAAAAJ&hl=en&oi=ao" target="_blank">Scholar,</a>
-	<a href="https://www.linkedin.com/in/ioannis-mitliagkas-6a8241131/" target="_blank">LinkedIn,</a>
-	<a href="http://github.com/mitliagkas" target="_blank">Github.</a>
+	<a href="https://www.linkedin.com/in/ioannis-mitliagkas-6a8241131/" target="_blank">LinkedIn</a>
+	<!--a href="http://github.com/mitliagkas" target="_blank">Github.</a-->
 	</center>
 	
 	<br>
@@ -91,6 +94,14 @@ layout: default
 <h2>Recent projects</h2>
 <div id="imagelist">
     <ul>
+      <li>
+      <a href="http://dawn.cs.stanford.edu/2017/07/05/yellowfin/">
+      <img src="{{ site.baseurl }}/images/Yellowfin.png" alt="" title="Self-tuning!">
+      <div>
+	YellowFin: Self-tuning optimization for deep learning
+        <em>Simple insights on the momentum update yield an very efficient parameter-free algorithm that performs well across networks and datasets without the need to tune any parameters.</em>
+      </div></a>
+      </li> 
       <li>
       <a href="http://dawn.cs.stanford.edu/2017/07/05/yellowfin/">
       <img src="{{ site.baseurl }}/images/Yellowfin.png" alt="" title="Self-tuning!">
@@ -135,12 +146,12 @@ layout: default
       </div></a>
       </li>
       <li>
-      <a href="{{ site.baseurl}}/frogwild/">
+      <!--a href="{{ site.baseurl}}/frogwild/">
       <img src="{{ site.baseurl }}/images/frog.png" alt="Picture of cute yet slightly deranged frog." title="Ribbit!">
       <div>
         FrogWild!
         <em>Fast PageRank approximations on Graph Engines</em>
-      </div></a>
+      </div></a-->
       </li> 
     </ul>
   </div> 
@@ -226,16 +237,9 @@ layout: default
     <br>
 
     <br>
-  <h2>Large-scale, Distributed Algorithms and Systems</h2>
+  <h2>Publications</h2>
   <!-- {==% bibtex _plugins/style.bst biblio/biblio.bib %} -->
-  {% include biblio_systems.html %}
-
-  <br>
-  <br>
-
-  <h2>Machine Learning Theory</h2>
-  <!-- {==% bibtex _plugins/style.bst biblio/biblio.bib %} -->
-  {% include biblio_theory.html %}
+  {% include biblio.html %}
 
   <br>
   <br>
