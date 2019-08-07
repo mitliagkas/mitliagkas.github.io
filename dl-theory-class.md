@@ -1,6 +1,6 @@
 ---
 layout: default
-title: DL Theory class
+title: DL theory class
 permalink: /ift6085-dl-theory-class/
 ---
 
@@ -197,7 +197,7 @@ Student paper presentations B
 
 **March 1st**
 Wasserstein GANs
-[[scribed notes](ift6085/ift-6085-lecture-13-notes.pdf)]
+[[**new** scribed notes](ift6085-2019/ift-6085-lecture-13-notes.pdf)]
 
 Reading: [18,19]
 
