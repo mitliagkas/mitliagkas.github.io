@@ -52,9 +52,13 @@ Please make sure to start the subject of your email with "[IFT6390]" to make sur
 
 
 
-**Class times and rooms** see
-<a href="https://admission.umontreal.ca/cours-et-horaires/cours/ift-6390/">
-here</a>.
+**Class times and rooms**
+follow the instructions to use the functionality "TROUVEZ L’HORAIRE D’UN COURS" at the bottom of <a href="https://admission.umontreal.ca/cours-et-horaires/cours/ift-6390/">
+this page</a>.
+
+Rooms as of September 3rd (liable to change, use links above for latest info) are:
+- Wednesdays, 9:30am-11:30am, B-0325  Pav. 3200 J.-Brillant
+- Thursdays, 9:30am-10:30am, B-2325  Pav. 3200 J.-Brillant
 
 First class: Wednesday, September 4th 2019
 
