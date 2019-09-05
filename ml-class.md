@@ -90,6 +90,9 @@ Notions covered (indicative titles):
 -  Recurrent neural networks
 
 
+<h2>Labs</h2>
+- <a href="https://docs.google.com/presentation/d/1DB5-BGoImjcnsd1amnjQ4s4nhjUZhknCd5rra3eFnaU/edit?usp=sharing">Lab 1 instructions (Thursday, September 5th, 2019)</a> 
+
 
 <h2>Evaluation</h2>
 
