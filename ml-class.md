@@ -91,7 +91,11 @@ Notions covered (indicative titles):
 
 
 <h2>Labs</h2>
-- <a href="https://docs.google.com/presentation/d/1DB5-BGoImjcnsd1amnjQ4s4nhjUZhknCd5rra3eFnaU/edit?usp=sharing">Lab 1 instructions (Thursday, September 5th, 2019)</a> 
+- <a href="https://docs.google.com/presentation/d/1DB5-BGoImjcnsd1amnjQ4s4nhjUZhknCd5rra3eFnaU/edit?usp=sharing">Lab 0 Slides: Class tools (Thursday, September 5th, 2019)</a> 
+- <a href="https://drive.google.com/file/d/1XizC8QB33mAhG5FaenF5ILo8La4vdX-9/view?usp=sharing">Lab 1 Notebook: Numpy (Thursday, September 12th, 2019)</a> 
+- <a href="https://drive.google.com/file/d/1odCUuWRKk6SBIGpQtkSBVdPErTQ_fEzy/view?usp=sharing">Lab 1 Notebook: k-NN (Thursday, September 12th, 2019)</a> 
+
+
 
 
 <h2>Evaluation</h2>
@@ -99,17 +103,19 @@ Notions covered (indicative titles):
 *Please be advised that some details of this evaluation scheme might be adjusted slightly by the beginning of the semester.*
 
 
-**Homework (20%):**
-3 or 4 sets of homework including some theoretical exercises, programming and experimentation.
-They are done in teams of 2 students.
+**Homework (33%):**
+3 of homework (8% each) including some theoretical exercises, programming and experimentation.
+One Kaggle competition (counts for 9%).
+Most sets of homework will be submitted in teams of 2 students.
+Some will be submitted individually.
 
-**Class participation (5%):**
-For actively participating in class and in the discussions on the class forum.
+**Class participation (2%):**
+For actively participating the discussions on the class forums.
 
-**Lab midterm exam (15%):**
+**Lab midterm exam (10%):**
 This exam will take place in the lab and will test the programming abilities of the students
 
-**Midterm exam(20%):**	
+**Midterm exam(15%):**	
 This exam will cover all the material seen until then. Date to be announced.
 
 **Team project(20%):**
