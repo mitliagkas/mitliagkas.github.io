@@ -24,7 +24,16 @@ A symptom of this lack of understanding is that deep learning methods largely la
 In this class we will go over a number of recent publications that attempt to shed light onto these questions. Before discussing the new results in each paper we will first introduce the necessary fundamental tools from optimization, statistics, information theory and statistical mechanics. The purpose of this class is to get students engaged with new research in the area. To that end, the majority of credit will be given for a class project report and presentation on a relevant topic.
 
 **Prerequisites:**
-This is meant to be an advanced graduate class for students who want to engage in theory-driven deep learning research. We will introduce the theoretical tools necessary, but start with the assumption that students are comfortable with basic probability and linear algebra. 
+This is meant to be an advanced graduate class for students who want to engage in theory-driven deep learning research.
+We will introduce some theoretical tools necessary,
+but start with the assumption that students are comfortable with:
+- Probability
+- Linear algebra
+- Machine learning 
+
+**If you have not taken classes on all of the above topics, this class is not designed for you.**
+You should take another class instead.
+
 
 People
 ------
