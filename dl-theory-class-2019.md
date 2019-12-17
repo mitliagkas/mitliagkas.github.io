@@ -11,6 +11,12 @@ IFT 6085: Theoretical principles for deep learning
 
 **Class discussion group:** please [sign up](https://groups.google.com/forum/#!forum/ift6085-hiver-2019-theoretical-principles-for-deep-learning) to receive announcements and participate in discussion.
 
+**Warning: The Winter 2020 version of the class is going to be more demanding than previous years.
+For example, the introductory "crash courses" are going to be compressed significantly
+(roughly from 5 weeks last year down to 2 weeks this year).
+You will be expected to either already know this
+material or get up-to-speed with it in the first couple of weeks.**
+
 Description
 ----- 
 
