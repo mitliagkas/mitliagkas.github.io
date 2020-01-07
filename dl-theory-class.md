@@ -8,7 +8,7 @@ permalink: /ift6085-dl-theory-class/
 =========
 
 
-**This is an old version of the class. For the 2019 class check [here](/ift6085-dl-theory-class-2019/).**
+**This is an old version of the class. For the 2020 class check [here](/ift6085-dl-theory-class-2020/).**
 
 
 [Extensive class bibliography](/ift6085-papers)

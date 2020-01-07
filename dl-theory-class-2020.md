@@ -1,15 +1,19 @@
 ---
 layout: default
 title: DL Theory class
-permalink: /ift6085-dl-theory-class-2019/
+menu: main
+permalink: /ift6085-dl-theory-class-2020/
 ---
 
-(Winter 2019) IFT 6085: Theoretical principles for deep learning
+IFT 6085: Theoretical principles for deep learning
 =========
 
-**This is an old version of the class. For the 2020 class check [here](/ift6085-dl-theory-class-2020/).**
 
-**Class discussion group:** please [sign up](https://groups.google.com/forum/#!forum/ift6085-hiver-2019-theoretical-principles-for-deep-learning) to receive announcements and participate in discussion.
+**Warning: The Winter 2020 version of the class is going to be more demanding than previous years.
+For example, the introductory "crash courses" are going to be compressed significantly
+(roughly from 5 weeks last year down to 2 weeks this year).
+You will be expected to either already know this
+material or get up-to-speed with it in the first couple of weeks.**
 
 Description
 ----- 
@@ -38,11 +42,12 @@ You should take another class instead.
 People
 ------
 
-Lecturer: [Ioannis Mitliagkas](https://mitliagkas.github.io), 
+Instructor: [Ioannis Mitliagkas](https://mitliagkas.github.io), 
+TA: [Jose Gallego](https://jgalle29.github.io/), 
 
 Class info
 ----------
-Winter 2019 semester:
+Winter 2020 semester:
 - Wednesday 9h30-11h15  
 - Thursday 9-10h45
 
@@ -52,9 +57,11 @@ Office hours: 10:45am-11:45am on Thursday right after class.
 
 Communication
 ------------- 
-We will use the class [discussion group](https://groups.google.com/forum/#!forum/ift6085-hiver-2019-theoretical-principles-for-deep-learning) 
-for all questions. 
-If you have something personal/sensitive to discuss, feel free to email me. 
+We will use the class's [Studium](https://studium.umontreal.ca/course/view.php?id=163670) to make announcements.
+We will use a Slack workspace for discussion. Please keep an eye out for an invitation to the Slack. 
+We will use Gradescope for quizzes and report submissions.
+Email is not a good way to reach us. 
+However, if you have something personal/sensitive to discuss, feel free to email me or the TA.
 Starting your email subject with 'IFT6085:' will ensure that your email is not miscategorized. 
 
 Evaluation
@@ -83,10 +90,10 @@ Schedule
 -------
 
 **NOTE: For the first half of the class we will be closely following the
-[previous iteration](/ift6085-dl-theory-class) of the class.**
+[previous iteration](/ift6085-dl-theory-class-2019) of the class.**
 
 
-**January 9th**
+**January 8th**
 Class introduction
 [[slides](ift6085-2019/ift-6085-lecture-1.pdf),
 [quiz](ift6085-2019/quiz-first-class.pdf)]
