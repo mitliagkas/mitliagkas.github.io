@@ -67,11 +67,11 @@ Starting your email subject with 'IFT6085:' will ensure that your email is not m
 
 Evaluation
 ----------
-Class project: 40%
-Paper presentation: 25%
-Surprise quizzes, midterm: 20%
-Scribing: 10%
-Class participation: 5%
+- Class project: 40%
+- Paper presentation: 25%
+- Surprise quizzes, midterm: 20%
+- Scribing: 10%
+- Class participation: 5%
 
 Use this Latex [template](ift6085-2019/scribing_template.zip) for scribing.
 
@@ -106,7 +106,7 @@ Class introduction
 
 **January 10th**
 Basics of convex analysis and gradient descent
-[[**new** scribed notes](ift6085-2019/ift-6085-lecture-2-notes.pdf)]
+[[scribed notes](ift6085-2019/ift-6085-lecture-2-notes.pdf)]
 
 Reading:
 
@@ -123,7 +123,7 @@ case. In this case the projection operator PiX(x) is the identity operator)
 
 **January 16th-17th**
 The different rates of gradient descent: from Lipschitz to strongly convex
-[[**new** scribed notes](ift6085-2019/ift-6085-lecture-3-notes.pdf)]
+[[scribed notes](ift6085-2019/ift-6085-lecture-3-notes.pdf)]
 
 Reading:
 
@@ -132,20 +132,20 @@ Convergence proofs from Chapter 3 of [1] ('Convex Optimization...' by S.Bubeck u
 
 **January 23rd**
 Black box models and lower bounds 
-[[**new** scribed notes](ift6085-2019/ift-6085-lecture-4-notes.pdf)]
+[[scribed notes](ift6085-2019/ift-6085-lecture-4-notes.pdf)]
 
 Reading: [1, Theorem 3.15], [6]
 
 **January 24th**
 Accelerated methods: Polyak's momentum (the heavy ball method)
-[[**new** scribed notes](ift6085-2019/ift-6085-lecture-5-notes.pdf)]
+[[scribed notes](ift6085-2019/ift-6085-lecture-5-notes.pdf)]
 [[slides](ift6085-2019/ift-6085-lecture-5-slides.pdf)]
 
 Reading: [6], [7, pages 67-76], [8], [9]
 
 **January 30th**
 Nesterov's Accelerated Gradient, Stochastic gradient descent
-[[**new** scribed notes](ift6085-2019/ift-6085-lecture-6-notes.pdf)]
+[[scribed notes](ift6085-2019/ift-6085-lecture-6-notes.pdf)]
 
 Reading: Section 6 until 6.2 of [1], Section 14.3 of [4]
 
@@ -155,13 +155,13 @@ Reading: Section 6 until 6.2 of [1], Section 14.3 of [4]
 
 **January 31st**
 Elements of statistical learning theory
-[[**new** scribed notes](ift6085-2019/ift-6085-lecture-7-notes.pdf)]
+[[scribed notes](ift6085-2019/ift-6085-lecture-7-notes.pdf)]
 
 Reading: Sections 2 (if you need the intro), 3, 4 and 6 of [4].
 
 **February 6th**
 PAC-Bayes bounds
-[[**new** scribed notes](ift6085-2019/ift-6085-lecture-8-notes.pdf)]
+[[scribed notes](ift6085-2019/ift-6085-lecture-8-notes.pdf)]
 
 Reading: [12]
 
@@ -169,7 +169,7 @@ Reading (harder): Section 6 of [2]
 
 **February 7th**
 Stability and generalization
-[[**new** scribed notes](ift6085-2019/ift-6085-lecture-9-notes.pdf)]
+[[scribed notes](ift6085-2019/ift-6085-lecture-9-notes.pdf)]
 
 Reading: [13,14]
 
@@ -180,30 +180,30 @@ Reading: [13,14]
 
 **February 13th: Guest lecturer, Guillaume Rabusseau**
 Expressivity and universal approximation theorems
-[[**new** scribed notes](ift6085-2019/ift-6085-guest-lecture-expressivity.pdf)]
+[[scribed notes](ift6085-2019/ift-6085-guest-lecture-expressivity.pdf)]
 
 **February 20th**
 Applications of stability 
-[[**new** scribed notes](ift6085-2019/ift-6085-lecture-11-notes.pdf)]
+[[scribed notes](ift6085-2019/ift-6085-lecture-11-notes.pdf)]
 
 Reading: [14]
 
 **February 21st**
 Generative models
-[[**new** scribed notes](ift6085-2019/ift-6085-lecture-12-notes.pdf)]
+[[scribed notes](ift6085-2019/ift-6085-lecture-12-notes.pdf)]
 
 Reading: [16,17]
 
 
 **February 27th**
 Wasserstein GANs
-[[**new** scribed notes](ift6085-2019/ift-6085-lecture-13-notes.pdf)]
+[[scribed notes](ift6085-2019/ift-6085-lecture-13-notes.pdf)]
 
 Reading: [18,19]
 
 **February 28th**
 The Numerics of GANs
-[[**new** scribed notes](ift6085-2019/ift-6085-lecture-14-notes.pdf)]
+[[scribed notes](ift6085-2019/ift-6085-lecture-14-notes.pdf)]
 [[slides](ift6085-2019/ift-6085-gan-dynamics-slides.pdf)]
 
 
@@ -218,7 +218,7 @@ The Numerics of GANs
 
 **March 14th: Guest lecturer, Guillaume Lajoie**
 Intro to dynamical systems with application to neural networks
-[[**new** scribed notes](ift6085-2019/ift-6085-lecture-15-notes.pdf)]
+[[scribed notes](ift6085-2019/ift-6085-lecture-15-notes.pdf)]
 
 Reading: [31, 32, 33]
 
@@ -251,13 +251,13 @@ Student paper presentations, B
 **March 21st**
 Weighted Sums of Random Kitchen Sinks: Replacing
 minimization with randomization in learning
-[[**new** scribed notes](ift6085-2019/ift-6085-lecture-16-notes.pdf)]
+[[scribed notes](ift6085-2019/ift-6085-lecture-16-notes.pdf)]
 
 Reading: [23]
 
 **March 27th, morning**
 Basic results on reinforcement learning
-[[**new** scribed notes](ift6085-2019/ift-6085-lecture-17-notes.pdf)]
+[[scribed notes](ift6085-2019/ift-6085-lecture-17-notes.pdf)]
 
 Reading: [34], Chapters 3 and 4
 
@@ -292,7 +292,7 @@ Student paper presentations, C
 
 **April 3rd**
 Distributional reinforcement learning
-[[**new** scribed notes](ift6085-2019/ift-6085-lecture-18-notes.pdf)]
+[[scribed notes](ift6085-2019/ift-6085-lecture-18-notes.pdf)]
 
 
 Bonus lectures
