@@ -42,8 +42,9 @@ You should take another class instead.
 People
 ------
 
-Instructor: [Ioannis Mitliagkas](https://mitliagkas.github.io), 
-TA: [Jose Gallego](https://jgalle29.github.io/), 
+Instructor: [Ioannis Mitliagkas](https://mitliagkas.github.io)
+
+TA: [Jose Gallego](https://jgalle29.github.io/)
 
 Class info
 ----------
@@ -174,6 +175,8 @@ Reading: [13,14]
 
 ---
 ### Seminar part of class
+
+<!---
 
 **February 13th: Guest lecturer, Guillaume Rabusseau**
 Expressivity and universal approximation theorems
@@ -337,6 +340,8 @@ The Loss Surfaces of Multilayer Networks
 
 Reading: [30]
 
+--->
+
 Resources
 ---------
 1. [Convex Optimization: Algorithms and Complexity](https://arxiv.org/pdf/1405.4980.pdf), Sebastien Bubeck.
@@ -376,22 +381,4 @@ Resources
 33. [Opening the Black Box: Low-Dimensional Dynamics in High-Dimensional Recurrent Neural Networks](https://www.mitpressjournals.org/doi/full/10.1162/NECO_a_00409), David Sussillo and Omri Barak 
 34. [Reinforcement Learning: An Introduction](http://incompleteideas.net/book/the-book-2nd.html), Richard S. Sutton and Andrew G. Barto
 
-
-Recent discussion
------------------
-
-
-<iframe id="forum_embed"
-  src="javascript:void(0)"
-  scrolling="no"
-  frameborder="0"
-  width="900"
-  height="700">
-</iframe>
-<script type="text/javascript">
-  document.getElementById('forum_embed').src =
-     'https://groups.google.com/forum/embed/?place=forum/ift6085-hiver-2019-theoretical-principles-for-deep-learning'
-     + '&showsearch=true&showpopout=true&showtabs=false'
-     + '&parenturl=' + encodeURIComponent(window.location.href);
-</script>
 
