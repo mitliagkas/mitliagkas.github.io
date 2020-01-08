@@ -11,7 +11,7 @@ IFT 6085: Theoretical principles for deep learning
 
 **Warning: The Winter 2020 version of the class is going to be more demanding than previous years.
 For example, the introductory "crash courses" are going to be compressed significantly
-(roughly from 5 weeks last year down to 2 weeks this year).
+(roughly from 5 weeks last year down to 3 weeks this year).
 You will be expected to either already know this
 material or get up-to-speed with it in the first couple of weeks.**
 
@@ -96,7 +96,7 @@ Schedule
 
 **January 8th**
 Class introduction
-[[slides](ift6085-2019/ift-6085-lecture-1.pdf),
+[[slides](ift6085-2020/ift-6085-lecture-1.pdf),
 [quiz](ift6085-2019/quiz-first-class.pdf)]
 
 
@@ -104,7 +104,7 @@ Class introduction
 ### Crash course in optimization
 
 
-**January 10th**
+**January 9th**
 Basics of convex analysis and gradient descent
 [[scribed notes](ift6085-2019/ift-6085-lecture-2-notes.pdf)]
 
@@ -121,7 +121,7 @@ from Chapter 3 of [1] ('Convex Optimization...' by S.Bubeck under References)
 - Required: Convergence proof of Theorem 3.2 (note that we studied the unconstrained 
 case. In this case the projection operator PiX(x) is the identity operator)
 
-**January 16th-17th**
+**January 15th**
 The different rates of gradient descent: from Lipschitz to strongly convex
 [[scribed notes](ift6085-2019/ift-6085-lecture-3-notes.pdf)]
 
@@ -130,20 +130,23 @@ Reading:
 Convergence proofs from Chapter 3 of [1] ('Convex Optimization...' by S.Bubeck under References)
 - Required: Convergence proof of Theorem 3.12 
 
-**January 23rd**
+**January 16th**
+
+EARLY, IN-CLASS EXAM
+
 Black box models and lower bounds 
 [[scribed notes](ift6085-2019/ift-6085-lecture-4-notes.pdf)]
 
 Reading: [1, Theorem 3.15], [6]
 
-**January 24th**
+**January 22nd**
 Accelerated methods: Polyak's momentum (the heavy ball method)
 [[scribed notes](ift6085-2019/ift-6085-lecture-5-notes.pdf)]
 [[slides](ift6085-2019/ift-6085-lecture-5-slides.pdf)]
 
 Reading: [6], [7, pages 67-76], [8], [9]
 
-**January 30th**
+**January 22nd**
 Nesterov's Accelerated Gradient, Stochastic gradient descent
 [[scribed notes](ift6085-2019/ift-6085-lecture-6-notes.pdf)]
 
@@ -153,13 +156,13 @@ Reading: Section 6 until 6.2 of [1], Section 14.3 of [4]
 ### Crash course in statistical learning theory 
 
 
-**January 31st**
+**January 23rd**
 Elements of statistical learning theory
 [[scribed notes](ift6085-2019/ift-6085-lecture-7-notes.pdf)]
 
 Reading: Sections 2 (if you need the intro), 3, 4 and 6 of [4].
 
-**February 6th**
+**January 29th**
 PAC-Bayes bounds
 [[scribed notes](ift6085-2019/ift-6085-lecture-8-notes.pdf)]
 
@@ -167,8 +170,15 @@ Reading: [12]
 
 Reading (harder): Section 6 of [2]
 
-**February 7th**
+**January 30th **
 Stability and generalization
+[[scribed notes](ift6085-2019/ift-6085-lecture-9-notes.pdf)]
+
+Reading: [13,14]
+
+
+** February 5th **
+In-class exam
 [[scribed notes](ift6085-2019/ift-6085-lecture-9-notes.pdf)]
 
 Reading: [13,14]
