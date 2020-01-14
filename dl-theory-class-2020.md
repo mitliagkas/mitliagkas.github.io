@@ -128,7 +128,8 @@ The different rates of gradient descent: from Lipschitz to strongly convex
 Reading:
 
 Convergence proofs from Chapter 3 of [1] ('Convex Optimization...' by S.Bubeck under References)
-- Required: Convergence proof of Theorem 3.12 
+- Required: Subsections 3.1, 3.2, 3.4, with emphasis on the Convergence proof of Theorem 3.12 
+- Recommended: Subsection 3.3
 
 **January 16th**
 
