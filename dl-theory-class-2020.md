@@ -129,7 +129,7 @@ Reading:
 
 Convergence proofs from Chapter 3 of [1] ('Convex Optimization...' by S.Bubeck under References)
 - Required: Subsections 3.1, 3.2, 3.4, with emphasis on the Convergence proof of Theorem 3.12 
-- Recommended: Subsection 3.3
+- Optional: Subsection 3.3 and anything related to constrained optimization. Keep in mind that we still discuss in class simplified unconstrained versions of some constrained results from Bubeck. Anything in our scribed notes is also required.
 
 **January 16th**
 
