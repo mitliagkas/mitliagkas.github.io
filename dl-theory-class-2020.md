@@ -128,8 +128,8 @@ The different rates of gradient descent: from Lipschitz to strongly convex
 Reading:
 
 Convergence proofs from Chapter 3 of [1] ('Convex Optimization...' by S.Bubeck under References)
-- Required: Subsections 3.1, 3.2, 3.4, with emphasis on the Convergence proof of Theorem 3.12 
-- Optional: Subsection 3.3 and anything related to constrained optimization. Keep in mind that we still discuss in class simplified unconstrained versions of some constrained results from Bubeck. Anything in our scribed notes is also required.
+- Required: Sections 3.1, 3.2, 3.4, with emphasis on the Convergence proof of Theorem 3.12 
+- Optional: Section 3.3 and anything related to constrained optimization. Keep in mind that we still discuss in class simplified unconstrained versions of some constrained results from Bubeck. Anything in our scribed notes is also required.
 
 **January 16th**
 
@@ -138,20 +138,26 @@ EARLY, IN-CLASS EXAM
 Black box models and lower bounds 
 [[scribed notes](ift6085-2019/ift-6085-lecture-4-notes.pdf)]
 
-Reading: [1, Theorem 3.15], [6]
+Reading:
+- Required: [1, Theorem 3.15]
+- Recommended: [6]
 
 **January 22nd**
 Accelerated methods: Polyak's momentum (the heavy ball method)
 [[scribed notes](ift6085-2019/ift-6085-lecture-5-notes.pdf)]
 [[slides](ift6085-2019/ift-6085-lecture-5-slides.pdf)]
 
-Reading: [6], [7, pages 67-76], [8], [9]
+Reading: 
+- Required: [8], [9, Sections 1, 2, 3, 4]
+- Recommended: [35]
 
 **January 22nd**
 Nesterov's Accelerated Gradient, Stochastic gradient descent
 [[scribed notes](ift6085-2019/ift-6085-lecture-6-notes.pdf)]
 
-Reading: Section 6 until 6.2 of [1], Section 14.3 of [4]
+Reading: 
+- Required: [6], [7, pages 67-76]
+- Required: [1, Section 6 until 6.2], [4, Section 14.3]
 
 ---
 ### Crash course in statistical learning theory 
@@ -365,7 +371,7 @@ Resources
 6. [Nesterov's Accelerated Gradient Descent for Smooth and Strongly Convex Optimization](https://blogs.princeton.edu/imabandit/2014/03/06/nesterovs-accelerated-gradient-descent-for-smooth-and-strongly-convex-optimization/), blog post by Sebastien Bubeck.
 7. [Introductory lectures on convex optimization](https://www.google.ca/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&ved=0ahUKEwjhs8Xc4-DYAhVRbK0KHYL4C1wQFgguMAA&url=http%3A%2F%2Fciteseerx.ist.psu.edu%2Fviewdoc%2Fdownload%3Fdoi%3D10.1.1.693.855%26rep%3Drep1%26type%3Dpdf&usg=AOvVaw3mGbk6W45sbV8b1rgS_DRV), Yurii Nesterov.
 8. [Why momentum really works](https://distill.pub/2017/momentum/), blog post by Gabriel Goh (this blog post uses a slightly different parametrization of the momentum algorithm. The version we discuss in class, only applies the learning rate on the gradient.)
-9. [YellowFin and the Art of Momentum Tuning](https://arxiv.org/abs/1706.03471), preprint J. Zhang, I. Mitliagkas.
+9. [YellowFin and the Art of Momentum Tuning](https://arxiv.org/abs/1706.03471), SysML 2019, J. Zhang, I. Mitliagkas.
 10. [Large-scale Machine Learning and Optimization (class)](http://papail.io/901), Dimitris Papailiopoulos, University of Wisconsin.
 11. [Advanced Machine Learning Systems (class)](http://www.cs.cornell.edu/courses/cs6787/2017fa/), Chris De Sa, Cornell University.
 12. [A PAC-Bayesian Tutorial with A Dropout Bound](https://arxiv.org/abs/1307.2118), David McAllester.
@@ -391,5 +397,5 @@ Resources
 32. [On the difficulty of training Recurrent Neural Networks](https://arxiv.org/abs/1211.5063), Razvan Pascanu, Tomas Mikolov, Yoshua Bengio
 33. [Opening the Black Box: Low-Dimensional Dynamics in High-Dimensional Recurrent Neural Networks](https://www.mitpressjournals.org/doi/full/10.1162/NECO_a_00409), David Sussillo and Omri Barak 
 34. [Reinforcement Learning: An Introduction](http://incompleteideas.net/book/the-book-2nd.html), Richard S. Sutton and Andrew G. Barto
-
+35. [Course Notes for EE227C (Spring 2018): Convex Optimization and Approximation](https://ee227c.github.io/notes/ee227c-lecture06.pdf), Moritz Hardt.
 
