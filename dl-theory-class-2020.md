@@ -151,7 +151,7 @@ Reading:
 - Required: [8], [9, Sections 1, 2, 3, 4]
 - Recommended: [35]
 
-**January 22nd**
+**January 23rd**
 Nesterov's Accelerated Gradient, Stochastic gradient descent
 [[scribed notes](ift6085-2019/ift-6085-lecture-6-notes.pdf)]
 
@@ -163,13 +163,13 @@ Reading:
 ### Crash course in statistical learning theory 
 
 
-**January 23rd**
+**January 29th**
 Elements of statistical learning theory
 [[scribed notes](ift6085-2019/ift-6085-lecture-7-notes.pdf)]
 
 Reading: Sections 2 (if you need the intro), 3, 4 and 6 of [4].
 
-**January 29th**
+**January 30th**
 PAC-Bayes bounds
 [[scribed notes](ift6085-2019/ift-6085-lecture-8-notes.pdf)]
 
@@ -177,18 +177,13 @@ Reading: [12]
 
 Reading (harder): Section 6 of [2]
 
-**January 30th **
+**Februaru 5th **
 Stability and generalization
 [[scribed notes](ift6085-2019/ift-6085-lecture-9-notes.pdf)]
 
 Reading: [13,14]
 
 
-** February 5th **
-In-class exam
-[[scribed notes](ift6085-2019/ift-6085-lecture-9-notes.pdf)]
-
-Reading: [13,14]
 
 ---
 ### Seminar part of class
