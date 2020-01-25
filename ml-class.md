@@ -14,7 +14,9 @@ The class will be given again in Fall 2020.
 Listed as [IFT6390: Fondements de l'apprentissage machine](https://admission.umontreal.ca/cours-et-horaires/cours/ift-6390/)
 
 This is a graduate class that caters to an overwhelmingly international crowd. It is taught in english. 
-For a very similar undergraduate class taught in french, please see 
+Assignments, exams will be available in french and english. 
+Students are always encouraged to submit their work and ask questions in their language of preference.
+For the equivalent class taught entirely in french, please see 
 Guillaume Rabusseau's <a href="https://www-labs.iro.umontreal.ca/~grabus/index.php?page=Teaching">
 IFT3395</a>.
 
@@ -51,7 +53,8 @@ Preparing to take the class
 "It sounds scary so far!" 
 
 The above stats are meant to give you a clear idea of what to expect rather than to scare you.
-The good news is that, if you are determined, there are ways to prepare.
+The good news is that, if you are determined, you can do it! Depending on your level this might require
+taking other classes first, or working to refresh your existing knowledge.
 This section will give you advice and resources to improve your background before taking the class.
 
 Ideally, you have already taken university level classes in: probability, linear algebra and programming. 
