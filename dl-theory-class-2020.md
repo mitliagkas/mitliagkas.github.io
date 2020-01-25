@@ -167,7 +167,8 @@ Reading:
 Elements of statistical learning theory
 [[scribed notes](ift6085-2019/ift-6085-lecture-7-notes.pdf)]
 
-Reading: Sections 2 (if you need the intro), 3, 4 and 6 of [4].
+Recommended reading: Section 2 (if you need the intro) [4].
+Required reading: Sections 3, 4 and 6 of [4].
 
 **January 30th**
 PAC-Bayes bounds
@@ -177,7 +178,7 @@ Reading: [12]
 
 Reading (harder): Section 6 of [2]
 
-**Februaru 5th **
+**February 5th**
 Stability and generalization
 [[scribed notes](ift6085-2019/ift-6085-lecture-9-notes.pdf)]
 
