@@ -2,44 +2,108 @@
 layout: default
 title: ML class
 menu: main
-permalink: /ift6390-ml-class-2019/
+permalink: /ift6390-ml-class-2020/
 ---
 
-IFT 6390: Fundamentals of machine learning
+IFT6390: Fundamentals of machine learning
 =========
 
-An introductory but intensive graduate class in machine learning.
+An introductory but **very intensive** class in machine learning.
+The class will be given again in Fall 2020.
 
-French title: Fondements de l'apprentissage machine
+Listed as [IFT6390: Fondements de l'apprentissage machine](https://admission.umontreal.ca/cours-et-horaires/cours/ift-6390/)
 
-This is a graduate class taught in english. 
-For a similar undergraduate class taught in french, please see 
+This is a graduate class that caters to an overwhelmingly international crowd. It is taught in english. 
+For a very similar undergraduate class taught in french, please see 
 Guillaume Rabusseau's <a href="https://www-labs.iro.umontreal.ca/~grabus/index.php?page=Teaching">
-IFT3395
-</a>.
+IFT3395</a>.
+
+**IMPORTANT:
+Please do not register for this class unless you have read and carefully considered all the class requirements listed
+in the following two sections.** 
+
+Requirements and prerequisites
+-------------
 
 
-**Requirements and prerequisites:**
+Machine learning is a very exciting discipline, but requires building upon some important skills.
+Before we begin, you should possess good knowlegde of:
+1. Python programming is mandatory. You cannot use a different programming language in the class.
+2. Linear algebra
+3. Probability 
+
 The pace is meant to be intensive and the homework and exam requirements are going to be tough.
-Before we begin, you should be reasonably knowledgeable in:
-- Python programming
-- Basic linear algebra
-- Basic probability 
+As a result, if you have not mastered those three required skills, you should work on them first. 
+This class will not teach you the required math or programming, but you will need them to pass the class.
 
-If not, you should be willing to work very hard at the beginning of the class to catch up with these requirements.
-Otherwise you will find that this class is not a good fit for you.
+As an indication, students who took the class in 2019 reported that to keep up with the class's needs, they worked on average:
+- 12 hours per week, if they had already mastered the 3 prerequisites above 
+- 18 hours per week, if they had this knowledge, but needed to refresh it as we went along
+- 25+ hours a week if they had serious gaps in some prerequisite
+
+Students who ignored our advice about the prerequisites and were missing some of it ended up having a really hard time. 
+A number of students who were not comfortable with those prerequisites, abandoned the class before the middle of the semester.
+
+
+Preparing to take the class
+--------------
+
+"It sounds scary so far!" 
+
+The above stats are meant to give you a clear idea of what to expect rather than to scare you.
+The good news is that, if you are determined, there are ways to prepare.
+This section will give you advice and resources to improve your background before taking the class.
+
+Ideally, you have already taken university level classes in: probability, linear algebra and programming. 
+It is hard to make up for those by yourself. Consider taking those classes at your university before IFT6390.
+Even if you have taken such classes, you might need to work hard to improve those skills, especially if you took them many years ago, 
+or if you didn't perform well in those classes, or if you learned a different language other than Python. 
+
+
+
+**Q: How do I make sure that I have all the necessary math prerequisites before I take IFT6390?**
+
+A: Study the book [Mathematics for Machine Learning](https://mml-book.com/).
+Go over the following parts of the book, and make sure you already understand the material **before** IFT6390 begins.
+- Section 2: Subsections 2.1, to 2.6 (inclusive)
+- Section 3: All subsections
+- Section 4: Subsections 4.1 to 4.5.1 (inclusive) 
+- Section 5: Subsections 5.1, 5.2, 5.3, 5.4, 5.5, 5.7
+- Section 6: Subsections 6.1 to 6.5 (inclusive)
+
+You should be able to solve at least half of the questions from those sections. 
+If you find that it is impossible to do that by yourself, then there is no way around it: you need to take a class.
+
+
+**Q: How do I make sure that I have the programming prerequisites before I take IFT6390?**
+
+A: Consider IFT6390's [lab midterm exam from 2019](ift6390-lab-midterm-A2019.py).
+The exam consists of 10 (relatively easy) Python questions. 
+In each question, you are given a description of the functionality of a Python fuction, along with its header. 
+You goal is to implement the body of each function according to the instructions. 
+IFT6390 students who took the exam had full access to internet resources during the exam, but only one hour to finish it. 
+In the end, their solutions were graded by our system for correctness without partial credit. 
+
+Try taking the exam at home in one hour. 
+Don't worry about solving all questions in the alotted time. It is extremely hard. 
+However, you should be able to correctly implement at least half of the functions in that time. 
+This means that your code should run, and when you call the function with an arbitrary input it should always give the correct answer.
+
+- If you are not able to solve at least half the questions in the alotted time, you need some serious Python practice before IFT6390 starts. 
+- If you are not able to solve any question in the alotted time, then you need to take a serious programming class before you register for IFT6390.
+
 
 
 People
 ------
 
-Lecturer: [Ioannis Mitliagkas](https://mitliagkas.github.io), 
+Instructor: [Ioannis Mitliagkas](https://mitliagkas.github.io), 
 
 Teaching assistants: (TBA)
 
 Communication
 ------------- 
-We will use the class's [Studium page](https://studium.umontreal.ca/course/view.php?id=153979)
+We will use the class's [Studium page]()
 (not yet open for students) for communication.
 The Studium page contains a forum for all discussions. 
 This is a very large class, so the instructor will not be able to respond to individual questions about the class
@@ -51,16 +115,10 @@ Please feel free to email the instructor.
 Please make sure to start the subject of your email with "[IFT6390]" to make sure that it is not lost. 
 
 
-
 **Class times and rooms**
 follow the instructions to use the functionality "TROUVEZ L’HORAIRE D’UN COURS" at the bottom of <a href="https://admission.umontreal.ca/cours-et-horaires/cours/ift-6390/">
 this page</a>.
 
-Rooms as of September 3rd (liable to change, use links above for latest info) are:
-- Wednesdays, 9:30am-11:30am, B-0325  Pav. 3200 J.-Brillant
-- Thursdays, 9:30am-10:30am, B-2325  Pav. 3200 J.-Brillant
-
-First class: Wednesday, September 4th 2019
 
 Content and objectives of class
 ------------------
@@ -109,11 +167,9 @@ One Kaggle competition (counts for 9%).
 Most sets of homework will be submitted in teams of 2 students.
 Some will be submitted individually.
 
-**Class participation (2%):**
-For actively participating the discussions on the class forums.
 
 **Lab midterm exam (10%):**
-This exam will take place in the lab and will test the programming abilities of the students
+This exam will take place in the lab on the 5th week of class (early October). It will be a hard exam testing the programming abilities of the students in a lab environment.
 
 **Midterm exam(15%):**	
 This exam will cover all the material seen until then. Date to be announced.
@@ -126,10 +182,11 @@ The project must be approved by the instructor (details TBA).
 **Final exam (20%):**
 The whole class material. Precise date in December TBA.
 
-
+**Class participation (2%):**
+For actively participating the discussions on the class forums.
 
 Work and exams:
-You can submit your work on the StudiUM site of the course. It is also on StudiUM that you will be able to see your grades for the homework and exams.
+You can submit your work on our Gradescope site of the course (once the semester starts). It is also on Gradescope that you will be able to see your grades for the homework and exams.
 
 **ATTENTION regarding fraud and plagiarism:**
 The University of Montreal now has a strict policy in case of fraud or plagiarism.
