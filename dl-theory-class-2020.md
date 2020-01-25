@@ -167,7 +167,8 @@ Reading:
 Elements of statistical learning theory
 [[scribed notes](ift6085-2019/ift-6085-lecture-7-notes.pdf)]
 
-Recommended reading: Section 2 (if you need the intro) [4].
+Recommended reading: Section 2 (if you need the intro) and Section 5 of [4].
+
 Required reading: Sections 3, 4 and 6 of [4].
 
 **January 30th**
