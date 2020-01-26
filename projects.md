@@ -173,6 +173,8 @@ Optimization and numerical analysis
       <div>
 	YellowFin: Self-tuning optimization for deep learning
         <em>Simple insights on the momentum update yield an very efficient parameter-free algorithm that performs well across networks and datasets without the need to tune any parameters.</em>
+        <br>
+        Lead: Jian Zhang
       </div></a>
       </li> 
       <li>
