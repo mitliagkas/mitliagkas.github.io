@@ -18,7 +18,7 @@
 #imagelist ul {
         list-style-type: none;
         margin-left: 0;
-        /*width: 500px;*/
+        width: 800px;
         overflow: auto; /* will contain if #first is longer than #second */
 } 
 
@@ -32,7 +32,7 @@
 }
 
  * html #imagelist li a {  /* make hover effect work in IE */
-	width: 400px;
+	width: 800px;
 }
 
 #imagelist li a:hover {
@@ -49,12 +49,19 @@
 
 #imagelist a img {
         padding: 10px;
-        width:20%;
-        overflow: hidden;
+        width:160px;
+	height:160px;
+	object-fit: contain;
+       /* overflow: hidden;*/
 }
 
 #imagelist a div {
         padding: 10px;
-        width:70%;
+        width:64%;
         float:right;
 } 
+
+#attribution a div {
+  position: absolute;
+  bottom: 0;
+}
