@@ -113,11 +113,36 @@ Differentiable games
 	Accelerating Smooth Games by Manipulating Spectral Shapes
         <em>
 	We use matrix iteration theory to characterize acceleration in smooth games.
-	<!--We define the spectral shape of a family of games as the set containing all eigenvalues of the Jacobians of standard gradient dynamics in the family.
-	Shapes restricted to the real line represent well-understood classes of problems, like minimization.
-	Shapes spanning the complex plane capture the added numerical challenges in solving smooth games.
-	-->
+	The spectral shape of a family of games is the set containing all eigenvalues of the Jacobians of standard gradient dynamics in the family.
 	</em>
+	<br>
+	Lead: Waiss Azizian
+      </div></a>
+      </li> 
+      <li>
+      <a href="https://arxiv.org/abs/1906.07300"  target="_blank">
+      <img src="{{ site.baseurl }}/images/project-games-spectral-shapes.png" alt="" title="Negative Momentum for Improved Game Dynamics">
+      <div>
+	Linear Lower Bounds and Conditioning of Differentiable Games
+        <em>
+		In this work, we approach the question of fundamental iteration complexity by providing lower bounds to complement the linear
+		(i.e. geometric) upper bounds observed in the literature on a wide class of problems.
+	</em>
+	<br>
+	Lead: Adam Ibrahim
+      </div></a>
+      </li> 
+      <li>
+      <a href="https://arxiv.org/abs/2001.00602"  target="_blank">
+      <img src="{{ site.baseurl }}/images/project-games-spectral-shapes.png" alt="" title="Negative Momentum for Improved Game Dynamics">
+      <div>
+	Accelerating Smooth Games by Manipulating Spectral Shapes
+        <em>
+	We use matrix iteration theory to characterize acceleration in smooth games.
+	The spectral shape of a family of games is the set containing all eigenvalues of the Jacobians of standard gradient dynamics in the family.
+	</em>
+	<br>
+	Lead: Waiss Azizian
       </div></a>
       </li> 
       <li>
@@ -132,6 +157,8 @@ Differentiable games
 	term achieves convergence in a difficult toy adversarial problem, but also on the notoriously
 	difficult to train saturating GANs
 	</em>
+	<br>
+	Lead: Gauthier Gidel, Reyhane Askari-Hemmat
       </div></a>
       </li> 
     </ul>
