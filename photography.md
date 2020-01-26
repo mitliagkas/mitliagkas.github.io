@@ -3,6 +3,7 @@ layout: photo
 title: Extracurriculars
 menu: main
 permalink: /photography/
+order: 4
 ---
 
 <h2>Garlic Beets</h2>

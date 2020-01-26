@@ -3,10 +3,14 @@ layout: default
 title: Projects
 menu: main
 permalink: /projects/
+order: 1
 ---
 
 Projects
 =========
+
+A rather comprehensive list of projects that I have worked on, grouped by area of interest.
+
 
 Learning, generalization, and domain adaptation
 ------------------

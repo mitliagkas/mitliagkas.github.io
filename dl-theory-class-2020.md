@@ -3,6 +3,7 @@ layout: default
 title: DL Theory class
 menu: main
 permalink: /ift6085-dl-theory-class-2020/
+order: 2
 ---
 
 IFT 6085: Theoretical principles for deep learning

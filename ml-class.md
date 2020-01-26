@@ -3,6 +3,7 @@ layout: default
 title: ML class
 menu: main
 permalink: /ift6390-ml-class-2020/
+order: 3
 ---
 
 IFT6390: Fundamentals of machine learning
