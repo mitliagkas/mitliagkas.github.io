@@ -46,6 +46,10 @@ As an indication, students who took the class in 2019 reported that to keep up w
 Students who ignored our advice about the prerequisites and were missing some of it ended up having a really hard time. 
 A number of students who were not comfortable with those prerequisites, abandoned the class before the middle of the semester.
 
+Finally, if you are an international student, you will likely rely on scholarships in order to cover a big part of your tuition fees. 
+Those scholarships (like the bourse C at UdeM) require you to maintain a high GPA. 
+If you take this class before you are certain that you have the prerequisite skills, you might be putting your scholarship at risk.
+
 
 Preparing to take the class
 --------------
@@ -58,7 +62,7 @@ taking other classes first, or working to refresh your existing knowledge.
 This section will give you advice and resources to improve your background before taking the class.
 
 Ideally, you have already taken university level classes in: probability, linear algebra and programming. 
-It is hard to make up for those by yourself. Consider taking those classes at your university before IFT6390.
+It is hard to make up for those by yourself. Consider taking those classes at your university before you register for IFT6390.
 Even if you have taken such classes, you might need to work hard to improve those skills, especially if you took them many years ago, 
 or if you didn't perform well in those classes, or if you learned a different language other than Python. 
 
@@ -75,7 +79,8 @@ Go over the following parts of the book, and make sure you already understand th
 - Section 6: Subsections 6.1 to 6.5 (inclusive)
 
 You should be able to solve at least half of the questions from those sections. 
-If you find that it is impossible to do that by yourself, then there is no way around it: you need to take a class.
+If you find that it is impossible to do that by yourself, then there is no way around it:
+you need to take one or two math classes before taking IFT6390.
 
 
 **Q: How do I make sure that I have the programming prerequisites before I take IFT6390?**
@@ -93,6 +98,7 @@ However, you should be able to correctly implement at least half of the function
 This means that your code should run, and when you call the function with an arbitrary input it should always give the correct answer.
 
 - If you are not able to solve at least half the questions in the alotted time, you need some serious Python practice before IFT6390 starts. 
+Otherwise, you will struggle in the class. 
 - If you are not able to solve any question in the alotted time, then you need to take a serious programming class before you register for IFT6390.
 
 
