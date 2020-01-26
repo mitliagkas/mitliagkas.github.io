@@ -86,20 +86,23 @@ you need to take one or two math classes before taking IFT6390.
 **Q: How do I make sure that I have the programming prerequisites before I take IFT6390?**
 
 A: Consider IFT6390's [lab midterm exam from 2019](ift6390-lab-midterm-A2019.py).
-The exam consists of 10 (relatively easy) Python questions. 
+The exam consists of 10 Python questions. 
 In each question, you are given a description of the functionality of a Python fuction, along with its header. 
 You goal is to implement the body of each function according to the instructions. 
 IFT6390 students who took the exam had full access to internet resources during the exam, but only one hour to finish it. 
-In the end, their solutions were graded by our system for correctness without partial credit. 
+In the end, their solutions were graded by our system for correctness. 
+In each question, the student got the associated points if their implementation passed all of our unit tests.
+If their implementation of the function returned the wrong answer in at least one of the tests, they got 0 points in that question.
+Since the goal was to assess effective programming, there was no partial credit for ``semi-correct'' implementations.
 
 Try taking the exam at home in one hour. 
-Don't worry about solving all questions in the alotted time. It is extremely hard. 
+Don't worry if you cannot solve all questions in the alotted time. It is very hard. 
 However, you should be able to correctly implement at least half of the functions in that time. 
 This means that your code should run, and when you call the function with an arbitrary input it should always give the correct answer.
 
 - If you are not able to solve at least half the questions in the alotted time, you need some serious Python practice before IFT6390 starts. 
 Otherwise, you will struggle in the class. 
-- If you are not able to solve any question in the alotted time, then you need to take a serious programming class before you register for IFT6390.
+- If you are only able to solve one or two questions correctly in the allotted time, then you should take a semester-long programming class before you register for IFT6390.
 
 
 
