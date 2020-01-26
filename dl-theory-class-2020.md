@@ -10,8 +10,7 @@ IFT 6085: Theoretical principles for deep learning
 
 
 **Warning: The Winter 2020 version of the class is going to be more demanding than previous years.
-For example, the introductory "crash courses" are going to be compressed significantly
-(roughly from 5 weeks last year down to 3 weeks this year).
+For example, the introductory "crash courses" are going to be compressed significantly.
 You will be expected to either already know this
 material or get up-to-speed with it in the first couple of weeks.**
 
@@ -185,6 +184,8 @@ Stability and generalization
 
 Reading: [13,14]
 
+**February 6th**
+NO CLASS - Instructor is traveling
 
 
 ---
