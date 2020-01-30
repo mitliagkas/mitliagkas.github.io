@@ -175,9 +175,11 @@ Required reading: Sections 3, 4 and 6 of [4].
 PAC-Bayes bounds
 [[scribed notes](ift6085-2019/ift-6085-lecture-8-notes.pdf)]
 
-Reading: [12]
+Required reading: [12]
 
-Reading (harder): Section 6 of [2]
+Recommended reading: Section 31 of [4]
+
+Recommended reading (harder): Section 6 of [2]
 
 **February 5th**
 Stability and generalization
@@ -186,7 +188,9 @@ Stability and generalization
 Reading: [13,14]
 
 **February 6th**
-NO CLASS - Instructor is traveling
+Guest lecture - Jose Gallego
+
+TOPIC: TBA
 
 
 ---
