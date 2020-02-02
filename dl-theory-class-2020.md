@@ -183,9 +183,10 @@ Recommended reading (harder): Section 6 of [2]
 
 **February 5th**
 Stability and generalization
-[[scribed notes](ift6085-2019/ift-6085-lecture-9-notes.pdf)]
+[[scribed notes 1](ift6085-2019/ift-6085-lecture-9-notes.pdf)]
+[[scribed notes 2](ift6085-2019/ift-6085-lecture-11-notes.pdf)]
 
-Reading: [13,14]
+Required reading: [13,14]
 
 **February 6th**
 Guest lecture - Jose Gallego
