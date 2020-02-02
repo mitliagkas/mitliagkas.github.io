@@ -186,8 +186,10 @@ Stability and generalization
 [[scribed notes 1](ift6085-2019/ift-6085-lecture-9-notes.pdf)]
 [[scribed notes 2](ift6085-2019/ift-6085-lecture-11-notes.pdf)]
 
-Required reading: Main body of the papers [13,14] without all the proofs 
-Required reading: The two sets of scribed notes provided here.
+Required reading:
+- Main body of the papers [13,14] without all the proofs 
+- The two sets of scribed notes provided here, including the covered proofs
+
 Optional reading: Proofs that are not covevered in the scribed notes. 
 
 **February 6th**
