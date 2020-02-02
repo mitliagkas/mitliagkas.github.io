@@ -186,12 +186,21 @@ Stability and generalization
 [[scribed notes 1](ift6085-2019/ift-6085-lecture-9-notes.pdf)]
 [[scribed notes 2](ift6085-2019/ift-6085-lecture-11-notes.pdf)]
 
-Required reading: [13,14]
+Required reading: Main body of the papers [13,14] without all the proofs 
+Required reading: The two sets of scribed notes provided here.
+Optional reading: Proofs that are not covevered in the scribed notes. 
 
 **February 6th**
-Guest lecture - Jose Gallego
+Guest lecture - Jose Gallego [this is a new topic; no scribes available from last year]
 
-TOPIC: TBA
+Uniform convergence may be unable to explain generalization in deep learning
+
+Required reading:
+- Section 14 from [4]
+- Main body of the paper [36]
+
+Optional reading: 
+- Proofs from [36] 
 
 
 ---
@@ -402,4 +411,7 @@ Resources
 33. [Opening the Black Box: Low-Dimensional Dynamics in High-Dimensional Recurrent Neural Networks](https://www.mitpressjournals.org/doi/full/10.1162/NECO_a_00409), David Sussillo and Omri Barak 
 34. [Reinforcement Learning: An Introduction](http://incompleteideas.net/book/the-book-2nd.html), Richard S. Sutton and Andrew G. Barto
 35. [Course Notes for EE227C (Spring 2018): Convex Optimization and Approximation](https://ee227c.github.io/notes/ee227c-lecture06.pdf), Moritz Hardt.
+36. [Uniform convergence may be unable to explain generalization in deep learning
+](https://arxiv.org/abs/1902.04742), Vaishnavh Nagarajan, J. Zico Kolter 
+
 
