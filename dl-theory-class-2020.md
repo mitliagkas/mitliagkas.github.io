@@ -192,6 +192,9 @@ Required reading:
 
 Optional reading: Proofs that are not covevered in the scribed notes. 
 
+---
+### Seminar part of class
+
 **February 6th**
 Guest lecture - Jose Gallego [this is a new topic; no scribes available from last year]
 
@@ -205,8 +208,6 @@ Optional reading:
 - Proofs from [36] 
 
 
----
-### Seminar part of class
 
 <!---
 
