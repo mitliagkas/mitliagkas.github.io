@@ -198,7 +198,7 @@ Guest lecture - Jose Gallego [this is a new topic; no scribes available from las
 Uniform convergence may be unable to explain generalization in deep learning
 
 Required reading:
-- Section 14 from [4]
+- Section 4 from [4]
 - Main body of the paper [36]
 
 Optional reading: 
