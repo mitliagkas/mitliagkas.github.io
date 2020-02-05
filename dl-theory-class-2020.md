@@ -85,7 +85,7 @@ Tentative topics--to be updated as we go along
 - Taming adversarial objectives: Wasserstein GANs, regularization approaches and controlling the dynamics 
 - The expressive power of deep networks (deep information propagation, mean-field analysis of random networks etc.) 
 
-[Extensive class bibliography](/ift6085-papers-2019)
+[Extensive class bibliography](/ift6085-papers-2020)
 
 Schedule
 -------
