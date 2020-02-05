@@ -235,20 +235,17 @@ Generative models, GANs, WGANs
 - Required reaading: Two sets of scribed notes above, including discussed proofs.
 
 **February 20th**
+Student poster presentations, A
+
+
+**February 26th**
 The Numerics of GANs
 [[scribed notes](ift6085-2019/ift-6085-lecture-14-notes.pdf)]
 [[slides](ift6085-2019/ift-6085-gan-dynamics-slides.pdf)]
 
-**February 26th**
-Surprising results on the generalization error of neural networks [new lecture]
-
-- Recommended reading: [On the Bias-Variance Tradeoff: Textbooks Need an Update](https://www.bradyneal.com/bias-variance-tradeoff-textbooks-update), blog post by Brady Neal
-- Recommended reading: TBA
 
 **February 27th**
-A discussion of non-vacuous generalization bounds for neural networks [new topic]
-
-- Required reading: [37], [38], [39] without the proofs
+Student poster presentations, B
 
 
 <br/>
@@ -276,18 +273,25 @@ Winter break
 **MIDTERM EXAM**
 
 **March 12th**
-Student poster presentations, A
-
-
-**March 18th**
-Student poster presentations, B
-
-**March 19th**
 Student poster presentations, C
 
 
-**March 25th**
+**March 18th**
+Surprising results on the generalization error of neural networks [new lecture]
+
+- Recommended reading: [On the Bias-Variance Tradeoff: Textbooks Need an Update](https://www.bradyneal.com/bias-variance-tradeoff-textbooks-update), blog post by Brady Neal
+- Recommended reading: TBA
+
+
+**March 19th**
 Student poster presentations, D
+
+
+**March 25th**
+A discussion of non-vacuous generalization bounds for neural networks [new topic]
+
+- Required reading: [37], [38], [39] without the proofs
+
 
 **March 26th**
 TBA
