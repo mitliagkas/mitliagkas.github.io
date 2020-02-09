@@ -231,8 +231,11 @@ Generative models, GANs, WGANs
 [[scribed notes](ift6085-2019/ift-6085-lecture-12-notes.pdf)]
 [[scribed notes](ift6085-2019/ift-6085-lecture-13-notes.pdf)]
 
+- Recommended: Great [tutorial and collection resources](https://ermongroup.github.io/generative-models/) from Stefano Ermon and Aditya Grover at IJCAI.
+- Recommended: [Practical guide into Kantorovich-Rubinstein duality](https://vincentherrmann.github.io/blog/wasserstein/), Vincent Herrmann
 - Required reading: Main bodies of [16,17,18,19] without the proofs 
 - Required reaading: Two sets of scribed notes above, including discussed proofs.
+- Optional: [Applications of GANs](https://medium.com/@jonathan_hui/gan-some-cool-applications-of-gans-4c9ecca35900) 
 
 **February 20th**
 Student poster presentations, A

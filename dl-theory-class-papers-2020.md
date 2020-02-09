@@ -25,29 +25,37 @@ and techniques there are very useful for our exploration in class.
 [back to class page](/ift6085-dl-theory-class-2019)
 
 
-Learning 
------- 
+Assorted papers
+-----
+**\*\*[(Review) Monte Carlo Gradient Estimation in Machine Learning
+](https://arxiv.org/abs/1906.10652)**, Shakir Mohamed, Mihaela Rosca, Michael Figurnov, Andriy Mnih, 2019. 
 
-**\*Provable Bounds for Learning Some Deep Representations**,
-Sanjeev Arora, Aditya Bhaskara, Rong Ge, Tengyu Ma
+**\*\*[(Review) Causality for Machine Learning](https://arxiv.org/pdf/1911.10500.pdf)**, Bernhard Schölkopf, 2019. 
+
+**\*\*[(Review) Computational Optimal Transport](https://arxiv.org/abs/1803.00567)**, Gabriel Peyré, Marco Cuturi, 2019.
+
+Learning and Generalization
+------
+**\*\*[Backward Feature Correction: How Deep Learning Performs Deep Learning](https://arxiv.org/abs/2001.04413)**, Zeyuan Allen-Zhu, Yuanzhi Li, 2020. 
+
+**\*\*[Do ImageNet Classifiers Generalize to ImageNet?](https://arxiv.org/abs/1902.10811)**, Benjamin Recht, Rebecca Roelofs, Ludwig Schmidt, Vaishaal Shankar, 2019. 
+
+**\*\*[Rethinking statistical learning theory: learning using statistical invariants](https://link.springer.com/article/10.1007/s10994-018-5742-0)**, Vladimir Vapnik & Rauf Izmailov, 2019. 
+
+**\*\*[Memory capacity of neural networks with threshold and ReLU activations](https://arxiv.org/abs/2001.06938)**, Roman Vershynin, 2020. 
+
+
+**\*\*[The Lottery Ticket Hypothesis: Finding Sparse, Trainable Neural Networks](https://openreview.net/forum?id=rJl-b3RcF7)**, Jonathan Frankle, Michael Carbin 
+
+**\*\*[More Data Can Hurt for Linear Regression: Sample-wise Double Descent](https://arxiv.org/abs/1912.07242)**, 
+
+**\*\*[Reconciling modern machine learning practice and the bias-variance trade-off](https://arxiv.org/abs/1812.11118)**, Mikhail Belkin, Daniel Hsu, Siyuan Ma, Soumik Mandal, 2019
 
 **\*A Modern Take on the Bias-Variance Tradeoff in Neural Networks**,
 Brady Neal, Sarthak Mittal, Aristide Baratin, Vinayak Tantia, Matthew Scicluna, Simon Lacoste-Julien, Ioannis Mitliagkas
 
-**\*Meta-Learning and Universality: Deep Representations and Gradient Descent can Approximate any Learning Algorithm**
-Chelsea Finn, Sergey Levine
-
-**\*On First-Order Meta-Learning Algorithms**,
-Alex Nichol, Joshua Achiam, John Schulman
-
-**\*Understanding Short-Horizon Bias in Stochastic Meta-Optimization**,
-Yuhuai Wu, Mengye Ren, Renjie Liao, Roger Grosse
-
-**\*Tighter Variational Bounds are Not Necessarily Better**,
-Tom Rainforth, Adam R. Kosiorek, Tuan Anh Le, Chris J. Maddison, Maximilian Igl, Frank Wood, Yee Whye Teh
-
-Generalization
-------
+**\*Provable Bounds for Learning Some Deep Representations**,
+Sanjeev Arora, Aditya Bhaskara, Rong Ge, Tengyu Ma
 
 **\*On Generalization Error Bounds of Noisy Gradient Methods for Non-Convex Learning**,
 Jian Li, Xuanyuan Luo, Mingda Qiao
@@ -57,9 +65,6 @@ Ilja Kuzborskij, Christoph H. Lampert
 
 **\*Understanding deep learning requires rethinking generalization**,
 Chiyuan Zhang, Samy Bengio, Moritz Hardt, Benjamin Recht, Oriol Vinyals
-
-**Certifiable distributional robustness with principled adversarial training**,
-Aman Sinha, Hongseok Namkoong, John Duchi
 
 **Data-dependent path normalization in neural networks**,
 Behnam Neyshabur, Ryota Tomioka, Ruslan Salakhutdinov, Nathan Srebro
@@ -93,6 +98,17 @@ Ilja Kuzborskij, Christoph H. Lampert
 Tomaso Poggio, Hrushikesh Mhaskar, Lorenzo Rosasco, Brando Miranda, Qianli Liao
 
 
+Distributional robustness, domain adaptation, etc
+---------- 
+**\*\*[Invariant Risk Minimization](https://arxiv.org/abs/1907.02893)**, Martin Arjovsky, Léon Bottou, Ishaan Gulrajani, David Lopez-Paz, 2019. 
+
+**\*\*[Adversarial Examples Are Not Bugs, They Are Features](https://arxiv.org/abs/1905.02175)**, Andrew Ilyas, Shibani Santurkar, Dimitris Tsipras, Logan Engstrom, Brandon Tran, Aleksander Madry, 2019.
+
+**Certifiable distributional robustness with principled adversarial training**,
+Aman Sinha, Hongseok Namkoong, John Duchi
+
+
+
 
 Optimization landscape of deep networks
 ------
@@ -116,6 +132,8 @@ Mahdi Soltanolkotabi, Adel Javanmard, Jason D. Lee
 
 *(Deep) Reinforcement Learning
 ----- 
+**\*\*[Reinforcement Learning via Fenchel-Rockafellar Duality](https://arxiv.org/abs/2001.01866)**, Ofir Nachum, Bo Dai, 2020.
+
 **\*Are Deep Policy Gradient Algorithms Truly Policy Gradient Algorithms?**,
 Andrew Ilyas, Logan Engstrom, Shibani Santurkar, Dimitris Tsipras, Firdaus Janoos, Larry Rudolph, Aleksander Madry
 
@@ -133,6 +151,16 @@ Sergey Levine
 
 Optimization and Games
 ----- 
+
+**\*\*[Poly-time universality and limitations of deep learning](https://arxiv.org/abs/2001.02992)**, Emmanuel Abbe, Colin Sandon, 2020. 
+
+
+**\*\*[A Stochastic Gradient Method with an Exponential Convergence _Rate for Finite Training Sets](http://papers.nips.cc/paper/4633-a-stochastic-gradient-method-with-an-exponential-convergence-_ra)**, Nicolas L. Roux
+Mark Schmidt, Francis R. Bach, 2012
+
+**\*\*[Near Optimal Methods for Minimizing Convex Functions with
+Lipschitz p-th Derivatives](http://proceedings.mlr.press/v99/gasnikov19b/gasnikov19b.pdf)**, Alexander Gasnikov, et al, 2019.
+
 
 **\*Negative Momentum for Improved Game Dynamics**,
 Gauthier Gidel, Reyhane Askari Hemmat, Mohammad Pezeshki, Remi Lepriol, Gabriel Huang, Simon Lacoste-Julien, Ioannis Mitliagkas
@@ -188,8 +216,15 @@ John Schulman, Sergey Levine, Philipp Moritz, Michael I. Jordan, Pieter Abbeel
 
 Generative models (mostly GANs)
 ------
+**\*\*[Theoretical guarantees for approximate sampling from smooth and log-concave densities](https://arxiv.org/abs/1412.7392)**, Arnak S. Dalalyan, 2014. 
+
+
 **\*Approximability of Discriminators Implies Diversity in GANs**,
 Yu Bai, Tengyu Ma, Andrej Risteski
+
+**\*Tighter Variational Bounds are Not Necessarily Better**,
+Tom Rainforth, Adam R. Kosiorek, Tuan Anh Le, Chris J. Maddison, Maximilian Igl, Frank Wood, Yee Whye Teh
+
 
 **Stabilizing GAN Training with Multiple Random Projections**,
 Behnam Neyshabur, Srinadh Bhojanapalli, Ayan Chakrabarti
@@ -216,9 +251,24 @@ Lars Mescheder, Sebastian Nowozin, Andreas Geiger
 Zinan Lin, Ashish Khetan, Giulia Fanti, Sewoong Oh
 
 
+Meta-Learning 
+------ 
+
+**\*Meta-Learning and Universality: Deep Representations and Gradient Descent can Approximate any Learning Algorithm**
+Chelsea Finn, Sergey Levine
+
+**\*On First-Order Meta-Learning Algorithms**,
+Alex Nichol, Joshua Achiam, John Schulman
+
+**\*Understanding Short-Horizon Bias in Stochastic Meta-Optimization**,
+Yuhuai Wu, Mengye Ren, Renjie Liao, Roger Grosse
+
+
 
 Information Theory
 ----- 
+
+**\*\*[An Information-Theoretic Analysis of Thompson Sampling](http://www.jmlr.org/papers/volume17/14-087/14-087.pdf)**, Daniel Russo, Benjamin Van Roy, 2016.
 
 **\*On variational lower bounds of mutual information**,
 Ben Poole, Sherjil Ozair, Aaron van den Oord, Alexander A. Alemi, George Tucker
