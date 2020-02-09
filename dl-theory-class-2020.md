@@ -211,9 +211,12 @@ Uniform convergence may be unable to explain generalization in deep learning
 Expressivity and universal approximation theorems
 [[*very rough* scribed notes](ift6085-2019/ift-6085-guest-lecture-expressivity.pdf)]
 
-Required reading:
-- [Simple construction for universal approximation theorem: A visual proof that neural nets can compute any function By Michael Nielsen](http://neuralnetworksanddeeplearning.com/chap4.html)
-- Beginning of Section 20 until 20.4 (inclusive) in [4]
+
+Reading:
+- Optional reminder: Subsections 6.1, 6.2, 6.3 from [4]
+- Required: [Simple construction for universal approximation theorem: A visual proof that neural nets can compute any function By Michael Nielsen](http://neuralnetworksanddeeplearning.com/chap4.html)
+- Required: Beginning of Section 20 until 20.4 (inclusive) in [4]
+- Required: All of [40]
 
 
 
@@ -431,5 +434,6 @@ Resources
 38. [Computing Nonvacuous Generalization Bounds for Deep (Stochastic) Neural Networks with Many More Parameters than Training Data](https://arxiv.org/abs/1703.11008), Gintare Karolina Dziugaite, Daniel M. Roy, 2017.
 39. [Non-Vacuous Generalization Bounds at the ImageNet Scale: A PAC-Bayesian Compression Approach
 ](https://arxiv.org/pdf/1804.05862.pdf), Wenda Zhou, Victor Veitch, Morgane Austern, Ryan P. Adams, Peter Orbanz, 2018.
+40. [Representation benefits of deep feedforward](https://arxiv.org/abs/1509.08101), Matus Telgarsky, 2015. 
 
 
