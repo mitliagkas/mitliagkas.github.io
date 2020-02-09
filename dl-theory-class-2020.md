@@ -209,9 +209,12 @@ Uniform convergence may be unable to explain generalization in deep learning
 
 **February 12th**
 Expressivity and universal approximation theorems
-[[scribed notes](ift6085-2019/ift-6085-guest-lecture-expressivity.pdf)]
+[[*very rough* scribed notes](ift6085-2019/ift-6085-guest-lecture-expressivity.pdf)]
 
-- Required reading: Beginning of Section 20 until 20.5 (inclusive) in [4]
+Required reading:
+- [Simple construction for universal approximation theorem: A visual proof that neural nets can compute any function By Michael Nielsen](http://neuralnetworksanddeeplearning.com/chap4.html)
+- Beginning of Section 20 until 20.4 (inclusive) in [4]
+
 
 
 **February 13th**
