@@ -6,9 +6,9 @@ permalink: /ift6085-papers-2020/
 IFT6085: Class bibliography
 =========
 
-**This list was created in early 2019 for the previous edition of this class.
-We will add more papers soon and notify the class.
-
+**This list has been maintained during the previous iterations on the class. Last update, February 2020.
+Papers marked with an asterisk where added in 2019.
+Papers marked with two asterisks where added in 2020. 
 Please feel free to make paper suggestions in the class's discussion group.**
 
 This is a non-exhaustive list of relatively recent papers that include theoretical or theory-driven work
@@ -22,7 +22,7 @@ are relevant to the class.
 Note: some of these results are not given in a deep learning setting, however the ideas 
 and techniques there are very useful for our exploration in class.
 
-[back to class page](/ift6085-dl-theory-class-2019)
+[back to class page](/ift6085-dl-theory-class-2020)
 
 
 Assorted papers
