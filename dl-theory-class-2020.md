@@ -249,7 +249,7 @@ Generative models, GANs, WGANs
 - Optional: [Applications of GANs](https://medium.com/@jonathan_hui/gan-some-cool-applications-of-gans-4c9ecca35900) 
 
 **February 20th**
-Student poster presentations, A
+Student presentations, A
 
 
 **February 26th**
@@ -259,7 +259,7 @@ The Numerics of GANs
 
 
 **February 27th**
-Student poster presentations, B
+Student presentations, B
 
 
 <br/>
@@ -287,7 +287,7 @@ Winter break
 **MIDTERM EXAM**
 
 **March 12th**
-Student poster presentations, C
+Student presentations, C
 
 
 **March 18th**
@@ -298,7 +298,7 @@ Surprising results on the generalization error of neural networks [new lecture]
 
 
 **March 19th**
-Student poster presentations, D
+Student presentations, D
 
 
 **March 25th**
