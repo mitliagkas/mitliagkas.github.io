@@ -251,6 +251,15 @@ Generative models, GANs, WGANs
 **February 20th**
 Student presentations, A
 
+1. [Distribution-Independent PAC Learning of Halfspaces with Massart Noise](https://papers.nips.cc/paper/8722-distribution-independent-pac-learning-of-halfspaces-with-massart-noise.pdf)
+- Presented by: JP Letendre, Howard Huang
+- Required reading: Section 1 (without 1.3) and Section 2 until lemma 2.3 (not included)
+
+2. [Adversarial Examples Are Not Bugs, They Are Features](https://arxiv.org/pdf/1905.02175.pdf)
+- Presented by: Charles Huard
+- Optional intro: [Paper 1](https://arxiv.org/pdf/1607.02533.pdf) and [paper 2](https://arxiv.org/pdf/1412.6572.pdf).
+- Required reading: Introduction, Section 4 ("A Theoretical Framework for Studying (Non)-Robust Features") and the proof of Theorem 2 (in pages 35 and 36)
+
 
 **February 26th**
 The Numerics of GANs
