@@ -266,6 +266,8 @@ The Numerics of GANs
 [[scribed notes](ift6085-2019/ift-6085-lecture-14-notes.pdf)]
 [[slides](ift6085-2019/ift-6085-gan-dynamics-slides.pdf)]
 
+- Required reading: [20]
+
 
 **February 27th**
 Student presentations, B
