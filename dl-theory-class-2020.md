@@ -111,7 +111,7 @@ Class introduction
 
 **January 9th**
 Basics of convex analysis and gradient descent
-[[scribed notes](ift6085-2019/ift-6085-lecture-2-notes.pdf)]
+[[**new** scribed notes](ift6085-2020/ift-6085-lecture-2-notes.pdf)]
 
 Reading:
 
