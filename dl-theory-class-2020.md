@@ -128,7 +128,7 @@ case. In this case the projection operator PiX(x) is the identity operator)
 
 **January 15th**
 The different rates of gradient descent: from Lipschitz to strongly convex
-[[scribed notes](ift6085-2019/ift-6085-lecture-3-notes.pdf)]
+[[**new** scribed notes](ift6085-2020/ift-6085-lecture-3-notes.pdf)]
 
 Reading:
 
@@ -149,7 +149,7 @@ Reading:
 
 **January 22nd**
 Accelerated methods: Polyak's momentum (the heavy ball method)
-[[scribed notes](ift6085-2019/ift-6085-lecture-5-notes.pdf)]
+[[**new** scribed notes](ift6085-2020/ift-6085-lecture-5-notes.pdf)]
 [[slides](ift6085-2019/ift-6085-lecture-5-slides.pdf)]
 
 Reading: 
@@ -158,7 +158,7 @@ Reading:
 
 **January 23rd**
 Nesterov's Accelerated Gradient, Stochastic gradient descent
-[[scribed notes](ift6085-2019/ift-6085-lecture-6-notes.pdf)]
+[[**new** scribed notes](ift6085-2020/ift-6085-lecture-6-notes.pdf)]
 
 Reading: 
 - Required: [6], [7, pages 67-76]
@@ -170,7 +170,7 @@ Reading:
 
 **January 29th**
 Elements of statistical learning theory
-[[scribed notes](ift6085-2019/ift-6085-lecture-7-notes.pdf)]
+[[**new** scribed notes](ift6085-2020/ift-6085-lecture-7-notes.pdf)]
 
 Recommended reading: Section 2 (if you need the intro) and Section 5 of [4].
 
@@ -178,7 +178,7 @@ Required reading: Sections 3, 4 and 6 of [4].
 
 **January 30th**
 PAC-Bayes bounds
-[[scribed notes](ift6085-2019/ift-6085-lecture-8-notes.pdf)]
+[[**new** scribed notes](ift6085-2020/ift-6085-lecture-8-notes.pdf)]
 
 Required reading: [12]
 
@@ -188,8 +188,7 @@ Recommended reading (harder): Section 6 of [2]
 
 **February 5th**
 Stability and generalization
-[[scribed notes 1](ift6085-2019/ift-6085-lecture-9-notes.pdf)]
-[[scribed notes 2](ift6085-2019/ift-6085-lecture-11-notes.pdf)]
+[[**new** scribed notes](ift6085-2020/ift-6085-lecture-9-notes.pdf)]
 
 Required reading:
 - Main body of the papers [13,14] without all the proofs 
