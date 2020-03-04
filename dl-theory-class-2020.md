@@ -270,6 +270,17 @@ The Numerics of GANs
 
 **February 27th**
 Student presentations, B
+1. [Random Matrices and applications to ML](ift6085-2020/student-notes-RMT-ML.pdf)
+[[slides](ift6085-2020/student-slides-RMT-ML.pdf)]
+- Written and presented by: Manuela Girotti
+- Recommended: Section 1
+- Required: Section 3 (without proofs), Section 4.1 and 5.1
+- Optional reading: Section 6
+
+2. [Entropy-sgd: Biasing gradient descent into wide valleys]()
+- Presented by: Oleksiy Ostapenko, Emre Onur Kahya
+- Required reading: Sections 1,3 and 4
+
 
 
 <br/>
