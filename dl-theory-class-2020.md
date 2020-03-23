@@ -310,32 +310,49 @@ Winter break
 **March 12th**
 Student presentations, C
 
+<br/>
+
+
+--------------
+
+COVID-19 disruption
+--------------
+
+
 
 **March 18th**
-Surprising results on the generalization error of neural networks [new lecture]
-
-- Recommended reading: [On the Bias-Variance Tradeoff: Textbooks Need an Update](https://www.bradyneal.com/bias-variance-tradeoff-textbooks-update), blog post by Brady Neal
-- Recommended reading: TBA
-
+No class
 
 **March 19th**
-Student presentations, D
+No class
+
+
+--------------
+
+<br/>
 
 
 **March 25th**
+Surprising results on the generalization error of neural networks [new lecture]
+
+- Recommended reading: [In Search of the Real Inductive Bias: On the Role of Implicit Regularization in Deep Learning](https://arxiv.org/abs/1412.6614)
+- Recommended reading: [Understanding deep learning requires rethinking generalization](https://arxiv.org/abs/1611.03530)
+- Recommended reading: [On the Bias-Variance Tradeoff: Textbooks Need an Update](https://www.bradyneal.com/bias-variance-tradeoff-textbooks-update), blog post by Brady Neal
+
+
+**March 26th**
+Student presentations, D
+
+
+**April 1st**
 A discussion of non-vacuous generalization bounds for neural networks [new topic]
 
 - Required reading: [37], [38], [39] without the proofs
 
 
-**March 26th**
-TBA
-
-**April 1st**
-TBA
-
 **April 2nd**
 TBA
+
 
 **April 8th**
 TBA
@@ -345,10 +362,11 @@ Distributional reinforcement learning
 [[scribed notes](ift6085-2019/ift-6085-lecture-18-notes.pdf)]
 
 **April 15th**
-NO CLASS - Instructor is travelling 
+TBA
 
 **April 16th**
 End of semester poster session 
+
 
 
 
