@@ -341,7 +341,7 @@ Surprising results on the generalization error of neural networks [new lecture]
 
 
 **March 26th**
-Student presentations, D
+1-1 project chats
 
 
 **April 1st**
@@ -351,7 +351,7 @@ A discussion of non-vacuous generalization bounds for neural networks [new topic
 
 
 **April 2nd**
-TBA
+Student presentations, D
 
 
 **April 8th**
