@@ -345,9 +345,12 @@ Surprising results on the generalization error of neural networks [new lecture]
 
 
 **April 1st**
-A discussion of non-vacuous generalization bounds for neural networks [new topic]
+Where is the Bayes risk hiding? 
 
-- Required reading: [37], [38], [39] without the proofs
+- Recommended reading (refresher from last week): [Understanding deep learning requires rethinking generalization](https://arxiv.org/abs/1611.03530)
+- Recommended reading: [To Understand Deep Learning We Need to Understand Kernel Learning](https://arxiv.org/abs/1802.01396)
+- Recommended reading: [Overfitting or perfect fitting? Risk bounds for classification and regression rules that interpolate](https://arxiv.org/abs/1806.05161)
+
 
 
 **April 2nd**
@@ -355,7 +358,9 @@ Student presentations, D
 
 
 **April 8th**
-TBA
+A discussion of non-vacuous generalization bounds for neural networks [new topic]
+
+- Required reading: [37], [38], [39] without the proofs
 
 **April 9th**
 Distributional reinforcement learning
