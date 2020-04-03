@@ -2,7 +2,7 @@
 layout: default
 title: ML class
 menu: main
-permalink: /ift6390-ml-class-2020/
+permalink: /ift6390-ml-class/
 order: 3
 ---
 
