@@ -357,14 +357,16 @@ Where is the Bayes risk hiding?
 Student presentations, D
 
 **April 8th**
-Reproducing kernel hilbert spaces - Guest lecture by Jose Gallego 
+Reproducing kernel hilbert spaces - Guest lecture by Jose Gallego [new lecture - no scribed notes]
 - [15min] Watch [this great video](https://www.youtube.com/watch?v=LyGKycYT2v0) on duality.
 - [5min] Get familiar with the *statement* of the [Riesz representation theorem](https://en.wikipedia.org/wiki/Riesz_representation_theorem) and think about the relationship with the video above.
 - [40min] Read the Wikipedia entry on [RKHSs](https://en.wikipedia.org/wiki/Reproducing_kernel_Hilbert_space) - Can skip sections 4, 8 and 9.
 - [15min] *Optional:* Read sections 1 and 2 of the Wikipedia entry on [Kernel embedding of distributions](https://en.wikipedia.org/wiki/Kernel_embedding_of_distributions)
 
 **April 9th**
-Kernel approximations to neural networks 
+Neural Tangent Kernel [new lecture - no scribed notes]
+- Recommended reading: [Neural Tangent Kernel: Convergence and Generalization in Neural Networks](https://arxiv.org/abs/1806.07572)
+- Recommended reading: [Blog summary of paper](https://rajatvd.github.io/NTK/) 
 
 <!--
 **April 15th**
