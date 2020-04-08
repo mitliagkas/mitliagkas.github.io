@@ -377,8 +377,8 @@ A discussion of non-vacuous generalization bounds for neural networks [new topic
 
 **April 15th**
 Distributional reinforcement learning
-[[scribed notes 1](ift6085-2019/ift-6085-lecture-18-notes.pdf)]
-[[scribed notes 2](ift6085-2019/ift-6085-lecture-19-notes.pdf)]
+[[scribed notes 1](ift6085-2019/ift-6085-lecture-17-notes.pdf)]
+[[scribed notes 2](ift6085-2019/ift-6085-lecture-18-notes.pdf)]
 
 **April 22nd**
 End of semester (online) project presentations 
