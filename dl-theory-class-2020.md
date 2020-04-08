@@ -356,21 +356,30 @@ Where is the Bayes risk hiding?
 **April 2nd**
 Student presentations, D
 
-
 **April 8th**
+Reproducing kernel hilbert spaces - Guest lecture by Jose Gallego 
+- [15min] Watch [this great video](https://www.youtube.com/watch?v=LyGKycYT2v0) on duality.
+- [5min] Get familiar with the *statement* of the [Riesz representation theorem](https://en.wikipedia.org/wiki/Riesz_representation_theorem) and think about the relationship with the video above.
+- [40min] Read the Wikipedia entry on [RKHSs](https://en.wikipedia.org/wiki/Reproducing_kernel_Hilbert_space) - Can skip sections 4, 8 and 9.
+- [15min] *Optional:* Read sections 1 and 2 of the Wikipedia entry on [Kernel embedding of distributions](https://en.wikipedia.org/wiki/Kernel_embedding_of_distributions)
+
+**April 9th**
+Kernel approximations to neural networks 
+
+<!--
+**April 15th**
 A discussion of non-vacuous generalization bounds for neural networks [new topic]
 
 - Required reading: [37], [38], [39] without the proofs
-
-**April 9th**
-Distributional reinforcement learning
-[[scribed notes](ift6085-2019/ift-6085-lecture-18-notes.pdf)]
+-->
 
 **April 15th**
-TBA
+Distributional reinforcement learning
+[[scribed notes 1](ift6085-2019/ift-6085-lecture-18-notes.pdf)]
+[[scribed notes 2](ift6085-2019/ift-6085-lecture-19-notes.pdf)]
 
-**April 16th**
-End of semester poster session 
+**April 22nd**
+End of semester (online) project presentations 
 
 
 
