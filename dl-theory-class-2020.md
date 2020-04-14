@@ -379,6 +379,8 @@ A discussion of non-vacuous generalization bounds for neural networks [new topic
 Distributional reinforcement learning
 [[scribed notes 1](ift6085-2019/ift-6085-lecture-17-notes.pdf)]
 [[scribed notes 2](ift6085-2019/ift-6085-lecture-18-notes.pdf)]
+- Recommended reading: Two sets of scribed notes above
+- Recommended reading: [A Distributional Perspective on Reinforcement Learning](https://arxiv.org/abs/1707.06887), by Bellemare et al. 
 
 **April 22nd**
 End of semester (online) project presentations 
