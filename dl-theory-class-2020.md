@@ -227,7 +227,7 @@ Reading:
 **February 13th**
 Weighted Sums of Random Kitchen Sinks: Replacing
 minimization with randomization in learning
-[[**new** rough scribed notes](ift6085-2020/ift-6085-lecture-11-notes.pdf)]
+[[**new** scribed notes](ift6085-2020/ift-6085-lecture-11-notes.pdf)]
 
 - Recommended reading: Section 16 (Kernel methods) of [4]
 - Required reading: [23]
@@ -262,7 +262,7 @@ Student presentations, A
 
 **February 26th**
 The Numerics of GANs
-[[scribed notes](ift6085-2019/ift-6085-lecture-14-notes.pdf)]
+[[**new** scribed notes](ift6085-2020/ift-6085-lecture-14-notes.pdf)]
 [[slides](ift6085-2019/ift-6085-gan-dynamics-slides.pdf)]
 
 - Required reading: [20]
@@ -376,10 +376,9 @@ A discussion of non-vacuous generalization bounds for neural networks [new topic
 -->
 
 **April 15th**
-Distributional reinforcement learning
-[[scribed notes 1](ift6085-2019/ift-6085-lecture-17-notes.pdf)]
-[[scribed notes 2](ift6085-2019/ift-6085-lecture-18-notes.pdf)]
-- Recommended reading: Two sets of scribed notes above
+(Distributional) reinforcement learning
+[[**new** scribed notes](ift6085-2020/ift-6085-lecture-19-notes.pdf)]
+- Recommended reading: Scribed notes above
 - Recommended reading: [A Distributional Perspective on Reinforcement Learning](https://arxiv.org/abs/1707.06887), by Bellemare et al. 
 
 **April 22nd**
