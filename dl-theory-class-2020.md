@@ -213,7 +213,7 @@ Uniform convergence may be unable to explain generalization in deep learning
 
 **February 12th**
 Expressivity and universal approximation theorems
-[[*very rough* scribed notes](ift6085-2019/ift-6085-guest-lecture-expressivity.pdf)]
+[[**new** rough scribed notes](ift6085-2020/ift-6085-lecture-10-notes.pdf)]
 
 
 Reading:
@@ -227,7 +227,7 @@ Reading:
 **February 13th**
 Weighted Sums of Random Kitchen Sinks: Replacing
 minimization with randomization in learning
-[[scribed notes](ift6085-2019/ift-6085-lecture-16-notes.pdf)]
+[[**new** rough scribed notes](ift6085-2020/ift-6085-lecture-11-notes.pdf)]
 
 - Recommended reading: Section 16 (Kernel methods) of [4]
 - Required reading: [23]
