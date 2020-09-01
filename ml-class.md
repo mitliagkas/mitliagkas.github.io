@@ -10,7 +10,7 @@ IFT6390: Fundamentals of machine learning
 =========
 
 An introductory but **very intensive** class in machine learning.
-The class will be given again in Fall 2020.
+It is taught in Fall 2020 and will be taught again in Winter 2021.
 
 Listed as [IFT6390: Fondements de l'apprentissage machine](https://admission.umontreal.ca/cours-et-horaires/cours/ift-6390/)
 
@@ -25,7 +25,7 @@ IFT3395</a>.
 **IMPORTANT:
 Please do not register for this class unless you have read and carefully considered all the class requirements listed
 in the 
-[Prerequisites](/ift6390-ml-class-prerequisites) page.**
+[prerequisites](/ift6390-ml-class-prerequisites) page.**
 </span>
 
 
@@ -37,24 +37,42 @@ Instructor: [Ioannis Mitliagkas](https://mitliagkas.github.io),
 
 Teaching assistants: (TBA)
 
+
+Registering and auditing
+--------
+The class might be full. It will be taught again in Winter 2021 (January 2021). 
+If you want to audit the class, please fill this [form](https://forms.gle/hnfwVpf67WncVYWz9). 
+
+
 Communication
 ------------- 
 
-We will use the class's [Studium page]()
-(not yet open for students) for communication.
-The Studium page contains a forum for all discussions. 
-This is a very large class, so the instructor will not be able to respond to individual questions about the class
-via email. 
-Make sure to use the class forum. 
+All of our communication will happen through the class Piazza page. 
+Registered students will be added to the Piazza page automatically on the day before the first class. 
 
-**Exclusively in the event that you have a question of a sensitive, personal nature:**
-Please feel free to email the instructor.
-Please make sure to start the subject of your email with "[IFT6390]" to make sure that it is not lost. 
+All lecture, labs and office hours will happen on Zoom. You will find all the links on Piazza.
+
+Homework submission and evaluation will happen on Gradescope. You will be invited to the class's Gradescope page automatically the day before classes start. If you are auditing, you will not be added to Gradescope and you will not be able to submit homeworks.
+
+**Important:** Make sure that you learn how to use and are checking your @umontreal.ca email inbox. That is were you will receive announcements and invitations to class online services.
+
+The class's [studium page](https://studium.umontreal.ca/course/view.php?id=176757) will only be used for initial coordination with registered students until they get access to Piazza. There will be no discussions on Studium. 
+
+**Important notice on email communication:**
+This is a very large class, so the instructor will not be able to respond to individual questions about the class via email.  **Exclusively in the event that you have a question of a sensitive, personal nature:** Please feel free to email the instructor.  Please start the subject of your email with "[IFT6390]"; otherwise your email might be lost.
 
 
-**Class times and rooms**
+Class times
+-----
+The instructor's lectures are on
+- Wednesday at 9:30am-11:30am ET
+- Thursday at 9:30am-10:30am ET
+For both lectures we will use the same link that you will find on Piazza (see section above). 
+
+<!--
 follow the instructions to use the functionality "TROUVEZ L’HORAIRE D’UN COURS" at the bottom of <a href="https://admission.umontreal.ca/cours-et-horaires/cours/ift-6390/">
 this page</a>.
+-->
 
 
 Content and objectives of class
