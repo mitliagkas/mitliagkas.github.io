@@ -67,6 +67,7 @@ Class times
 The instructor's lectures are on
 - Wednesday at 9:30am-11:30am ET
 - Thursday at 9:30am-10:30am ET
+
 For both lectures we will use the same link that you will find on Piazza (see section above). 
 
 <!--
@@ -104,6 +105,8 @@ Notions covered (indicative titles):
 
 
 <h2>Labs</h2>
+This is a sample of the first three labs from last year to get you started until you get access to this year's material.
+
 - <a href="https://docs.google.com/presentation/d/1DB5-BGoImjcnsd1amnjQ4s4nhjUZhknCd5rra3eFnaU/edit?usp=sharing">Lab 0 Slides: Class tools (Thursday, September 5th, 2019)</a> 
 - <a href="https://drive.google.com/file/d/1XizC8QB33mAhG5FaenF5ILo8La4vdX-9/view?usp=sharing">Lab 1 Notebook: Numpy (Thursday, September 12th, 2019)</a> 
 - <a href="https://drive.google.com/file/d/1odCUuWRKk6SBIGpQtkSBVdPErTQ_fEzy/view?usp=sharing">Lab 1 Notebook: k-NN (Thursday, September 12th, 2019)</a> 
@@ -116,32 +119,27 @@ Notions covered (indicative titles):
 *Please be advised that some details of this evaluation scheme might be adjusted slightly by the beginning of the semester.*
 
 
-**Homework (33%):**
-3 of homework (8% each) including some theoretical exercises, programming and experimentation.
-One Kaggle competition (counts for 9%).
+**Homework (30%):**
+3 sets of homework (8% each) including some theoretical exercises, programming and experimentation.
 Most sets of homework will be submitted in teams of 2 students.
 Some will be submitted individually.
 
+**Data competitions (30%):**
+Two Kaggle competitions.
+The first one will span the first half of the class and count towards 10% of your grade
+ and the second one will span the second half of the class and count towards 20% of your grade.
 
 **Lab midterm exam (10%):**
-This exam will take place in the lab on the 5th week of class (early October). It will be a hard exam testing the programming abilities of the students in a lab environment.
-
-**Midterm exam(15%):**	
-This exam will cover all the material seen until then. Date to be announced.
-
-**Team project(20%):**
-Application of learning algorithms to a student's field of interest and / or implementation of a new learning algorithm (programming, experimentation, and performance comparison). Several major themes (or areas of application of machine learning) will be proposed and teams will be able to form around these themes.
-The project is done in teams.
-The project must be approved by the instructor (details TBA).
+This timed exam will take place at a specific time and will test your knowledge of the lab material. You will be asked to program specific functions in Python and submit to Gradescope of autograging. 
+For some more information and an example of last year's lab midterm, please check 
+the [prerequisites](/ift6390-ml-class-prerequisites) page.
+We will have this exam in early October (exact date TBA). 
 
 **Final exam (20%):**
-The whole class material. Precise date in December TBA.
+Exam on the whole class material at the end of the semester. 
+Exact date and format to be announced.
 
-**Class participation (2%):**
-For actively participating the discussions on the class forums.
-
-Work and exams:
-You can submit your work on our Gradescope site of the course (once the semester starts). It is also on Gradescope that you will be able to see your grades for the homework and exams.
+You will be able to submit your work and see your grades on Gradescope. See 'Communication' section for some info on access. 
 
 **ATTENTION regarding fraud and plagiarism:**
 The University of Montreal now has a strict policy in case of fraud or plagiarism.
