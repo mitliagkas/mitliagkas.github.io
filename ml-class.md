@@ -28,6 +28,13 @@ in the
 [prerequisites](/ift6390-ml-class-prerequisites) page.**
 </span>
 
+Quick links
+--------- 
+*These links will only give you access after you have been added to the corresponding services. Please read section Communication.*
+
+- [Piazza](https://piazza.com/configure-classes/fall2020/ift6390) for all our communciations.
+- [Gradescope](https://www.gradescope.com/courses/155310) for submitting your work and seeing your grades.
+- [Overleaf]() for downloading homework announcements and working on your solutions (link will be up soon).
 
 
 People
@@ -62,18 +69,26 @@ The class's [studium page](https://studium.umontreal.ca/course/view.php?id=17675
 This is a very large class, so the instructor will not be able to respond to individual questions about the class via email.  **Exclusively in the event that you have a question of a sensitive, personal nature:** Please feel free to email the instructor.  Please start the subject of your email with "[IFT6390]"; otherwise your email might be lost.
 
 
-Class times
+Class and lab times
 -----
 The instructor's lectures are on
-- Wednesday at 9:30am-11:30am ET
-- Thursday at 9:30am-10:30am ET
+- Wednesday at 9:30am-11:10am ET
+- Thursday at 9:30am-10:20am ET
 
 For both lectures we will use the same link that you will find on Piazza (see section above). 
 
-<!--
-follow the instructions to use the functionality "TROUVEZ L’HORAIRE D’UN COURS" at the bottom of <a href="https://admission.umontreal.ca/cours-et-horaires/cours/ift-6390/">
+Weekly labs led by a TA on
+- Thursday at 10:30am-12:30am ET
+
+You will also find the link to a week's lab on Piazza.
+
+Updated information can always be found by following the instructions below "TROUVEZ L’HORAIRE D’UN COURS" at the bottom of <a href="https://admission.umontreal.ca/cours-et-horaires/cours/ift-6390/">
 this page</a>.
--->
+
+
+Video recordings 
+-------------
+Lectures and labs will be delivered live, but a video recording will be made available to the class soon after the class is over. Links to all past lectures and lab video recordings will be available on Piazza.
 
 
 Content and objectives of class
