@@ -21,16 +21,24 @@ For the equivalent class taught entirely in french, please see
 Guillaume Rabusseau's <a href="https://www-labs.iro.umontreal.ca/~grabus/index.php?page=Teaching">
 IFT3395</a>.
 
-<span style="color:red">
 **IMPORTANT:
 Please do not register for this class unless you have read and carefully considered all the class requirements listed
 in the 
 [prerequisites](/ift6390-ml-class-prerequisites) page.**
-</span>
 
 Quick links
 --------- 
-*These links will only give you access after you have been added to the corresponding services. Please read section Communication.*
+<span style="color:red">
+As of Tuesday, September 1st, all officially registered students have been added to Piazza and Gradescope.
+We sent you invitations and announcements to your email address associated with your registration. 
+For the majority of you this is an email address that ends in @umontreal.ca. 
+You should be able to access it [here](https://outlook.umontreal.ca/) with your UdeM/Synchro credentials. 
+If you do not have UdeM credentials, please contact UdeM's IT support.
+</span>
+
+<span style="color:red">
+**IMPORTANT: Make sure you learn how to use that email inbox and check it often. We will not be able to add you using alternative email addresses.**
+</span>
 
 - [Piazza](https://piazza.com/configure-classes/fall2020/ift6390) for all our communciations.
 - [Gradescope](https://www.gradescope.com/courses/155310) for submitting your work and seeing your grades.
