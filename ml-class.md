@@ -118,11 +118,18 @@ This is a sample of the first three labs from last year to get you started until
 
 *Please be advised that some details of this evaluation scheme might be adjusted slightly by the beginning of the semester.*
 
+**Weekly quizzes (10%):**
+We will have a weekly online quiz right before class every Thursday of the semester. 
+It will consist of short questions about Wednesday's lecture and it will be administered on Gradescope. 
+To accommodate students from different timezones, the quiz will be open a few hours before the class start time. 
+Once you start the quiz, you will have 10-15 minutes to finish it. 
+We will have about 14 quizes during the semester; your best 8 quiz scores will be used to compute your semester quiz score (10% of your final grade).
+
+
 
 **Homework (30%):**
 3 sets of homework (8% each) including some theoretical exercises, programming and experimentation.
-Most sets of homework will be submitted in teams of 2 students.
-Some will be submitted individually.
+Most sets of homework will be submitted individually (each student working on their own) and some in teams of two.
 
 **Data competitions (30%):**
 Two Kaggle competitions.
@@ -139,9 +146,13 @@ We will have this exam in early October (exact date TBA).
 Exam on the whole class material at the end of the semester. 
 Exact date and format to be announced.
 
-You will be able to submit your work and see your grades on Gradescope. See 'Communication' section for some info on access. 
+*For most of these evaluations you be able to submit your work and see your grades on Gradescope. 
+ See 'Communication' section for some info on access. *
 
-**ATTENTION regarding fraud and plagiarism:**
+Academic fraud and plagiarism
+---------------- 
+
+**ATTENTION:**
 The University of Montreal now has a strict policy in case of fraud or plagiarism.
 If an infraction is found, the professor is required to report to the director of the department.
 An administrative procedure is then automatically triggered with the following consequences: the offense is noted in your file,
