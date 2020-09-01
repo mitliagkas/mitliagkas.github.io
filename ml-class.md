@@ -50,7 +50,7 @@ Communication
 All of our communication will happen through the class Piazza page. 
 Registered students will be added to the Piazza page automatically on the day before the first class. 
 
-All lecture, labs and office hours will happen on Zoom. You will find all the links on Piazza.
+All lectures, labs and office hours will happen on Zoom. You will find all the links on Piazza.
 
 Homework submission and evaluation will happen on Gradescope. You will be invited to the class's Gradescope page automatically the day before classes start. If you are auditing, you will not be added to Gradescope and you will not be able to submit homeworks.
 
