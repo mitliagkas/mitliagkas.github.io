@@ -34,7 +34,7 @@ Quick links
 
 - [Piazza](https://piazza.com/configure-classes/fall2020/ift6390) for all our communciations.
 - [Gradescope](https://www.gradescope.com/courses/155310) for submitting your work and seeing your grades.
-- [Overleaf]() for downloading homework announcements and working on your solutions (link will be up soon).
+- [Overleaf](https://www.overleaf.com/read/tbzhcsjtfjfy) for downloading homework announcements and working on your solutions .
 
 
 People
