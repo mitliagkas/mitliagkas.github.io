@@ -40,7 +40,7 @@ If you do not have UdeM credentials, please contact UdeM's IT support.
 **IMPORTANT: Make sure you learn how to use that email inbox and check it often. We will not be able to add you using alternative email addresses.**
 </span>
 
-- [Piazza](https://piazza.com/configure-classes/fall2020/ift6390) for all our communciations.
+- [Piazza](https://piazza.com/umontreal.ca/fall2020/ift6390) for all our communications.
 - [Gradescope](https://www.gradescope.com/courses/155310) for submitting your work and seeing your grades.
 - [Overleaf](https://www.overleaf.com/read/tbzhcsjtfjfy) for downloading homework announcements and working on your solutions .
 
