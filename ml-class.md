@@ -28,12 +28,14 @@ in the
 
 Quick links
 --------- 
-<span style="color:red">
 As of Tuesday, September 1st, all officially registered students have been added to Piazza and Gradescope.
 We sent you invitations and announcements to your email address associated with your registration. 
 For the majority of you this is an email address that ends in @umontreal.ca. 
 You should be able to access it [here](https://outlook.umontreal.ca/) with your UdeM/Synchro credentials. 
 If you do not have UdeM credentials, please contact UdeM's IT support.
+
+<span style="color:red">
+If you registered late (i.e. did not have access to Studium on September 1st), then please complete [this form](https://forms.gle/gEaECs6kYb1k2JLbA) to be added to class resources.
 </span>
 
 <span style="color:red">
@@ -151,7 +153,7 @@ We will have about 14 quizes during the semester; your best 8 quiz scores will b
 
 
 **Homework (30%):**
-3 sets of homework (8% each) including some theoretical exercises, programming and experimentation.
+3 sets of homework (10% each) including some theoretical exercises, programming and experimentation.
 Most sets of homework will be submitted individually (each student working on their own) and some in teams of two.
 
 **Data competitions (30%):**
