@@ -34,12 +34,10 @@ For the majority of you this is an email address that ends in @umontreal.ca.
 You should be able to access it [here](https://outlook.umontreal.ca/) with your UdeM/Synchro credentials. 
 If you do not have UdeM credentials, please contact UdeM's IT support.
 
-<span style="color:red">
-If you registered late (i.e. did not have access to Studium on September 1st), then please complete [this form](https://forms.gle/gEaECs6kYb1k2JLbA) to be added to class resources.
-</span>
+**IMPORTANT: Make sure you learn how to use that email inbox and check it often. We will not be able to add you using alternative email addresses.**
 
 <span style="color:red">
-**IMPORTANT: Make sure you learn how to use that email inbox and check it often. We will not be able to add you using alternative email addresses.**
+If you registered late (i.e. did not have access to Studium on September 1st), then please complete [this form](https://forms.gle/gEaECs6kYb1k2JLbA) to be added to class resources.
 </span>
 
 - [Piazza](https://piazza.com/umontreal.ca/fall2020/ift6390) for all our communications.
