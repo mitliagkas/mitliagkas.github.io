@@ -142,11 +142,11 @@ This is a sample of the first three labs from last year to get you started until
 *Please be advised that some details of this evaluation scheme might be adjusted slightly by the beginning of the semester.*
 
 **Weekly quizzes (10%):**
-We will have a weekly online quiz right before class every Thursday of the semester. 
-It will consist of short questions about Wednesday's lecture and it will be administered on Gradescope. 
+We will have a weekly online quiz at the beginning of class every Wednesday of the semester. 
+It will consist of short questions about last week's lecture and it will be administered on Gradescope. 
 To accommodate students from different timezones, the quiz will be open a few hours before the class start time. 
-Once you start the quiz, you will have 10-15 minutes to finish it. 
-We will have about 14 quizes during the semester; your best 8 quiz scores will be used to compute your semester quiz score (10% of your final grade).
+Once you start the quiz, you will have 15 minutes to finish it. 
+We will have at least 12 quizes during the semester; your best 6 quiz scores will be used to compute your semester quiz score (10% of your final grade).
 
 
 
