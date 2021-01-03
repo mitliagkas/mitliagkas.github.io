@@ -45,21 +45,23 @@ People
 
 Instructor: [Ioannis Mitliagkas](https://mitliagkas.github.io)
 
-TA: [Jose Gallego](https://jgalle29.github.io/)
+TA: TBA
 
 Class info
 ----------
-Winter 2020 semester:
+Winter 2021 semester:
 - Wednesday 9h30-11h15  
 - Thursday 9-10h45
 
-Room: The new Mila auditorium, 6650 St. Urbain.
+**First class**: Thursday, January 14th, 2021. 
+
+All classes will be held online, via Zoom, until further notice. Students will be able to find information on how to connect on the class's Studium page a week before classes start.
 
 Office hours: 10:45am-11:45am on Thursday right after class.
 
 Communication
 ------------- 
-We will use the class's [Studium](https://studium.umontreal.ca/course/view.php?id=163670) to make announcements.
+We will use the class's [Studium](https://studium.umontreal.ca/course/view.php?id=190135) to make announcements.
 We will use a Slack workspace for discussion. Please keep an eye out for an invitation to the Slack. 
 We will use Gradescope for quizzes and report submissions.
 Email is not a good way to reach us. 
