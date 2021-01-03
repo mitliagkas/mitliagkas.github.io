@@ -1,19 +1,20 @@
 ---
 layout: default
-title: DL theory class
+title: DL Theory class
+menu: main
 permalink: /ift6085-dl-theory-class/
+order: 2
 ---
 
-(Winter 2018) IFT 6085: Theoretical principles for deep learning 
+IFT 6085: Theoretical principles for deep learning
 =========
 
+**Winter 2021**
 
-**This is an old version of the class. For the 2020 class check [here](/ift6085-dl-theory-class-2020/).**
-
-
-[Extensive class bibliography](/ift6085-papers)
-
-**Class discussion group:** please [sign up](https://groups.google.com/forum/#!forum/ift6085-hiver-2019-theoretical-principles-for-deep-learning) to receive announcements and participate in discussion.
+Warning: Since Winter 2020, the class is more demanding than previous years.
+For example, the introductory "crash courses" have been compressed significantly.
+You will be expected to either already know this
+material or get up-to-speed with it in the first couple of weeks.
 
 Description
 ----- 
@@ -28,33 +29,52 @@ A symptom of this lack of understanding is that deep learning methods largely la
 In this class we will go over a number of recent publications that attempt to shed light onto these questions. Before discussing the new results in each paper we will first introduce the necessary fundamental tools from optimization, statistics, information theory and statistical mechanics. The purpose of this class is to get students engaged with new research in the area. To that end, the majority of credit will be given for a class project report and presentation on a relevant topic.
 
 **Prerequisites:**
-This is meant to be an advanced graduate class for students who want to engage in theory-driven deep learning research. We will introduce the theoretical tools necessary, but start with the assumption that students are comfortable with basic probability and linear algebra. 
+This is meant to be an advanced graduate class for students who want to engage in theory-driven deep learning research.
+We will introduce some theoretical tools necessary,
+but start with the assumption that students are comfortable with:
+- Probability
+- Linear algebra
+- Machine learning 
+
+**If you have not taken classes on all of the above topics, this class is not designed for you.**
+You should take another class instead.
+
 
 People
 ------
 
-Lecturer: [Ioannis Mitliagkas](https://mitliagkas.github.io), 
-	Office: 3359, André-Aisenstadt
+Instructor: [Ioannis Mitliagkas](https://mitliagkas.github.io)
+
+TA: [Jose Gallego](https://jgalle29.github.io/)
 
 Class info
 ----------
-Winter 2018 semester:
+Winter 2020 semester:
 - Wednesday 9h30-11h15  
-- Thursday 9h30-11h15
+- Thursday 9-10h45
 
-Room: André-Aisestadt 3195
+Room: The new Mila auditorium, 6650 St. Urbain.
 
-Office hours: 11:15am-12:15pm on Thursday right after class.
+Office hours: 10:45am-11:45am on Thursday right after class.
 
+Communication
+------------- 
+We will use the class's [Studium](https://studium.umontreal.ca/course/view.php?id=163670) to make announcements.
+We will use a Slack workspace for discussion. Please keep an eye out for an invitation to the Slack. 
+We will use Gradescope for quizzes and report submissions.
+Email is not a good way to reach us. 
+However, if you have something personal/sensitive to discuss, feel free to email me or the TA.
+Starting your email subject with 'IFT6085:' will ensure that your email is not miscategorized. 
 
 Evaluation
 ----------
-Class project: 60%
-Paper presentation: 25%
-Scribing: 10%
-Class participation: 5%
+- Class project: 40%
+- Paper presentation: 25%
+- Surprise quizzes, midterm: 20%
+- Scribing: 10%
+- Class participation: 5%
 
-Use this Latex [template](ift6085/scribing_template.zip) for scribing.
+Use this Latex [template](ift6085-2019/scribing_template.zip) for scribing.
 
 
 Tentative topics--to be updated as we go along
@@ -66,22 +86,33 @@ Tentative topics--to be updated as we go along
 - Taming adversarial objectives: Wasserstein GANs, regularization approaches and controlling the dynamics 
 - The expressive power of deep networks (deep information propagation, mean-field analysis of random networks etc.) 
 
+Extensive class bibliography
+--------
+
+You can find a large number of recent (mostly) research papers related to the class's objectives 
+[here](/ift6085-papers-2020).
+You can use those for your in-class paper presentations and projects.
+
 Schedule
 -------
 
-**January 10th**
+**NOTE: For the first half of the class we will be closely following the
+[previous iteration](/ift6085-dl-theory-class-2019) of the class.**
+
+
+**January 8th**
 Class introduction
-[[slides](ift6085/ift-6085-lecture-1.pdf),
-[quiz](ift6085/quiz-first-class.pdf)]
+[[slides](/ift6085-2020/ift-6085-lecture-1.pdf),
+[quiz](ift6085-2019/quiz-first-class.pdf)]
 
 
 ---
 ### Crash course in optimization
 
 
-**January 11th**
+**January 9th**
 Basics of convex analysis and gradient descent
-[[scribed notes](ift6085/ift-6085-lecture-2-notes.pdf)]
+[[**new** scribed notes](ift6085-2020/ift-6085-lecture-2-notes.pdf)]
 
 Reading:
 
@@ -96,166 +127,319 @@ from Chapter 3 of [1] ('Convex Optimization...' by S.Bubeck under References)
 - Required: Convergence proof of Theorem 3.2 (note that we studied the unconstrained 
 case. In this case the projection operator PiX(x) is the identity operator)
 
-**January 17th**
+**January 15th**
 The different rates of gradient descent: from Lipschitz to strongly convex
-[[scribed notes](ift6085/ift-6085-lecture-3-notes.pdf)]
+[[**new** scribed notes](ift6085-2020/ift-6085-lecture-3-notes.pdf)]
 
 Reading:
 
 Convergence proofs from Chapter 3 of [1] ('Convex Optimization...' by S.Bubeck under References)
-- Required: Convergence proof of Theorem 3.12 
+- Required: Sections 3.1, 3.2, 3.4, with emphasis on the Convergence proof of Theorem 3.12 
+- Optional: Section 3.3 and anything related to constrained optimization. Keep in mind that we still discuss in class simplified unconstrained versions of some constrained results from Bubeck. Anything in our scribed notes is also required.
 
-**January 18th**
+**January 16th**
+
+EARLY, IN-CLASS EXAM
+
 Black box models and lower bounds 
-[[scribed notes](ift6085/ift-6085-lecture-4-notes.pdf)]
+[[scribed notes](ift6085-2019/ift-6085-lecture-4-notes.pdf)]
 
-Reading: [1, Theorem 3.15], [6]
+Reading:
+- Required: [1, Theorem 3.15]
+- Recommended: [6]
 
-**January 24th**
-Accelerated methods
-[[scribed notes](ift6085/ift-6085-lecture-5-notes.pdf)]
+**January 22nd**
+Accelerated methods: Polyak's momentum (the heavy ball method)
+[[**new** scribed notes](ift6085-2020/ift-6085-lecture-5-notes.pdf)]
+[[slides](ift6085-2019/ift-6085-lecture-5-slides.pdf)]
 
-Reading: [6], [7, pages 67-76], [8], [9]
+Reading: 
+- Required: [8], [9, Sections 1, 2, 3, 4]
+- Recommended: [35]
 
-**January 25th**
-Nesterov's Accelearted Gradient, Stochastic gradient descent
-[[scribed notes](ift6085/ift-6085-lecture-6-notes.pdf)]
+**January 23rd**
+Nesterov's Accelerated Gradient, Stochastic gradient descent
+[[**new** scribed notes](ift6085-2020/ift-6085-lecture-6-notes.pdf)]
 
-Reading: Section 6 until 6.2 of [1], Section 14.3 of [4]
+Reading: 
+- Required: [6], [7, pages 67-76]
+- Required: [1, Section 6 until 6.2], [4, Section 14.3]
 
 ---
 ### Crash course in statistical learning theory 
 
 
-**January 31st**
+**January 29th**
 Elements of statistical learning theory
-[[scribed notes](ift6085/ift-6085-lecture-7-notes.pdf)]
+[[**new** scribed notes](ift6085-2020/ift-6085-lecture-7-notes.pdf)]
 
-Reading: Sections 2 (if you need the intro), 3, 4 and 6 of [4].
+Recommended reading: Section 2 (if you need the intro) and Section 5 of [4].
 
-**February 1st**
+Required reading: Sections 3, 4 and 6 of [4].
+
+**January 30th**
 PAC-Bayes bounds
-[[scribed notes](ift6085/ift-6085-lecture-8-notes.pdf)]
+[[**new** scribed notes](ift6085-2020/ift-6085-lecture-8-notes.pdf)]
 
-Reading: [12]
+Required reading: [12]
 
-Reading (harder): Section 6 of [2]
+Recommended reading: Section 31 of [4]
 
-**February 7th**
+Recommended reading (harder): Section 6 of [2]
+
+**February 5th**
 Stability and generalization
-[[scribed notes](ift6085/ift-6085-lecture-9-notes.pdf)]
+[[**new** scribed notes](ift6085-2020/ift-6085-lecture-9-notes.pdf)]
 
-Reading: [13]
+Required reading:
+- Main body of the papers [13,14] without all the proofs 
+- The two sets of scribed notes provided here, including the covered proofs
 
-**February 8th**
-Stability and generalization: Part II
-[[scribed notes](ift6085/ift-6085-lecture-10-notes.pdf)]
+Optional reading: Proofs that are not covevered in the scribed notes. 
 
-Reading: [13,14]
+<br/>
 
 ---
 ### Seminar part of class
 
+**February 6th**
+Guest lecture - Jose Gallego [this is a new topic; no scribes available from last year]
 
-**February 14th**
-Applications of stability and PAC Bayes
-[[scribed notes](ift6085/ift-6085-lecture-11-notes.pdf)]
+Uniform convergence may be unable to explain generalization in deep learning
 
-Reading: [14,15]
+- Required reading: Section 4 from [4]
+- Required reading: Main body of the paper [36] without proofs
+- Optional reading: Proofs from [36] 
 
-**February 15th**
-**NO CLASS** - Instructor is travelling
 
-**February 21st**
-Student paper presentations A
+**February 12th**
+Expressivity and universal approximation theorems
+[[**new** rough scribed notes](ift6085-2020/ift-6085-lecture-10-notes.pdf)]
 
-- [Understanding deep learning requires rethinking generalization, Zhang C, Bengio S, Hardt M, Recht B, Vinyals O.](ift6085/student_slides/IFT6085_Presentation_Rethinking.pdf)
-**Presented by**: Aldo Lamarre, Matthew C. Scicluna
-- [Emergence of invariance and disentanglement in Deep Representations,
-Alessandro Achille, Stefano Soatto](ift6085/student_slides/IFT6085_Presentation_Emergence.pdf)
-**Presented by**: Aristide Baratin, Brady Neal, Nithin Vasisth 
-- [High-dimensional dynamics of generalization error in neural networks, Madhu S. Advani, Andrew M. Saxe](ift6085/student_slides/IFT6085_Presentation_High_Dimensional_Dynamics.pdf)
-**Presented by**: Reyhane Askari, Arian Hosseini, Mohammad Pezeshki
 
-**February 22nd**
-Generative models
-[[scribed notes](ift6085/ift-6085-lecture-12-notes.pdf)]
+Reading:
+- Optional reminder: Subsections 6.1, 6.2, 6.3 from [4]
+- Required: [Simple construction for universal approximation theorem: A visual proof that neural nets can compute any function By Michael Nielsen](http://neuralnetworksanddeeplearning.com/chap4.html)
+- Required: Beginning of Section 20 until 20.4 (inclusive) in [4]
+- Required: All of [40]
 
-Reading: [16,17]
 
-**February 28th**
-Student paper presentations B
 
-- [Optimizing Neural Networks with Kronecker-factored Approximate Curvature, James Martens, Roger Grosse](ift6085/student_slides/IFT6085_Presentation_KFAC.pdf)
-**Presented by**: Josh Romoff & Riashat Islam 
-- [Opening the black box of Deep Neural Networks via Information, Ravid Shwartz-Ziv, Naftali Tishby](ift6085/student_slides/IFT6085_Presentation_IB.pdf)
-**Presented by**: Philip Amortila and Nicolas Gagné
-- [Why and When Can Deep -- but Not Shallow -- Networks Avoid the Curse of Dimensionality, Tomaso Poggio, Hrushikesh Mhaskar, Lorenzo Rosasco, Brando Miranda, Qianli Liao](ift6085/student_slides/IFT6085_Presentation_WhyAndWhen.pdf)
-**Presented by**: William Fedus, Christos Tsirigotis, Breandan Considine
-- [Flow-GAN: Combining Maximum Likelihood and Adversarial Learning in Generative Models, Aditya Grover, Manik Dhar, Stefano Ermon](ift6085/student_slides/IFT6085_Presentation_FlowGAN.pdf)
-**Presented by**: Amy Zhang, Kyle Kastner, Lluís Castrejón
+**February 13th**
+Weighted Sums of Random Kitchen Sinks: Replacing
+minimization with randomization in learning
+[[**new** scribed notes](ift6085-2020/ift-6085-lecture-11-notes.pdf)]
 
-**March 1st**
-Wasserstein GANs
-[[**new** scribed notes](ift6085-2019/ift-6085-lecture-13-notes.pdf)]
+- Recommended reading: Section 16 (Kernel methods) of [4]
+- Required reading: [23]
+- Recommended viewing: [video of talk by A. Rahimi](https://www.youtube.com/watch?v=Nqi2iU7kbD0). 
+    The discussion pertaining to this paper, starts at 31:10 (though the intro might be necessary) and ends at about 48:10.
 
-Reading: [18,19]
 
-**March 7th**
-**BREAK** No class
 
-**March 8th**
-**BREAK** No class
+**February 19th**
+Generative models, GANs, WGANs
+[[scribed notes](ift6085-2019/ift-6085-lecture-12-notes.pdf)]
+[[scribed notes](ift6085-2019/ift-6085-lecture-13-notes.pdf)]
 
-**March 14th**
-Student paper presentations C
+- Recommended: Great [tutorial and collection resources](https://ermongroup.github.io/generative-models/) from Stefano Ermon and Aditya Grover at IJCAI.
+- Recommended: [Practical guide into Kantorovich-Rubinstein duality](https://vincentherrmann.github.io/blog/wasserstein/), Vincent Herrmann
+- Required reading: Main bodies of [16,17,18,19] without the proofs 
+- Required reaading: Two sets of scribed notes above, including discussed proofs.
+- Optional: [Applications of GANs](https://medium.com/@jonathan_hui/gan-some-cool-applications-of-gans-4c9ecca35900) 
 
-- Compressed Sensing using Generative Models, Ashish Bora, Ajil Jalal, Eric Price, Alexandros G. Dimakis
-- Generalization and Equilibrium in Generative Adversarial Nets (GANs), Sanjeev Arora, Rong Ge, Yingyu Liang, Tengyu Ma, Yi Zhang
-- Do GANs actually learn the distribution? An empirical study, Sanjeev Arora, Yi Zhang
-- Demystifying MMD GANs,
-Mikołaj Bińkowski, Dougal J. Sutherland, Michael Arbel, Arthur Gretton
+**February 20th**
+Student presentations, A
 
-**March 15th**
+1. [Distribution-Independent PAC Learning of Halfspaces with Massart Noise](https://papers.nips.cc/paper/8722-distribution-independent-pac-learning-of-halfspaces-with-massart-noise.pdf)
+- Presented by: JP Letendre, Howard Huang
+- Required reading: Section 1 (without 1.3) and Section 2 until lemma 2.3 (not included)
+
+2. [Adversarial Examples Are Not Bugs, They Are Features](https://arxiv.org/pdf/1905.02175.pdf)
+- Presented by: Charles Huard
+- Optional intro: [Paper 1](https://arxiv.org/pdf/1607.02533.pdf) and [paper 2](https://arxiv.org/pdf/1412.6572.pdf).
+- Required reading: Introduction, Section 4 ("A Theoretical Framework for Studying (Non)-Robust Features") and the proof of Theorem 2 (in pages 35 and 36)
+
+
+**February 26th**
 The Numerics of GANs
-[[scribed notes](ift6085/ift-6085-lecture-14-notes.pdf)]
+[[**new** scribed notes](ift6085-2020/ift-6085-lecture-14-notes.pdf)]
+[[slides](ift6085-2019/ift-6085-gan-dynamics-slides.pdf)]
 
-Reading: [20]
+- Required reading: [20]
 
-**March 21st**
+
+**February 27th**
+Student presentations, B
+1. [Random Matrices and applications to ML](ift6085-2020/student-notes-RMT-ML.pdf)
+[[slides](ift6085-2020/student-slides-RMT-ML.pdf)]
+- Written and presented by: Manuela Girotti
+- Recommended: Section 1
+- Required: Section 3 (without proofs), Section 4.1 and 5.1
+- Optional reading: Section 6
+
+2. [Entropy-sgd: Biasing gradient descent into wide valleys]()
+- Presented by: Oleksiy Ostapenko, Emre Onur Kahya
+- Required reading: Sections 1,3 and 4
+
+
+
+<br/>
+
+--------------
+
+
+Winter break
+--------------
+
+
+
+**March 4th**
+**Winter break** No class
+
+**March 5th**
+**Winter break** No class
+
+
+--------------
+
+<br/>
+
+**March 11th**
+**MIDTERM EXAM**
+
+**March 12th**
+Student presentations, C
+
+<br/>
+
+
+--------------
+
+COVID-19 disruption
+--------------
+
+
+
+**March 18th**
+No class
+
+**March 19th**
+No class
+
+
+--------------
+
+<br/>
+
+
+**March 25th**
+Surprising results on the generalization error of neural networks [new lecture]
+
+- Recommended reading: [In Search of the Real Inductive Bias: On the Role of Implicit Regularization in Deep Learning](https://arxiv.org/abs/1412.6614)
+- Recommended reading: [Understanding deep learning requires rethinking generalization](https://arxiv.org/abs/1611.03530)
+- Recommended reading: [On the Bias-Variance Tradeoff: Textbooks Need an Update](https://www.bradyneal.com/bias-variance-tradeoff-textbooks-update), blog post by Brady Neal
+
+
+**March 26th**
+1-1 project chats
+
+
+**April 1st**
+Where is the Bayes risk hiding? 
+
+- Recommended reading (refresher from last week): [Understanding deep learning requires rethinking generalization](https://arxiv.org/abs/1611.03530)
+- Recommended reading: [To Understand Deep Learning We Need to Understand Kernel Learning](https://arxiv.org/abs/1802.01396)
+- Recommended reading: [Overfitting or perfect fitting? Risk bounds for classification and regression rules that interpolate](https://arxiv.org/abs/1806.05161)
+
+
+
+**April 2nd**
+Student presentations, D
+
+**April 8th**
+Reproducing kernel hilbert spaces - Guest lecture by Jose Gallego [new lecture - no scribed notes]
+- [15min] Watch [this great video](https://www.youtube.com/watch?v=LyGKycYT2v0) on duality.
+- [5min] Get familiar with the *statement* of the [Riesz representation theorem](https://en.wikipedia.org/wiki/Riesz_representation_theorem) and think about the relationship with the video above.
+- [40min] Read the Wikipedia entry on [RKHSs](https://en.wikipedia.org/wiki/Reproducing_kernel_Hilbert_space) - Can skip sections 4, 8 and 9.
+- [15min] *Optional:* Read sections 1 and 2 of the Wikipedia entry on [Kernel embedding of distributions](https://en.wikipedia.org/wiki/Kernel_embedding_of_distributions)
+
+**April 9th**
+Neural Tangent Kernel [new lecture - no scribed notes]
+- Recommended reading: [Neural Tangent Kernel: Convergence and Generalization in Neural Networks](https://arxiv.org/abs/1806.07572)
+- Recommended reading: [Blog summary of paper](https://rajatvd.github.io/NTK/) 
+
+<!--
+**April 15th**
+A discussion of non-vacuous generalization bounds for neural networks [new topic]
+
+- Required reading: [37], [38], [39] without the proofs
+-->
+
+**April 15th**
+(Distributional) reinforcement learning
+[[**new** scribed notes](ift6085-2020/ift-6085-lecture-19-notes.pdf)]
+- Recommended reading: Scribed notes above
+- Recommended reading: [A Distributional Perspective on Reinforcement Learning](https://arxiv.org/abs/1707.06887), by Bellemare et al. 
+
+**April 22nd**
+End of semester (online) project presentations 
+
+
+
+
+
+
+<!---
+
+
+
+
+**March 14th: Guest lecturer, Guillaume Lajoie**
+Intro to dynamical systems with application to neural networks
+[[scribed notes](ift6085-2019/ift-6085-lecture-15-notes.pdf)]
+
+Reading: [31, 32, 33]
+
+
+**April 3rd**
+Distributional reinforcement learning
+[[scribed notes](ift6085-2019/ift-6085-lecture-18-notes.pdf)]
+
+
+Bonus lectures
+--------
+This section contains useful material (older lectures) that have been replaced by new material,
+but are still very interesting and useful.
+Students will not be examined on this material.
+
+
+**March 21st, 2018**
 Variance reduction techniques for stochastic optimization
-[[scribed notes](ift6085/ift-6085-lecture-15-notes.pdf)]
+[[scribed notes](ift6085-2019/ift-6085-bonus-lecture-variance-reduction.pdf)]
 
 Reading: [22], Section 5.3 of [21]
 
-**March 22nd**
-Weighted Sums of Random Kitchen Sinks: Replacing
-minimization with randomization in learning
 
-Reading: [23]
-
-
-**March 28th**
-**NO CLASS** - Instructor is travelling
-
-**March 29th**
+**March 29th, 2018**
 PacGAN: The power of two samples in generative adversarial networks
 
 Reading: [24]
 
-**April 4th**
+
+**April 4th, 2018**
 Some results on non-convex optimization
 
 Reading: [25,26]
 
-**April 5th**
+**April 5th, 2018**
 Escaping saddle points
-[[scribed notes](ift6085/ift-6085-lecture-16-notes.pdf)]
+[[scribed notes](ift6085-2019/ift-6085-bonus-lecture-saddle-points-notes.pdf)]
 [slides by Yang Yuan](http://www.callowbird.com/uploads/8/6/6/4/8664563/1.pdf)
 
 Reading: [27, 28]
 
-**April 11th**
+**April 11th, 2018**
 The theory of spin glasses
 
 Guest lecture by **Alex Fribergh**, UdeM Math.
@@ -263,18 +447,12 @@ Guest lecture by **Alex Fribergh**, UdeM Math.
 Reading: [29]
 
 
-**April 12th**
+**April 12th, 2018**
 The Loss Surfaces of Multilayer Networks
 
 Reading: [30]
 
-**April 25th**
-**Class project poster presentation**
-<details>
-16 group posters, pizza, and science. All are welcome!
-</details>
-
-
+--->
 
 Resources
 ---------
@@ -288,7 +466,7 @@ Resources
 6. [Nesterov's Accelerated Gradient Descent for Smooth and Strongly Convex Optimization](https://blogs.princeton.edu/imabandit/2014/03/06/nesterovs-accelerated-gradient-descent-for-smooth-and-strongly-convex-optimization/), blog post by Sebastien Bubeck.
 7. [Introductory lectures on convex optimization](https://www.google.ca/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&ved=0ahUKEwjhs8Xc4-DYAhVRbK0KHYL4C1wQFgguMAA&url=http%3A%2F%2Fciteseerx.ist.psu.edu%2Fviewdoc%2Fdownload%3Fdoi%3D10.1.1.693.855%26rep%3Drep1%26type%3Dpdf&usg=AOvVaw3mGbk6W45sbV8b1rgS_DRV), Yurii Nesterov.
 8. [Why momentum really works](https://distill.pub/2017/momentum/), blog post by Gabriel Goh (this blog post uses a slightly different parametrization of the momentum algorithm. The version we discuss in class, only applies the learning rate on the gradient.)
-9. [YellowFin and the Art of Momentum Tuning](https://arxiv.org/abs/1706.03471), preprint J. Zhang, I. Mitliagkas.
+9. [YellowFin and the Art of Momentum Tuning](https://arxiv.org/abs/1706.03471), SysML 2019, J. Zhang, I. Mitliagkas.
 10. [Large-scale Machine Learning and Optimization (class)](http://papail.io/901), Dimitris Papailiopoulos, University of Wisconsin.
 11. [Advanced Machine Learning Systems (class)](http://www.cs.cornell.edu/courses/cs6787/2017fa/), Chris De Sa, Cornell University.
 12. [A PAC-Bayesian Tutorial with A Dropout Bound](https://arxiv.org/abs/1307.2118), David McAllester.
@@ -302,7 +480,7 @@ Resources
 20. [The Numerics of GANs](https://arxiv.org/pdf/1705.10461.pdf), Lars Mescheder, Sebastian Nowozin, Andreas Geiger
 21. [Optimization Methods for Large-Scale Machine Learning](https://arxiv.org/pdf/1606.04838v1.pdf), Léon Bottou, Frank E. Curtis, Jorge Nocedal
 22. [Accelerating Stochastic Gradient Descent using Predictive Variance Reduction](http://papers.nips.cc/paper/4937-accelerating-stochastic-gradient-descent-using-predictive-variance-reduction.pdf), Rie Johnson, Tong Zhang
-23. [Weighted Sums of Random Kitchen Sinks: Replacingminimization with randomization in learning](https://people.eecs.berkeley.edu/~brecht/papers/08.rah.rec.nips.pdf), Ali Rahimi, Ben Recht
+23. [Weighted Sums of Random Kitchen Sinks: Replacing minimization with randomization in learning](https://people.eecs.berkeley.edu/~brecht/papers/08.rah.rec.nips.pdf), Ali Rahimi, Ben Recht
 24. [PacGAN: The power of two samples in generative adversarial networks](https://arxiv.org/abs/1712.04086), Zinan Lin, Ashish Khetan, Giulia Fanti, Sewoong Oh
 25. [Stochastic First- and Zeroth-order Methods for Nonconvex Stochastic Programming](https://arxiv.org/abs/1309.5549), Saeed Ghadimi, Guanghui Lan
 26. [Linear Convergence of Gradient and Proximal-Gradient Methods Under the Polyak-Łojasiewicz Condition](https://arxiv.org/abs/1608.04636), Hamed Karimi, Julie Nutini, Mark Schmidt
@@ -310,5 +488,17 @@ Resources
 28. [How to Escape Saddle Points Efficiently](https://arxiv.org/abs/1703.00887), Chi Jin, Rong Ge, Praneeth Netrapalli, Sham M. Kakade, Michael I. Jordan
 29. [RANDOM MATRICES AND COMPLEXITY OF SPIN GLASSES](https://arxiv.org/pdf/1003.1129.pdf), ANTONIO AUFFINGER, GERARD BEN AROUS, AND JIRI CERNY 
 30. [The Loss Surfaces of Multilayer Networks](https://arxiv.org/abs/1412.0233), Anna Choromanska, Mikael Henaff, Michael Mathieu, Gérard Ben Arous, Yann LeCun 
+31. [Learning Long-Term Dependencies with Gradient Descent is Difficult](http://www.comp.hkbu.edu.hk/~markus/teaching/comp7650/tnn-94-gradient.pdf), Y Bengio, P Simard, P Frasconi
+32. [On the difficulty of training Recurrent Neural Networks](https://arxiv.org/abs/1211.5063), Razvan Pascanu, Tomas Mikolov, Yoshua Bengio
+33. [Opening the Black Box: Low-Dimensional Dynamics in High-Dimensional Recurrent Neural Networks](https://www.mitpressjournals.org/doi/full/10.1162/NECO_a_00409), David Sussillo and Omri Barak 
+34. [Reinforcement Learning: An Introduction](http://incompleteideas.net/book/the-book-2nd.html), Richard S. Sutton and Andrew G. Barto
+35. [Course Notes for EE227C (Spring 2018): Convex Optimization and Approximation](https://ee227c.github.io/notes/ee227c-lecture06.pdf), Moritz Hardt.
+36. [Uniform convergence may be unable to explain generalization in deep learning
+](https://arxiv.org/abs/1902.04742), Vaishnavh Nagarajan, J. Zico Kolter 
+37. [Tutorial on Practical Prediction Theory for Classification](http://www.jmlr.org/papers/volume6/langford05a/langford05a.pdf), John Langford, 2005.
+38. [Computing Nonvacuous Generalization Bounds for Deep (Stochastic) Neural Networks with Many More Parameters than Training Data](https://arxiv.org/abs/1703.11008), Gintare Karolina Dziugaite, Daniel M. Roy, 2017.
+39. [Non-Vacuous Generalization Bounds at the ImageNet Scale: A PAC-Bayesian Compression Approach
+](https://arxiv.org/pdf/1804.05862.pdf), Wenda Zhou, Victor Veitch, Morgane Austern, Ryan P. Adams, Peter Orbanz, 2018.
+40. [Representation benefits of deep feedforward](https://arxiv.org/abs/1509.08101), Matus Telgarsky, 2015. 
 
 
