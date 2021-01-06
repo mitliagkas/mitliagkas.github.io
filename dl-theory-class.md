@@ -99,10 +99,10 @@ Schedule
 -------
 
 **NOTE: For the first half of the class we will be closely following the
-[previous iteration](/ift6085-dl-theory-class-2019) of the class.**
+[previous iteration](/ift6085-dl-theory-class-2020) of the class.**
 
 
-**January 8th**
+**January 14th**
 Class introduction
 [[slides](/ift6085-2020/ift-6085-lecture-1.pdf),
 [quiz](ift6085-2019/quiz-first-class.pdf)]
@@ -112,7 +112,7 @@ Class introduction
 ### Crash course in optimization
 
 
-**January 9th**
+**January 20th**
 Basics of convex analysis and gradient descent
 [[**new** scribed notes](ift6085-2020/ift-6085-lecture-2-notes.pdf)]
 
@@ -129,7 +129,7 @@ from Chapter 3 of [1] ('Convex Optimization...' by S.Bubeck under References)
 - Required: Convergence proof of Theorem 3.2 (note that we studied the unconstrained 
 case. In this case the projection operator PiX(x) is the identity operator)
 
-**January 15th**
+**January 21st**
 The different rates of gradient descent: from Lipschitz to strongly convex
 [[**new** scribed notes](ift6085-2020/ift-6085-lecture-3-notes.pdf)]
 
@@ -139,7 +139,7 @@ Convergence proofs from Chapter 3 of [1] ('Convex Optimization...' by S.Bubeck u
 - Required: Sections 3.1, 3.2, 3.4, with emphasis on the Convergence proof of Theorem 3.12 
 - Optional: Section 3.3 and anything related to constrained optimization. Keep in mind that we still discuss in class simplified unconstrained versions of some constrained results from Bubeck. Anything in our scribed notes is also required.
 
-**January 16th**
+**January 27th**
 
 EARLY, IN-CLASS EXAM
 
@@ -150,7 +150,7 @@ Reading:
 - Required: [1, Theorem 3.15]
 - Recommended: [6]
 
-**January 22nd**
+**January 28th**
 Accelerated methods: Polyak's momentum (the heavy ball method)
 [[**new** scribed notes](ift6085-2020/ift-6085-lecture-5-notes.pdf)]
 [[slides](ift6085-2019/ift-6085-lecture-5-slides.pdf)]
@@ -159,7 +159,7 @@ Reading:
 - Required: [8], [9, Sections 1, 2, 3, 4]
 - Recommended: [35]
 
-**January 23rd**
+**February 3rd**
 Nesterov's Accelerated Gradient, Stochastic gradient descent
 [[**new** scribed notes](ift6085-2020/ift-6085-lecture-6-notes.pdf)]
 
@@ -171,7 +171,7 @@ Reading:
 ### Crash course in statistical learning theory 
 
 
-**January 29th**
+**February 4th**
 Elements of statistical learning theory
 [[**new** scribed notes](ift6085-2020/ift-6085-lecture-7-notes.pdf)]
 
@@ -179,7 +179,7 @@ Recommended reading: Section 2 (if you need the intro) and Section 5 of [4].
 
 Required reading: Sections 3, 4 and 6 of [4].
 
-**January 30th**
+**February 10th**
 PAC-Bayes bounds
 [[**new** scribed notes](ift6085-2020/ift-6085-lecture-8-notes.pdf)]
 
@@ -189,7 +189,7 @@ Recommended reading: Section 31 of [4]
 
 Recommended reading (harder): Section 6 of [2]
 
-**February 5th**
+**February 11th**
 Stability and generalization
 [[**new** scribed notes](ift6085-2020/ift-6085-lecture-9-notes.pdf)]
 
@@ -204,7 +204,7 @@ Optional reading: Proofs that are not covevered in the scribed notes.
 ---
 ### Seminar part of class
 
-**February 6th**
+**February 17th**
 Guest lecture - Jose Gallego [this is a new topic; no scribes available from last year]
 
 Uniform convergence may be unable to explain generalization in deep learning
@@ -214,7 +214,7 @@ Uniform convergence may be unable to explain generalization in deep learning
 - Optional reading: Proofs from [36] 
 
 
-**February 12th**
+**February 18th**
 Expressivity and universal approximation theorems
 [[**new** rough scribed notes](ift6085-2020/ift-6085-lecture-10-notes.pdf)]
 
@@ -227,7 +227,7 @@ Reading:
 
 
 
-**February 13th**
+**February 24th**
 Weighted Sums of Random Kitchen Sinks: Replacing
 minimization with randomization in learning
 [[**new** scribed notes](ift6085-2020/ift-6085-lecture-11-notes.pdf)]
@@ -239,7 +239,7 @@ minimization with randomization in learning
 
 
 
-**February 19th**
+**February 25th**
 Generative models, GANs, WGANs
 [[scribed notes](ift6085-2019/ift-6085-lecture-12-notes.pdf)]
 [[scribed notes](ift6085-2019/ift-6085-lecture-13-notes.pdf)]
@@ -250,7 +250,24 @@ Generative models, GANs, WGANs
 - Required reaading: Two sets of scribed notes above, including discussed proofs.
 - Optional: [Applications of GANs](https://medium.com/@jonathan_hui/gan-some-cool-applications-of-gans-4c9ecca35900) 
 
-**February 20th**
+
+Winter break
+--------------
+
+
+
+**March 3rd**
+**Winter break** No class
+
+**March 4th**
+**Winter break** No class
+
+
+--------------
+
+<br/>
+
+**March 10th**
 Student presentations, A
 
 1. [Distribution-Independent PAC Learning of Halfspaces with Massart Noise](https://papers.nips.cc/paper/8722-distribution-independent-pac-learning-of-halfspaces-with-massart-noise.pdf)
@@ -263,7 +280,7 @@ Student presentations, A
 - Required reading: Introduction, Section 4 ("A Theoretical Framework for Studying (Non)-Robust Features") and the proof of Theorem 2 (in pages 35 and 36)
 
 
-**February 26th**
+**March 11th**
 The Numerics of GANs
 [[**new** scribed notes](ift6085-2020/ift-6085-lecture-14-notes.pdf)]
 [[slides](ift6085-2019/ift-6085-gan-dynamics-slides.pdf)]
@@ -271,7 +288,7 @@ The Numerics of GANs
 - Required reading: [20]
 
 
-**February 27th**
+**March 17th**
 Student presentations, B
 1. [Random Matrices and applications to ML](ift6085-2020/student-notes-RMT-ML.pdf)
 [[slides](ift6085-2020/student-slides-RMT-ML.pdf)]
@@ -291,48 +308,15 @@ Student presentations, B
 --------------
 
 
-Winter break
---------------
 
-
-
-**March 4th**
-**Winter break** No class
-
-**March 5th**
-**Winter break** No class
-
-
---------------
-
-<br/>
-
-**March 11th**
+**March 18th**
 **MIDTERM EXAM**
 
-**March 12th**
+**March 24th**
 Student presentations, C
 
 <br/>
 
-
---------------
-
-COVID-19 disruption
---------------
-
-
-
-**March 18th**
-No class
-
-**March 19th**
-No class
-
-
---------------
-
-<br/>
 
 
 **March 25th**
@@ -343,7 +327,7 @@ Surprising results on the generalization error of neural networks [new lecture]
 - Recommended reading: [On the Bias-Variance Tradeoff: Textbooks Need an Update](https://www.bradyneal.com/bias-variance-tradeoff-textbooks-update), blog post by Brady Neal
 
 
-**March 26th**
+**March 31st**
 1-1 project chats
 
 
@@ -356,7 +340,7 @@ Where is the Bayes risk hiding?
 
 
 
-**April 2nd**
+**April 7th**
 Student presentations, D
 
 **April 8th**
@@ -366,7 +350,7 @@ Reproducing kernel hilbert spaces - Guest lecture by Jose Gallego [new lecture -
 - [40min] Read the Wikipedia entry on [RKHSs](https://en.wikipedia.org/wiki/Reproducing_kernel_Hilbert_space) - Can skip sections 4, 8 and 9.
 - [15min] *Optional:* Read sections 1 and 2 of the Wikipedia entry on [Kernel embedding of distributions](https://en.wikipedia.org/wiki/Kernel_embedding_of_distributions)
 
-**April 9th**
+**April 14th**
 Neural Tangent Kernel [new lecture - no scribed notes]
 - Recommended reading: [Neural Tangent Kernel: Convergence and Generalization in Neural Networks](https://arxiv.org/abs/1806.07572)
 - Recommended reading: [Blog summary of paper](https://rajatvd.github.io/NTK/) 
@@ -384,7 +368,7 @@ A discussion of non-vacuous generalization bounds for neural networks [new topic
 - Recommended reading: Scribed notes above
 - Recommended reading: [A Distributional Perspective on Reinforcement Learning](https://arxiv.org/abs/1707.06887), by Bellemare et al. 
 
-**April 22nd**
+**April 21st**
 End of semester (online) project presentations 
 
 
