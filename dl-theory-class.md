@@ -41,7 +41,7 @@ You should take another class instead.
 
 **Registering and auditing.**
 If you want to attend the lectures but haven't registered, you are welcome to audit the class.
-lease fill this [form](https://forms.gle/oPsSR36nMBzWaZXQ7).
+Please fill this [form](https://forms.gle/oPsSR36nMBzWaZXQ7).
 
 
 People
@@ -55,7 +55,7 @@ Class info
 ----------
 Winter 2021 semester:
 - Wednesday 9h30-11h15  
-- Thursday 9-10h45
+- Thursday 9h00-10h45
 
 **First class**: Thursday, January 14th, 2021. 
 
