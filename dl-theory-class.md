@@ -39,13 +39,17 @@ but start with the assumption that students are comfortable with:
 **If you have not taken classes on all of the above topics, this class is not designed for you.**
 You should take another class instead.
 
+**Registering and auditing.**
+If you want to attend the lectures but haven't registered, you are welcome to audit the class.
+lease fill this [form](https://forms.gle/oPsSR36nMBzWaZXQ7).
+
 
 People
 ------
 
 Instructor: [Ioannis Mitliagkas](https://mitliagkas.github.io)
 
-TA: TBA
+TA: [Jose Gallego](https://jgalle29.github.io/)
 
 Class info
 ----------
