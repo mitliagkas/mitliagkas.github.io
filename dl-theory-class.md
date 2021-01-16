@@ -118,7 +118,7 @@ Class introduction
 
 **January 20th**
 Basics of convex analysis and gradient descent
-[[**new** scribed notes](ift6085-2020/ift-6085-lecture-2-notes.pdf)]
+[[scribed notes](ift6085-2020/ift-6085-lecture-2-notes.pdf)]
 
 Reading:
 
@@ -135,7 +135,7 @@ case. In this case the projection operator PiX(x) is the identity operator)
 
 **January 21st**
 The different rates of gradient descent: from Lipschitz to strongly convex
-[[**new** scribed notes](ift6085-2020/ift-6085-lecture-3-notes.pdf)]
+[[scribed notes](ift6085-2020/ift-6085-lecture-3-notes.pdf)]
 
 Reading:
 
@@ -156,7 +156,7 @@ Reading:
 
 **January 28th**
 Accelerated methods: Polyak's momentum (the heavy ball method)
-[[**new** scribed notes](ift6085-2020/ift-6085-lecture-5-notes.pdf)]
+[[scribed notes](ift6085-2020/ift-6085-lecture-5-notes.pdf)]
 [[slides](ift6085-2019/ift-6085-lecture-5-slides.pdf)]
 
 Reading: 
@@ -165,7 +165,7 @@ Reading:
 
 **February 3rd**
 Nesterov's Accelerated Gradient, Stochastic gradient descent
-[[**new** scribed notes](ift6085-2020/ift-6085-lecture-6-notes.pdf)]
+[[scribed notes](ift6085-2020/ift-6085-lecture-6-notes.pdf)]
 
 Reading: 
 - Required: [6], [7, pages 67-76]
@@ -177,7 +177,7 @@ Reading:
 
 **February 4th**
 Elements of statistical learning theory
-[[**new** scribed notes](ift6085-2020/ift-6085-lecture-7-notes.pdf)]
+[[scribed notes](ift6085-2020/ift-6085-lecture-7-notes.pdf)]
 
 Recommended reading: Section 2 (if you need the intro) and Section 5 of [4].
 
@@ -185,7 +185,7 @@ Required reading: Sections 3, 4 and 6 of [4].
 
 **February 10th**
 PAC-Bayes bounds
-[[**new** scribed notes](ift6085-2020/ift-6085-lecture-8-notes.pdf)]
+[[scribed notes](ift6085-2020/ift-6085-lecture-8-notes.pdf)]
 
 Required reading: [12]
 
@@ -195,7 +195,7 @@ Recommended reading (harder): Section 6 of [2]
 
 **February 11th**
 Stability and generalization
-[[**new** scribed notes](ift6085-2020/ift-6085-lecture-9-notes.pdf)]
+[[scribed notes](ift6085-2020/ift-6085-lecture-9-notes.pdf)]
 
 Required reading:
 - Main body of the papers [13,14] without all the proofs 
@@ -220,7 +220,7 @@ Uniform convergence may be unable to explain generalization in deep learning
 
 **February 18th**
 Expressivity and universal approximation theorems
-[[**new** rough scribed notes](ift6085-2020/ift-6085-lecture-10-notes.pdf)]
+[[scribed notes](ift6085-2020/ift-6085-lecture-10-notes.pdf)]
 
 
 Reading:
@@ -234,7 +234,7 @@ Reading:
 **February 24th**
 Weighted Sums of Random Kitchen Sinks: Replacing
 minimization with randomization in learning
-[[**new** scribed notes](ift6085-2020/ift-6085-lecture-11-notes.pdf)]
+[[scribed notes](ift6085-2020/ift-6085-lecture-11-notes.pdf)]
 
 - Recommended reading: Section 16 (Kernel methods) of [4]
 - Required reading: [23]
@@ -286,7 +286,7 @@ Student presentations, A
 
 **March 11th**
 The Numerics of GANs
-[[**new** scribed notes](ift6085-2020/ift-6085-lecture-14-notes.pdf)]
+[[scribed notes](ift6085-2020/ift-6085-lecture-14-notes.pdf)]
 [[slides](ift6085-2019/ift-6085-gan-dynamics-slides.pdf)]
 
 - Required reading: [20]
@@ -368,7 +368,7 @@ A discussion of non-vacuous generalization bounds for neural networks [new topic
 
 **April 15th**
 (Distributional) reinforcement learning
-[[**new** scribed notes](ift6085-2020/ift-6085-lecture-19-notes.pdf)]
+[[scribed notes](ift6085-2020/ift-6085-lecture-19-notes.pdf)]
 - Recommended reading: Scribed notes above
 - Recommended reading: [A Distributional Perspective on Reinforcement Learning](https://arxiv.org/abs/1707.06887), by Bellemare et al. 
 
