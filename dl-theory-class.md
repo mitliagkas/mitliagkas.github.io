@@ -274,15 +274,6 @@ Winter break
 **March 10th**
 Student presentations, A
 
-1. [Distribution-Independent PAC Learning of Halfspaces with Massart Noise](https://papers.nips.cc/paper/8722-distribution-independent-pac-learning-of-halfspaces-with-massart-noise.pdf)
-- Presented by: JP Letendre, Howard Huang
-- Required reading: Section 1 (without 1.3) and Section 2 until lemma 2.3 (not included)
-
-2. [Adversarial Examples Are Not Bugs, They Are Features](https://arxiv.org/pdf/1905.02175.pdf)
-- Presented by: Charles Huard
-- Optional intro: [Paper 1](https://arxiv.org/pdf/1607.02533.pdf) and [paper 2](https://arxiv.org/pdf/1412.6572.pdf).
-- Required reading: Introduction, Section 4 ("A Theoretical Framework for Studying (Non)-Robust Features") and the proof of Theorem 2 (in pages 35 and 36)
-
 
 **March 11th**
 The Numerics of GANs
@@ -294,17 +285,6 @@ The Numerics of GANs
 
 **March 17th**
 Student presentations, B
-1. [Random Matrices and applications to ML](ift6085-2020/student-notes-RMT-ML.pdf)
-[[slides](ift6085-2020/student-slides-RMT-ML.pdf)]
-- Written and presented by: Manuela Girotti
-- Recommended: Section 1
-- Required: Section 3 (without proofs), Section 4.1 and 5.1
-- Optional reading: Section 6
-
-2. [Entropy-sgd: Biasing gradient descent into wide valleys]()
-- Presented by: Oleksiy Ostapenko, Emre Onur Kahya
-- Required reading: Sections 1,3 and 4
-
 
 
 <br/>
