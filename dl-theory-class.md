@@ -74,10 +74,12 @@ Starting your email subject with 'IFT6085:' will ensure that your email is not m
 
 Evaluation
 ----------
-- Class project: 40%
-- Paper presentation: 25%
-- Surprise quizzes, midterm: 20%
+- Class project on a research topic: 35%
+- Paper presentations: 15%
+- Midterm exam: 15%
+- Quizzes: 15%
 - Scribing: 10%
+- Early-semester exam: 5%
 - Class participation: 5%
 
 Use this Latex [template](ift6085-2019/scribing_template.zip) for scribing.
@@ -102,8 +104,8 @@ You can use those for your in-class paper presentations and projects.
 Schedule
 -------
 
-**NOTE: For the first half of the class we will be closely following the
-[previous iteration](/ift6085-dl-theory-class-2020) of the class.**
+For the first half of the class we will be closely following the
+[previous iteration](/ift6085-dl-theory-class-2020) of the class.
 
 
 **January 14th**
@@ -112,7 +114,10 @@ Class introduction
 [old quiz](ift6085-2019/quiz-first-class.pdf)]
 
 
+
 ---
+<br/>
+
 ### Crash course in optimization
 
 
@@ -145,7 +150,7 @@ Convergence proofs from Chapter 3 of [1] ('Convex Optimization...' by S.Bubeck u
 
 **January 27th**
 
-EARLY, IN-CLASS EXAM
+EARLY TAKE-HOME EXAM
 
 Black box models and lower bounds 
 [[scribed notes](ift6085-2019/ift-6085-lecture-4-notes.pdf)]
