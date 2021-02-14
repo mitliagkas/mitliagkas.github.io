@@ -181,6 +181,7 @@ Reading:
 
 
 **February 4th**
+SGD [continuation of previous lecture] and 
 Elements of statistical learning theory
 [[scribed notes](ift6085-2020/ift-6085-lecture-7-notes.pdf)]
 
@@ -189,6 +190,9 @@ Recommended reading: Section 2 (if you need the intro) and Section 5 of [4].
 Required reading: Sections 3, 4 and 6 of [4].
 
 **February 10th**
+Elements of statistical learning theory [continuation of previous lecture]
+
+**February 11th**
 PAC-Bayes bounds
 [[scribed notes](ift6085-2020/ift-6085-lecture-8-notes.pdf)]
 
@@ -198,7 +202,7 @@ Recommended reading: Section 31 of [4]
 
 Recommended reading (harder): Section 6 of [2]
 
-**February 11th**
+**February 17th**
 Stability and generalization
 [[scribed notes](ift6085-2020/ift-6085-lecture-9-notes.pdf)]
 
@@ -211,18 +215,8 @@ Optional reading: Proofs that are not covevered in the scribed notes.
 <br/>
 
 ---
+
 ### Seminar part of class
-
-**February 17th**
-Guest lecture - Jose Gallego [this is a new topic; no scribes available from last year]
-
-Uniform convergence may be unable to explain generalization in deep learning
-
-- Required reading: Section 4 from [4]
-- Required reading: Main body of the paper [36] without proofs
-- Optional reading: Proofs from [36] 
-
-
 **February 18th**
 Expressivity and universal approximation theorems
 [[scribed notes](ift6085-2020/ift-6085-lecture-10-notes.pdf)]
