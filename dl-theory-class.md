@@ -351,7 +351,10 @@ A discussion of non-vacuous generalization bounds for neural networks [new topic
 - Recommended reading: Scribed notes above
 - Recommended reading: [A Distributional Perspective on Reinforcement Learning](https://arxiv.org/abs/1707.06887), by Bellemare et al. 
 
-**April 21st**
+**April 21nd**
+NO LECTURE
+
+**April 22nd**
 End of semester (online) project presentations 
 
 
