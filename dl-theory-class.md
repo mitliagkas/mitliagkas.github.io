@@ -283,9 +283,17 @@ The Numerics of GANs
 
 
 **March 17th**
+Surprising results on the generalization error of neural networks [new lecture]
+
+- Recommended reading: [In Search of the Real Inductive Bias: On the Role of Implicit Regularization in Deep Learning](https://arxiv.org/abs/1412.6614)
+- Recommended reading: [Understanding deep learning requires rethinking generalization](https://arxiv.org/abs/1611.03530)
+- Recommended reading: [On the Bias-Variance Tradeoff: Textbooks Need an Update](https://www.bradyneal.com/bias-variance-tradeoff-textbooks-update), blog post by Brady Neal
+
+
 
 
 <br/>
+
 
 
 **March 18th**
@@ -297,30 +305,22 @@ Student presentations, B
 <br/>
 
 
-
 **March 25th**
 Student presentations, C
 
 **March 31st**
-Surprising results on the generalization error of neural networks [new lecture]
-
-- Recommended reading: [In Search of the Real Inductive Bias: On the Role of Implicit Regularization in Deep Learning](https://arxiv.org/abs/1412.6614)
-- Recommended reading: [Understanding deep learning requires rethinking generalization](https://arxiv.org/abs/1611.03530)
-- Recommended reading: [On the Bias-Variance Tradeoff: Textbooks Need an Update](https://www.bradyneal.com/bias-variance-tradeoff-textbooks-update), blog post by Brady Neal
-
-
-
-**April 1st**
 Where is the Bayes risk hiding? 
 
 - Recommended reading (refresher from last week): [Understanding deep learning requires rethinking generalization](https://arxiv.org/abs/1611.03530)
 - Recommended reading: [To Understand Deep Learning We Need to Understand Kernel Learning](https://arxiv.org/abs/1802.01396)
 - Recommended reading: [Overfitting or perfect fitting? Risk bounds for classification and regression rules that interpolate](https://arxiv.org/abs/1806.05161)
 
-
+**April 1st**
+Student presentations, D
 
 **April 7th**
-Student presentations, D
+1-1 project chats
+
 
 **April 8th**
 Reproducing kernel hilbert spaces - Guest lecture by Jose Gallego [new lecture - no scribed notes]
