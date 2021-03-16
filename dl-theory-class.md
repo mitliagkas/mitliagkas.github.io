@@ -282,6 +282,10 @@ The Numerics of GANs
 - Required reading: [20]
 
 
+<br/>
+
+
+
 **March 17th**
 Surprising results on the generalization error of neural networks [new lecture]
 
@@ -292,21 +296,23 @@ Surprising results on the generalization error of neural networks [new lecture]
 
 
 
-<br/>
 
 
 
 **March 18th**
 **MIDTERM EXAM**
 
+<br/>
+
 **March 24th**
 Student presentations, B
-
-<br/>
 
 
 **March 25th**
 Student presentations, C
+
+<br/>
+
 
 **March 31st**
 Where is the Bayes risk hiding? 
