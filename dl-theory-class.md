@@ -283,35 +283,31 @@ The Numerics of GANs
 
 
 **March 17th**
-Student presentations, B
 
 
 <br/>
-
---------------
-
 
 
 **March 18th**
 **MIDTERM EXAM**
 
 **March 24th**
-Student presentations, C
+Student presentations, B
 
 <br/>
 
 
 
 **March 25th**
+Student presentations, C
+
+**March 31st**
 Surprising results on the generalization error of neural networks [new lecture]
 
 - Recommended reading: [In Search of the Real Inductive Bias: On the Role of Implicit Regularization in Deep Learning](https://arxiv.org/abs/1412.6614)
 - Recommended reading: [Understanding deep learning requires rethinking generalization](https://arxiv.org/abs/1611.03530)
 - Recommended reading: [On the Bias-Variance Tradeoff: Textbooks Need an Update](https://www.bradyneal.com/bias-variance-tradeoff-textbooks-update), blog post by Brady Neal
 
-
-**March 31st**
-1-1 project chats
 
 
 **April 1st**
