@@ -71,8 +71,8 @@ Schedule
 
 **January 10th**
 Class introduction
-[[slides](ift6085/ift-6085-lecture-1.pdf),
-[quiz](ift6085/quiz-first-class.pdf)]
+[[slides](ift6085-2018/ift-6085-lecture-1.pdf),
+[quiz](ift6085-2018/quiz-first-class.pdf)]
 
 
 ---
@@ -81,7 +81,7 @@ Class introduction
 
 **January 11th**
 Basics of convex analysis and gradient descent
-[[scribed notes](ift6085/ift-6085-lecture-2-notes.pdf)]
+[[scribed notes](ift6085-2018/ift-6085-lecture-2-notes.pdf)]
 
 Reading:
 
@@ -98,7 +98,7 @@ case. In this case the projection operator PiX(x) is the identity operator)
 
 **January 17th**
 The different rates of gradient descent: from Lipschitz to strongly convex
-[[scribed notes](ift6085/ift-6085-lecture-3-notes.pdf)]
+[[scribed notes](ift6085-2018/ift-6085-lecture-3-notes.pdf)]
 
 Reading:
 
@@ -107,19 +107,19 @@ Convergence proofs from Chapter 3 of [1] ('Convex Optimization...' by S.Bubeck u
 
 **January 18th**
 Black box models and lower bounds 
-[[scribed notes](ift6085/ift-6085-lecture-4-notes.pdf)]
+[[scribed notes](ift6085-2018/ift-6085-lecture-4-notes.pdf)]
 
 Reading: [1, Theorem 3.15], [6]
 
 **January 24th**
 Accelerated methods
-[[scribed notes](ift6085/ift-6085-lecture-5-notes.pdf)]
+[[scribed notes](ift6085-2018/ift-6085-lecture-5-notes.pdf)]
 
 Reading: [6], [7, pages 67-76], [8], [9]
 
 **January 25th**
 Nesterov's Accelearted Gradient, Stochastic gradient descent
-[[scribed notes](ift6085/ift-6085-lecture-6-notes.pdf)]
+[[scribed notes](ift6085-2018/ift-6085-lecture-6-notes.pdf)]
 
 Reading: Section 6 until 6.2 of [1], Section 14.3 of [4]
 
@@ -129,13 +129,13 @@ Reading: Section 6 until 6.2 of [1], Section 14.3 of [4]
 
 **January 31st**
 Elements of statistical learning theory
-[[scribed notes](ift6085/ift-6085-lecture-7-notes.pdf)]
+[[scribed notes](ift6085-2018/ift-6085-lecture-7-notes.pdf)]
 
 Reading: Sections 2 (if you need the intro), 3, 4 and 6 of [4].
 
 **February 1st**
 PAC-Bayes bounds
-[[scribed notes](ift6085/ift-6085-lecture-8-notes.pdf)]
+[[scribed notes](ift6085-2018/ift-6085-lecture-8-notes.pdf)]
 
 Reading: [12]
 
@@ -143,13 +143,13 @@ Reading (harder): Section 6 of [2]
 
 **February 7th**
 Stability and generalization
-[[scribed notes](ift6085/ift-6085-lecture-9-notes.pdf)]
+[[scribed notes](ift6085-2018/ift-6085-lecture-9-notes.pdf)]
 
 Reading: [13]
 
 **February 8th**
 Stability and generalization: Part II
-[[scribed notes](ift6085/ift-6085-lecture-10-notes.pdf)]
+[[scribed notes](ift6085-2018/ift-6085-lecture-10-notes.pdf)]
 
 Reading: [13,14]
 
@@ -159,7 +159,7 @@ Reading: [13,14]
 
 **February 14th**
 Applications of stability and PAC Bayes
-[[scribed notes](ift6085/ift-6085-lecture-11-notes.pdf)]
+[[scribed notes](ift6085-2018/ift-6085-lecture-11-notes.pdf)]
 
 Reading: [14,15]
 
@@ -169,30 +169,30 @@ Reading: [14,15]
 **February 21st**
 Student paper presentations A
 
-- [Understanding deep learning requires rethinking generalization, Zhang C, Bengio S, Hardt M, Recht B, Vinyals O.](ift6085/student_slides/IFT6085_Presentation_Rethinking.pdf)
+- [Understanding deep learning requires rethinking generalization, Zhang C, Bengio S, Hardt M, Recht B, Vinyals O.](ift6085-2018/student_slides/IFT6085_Presentation_Rethinking.pdf)
 **Presented by**: Aldo Lamarre, Matthew C. Scicluna
 - [Emergence of invariance and disentanglement in Deep Representations,
-Alessandro Achille, Stefano Soatto](ift6085/student_slides/IFT6085_Presentation_Emergence.pdf)
+Alessandro Achille, Stefano Soatto](ift6085-2018/student_slides/IFT6085_Presentation_Emergence.pdf)
 **Presented by**: Aristide Baratin, Brady Neal, Nithin Vasisth 
-- [High-dimensional dynamics of generalization error in neural networks, Madhu S. Advani, Andrew M. Saxe](ift6085/student_slides/IFT6085_Presentation_High_Dimensional_Dynamics.pdf)
+- [High-dimensional dynamics of generalization error in neural networks, Madhu S. Advani, Andrew M. Saxe](ift6085-2018/student_slides/IFT6085_Presentation_High_Dimensional_Dynamics.pdf)
 **Presented by**: Reyhane Askari, Arian Hosseini, Mohammad Pezeshki
 
 **February 22nd**
 Generative models
-[[scribed notes](ift6085/ift-6085-lecture-12-notes.pdf)]
+[[scribed notes](ift6085-2018/ift-6085-lecture-12-notes.pdf)]
 
 Reading: [16,17]
 
 **February 28th**
 Student paper presentations B
 
-- [Optimizing Neural Networks with Kronecker-factored Approximate Curvature, James Martens, Roger Grosse](ift6085/student_slides/IFT6085_Presentation_KFAC.pdf)
+- [Optimizing Neural Networks with Kronecker-factored Approximate Curvature, James Martens, Roger Grosse](ift6085-2018/student_slides/IFT6085_Presentation_KFAC.pdf)
 **Presented by**: Josh Romoff & Riashat Islam 
-- [Opening the black box of Deep Neural Networks via Information, Ravid Shwartz-Ziv, Naftali Tishby](ift6085/student_slides/IFT6085_Presentation_IB.pdf)
+- [Opening the black box of Deep Neural Networks via Information, Ravid Shwartz-Ziv, Naftali Tishby](ift6085-2018/student_slides/IFT6085_Presentation_IB.pdf)
 **Presented by**: Philip Amortila and Nicolas Gagné
-- [Why and When Can Deep -- but Not Shallow -- Networks Avoid the Curse of Dimensionality, Tomaso Poggio, Hrushikesh Mhaskar, Lorenzo Rosasco, Brando Miranda, Qianli Liao](ift6085/student_slides/IFT6085_Presentation_WhyAndWhen.pdf)
+- [Why and When Can Deep -- but Not Shallow -- Networks Avoid the Curse of Dimensionality, Tomaso Poggio, Hrushikesh Mhaskar, Lorenzo Rosasco, Brando Miranda, Qianli Liao](ift6085-2018/student_slides/IFT6085_Presentation_WhyAndWhen.pdf)
 **Presented by**: William Fedus, Christos Tsirigotis, Breandan Considine
-- [Flow-GAN: Combining Maximum Likelihood and Adversarial Learning in Generative Models, Aditya Grover, Manik Dhar, Stefano Ermon](ift6085/student_slides/IFT6085_Presentation_FlowGAN.pdf)
+- [Flow-GAN: Combining Maximum Likelihood and Adversarial Learning in Generative Models, Aditya Grover, Manik Dhar, Stefano Ermon](ift6085-2018/student_slides/IFT6085_Presentation_FlowGAN.pdf)
 **Presented by**: Amy Zhang, Kyle Kastner, Lluís Castrejón
 
 **March 1st**
@@ -218,13 +218,13 @@ Mikołaj Bińkowski, Dougal J. Sutherland, Michael Arbel, Arthur Gretton
 
 **March 15th**
 The Numerics of GANs
-[[scribed notes](ift6085/ift-6085-lecture-14-notes.pdf)]
+[[scribed notes](ift6085-2018/ift-6085-lecture-14-notes.pdf)]
 
 Reading: [20]
 
 **March 21st**
 Variance reduction techniques for stochastic optimization
-[[scribed notes](ift6085/ift-6085-lecture-15-notes.pdf)]
+[[scribed notes](ift6085-2018/ift-6085-lecture-15-notes.pdf)]
 
 Reading: [22], Section 5.3 of [21]
 
@@ -250,7 +250,7 @@ Reading: [25,26]
 
 **April 5th**
 Escaping saddle points
-[[scribed notes](ift6085/ift-6085-lecture-16-notes.pdf)]
+[[scribed notes](ift6085-2018/ift-6085-lecture-16-notes.pdf)]
 [slides by Yang Yuan](http://www.callowbird.com/uploads/8/6/6/4/8664563/1.pdf)
 
 Reading: [27, 28]
