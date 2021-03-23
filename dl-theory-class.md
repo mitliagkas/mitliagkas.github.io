@@ -272,10 +272,10 @@ Winter break
 
 **March 10th**
 Student presentations, A
-- []()
-**Presented by**: 
-- []()
-**Presented by**: 
+- [Performative Prediction](ift6085-2021/student_slides/ift6085-presentation-performative-prediction.pdf)
+**Presented by**: Alan Chan 
+- [Expressivity, Complexity, Learnability](ift6085-2021/student_slides/ift6085-presentation-expressivity-complexity-learnability.pdf)
+**Presented by**: Martin Weiss
 
 
 **March 11th**
@@ -310,18 +310,18 @@ Surprising results on the generalization error of neural networks [new lecture]
 
 **March 24th**
 Student presentations, B
-- []()
-**Presented by**: 
-- []()
-**Presented by**: 
+- [Neural SDEs as Infinite-Dimensional GANs ](https://arxiv.org/abs/2102.03657)
+**Presented by**: Tim DeLise
+- [Results on algorithmic stability](http://www.jmlr.org/papers/volume2/bousquet02a/bousquet02a.pdf)
+**Presented by**: Magid Sabbagh
 
 
 **March 25th**
 Student presentations, C
 - []()
-**Presented by**: 
+**Presented by**: Guillaume Huguet, Semih Canturk
 - []()
-**Presented by**: 
+**Presented by**: Abderrahim Fathan, Hai Phan
 
 <br/>
 
@@ -336,11 +336,11 @@ Where is the Bayes risk hiding?
 **April 1st**
 Student presentations, D
 - []()
-**Presented by**: 
+**Presented by**: Eeshan Gunesh Dhekane, Sarthak Mittal
 - []()
-**Presented by**: 
+**Presented by**: Hattie Zhou, Zacharie Legault
 - []()
-**Presented by**: 
+**Presented by**: Amirhossein Kazemnejad, Abderrahim Fathan
 
 **April 7th**
 1-1 project chats
