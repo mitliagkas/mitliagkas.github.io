@@ -272,6 +272,10 @@ Winter break
 
 **March 10th**
 Student presentations, A
+- []()
+**Presented by**: 
+- []()
+**Presented by**: 
 
 
 **March 11th**
@@ -306,10 +310,18 @@ Surprising results on the generalization error of neural networks [new lecture]
 
 **March 24th**
 Student presentations, B
+- []()
+**Presented by**: 
+- []()
+**Presented by**: 
 
 
 **March 25th**
 Student presentations, C
+- []()
+**Presented by**: 
+- []()
+**Presented by**: 
 
 <br/>
 
@@ -323,6 +335,12 @@ Where is the Bayes risk hiding?
 
 **April 1st**
 Student presentations, D
+- []()
+**Presented by**: 
+- []()
+**Presented by**: 
+- []()
+**Presented by**: 
 
 **April 7th**
 1-1 project chats
