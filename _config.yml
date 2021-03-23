@@ -11,6 +11,9 @@ url: "http://mitliagkas.github.io" # the base hostname & protocol for your site
 twitter_username: bouzoukipunks
 github_username:  mitliagkas
 
+plugins:
+  - jekyll-redirect-from
+
 highlighter: pygments
 
 flickr:
