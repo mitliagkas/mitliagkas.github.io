@@ -318,7 +318,7 @@ Student presentations, B
 
 **March 25th**
 Student presentations, C
-- [Emergence of Invariance and Disentanglement in Deep Representations](https://arxiv.org/abs/2006.10742)
+- [Learning Invariant Representations for Reinforcement Learning without Reconstruction ](https://arxiv.org/abs/2006.10742)
 **Presented by**: Guillaume Huguet, Semih Canturk
 - [Emergence of Invariance and Disentanglement in Deep Representations](https://arxiv.org/abs/1706.01350)
 **Presented by**: Abderrahim Fathan, Hai Phan
