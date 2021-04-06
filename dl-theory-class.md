@@ -347,17 +347,22 @@ Student presentations, D
 
 
 **April 8th**
-Reproducing kernel hilbert spaces - Guest lecture by Jose Gallego [new lecture - no scribed notes]
+Neural Tangent Kernel [new lecture - no scribed notes]
+- Recommended reading: [Neural Tangent Kernel: Convergence and Generalization in Neural Networks](https://arxiv.org/abs/1806.07572)
+- Recommended reading: [Blog summary of paper](https://rajatvd.github.io/NTK/) 
+
+Recommended reading on reproducing kernel hilbert spaces:
+- Guest lecture by Jose Gallego from last year[video](https://www.dropbox.com/s/e1bhq2bbdqhx4z3/lecture-jose-rkhs.mp4?dl=0)
 - [15min] Watch [this great video](https://www.youtube.com/watch?v=LyGKycYT2v0) on duality.
 - [5min] Get familiar with the *statement* of the [Riesz representation theorem](https://en.wikipedia.org/wiki/Riesz_representation_theorem) and think about the relationship with the video above.
 - [40min] Read the Wikipedia entry on [RKHSs](https://en.wikipedia.org/wiki/Reproducing_kernel_Hilbert_space) - Can skip sections 4, 8 and 9.
 - [15min] *Optional:* Read sections 1 and 2 of the Wikipedia entry on [Kernel embedding of distributions](https://en.wikipedia.org/wiki/Kernel_embedding_of_distributions)
 
 **April 14th**
-Neural Tangent Kernel [new lecture - no scribed notes]
-- Recommended reading: [Neural Tangent Kernel: Convergence and Generalization in Neural Networks](https://arxiv.org/abs/1806.07572)
-- Recommended reading: [Blog summary of paper](https://rajatvd.github.io/NTK/) 
-
+(Distributional) reinforcement learning
+[[scribed notes](ift6085-2020/ift-6085-lecture-19-notes.pdf)]
+- Recommended reading: Scribed notes above
+- Recommended reading: [A Distributional Perspective on Reinforcement Learning](https://arxiv.org/abs/1707.06887), by Bellemare et al. 
 <!--
 **April 15th**
 A discussion of non-vacuous generalization bounds for neural networks [new topic]
@@ -366,10 +371,7 @@ A discussion of non-vacuous generalization bounds for neural networks [new topic
 -->
 
 **April 15th**
-(Distributional) reinforcement learning
-[[scribed notes](ift6085-2020/ift-6085-lecture-19-notes.pdf)]
-- Recommended reading: Scribed notes above
-- Recommended reading: [A Distributional Perspective on Reinforcement Learning](https://arxiv.org/abs/1707.06887), by Bellemare et al. 
+Determinantal point processes for ML (guest lecture by Jose Gallego)
 
 **April 21nd**
 NO LECTURE
