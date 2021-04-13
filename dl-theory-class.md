@@ -367,6 +367,8 @@ Recommended reading on reproducing kernel hilbert spaces:
 
 **April 15th**
 Determinantal point processes for ML (guest lecture by Jose Gallego)
+- Recommended reading: [Notes from Stefanie Jegelka's class at MIT](http://people.csail.mit.edu/stefje/fall15/notes_lecture21.pdf), written by Swati Gupta.
+- Recommended reading: [Determinantal Point Processes in Randomized Numerical Linear Algebra](https://arxiv.org/pdf/2005.03185.pdf), Derezinski and Mahoney.
 
 **April 21nd**
 NO LECTURE
