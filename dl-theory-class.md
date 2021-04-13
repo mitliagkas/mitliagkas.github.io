@@ -363,12 +363,7 @@ Recommended reading on reproducing kernel hilbert spaces:
 [[scribed notes](ift6085-2020/ift-6085-lecture-19-notes.pdf)]
 - Recommended reading: Scribed notes above
 - Recommended reading: [A Distributional Perspective on Reinforcement Learning](https://arxiv.org/abs/1707.06887), by Bellemare et al. 
-<!--
-**April 15th**
-A discussion of non-vacuous generalization bounds for neural networks [new topic]
 
-- Required reading: [37], [38], [39] without the proofs
--->
 
 **April 15th**
 Determinantal point processes for ML (guest lecture by Jose Gallego)
