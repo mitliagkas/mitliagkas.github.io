@@ -9,7 +9,9 @@ order: 2
 IFT 6085: Theoretical principles for deep learning
 =========
 
-**Winter 2021**
+**Winter 2021** -- Online class 
+
+The class will be taught again in Winter 2022 in an online format.
 
 Warning: Since Winter 2020, the class is more demanding than previous years.
 For example, the introductory "crash courses" have been compressed significantly.
