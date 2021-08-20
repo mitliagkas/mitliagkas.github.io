@@ -6,7 +6,7 @@ permalink: /ift6390-ml-class/
 order: 3
 ---
 
-IFT6390: Fundamentals of machine learning -- Taught online, Fall 2021
+IFT6390: Fundamentals of machine learning -- Fall 2021 -- Taught in person
 =========
 
 An introductory but **very intensive** class in machine learning.
@@ -29,8 +29,8 @@ in the
 
 Quick links
 --------- 
-As of Tuesday, September 1st, all officially registered students have been added to Piazza and Gradescope.
-We sent you invitations and announcements to your email address associated with your registration. 
+We will add all registered students to Piazza and Gradescope.
+You will receive invitations and announcements to your email address associated with your registration. 
 For the majority of you this is an email address that ends in @umontreal.ca. 
 You should be able to access it [here](https://outlook.umontreal.ca/) with your UdeM/Synchro credentials. 
 If you do not have UdeM credentials, please contact UdeM's IT support.
@@ -38,12 +38,13 @@ If you do not have UdeM credentials, please contact UdeM's IT support.
 **IMPORTANT: Make sure you learn how to use that email inbox and check it often. We will not be able to add you using alternative email addresses.**
 
 <span style="color:red">
-If you registered late (i.e. did not have access to Studium on September 1st), then please complete [this form](https://forms.gle/gEaECs6kYb1k2JLbA) to be added to class resources.
+If you registered late (i.e. did not have access to Studium on September 1st), then please complete [this form](https://forms.gle/gwdwAbL8nF5KGtqDA) to be added to class resources.
 </span>
 
-- [Piazza](https://piazza.com/umontreal.ca/fall2020/ift6390) for all our communications.
-- [Gradescope](https://www.gradescope.com/courses/155310) for submitting your work and seeing your grades.
-- [Overleaf](https://www.overleaf.com/read/tbzhcsjtfjfy) for downloading homework announcements and working on your solutions .
+The following links will become active shortly before our first lecture.
+- [Piazza]() for all our communications.
+- [Gradescope]() for submitting your work and seeing your grades.
+- [Overleaf]() for downloading homework announcements and working on your solutions .
 
 
 People
@@ -57,7 +58,8 @@ Teaching assistants: (TBA)
 Registering and auditing
 --------
 The class might be full. It will be taught again in Winter 2021 (January 2021). 
-If you want to audit the class, please fill this [form](https://forms.gle/hnfwVpf67WncVYWz9). 
+If you want to audit the class, please fill this [form](https://forms.gle/jZdzKanEErQisvKG8). 
+You will get access to the course material, but you will not be able to submit work or be graded. 
 
 
 Communication
@@ -66,13 +68,13 @@ Communication
 All of our communication will happen through the class Piazza page. 
 Registered students will be added to the Piazza page automatically on the day before the first class. 
 
-All lectures, labs and office hours will happen on Zoom. You will find all the links on Piazza.
+Some office hours will happen on Zoom to accommodate remote students. You will receive an announcement.
 
 Homework submission and evaluation will happen on Gradescope. You will be invited to the class's Gradescope page automatically the day before classes start. If you are auditing, you will not be added to Gradescope and you will not be able to submit homeworks.
 
 **Important:** Make sure that you learn how to use and are checking your @umontreal.ca email inbox. That is were you will receive announcements and invitations to class online services.
 
-The class's [studium page](https://studium.umontreal.ca/course/view.php?id=176757) will only be used for initial coordination with registered students until they get access to Piazza. There will be no discussions on Studium. 
+The class's [studium page](https://studium.umontreal.ca/course/view.php?id=199115) will only be used for initial coordination with registered students until they get access to Piazza. There will be no discussions on Studium. 
 
 **Important notice on email communication:**
 This is a very large class, so the instructor will not be able to respond to individual questions about the class via email.  **Exclusively in the event that you have a question of a sensitive, personal nature:** Please feel free to email the instructor.  Please start the subject of your email with "[IFT6390]"; otherwise your email might be lost.
@@ -84,20 +86,11 @@ The instructor's lectures are on
 - Wednesday at 9:30am-11:10am ET
 - Thursday at 9:30am-10:20am ET
 
-For both lectures we will use the same link that you will find on Piazza (see section above). 
-
 Weekly labs led by a TA on
 - Thursday at 10:30am-12:30am ET
 
-You will also find the link to a week's lab on Piazza.
-
 Updated information can always be found by following the instructions below "TROUVEZ L’HORAIRE D’UN COURS" at the bottom of <a href="https://admission.umontreal.ca/cours-et-horaires/cours/ift-6390/">
 this page</a>.
-
-
-Video recordings 
--------------
-Lectures and labs will be delivered live, but a video recording will be made available to the class soon after the class is over. Links to all past lectures and lab video recordings will be available on Piazza.
 
 
 Content and objectives of class
