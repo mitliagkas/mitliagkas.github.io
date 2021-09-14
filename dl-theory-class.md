@@ -9,9 +9,9 @@ order: 2
 IFT 6085: Theoretical principles for deep learning
 =========
 
-**Winter 2021** -- Online class 
+**Winter 2021** 
 
-The class will be taught again in Winter 2022 in an online format.
+The class will be taught again in Winter 2022 in person.
 
 Warning: Since Winter 2020, the class is more demanding than previous years.
 For example, the introductory "crash courses" have been compressed significantly.
@@ -60,8 +60,6 @@ Winter 2021 semester:
 - Thursday 9h00-10h45
 
 **First class**: Thursday, January 14th, 2021. 
-
-All classes will be held online, via Zoom, until further notice. Students will be able to find information on how to connect on the class's Studium page a week before classes start.
 
 Office hours: 10:45am-11:45am on Thursday right after class.
 
