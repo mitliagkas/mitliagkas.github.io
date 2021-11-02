@@ -17,6 +17,33 @@ Learning, generalization, and domain adaptation
 <div id ="imagelist">
 <ul>
       <li>
+      <a href="https://arxiv.org/abs/2106.06607" target="_blank">
+      <img src="{{ site.baseurl }}/images/project-irb.png" alt="" title="Invariance Principle Meets Information Bottleneck for Out-of-Distribution Generalization ">
+      <div>
+	Invariance Principle Meets Information Bottleneck for Out-of-Distribution Generalization
+        <em>
+	We prove that using the "information bottleneck" along with invariance helps address key failures of IRM.
+	We propose an approach that incorporates both of these principles and demonstrate its effectiveness. 
+	</em>
+	<br>
+	Lead: Kartik Ahuja
+      </div></a>
+      </li> 
+      <li>
+      <a href="https://arxiv.org/abs/2010.11924" target="_blank">
+      <img src="{{ site.baseurl }}/images/project-robust-measures.png" alt="" title="In Search of Robust Measures of Generalization">
+      <div>
+	In Search of Robust Measures of Generalization
+        <em>
+	We look into the experimental evaluation of generalization measures for neural networks.
+	We argue that generalization measures should be evaluated within the framework of distributional robustness 
+	and provide methodology and experimental results on a variety of architectures.
+	</em>
+	<br>
+	Lead: Karolina Dziugaite, Alexandre Drouin (ServiceNow/ElementAI)
+      </div></a>
+      </li> 
+      <li>
       <a href="https://www.bradyneal.com/bias-variance-tradeoff-textbooks-update" target="_blank">
       <img src="{{ site.baseurl }}/images/project-bias-variance.png" alt="" title="A Modern Take on the Bias-Variance Tradeoff in Neural Networks">
       <div>
@@ -33,9 +60,9 @@ Learning, generalization, and domain adaptation
       </li> 
       <li>
       <a href="https://arxiv.org/abs/1911.00804"  target="_blank">
-      <img src="{{ site.baseurl }}/images/project-adversarial-domain-generalization.png" alt="" title="Adversarial target-invariant representation learning for domain generalization">
+      <img src="{{ site.baseurl }}/images/project-adversarial-domain-generalization.png" alt="" title="Generalizing to unseen domains via distribution matching">
       <div>
-	Adversarial representation learning for domain generalization
+	Generalizing to unseen domains via distribution matching
         <em>
 	We propose a process that enforces pair-wise domain invariance while training a feature extractor over a diverse set of domains.
 	We show that this process ensures invariance to any distribution that can be expressed as a mixture of the training domains.
@@ -82,6 +109,43 @@ Differentiable games
 <div id="imagelist">
     <ul>
       <li>
+      <a href="https://arxiv.org/abs/2107.00052"  target="_blank">
+      <img src="{{ site.baseurl }}/images/project-co-coercivity.png" alt="" title="Consensus Optimization for Smooth Games: Convergence Analysis under Expected Co-coercivity">
+      <div>
+Consensus Optimization for Smooth Games: Convergence Analysis under Expected Co-coercivity
+        <em>
+		We introduce expected co-coercivity and provide the first last-iterate convergence guarantees of SGDA and SCO for a class of non-monotone stochastic variational inequality problems.
+	</em>
+	<br>
+	Lead: Nicolas Loizou
+      </div></a>
+      </li> 
+      <li>
+      <a href="https://arxiv.org/abs/2010.13846"  target="_blank">
+      <img src="{{ site.baseurl }}/images/project-lead.png" alt="" title="LEAD: Least-Action Dynamics for Min-Max Optimization ">
+      <div>
+LEAD: Least-Action Dynamics for Min-Max Optimization
+        <em>
+	We leverage tools from physics to introduce LEAD (Least-Action Dynamics), a second-order optimizer for min-max games
+	</em>
+	<br>
+	<br>
+	Lead: Reyhane Askari, Amartya Mitra
+      </div></a>
+      </li> 
+      <li>
+      <a href="https://arxiv.org/abs/2007.04202"  target="_blank">
+      <img src="{{ site.baseurl }}/images/project-shgd.png" alt="" title="Stochastic hamiltonian gradient methods for smooth games">
+      <div>
+Stochastic hamiltonian gradient methods for smooth games
+        <em>
+		We provide the first complete analysis of stochastic Hamiltonian gradient descent with a decreasing step-size, a method successful in training GANs. We also present the first stochastic variance reduced Hamiltonian method.
+	</em>
+	<br>
+	Lead: Nicolas Loizou
+      </div></a>
+      </li> 
+      <li>
       <a href="https://arxiv.org/abs/2001.00602"  target="_blank">
       <img src="{{ site.baseurl }}/images/project-games-spectral-shapes.png" alt="" title="Accelerating Smooth Games by Manipulating Spectral Shapes ">
       <div>
@@ -122,19 +186,6 @@ Differentiable games
       </div></a>
       </li> 
       <li>
-      <a href="https://arxiv.org/abs/1901.08680"  target="_blank">
-      <img src="{{ site.baseurl }}/images/project-multiobjective-gan.png" alt="" title="Multi-objective training of Generative Adversarial Networks with multiple discriminators">
-      <div>
-        Multi-objective training of GANs with multiple discriminators
-        <em>
-We study GANs with multiple discriminators by framing them as a multi-objective optimization problem.
-Our results indicate that hypervolume maximization presents a better compromise between sample quality and computational cost than previous methods.
-	</em>
-	<br>
-	Lead: Isabela Albuquerque, João Monteiro (INRS)
-      </div></a>
-      </li> 
-      <li>
       <a href="https://arxiv.org/pdf/2001.00602.pdf"  target="_blank">
       <img src="{{ site.baseurl }}/images/project-negative-momentum.png" alt="" title="Negative Momentum for Improved Game Dynamics">
       <div>
@@ -153,11 +204,82 @@ Our results indicate that hypervolume maximization presents a better compromise 
     </ul>
 </div>
 
+Generative models
+-----
+<div id="imagelist">
+    <ul>
+      <li>
+      <a href="https://ajolicoeur.wordpress.com/gotta-go-fast-with-score-based-models/"  target="_blank">
+      <img src="{{ site.baseurl }}/images/project-gotta-go-fast.png" alt="" title="Gotta Go Fast When Generating Data with Score-Based Models ">
+      <div>
+	Gotta Go Fast When Generating Data with Score-Based Models
+        <em>
+	We borrow tools and ideas from stochastic differential equation literature to devise a more efficient solver for score-based diffusion generative models. 
+Our approach generates data 2 to 10 times faster than EM while achieving better or equal sample quality.
+	</em>
+	<br>
+	Lead: Alexia Jolicoeur-Martineau
+      </div></a>
+      </li> 
+      <li>
+      <a href="https://arxiv.org/abs/2009.05475"  target="_blank">
+      <img src="{{ site.baseurl }}/images/project-dsm-als.png" alt="" title="Adversarial score matching and improved sampling for image generation">
+      <div>
+	Adversarial score matching and sampling for image generation
+        <em>
+	We dig into recently proposed deep generative methods based on denoising score mathing and annealed Langevin Sampling (DSM-ALS). We identify two weaknesses in existing methodology and address them to provide state-of-the-art generative performance. 
+	</em>
+	<br>
+	Lead: Alexia Jolicoeur-Martineau
+      </div></a>
+      </li> 
+      <li>
+      <a href="https://arxiv.org/abs/1901.08680"  target="_blank">
+      <img src="{{ site.baseurl }}/images/project-multiobjective-gan.png" alt="" title="Multi-objective training of Generative Adversarial Networks with multiple discriminators">
+      <div>
+        Multi-objective training of GANs with multiple discriminators
+        <em>
+We study GANs with multiple discriminators by framing them as a multi-objective optimization problem.
+Our results indicate that hypervolume maximization presents a better compromise between sample quality and computational cost than previous methods.
+	</em>
+	<br>
+	Lead: Isabela Albuquerque, João Monteiro (INRS)
+      </div></a>
+      </li> 
+    </ul>
+</div>
+
 
 Optimization and numerical analysis
 -----
 <div id="imagelist">
     <ul>
+      <li>
+      <a href="https://arxiv.org/abs/2110.10815"  target="_blank">
+      <img src="{{ site.baseurl }}/images/project-feedback-alignment.png" alt="" title="Convergence Analysis and Implicit Regularization of Feedback Alignment for Deep Linear Networks">
+      <div>
+	Implicit Regularization with Feedback Alignment 
+        <em>
+We analyze feedback alignment and study incremental learning phenomena for linear networks. Interestingly, certain initializations imply that negligible components are learned before the principal ones; a phenomenon we classify as implicit anti-regularization.
+    </em>
+    <br>
+    Lead: Manuela Girotti
+      </div></a>
+      </li> 
+      <li>
+      <a href="http://proceedings.mlr.press/v130/guille-escuret21a.html"  target="_blank">
+      <img src="{{ site.baseurl }}/images/project-condition-numbers.png" alt="" title="A Study of Condition Numbers for First-Order Optimization ">
+      <div>
+	A Study of Condition Numbers for First-Order Optimization
+        <em>
+		Condition numbers are not continuous!! (seriously it wreaks havoc with tuning)
+		We perform a comprehensive study of alternative metrics which we prove to be continuous.
+		Finally we discuss how our work impacts the theoretical understanding of FOA and their performances.
+    </em>
+    <br>
+    Lead: Charles Guille-Escuret, Baptiste Goujaud
+      </div></a>
+      </li> 
       <li>
       <a href="http://papers.nips.cc/paper/8779-reducing-the-variance-in-online-optimization-by-transporting-past-gradients"  target="_blank">
       <img src="{{ site.baseurl }}/images/project-igt.png" alt="" title="Reducing the variance in online optimization by transporting past gradients">
