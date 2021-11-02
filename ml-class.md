@@ -10,7 +10,7 @@ IFT6390: Fundamentals of machine learning -- Fall 2021 -- Taught in person
 =========
 
 An introductory but **very intensive** class in machine learning.
-It is taught in <a href="http://pierrelucbacon.com/teaching/fondements-de-lapprentissage-machine/">Winter 2021 by Pierre-Luc Bacon</a> and will be taught again in Fall 2021 by Ioannis Mitliagkas.
+It is taught in <a href="http://pierrelucbacon.com/teaching/fondements-de-lapprentissage-machine/">Winter 2021 by Pierre-Luc Bacon</a> and will be taught again in Fall 2022 by Ioannis Mitliagkas.
 This page contains relevant information on Dr. Mitliagkas Fall version of the class.
 
 Listed as [IFT6390: Fondements de l'apprentissage machine](https://admission.umontreal.ca/cours-et-horaires/cours/ift-6390/)
