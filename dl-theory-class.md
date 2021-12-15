@@ -13,11 +13,6 @@ IFT 6085: Theoretical principles for deep learning
 
 The class will be taught again in Winter 2022 in person.
 
-Warning: Since Winter 2020, the class is more demanding than previous years.
-For example, the introductory "crash courses" have been compressed significantly.
-You will be expected to either already know this
-material or get up-to-speed with it in the first couple of weeks.
-
 Description
 ----- 
 
@@ -32,18 +27,10 @@ In this class we will go over a number of recent publications that attempt to sh
 
 **Prerequisites:**
 This is meant to be an advanced graduate class for students who want to engage in theory-driven deep learning research.
-We will introduce some theoretical tools necessary,
-but start with the assumption that students are comfortable with:
+We will introduce some theoretical tools necessary.
 - Probability
 - Linear algebra
 - Machine learning 
-
-**If you have not taken classes on all of the above topics, this class is not designed for you.**
-You should take another class instead.
-
-**Registering and auditing.**
-If you want to attend the lectures but haven't registered, you are welcome to audit the class.
-Please fill this [form](https://forms.gle/oPsSR36nMBzWaZXQ7).
 
 
 People
@@ -55,11 +42,13 @@ TA: [Jose Gallego](https://jgalle29.github.io/)
 
 Class info
 ----------
-Winter 2021 semester:
+Winter 2022 semester:
 - Wednesday 9h30-11h15  
 - Thursday 9h00-10h45
 
-**First class**: Thursday, January 14th, 2021. 
+Location: Mila (exact room TBA)
+
+**First class**: Wednesday, January 12th, 2022. 
 
 Office hours: 10:45am-11:45am on Thursday right after class.
 
