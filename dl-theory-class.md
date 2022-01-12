@@ -6,12 +6,11 @@ permalink: /ift6085-dl-theory-class/
 order: 2
 ---
 
-IFT 6085: Theoretical principles for deep learning
+IFT 6169: Theoretical principles for deep learning
 =========
 
-**Winter 2021** 
+**Winter 2022 - Taught online until further announcement** 
 
-The class will be taught again in Winter 2022 in person.
 
 Description
 ----- 
@@ -44,13 +43,13 @@ Class info
 ----------
 Winter 2022 semester:
 - Wednesday 9h30-11h15  
-- Thursday 9h00-10h45
+- Thursday 9h30-10h45
 
-Location: Mila (exact room TBA)
+Location: Online via [Zoom](https://umontreal.zoom.us/j/89831162230?pwd=Skc4YXlCK1ZvQWh3MytDTXVpenQ4dz09) until further notice
 
 **First class**: Wednesday, January 12th, 2022. 
 
-Office hours: 10:45am-11:45am on Thursday right after class.
+Office hours: 11:15am-12:00pm on Thursday right after class.
 
 Communication
 ------------- 
@@ -59,7 +58,7 @@ We will use a Slack workspace for discussion. Please keep an eye out for an invi
 We will use Gradescope for quizzes and report submissions.
 Email is not a good way to reach us. 
 However, if you have something personal/sensitive to discuss, feel free to email me or the TA.
-Starting your email subject with 'IFT6085:' will ensure that your email is not miscategorized. 
+Starting your email subject with 'IFT6169:' will ensure that your email is not miscategorized. 
 
 Evaluation
 ----------
@@ -94,12 +93,12 @@ Schedule
 -------
 
 For the first half of the class we will be closely following the
-[previous iteration](/ift6085-dl-theory-class-2020) of the class.
+[previous iteration](/ift6085-dl-theory-class-2021) of the class.
 
 
-**January 14th**
+**January 12th**
 Class introduction
-[[slides](/ift6085-2021/ift-6085-lecture-1.pdf),
+[[slides](/ift6085-2022/ift-6169-lecture-1.pdf),
 [old quiz](ift6085-2019/quiz-first-class.pdf)]
 
 
@@ -110,7 +109,7 @@ Class introduction
 ### Crash course in optimization
 
 
-**January 20th**
+**January 13th**
 Basics of convex analysis and gradient descent
 [[scribed notes](ift6085-2020/ift-6085-lecture-2-notes.pdf)]
 
