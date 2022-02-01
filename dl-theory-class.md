@@ -43,9 +43,12 @@ Class info
 ----------
 Winter 2022 semester:
 - Wednesday 9h30-11h15  
-- Thursday 9h30-10h45
+- Thursday 9h30-11h15
 
-Location: Online via [Zoom](https://umontreal.zoom.us/j/89831162230?pwd=Skc4YXlCK1ZvQWh3MytDTXVpenQ4dz09) until further notice
+Location (Hybrid):
+- In person at Mila's Agora Audirotium (located at 6650 Saint-Urbain, ground floor. No key card needed to access)
+- Online via [Zoom](https://umontreal.zoom.us/j/89831162230?pwd=Skc4YXlCK1ZvQWh3MytDTXVpenQ4dz09)
+- Video recordings of lectures will be made available after lectures end.
 
 **First class**: Wednesday, January 12th, 2022. 
 
