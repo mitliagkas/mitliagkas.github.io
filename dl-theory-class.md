@@ -45,7 +45,10 @@ Winter 2022 semester:
 - Wednesday 9h30-11h15  
 - Thursday 9h30-11h15
 
-Location: Online via [Zoom](https://umontreal.zoom.us/j/89831162230?pwd=Skc4YXlCK1ZvQWh3MytDTXVpenQ4dz09) until further notice
+Location (Hybrid):
+- In person at Mila's Agora Audirotium (located at 6650 Saint-Urbain, ground floor. No key card needed to access)
+- Online via [Zoom](https://umontreal.zoom.us/j/89831162230?pwd=Skc4YXlCK1ZvQWh3MytDTXVpenQ4dz09)
+- Video recordings of lectures will be made available after lectures end.
 
 **First class**: Wednesday, January 12th, 2022. 
 
@@ -126,7 +129,7 @@ from Chapter 3 of [1] ('Convex Optimization...' by S.Bubeck under References)
 - Required: Convergence proof of Theorem 3.2 (note that we studied the unconstrained 
 case. In this case the projection operator PiX(x) is the identity operator)
 
-**January 19th**
+**January 19th-20th**
 The different rates of gradient descent: from Lipschitz to strongly convex
 [[scribed notes](ift6085-2020/ift-6085-lecture-3-notes.pdf)]
 
@@ -136,7 +139,10 @@ Convergence proofs from Chapter 3 of [1] ('Convex Optimization...' by S.Bubeck u
 - Required: Sections 3.1, 3.2, 3.4, with emphasis on the Convergence proof of Theorem 3.12 
 - Optional: Section 3.3 and anything related to constrained optimization. Keep in mind that we still discuss in class simplified unconstrained versions of some constrained results from Bubeck. Anything in our scribed notes is also required.
 
-**January 20th**
+** January 24th **
+EARLY TAKE-HOME EXAM
+
+**January 26th**
 
 Black box models and lower bounds 
 [[scribed notes](ift6085-2019/ift-6085-lecture-4-notes.pdf)]
@@ -145,11 +151,8 @@ Reading:
 - Required: [1, Theorem 3.15]
 - Recommended: [6]
 
-** January 24th **
-EARLY TAKE-HOME EXAM
 
-
-**January 26th**
+**February 2nd**
 Accelerated methods: Polyak's momentum (the heavy ball method)
 [[scribed notes](ift6085-2020/ift-6085-lecture-5-notes.pdf)]
 [[slides](ift6085-2019/ift-6085-lecture-5-slides.pdf)]
@@ -158,7 +161,7 @@ Reading:
 - Required: [8], [9, Sections 1, 2, 3, 4]
 - Recommended: [35]
 
-**January 27th**
+**February 3rd**
 Nesterov's Accelerated Gradient, Stochastic gradient descent
 [[scribed notes](ift6085-2020/ift-6085-lecture-6-notes.pdf)]
 
@@ -170,7 +173,7 @@ Reading:
 ### Crash course in statistical learning theory 
 
 
-**February 2nd**
+**February 9th**
 SGD [continuation of previous lecture] and 
 Elements of statistical learning theory
 [[scribed notes](ift6085-2020/ift-6085-lecture-7-notes.pdf)]
@@ -179,10 +182,10 @@ Recommended reading: Section 2 (if you need the intro) and Section 5 of [4].
 
 Required reading: Sections 3, 4 and 6 of [4].
 
-**February 3rd**
+**February 10th**
 Elements of statistical learning theory [continuation of previous lecture]
 
-**February 9th**
+**February 16th**
 PAC-Bayes bounds
 [[scribed notes](ift6085-2020/ift-6085-lecture-8-notes.pdf)]
 
@@ -192,7 +195,7 @@ Recommended reading: Section 31 of [4]
 
 Recommended reading (harder): Section 6 of [2]
 
-**February 10th**
+**February 17th**
 Stability and generalization
 [[scribed notes](ift6085-2020/ift-6085-lecture-9-notes.pdf)]
 
