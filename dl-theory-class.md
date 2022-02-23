@@ -212,7 +212,7 @@ Optional reading: Proofs that are not covevered in the scribed notes.
 ### Seminar part of class
 **February 23th**
 Expressivity and universal approximation theorems
-[[scribed notes](ift6085-2020/ift-6085-lecture-10-notes.pdf)]
+[[scribed notes](ift6169-2022/ift-6169-lecture-10-notes.pdf)]
 
 
 Reading:
