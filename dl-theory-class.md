@@ -267,36 +267,41 @@ Where is the Bayes risk hiding?
 
 
 **March 16th**
-Student presentations, A
-
-**March 23rd**
-Student presentations, A
-
-**March 24th**
-Generative models, GANs, WGANs
+Generative models, GANs
 [[scribed notes](ift6085-2019/ift-6085-lecture-12-notes.pdf)]
-[[scribed notes](ift6085-2019/ift-6085-lecture-13-notes.pdf)]
 
 - Recommended: Great [tutorial and collection resources](https://ermongroup.github.io/generative-models/) from Stefano Ermon and Aditya Grover at IJCAI.
-- Recommended: [Practical guide into Kantorovich-Rubinstein duality](https://vincentherrmann.github.io/blog/wasserstein/), Vincent Herrmann
-- Required reading: Main bodies of [16,17,18,19] without the proofs 
-- Required reaading: Two sets of scribed notes above, including discussed proofs.
+- Required reading: Main bodies of [16,17] without the proofs 
+- Required reaading: Scribed notes above, including discussed proofs.
 - Optional: [Applications of GANs](https://medium.com/@jonathan_hui/gan-some-cool-applications-of-gans-4c9ecca35900) 
 
 
-
-**March 30th**
-Student presentations, A
-
-
-
-**March 31st**
+**March 17th**
 The Numerics of GANs
 [[scribed notes](ift6085-2020/ift-6085-lecture-14-notes.pdf)]
 [[slides](ift6085-2019/ift-6085-gan-dynamics-slides.pdf)]
 
 - Required reading: [20]
 
+
+**March 23rd**
+Student presentations, A
+
+**March 24th**
+Optimal Transport, Wasserstein GANs
+[[scribed notes](ift6085-2019/ift-6085-lecture-13-notes.pdf)]
+- Recommended: [Practical guide into Kantorovich-Rubinstein duality](https://vincentherrmann.github.io/blog/wasserstein/), Vincent Herrmann
+- Required reading: Main bodies of [18,19] without the proofs 
+- Required reaading: Scribed notes above, including discussed proofs.
+
+
+
+**March 30th**
+Student presentations, B
+
+
+**March 31st**
+Student presentations, C
 
 <br/>
 
@@ -320,15 +325,7 @@ Recommended reading on reproducing kernel hilbert spaces:
 - [15min] *Optional:* Read sections 1 and 2 of the Wikipedia entry on [Kernel embedding of distributions](https://en.wikipedia.org/wiki/Kernel_embedding_of_distributions)
 
 **April 13th**
-Student presentations
-
-
-**April 20th**
-Student presentations, C
-
-<br/>
-
-
+Student presentations, D
 
 **April 14th**
 (Distributional) reinforcement learning
@@ -337,7 +334,19 @@ Student presentations, C
 - Recommended reading: [A Distributional Perspective on Reinforcement Learning](https://arxiv.org/abs/1707.06887), by Bellemare et al. 
 
 
-**April 15th**
+
+**April 20th**
+Student presentations, E
+
+<br/>
+
+
+
+**April 21st**
+Final poster presentation for projects
+
+
+**Extra material (not scheduled)**
 Determinantal point processes for ML (guest lecture by Jose Gallego)
 - Recommended reading: [Notes from Stefanie Jegelka's class at MIT](http://people.csail.mit.edu/stefje/fall15/notes_lecture21.pdf), written by Swati Gupta.
 - Recommended reading: [Determinantal Point Processes in Randomized Numerical Linear Algebra](https://arxiv.org/pdf/2005.03185.pdf), Derezinski and Mahoney.
