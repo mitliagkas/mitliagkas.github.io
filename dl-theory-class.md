@@ -210,9 +210,9 @@ Optional reading: Proofs that are not covevered in the scribed notes.
 ---
 
 ### Seminar part of class
-**February 18th**
+**February 23th**
 Expressivity and universal approximation theorems
-[[scribed notes](ift6085-2020/ift-6085-lecture-10-notes.pdf)]
+[[scribed notes](ift6169-2022/ift-6169-lecture-10-notes.pdf)]
 
 
 Reading:
@@ -234,28 +234,15 @@ minimization with randomization in learning
     The discussion pertaining to this paper, starts at 31:10 (though the intro might be necessary) and ends at about 48:10.
 
 
-
-**February 25th**
-Generative models, GANs, WGANs
-[[scribed notes](ift6085-2019/ift-6085-lecture-12-notes.pdf)]
-[[scribed notes](ift6085-2019/ift-6085-lecture-13-notes.pdf)]
-
-- Recommended: Great [tutorial and collection resources](https://ermongroup.github.io/generative-models/) from Stefano Ermon and Aditya Grover at IJCAI.
-- Recommended: [Practical guide into Kantorovich-Rubinstein duality](https://vincentherrmann.github.io/blog/wasserstein/), Vincent Herrmann
-- Required reading: Main bodies of [16,17,18,19] without the proofs 
-- Required reaading: Two sets of scribed notes above, including discussed proofs.
-- Optional: [Applications of GANs](https://medium.com/@jonathan_hui/gan-some-cool-applications-of-gans-4c9ecca35900) 
-
-
 Winter break
 --------------
 
 
 
-**March 3rd**
+**March 1st**
 **Winter break** No class
 
-**March 4th**
+**March 2nd**
 **Winter break** No class
 
 
@@ -263,27 +250,7 @@ Winter break
 
 <br/>
 
-**March 10th**
-Student presentations, A
-- [Performative Prediction](ift6085-2021/student_slides/ift6085-presentation-performative-prediction.pdf)
-**Presented by**: Alan Chan 
-- [Expressivity, Complexity, Learnability](ift6085-2021/student_slides/ift6085-presentation-expressivity-complexity-learnability.pdf)
-**Presented by**: Martin Weiss
-
-
-**March 11th**
-The Numerics of GANs
-[[scribed notes](ift6085-2020/ift-6085-lecture-14-notes.pdf)]
-[[slides](ift6085-2019/ift-6085-gan-dynamics-slides.pdf)]
-
-- Required reading: [20]
-
-
-<br/>
-
-
-
-**March 17th**
+**March 9th**
 Surprising results on the generalization error of neural networks [new lecture]
 
 - Recommended reading: [In Search of the Real Inductive Bias: On the Role of Implicit Regularization in Deep Learning](https://arxiv.org/abs/1412.6614)
@@ -291,55 +258,61 @@ Surprising results on the generalization error of neural networks [new lecture]
 - Recommended reading: [On the Bias-Variance Tradeoff: Textbooks Need an Update](https://www.bradyneal.com/bias-variance-tradeoff-textbooks-update), blog post by Brady Neal
 
 
-
-
-
-
-
-**March 18th**
-**MIDTERM EXAM**
-
-<br/>
-
-**March 24th**
-Student presentations, B
-- [Neural SDEs as Infinite-Dimensional GANs ](https://arxiv.org/abs/2102.03657)
-**Presented by**: Tim DeLise
-- [Results on algorithmic stability](http://www.jmlr.org/papers/volume2/bousquet02a/bousquet02a.pdf)
-**Presented by**: Magid Sabbagh
-
-
-**March 25th**
-Student presentations, C
-- [Learning Invariant Representations for Reinforcement Learning without Reconstruction ](https://arxiv.org/abs/2006.10742)
-**Presented by**: Guillaume Huguet, Semih Canturk
-- [Emergence of Invariance and Disentanglement in Deep Representations](https://arxiv.org/abs/1706.01350)
-**Presented by**: Abderrahim Fathan, Hai Phan
-
-<br/>
-
-
-**March 31st**
+**March 10th**
 Where is the Bayes risk hiding? 
 
 - Recommended reading (refresher from last week): [Understanding deep learning requires rethinking generalization](https://arxiv.org/abs/1611.03530)
 - Recommended reading: [To Understand Deep Learning We Need to Understand Kernel Learning](https://arxiv.org/abs/1802.01396)
 - Recommended reading: [Overfitting or perfect fitting? Risk bounds for classification and regression rules that interpolate](https://arxiv.org/abs/1806.05161)
 
-**April 1st**
-Student presentations, D
-- []()
-**Presented by**: Eeshan Gunesh Dhekane, Sarthak Mittal
-- []()
-**Presented by**: Hattie Zhou, Zacharie Legault
-- []()
-**Presented by**: Amirhossein Kazemnejad, Abderrahim Fathan
+
+**March 16th**
+Generative models, GANs
+[[scribed notes](ift6085-2019/ift-6085-lecture-12-notes.pdf)]
+
+- Recommended: Great [tutorial and collection resources](https://ermongroup.github.io/generative-models/) from Stefano Ermon and Aditya Grover at IJCAI.
+- Required reading: Main bodies of [16,17] without the proofs 
+- Required reaading: Scribed notes above, including discussed proofs.
+- Optional: [Applications of GANs](https://medium.com/@jonathan_hui/gan-some-cool-applications-of-gans-4c9ecca35900) 
+
+
+**March 17th**
+The Numerics of GANs
+[[scribed notes](ift6085-2020/ift-6085-lecture-14-notes.pdf)]
+[[slides](ift6085-2019/ift-6085-gan-dynamics-slides.pdf)]
+
+- Required reading: [20]
+
+
+**March 23rd**
+Student presentations, A
+
+**March 24th**
+Optimal Transport, Wasserstein GANs
+[[scribed notes](ift6085-2019/ift-6085-lecture-13-notes.pdf)]
+- Recommended: [Practical guide into Kantorovich-Rubinstein duality](https://vincentherrmann.github.io/blog/wasserstein/), Vincent Herrmann
+- Required reading: Main bodies of [18,19] without the proofs 
+- Required reaading: Scribed notes above, including discussed proofs.
+
+
+
+**March 30th**
+Student presentations, B
+
+
+**March 31st**
+Student presentations, C
+
+<br/>
+
+
+
+**April 6th**
+**EXAM**
+
+<br/>
 
 **April 7th**
-1-1 project chats
-
-
-**April 8th**
 Neural Tangent Kernel [new lecture - no scribed notes]
 - Recommended reading: [Neural Tangent Kernel: Convergence and Generalization in Neural Networks](https://arxiv.org/abs/1806.07572)
 - Recommended reading: [Blog summary of paper](https://rajatvd.github.io/NTK/) 
@@ -351,6 +324,9 @@ Recommended reading on reproducing kernel hilbert spaces:
 - [40min] Read the Wikipedia entry on [RKHSs](https://en.wikipedia.org/wiki/Reproducing_kernel_Hilbert_space) - Can skip sections 4, 8 and 9.
 - [15min] *Optional:* Read sections 1 and 2 of the Wikipedia entry on [Kernel embedding of distributions](https://en.wikipedia.org/wiki/Kernel_embedding_of_distributions)
 
+**April 13th**
+Student presentations, D
+
 **April 14th**
 (Distributional) reinforcement learning
 [[scribed notes](ift6085-2020/ift-6085-lecture-19-notes.pdf)]
@@ -358,7 +334,19 @@ Recommended reading on reproducing kernel hilbert spaces:
 - Recommended reading: [A Distributional Perspective on Reinforcement Learning](https://arxiv.org/abs/1707.06887), by Bellemare et al. 
 
 
-**April 15th**
+
+**April 20th**
+Student presentations, E
+
+<br/>
+
+
+
+**April 21st**
+Final poster presentation for projects
+
+
+**Extra material (not scheduled)**
 Determinantal point processes for ML (guest lecture by Jose Gallego)
 - Recommended reading: [Notes from Stefanie Jegelka's class at MIT](http://people.csail.mit.edu/stefje/fall15/notes_lecture21.pdf), written by Swati Gupta.
 - Recommended reading: [Determinantal Point Processes in Randomized Numerical Linear Algebra](https://arxiv.org/pdf/2005.03185.pdf), Derezinski and Mahoney.
