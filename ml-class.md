@@ -6,12 +6,12 @@ permalink: /ift6390-ml-class/
 order: 3
 ---
 
-IFT6390: Fundamentals of machine learning -- Fall 2021 -- Taught in person
+IFT6390: Fundamentals of machine learning -- Automne 2022 
 =========
 
 An introductory but **very intensive** class in machine learning.
-It is taught in <a href="http://pierrelucbacon.com/teaching/fondements-de-lapprentissage-machine/">Winter 2021 by Pierre-Luc Bacon</a> and will be taught again in Fall 2022 by Ioannis Mitliagkas.
-This page contains relevant information on Dr. Mitliagkas Fall version of the class.
+It is taught in <a href="http://pierrelucbacon.com/teaching/fondements-de-lapprentissage-machine/">Winter 2022 by Pierre-Luc Bacon</a> and will be taught again in Fall 2022 by Ioannis Mitliagkas.
+This page contains relevant information on Dr. Mitliagkas' fall version of the class.
 
 Listed as [IFT6390: Fondements de l'apprentissage machine](https://admission.umontreal.ca/cours-et-horaires/cours/ift-6390/)
 
@@ -37,9 +37,9 @@ If you do not have UdeM credentials, please contact UdeM's IT support.
 
 **IMPORTANT: Make sure you learn how to use that email inbox and check it often. We will not be able to add you using alternative email addresses.**
 
-<span style="color:red">
+<!--span style="color:red">
 If you registered late (i.e. did not have access to Studium on September 1st), then please complete [this form](https://forms.gle/gwdwAbL8nF5KGtqDA) to be added to class resources.
-</span>
+</span-->
 
 The following links will become active shortly before our first lecture.
 - [Piazza]() for all our communications.
@@ -57,8 +57,7 @@ Teaching assistants: (TBA)
 
 Registering and auditing
 --------
-The class might be full. It will be taught again in Winter 2021 (January 2021). 
-If you want to audit the class, please fill this [form](https://forms.gle/jZdzKanEErQisvKG8). 
+If you want to audit the class, please fill this [form](https://forms.gle/RUJQYevmrfsh9AMD8). 
 You will get access to the course material, but you will not be able to submit work or be graded. 
 
 
@@ -136,9 +135,9 @@ This is a sample of the first three labs from last year to get you started until
 *Please be advised that some details of this evaluation scheme might be adjusted slightly by the beginning of the semester.*
 
 **Weekly quizzes (10%):**
-We will have a weekly online quiz at the beginning of class every Wednesday of the semester. 
+We will have a weekly online quiz at the beginning of class every Wednesday of the semester. You will be able to take this quiz from home.
 It will consist of short questions about last week's lecture and it will be administered on Gradescope. 
-To accommodate students from different timezones, the quiz will be open a few hours before the class start time. 
+<!--To accommodate students from different timezones, the quiz will be open a few hours before the class start time. -->
 Once you start the quiz, you will have 15 minutes to finish it. 
 We will have at least 12 quizes during the semester; your best 6 quiz scores will be used to compute your semester quiz score (10% of your final grade).
 
