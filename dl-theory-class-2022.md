@@ -9,7 +9,7 @@ order: 2
 IFT 6169: Theoretical principles for deep learning
 =========
 
-**Winter 2023 -- Taught in person (but also available online)** 
+**Winter 2022 -- Taught in person (but also available online)** 
 
 
 Description
@@ -41,7 +41,7 @@ TA: [Jose Gallego](https://jgalle29.github.io/)
 
 Class info
 ----------
-Winter 2023 semester:
+Winter 2022 semester:
 - Wednesday 9h30-11h15  
 - Thursday 9h30-11h15
 
@@ -50,16 +50,17 @@ Location (Hybrid):
 - Online via [Zoom](https://umontreal.zoom.us/j/89831162230?pwd=Skc4YXlCK1ZvQWh3MytDTXVpenQ4dz09)
 - Video recordings of lectures will be made available after lectures end.
 
-**First class**: Wednesday, January 11th, 2023. 
+**First class**: Wednesday, January 12th, 2022. 
 
 Office hours: 11:15am-12:00pm on Thursday right after class.
 
 Communication
 ------------- 
-We will use the class's [Studium](https://studium.umontreal.ca/course/view.php?id=237083)to make announcements.
+We will use the class's [Studium](https://studium.umontreal.ca/course/view.php?id=190135) to make announcements.
 We will use a Slack workspace for discussion. Please keep an eye out for an invitation to the Slack. 
 We will use Gradescope for quizzes and report submissions.
-If you have something personal/sensitive to discuss, feel free to email me or the TA.
+Email is not a good way to reach us. 
+However, if you have something personal/sensitive to discuss, feel free to email me or the TA.
 Starting your email subject with 'IFT6169:' will ensure that your email is not miscategorized. 
 
 Evaluation
@@ -98,7 +99,7 @@ For the first half of the class we will be closely following the
 [previous iteration](/ift6085-dl-theory-class-2021) of the class.
 
 
-**January 11th**
+**January 12th**
 Class introduction
 [[slides](/ift6085-2022/ift-6169-lecture-1.pdf),
 [old quiz](ift6085-2019/quiz-first-class.pdf)]
@@ -111,7 +112,7 @@ Class introduction
 ### Crash course in optimization
 
 
-**January 12th**
+**January 13th**
 Basics of convex analysis and gradient descent
 [[scribed notes](ift6085-2020/ift-6085-lecture-2-notes.pdf)]
 
