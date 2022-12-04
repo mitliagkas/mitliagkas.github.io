@@ -50,7 +50,7 @@ Location (Hybrid):
 - Online via [Zoom](https://umontreal.zoom.us/j/89831162230?pwd=Skc4YXlCK1ZvQWh3MytDTXVpenQ4dz09)
 - Video recordings of lectures will be made available after lectures end.
 
-**First class**: Wednesday, January 11th, 2023. 
+**First class**: Thursday, January 12th, 2023. 
 
 Office hours: 11:15am-12:00pm on Thursday right after class.
 
