@@ -1,9 +1,7 @@
 ---
 layout: default
 title: DL Theory class
-menu: main
 permalink: /ift6085-dl-theory-class/
-order: 2
 ---
 
 IFT 6169: Theoretical principles for deep learning
