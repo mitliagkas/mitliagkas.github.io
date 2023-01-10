@@ -55,6 +55,14 @@ Location (Hybrid):
 
 Office hours: 11:15am-12:00pm on Thursday right after class.
 
+
+Registering and auditing
+--------
+If you want to audit the class, please fill this [form](https://forms.gle/w7LkmxWKCo9nX3aK8).
+You will get access to the course material, but you will not be able to submit work or be graded. 
+
+
+
 Communication
 ------------- 
 We will use the class's [Studium](https://studium.umontreal.ca/course/view.php?id=237083)to make announcements.
@@ -99,7 +107,7 @@ For the first half of the class we will be closely following the
 [previous iteration](/ift6085-dl-theory-class-2021) of the class.
 
 
-**January 11th**
+**January 12th**
 Class introduction
 [[slides](/ift6085-2022/ift-6169-lecture-1.pdf),
 [old quiz](ift6085-2019/quiz-first-class.pdf)]
@@ -112,7 +120,7 @@ Class introduction
 ### Crash course in optimization
 
 
-**January 12th**
+**January 18th**
 Basics of convex analysis and gradient descent
 [[scribed notes](ift6085-2020/ift-6085-lecture-2-notes.pdf)]
 
@@ -129,7 +137,7 @@ from Chapter 3 of [1] ('Convex Optimization...' by S.Bubeck under References)
 - Required: Convergence proof of Theorem 3.2 (note that we studied the unconstrained 
 case. In this case the projection operator PiX(x) is the identity operator)
 
-**January 19th-20th**
+**January 19th**
 The different rates of gradient descent: from Lipschitz to strongly convex
 [[scribed notes](ift6085-2020/ift-6085-lecture-3-notes.pdf)]
 
@@ -139,7 +147,7 @@ Convergence proofs from Chapter 3 of [1] ('Convex Optimization...' by S.Bubeck u
 - Required: Sections 3.1, 3.2, 3.4, with emphasis on the Convergence proof of Theorem 3.12 
 - Optional: Section 3.3 and anything related to constrained optimization. Keep in mind that we still discuss in class simplified unconstrained versions of some constrained results from Bubeck. Anything in our scribed notes is also required.
 
-** January 24th **
+** January 25th **
 EARLY TAKE-HOME EXAM
 
 **January 26th**
