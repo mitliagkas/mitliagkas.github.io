@@ -4,7 +4,7 @@ email: ioannis@iro.umontreal.ca
 #email: imit@stanford.edu
 #email: ioannis@utexas.edu
 description: > # this means to ignore newlines until "baseurl:"
-  Assistant Professor, Mila, Computer Science, University of Montreal.
+  Associate Professor, Mila, Computer Science, University of Montreal.
   Machine learning and optimization.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://mitliagkas.github.io" # the base hostname & protocol for your site
