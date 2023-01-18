@@ -109,7 +109,7 @@ For the first half of the class we will be closely following the
 
 **January 12th**
 Class introduction
-[[slides](/ift6085-2022/ift-6169-lecture-1.pdf),
+[[slides](/ift6169-2023/ift-6169-lecture-1.pdf),
 [old quiz](ift6085-2019/quiz-first-class.pdf)]
 
 
