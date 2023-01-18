@@ -157,7 +157,6 @@ Reading:
 
 
 **January 26th**
-**February 2nd**
 Accelerated methods: Polyak's momentum (the heavy ball method)
 [[scribed notes](ift6085-2020/ift-6085-lecture-5-notes.pdf)]
 [[slides](ift6085-2019/ift-6085-lecture-5-slides.pdf)]
