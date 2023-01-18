@@ -74,11 +74,9 @@ Starting your email subject with 'IFT6169:' will ensure that your email is not m
 Evaluation
 ----------
 - Class project on a research topic: 35%
-- Paper presentations: 15%
+- Paper presentations: 25%
 - Midterm exam: 15%
-- Quizzes: 15%
-- Scribing: 10%
-- Early-semester exam: 5%
+- Quizzes: 20%
 - Class participation: 5%
 
 Use this Latex [template](ift6085-2019/scribing_template.zip) for scribing.
@@ -147,11 +145,9 @@ Convergence proofs from Chapter 3 of [1] ('Convex Optimization...' by S.Bubeck u
 - Required: Sections 3.1, 3.2, 3.4, with emphasis on the Convergence proof of Theorem 3.12 
 - Optional: Section 3.3 and anything related to constrained optimization. Keep in mind that we still discuss in class simplified unconstrained versions of some constrained results from Bubeck. Anything in our scribed notes is also required.
 
-** January 25th **
-EARLY TAKE-HOME EXAM
 
-**January 26th**
 
+**January 25th**
 Black box models and lower bounds 
 [[scribed notes](ift6085-2019/ift-6085-lecture-4-notes.pdf)]
 
@@ -160,6 +156,7 @@ Reading:
 - Recommended: [6]
 
 
+**January 26th**
 **February 2nd**
 Accelerated methods: Polyak's momentum (the heavy ball method)
 [[scribed notes](ift6085-2020/ift-6085-lecture-5-notes.pdf)]
@@ -169,7 +166,7 @@ Reading:
 - Required: [8], [9, Sections 1, 2, 3, 4]
 - Recommended: [35]
 
-**February 3rd**
+**February 1st**
 Nesterov's Accelerated Gradient, Stochastic gradient descent
 [[scribed notes](ift6085-2020/ift-6085-lecture-6-notes.pdf)]
 
@@ -181,7 +178,7 @@ Reading:
 ### Crash course in statistical learning theory 
 
 
-**February 9th**
+**February 2nd**
 SGD [continuation of previous lecture] and 
 Elements of statistical learning theory
 [[scribed notes](ift6085-2020/ift-6085-lecture-7-notes.pdf)]
@@ -190,10 +187,10 @@ Recommended reading: Section 2 (if you need the intro) and Section 5 of [4].
 
 Required reading: Sections 3, 4 and 6 of [4].
 
-**February 10th**
+**February 8th**
 Elements of statistical learning theory [continuation of previous lecture]
 
-**February 16th**
+**February 9th**
 PAC-Bayes bounds
 [[scribed notes](ift6085-2020/ift-6085-lecture-8-notes.pdf)]
 
@@ -203,7 +200,7 @@ Recommended reading: Section 31 of [4]
 
 Recommended reading (harder): Section 6 of [2]
 
-**February 17th**
+**February 15th**
 Stability and generalization
 [[scribed notes](ift6085-2020/ift-6085-lecture-9-notes.pdf)]
 
@@ -215,37 +212,23 @@ Optional reading: Proofs that are not covevered in the scribed notes.
 
 <br/>
 
+
+**February 16th**
+[Overflow lecture/project discussion]
+
+
+**February 22nd**
+MIDTERM EXAM
+
+
+**February 23rd**
+GUEST LECTURE
+
 ---
-
-### Seminar part of class
-**February 23th**
-Expressivity and universal approximation theorems
-[[scribed notes](ift6169-2022/ift-6169-lecture-10-notes.pdf)]
-
-
-Reading:
-- Optional reminder: Subsections 6.1, 6.2, 6.3 from [4]
-- Required: [Simple construction for universal approximation theorem: A visual proof that neural nets can compute any function By Michael Nielsen](http://neuralnetworksanddeeplearning.com/chap4.html)
-- Required: Beginning of Section 20 until 20.4 (inclusive) in [4]
-- Required: All of [40]
-
-
-
-**February 24th**
-Weighted Sums of Random Kitchen Sinks: Replacing
-minimization with randomization in learning
-[[scribed notes](ift6085-2020/ift-6085-lecture-11-notes.pdf)]
-
-- Recommended reading: Section 16 (Kernel methods) of [4]
-- Required reading: [23]
-- Recommended viewing: [video of talk by A. Rahimi](https://www.youtube.com/watch?v=Nqi2iU7kbD0). 
-    The discussion pertaining to this paper, starts at 31:10 (though the intro might be necessary) and ends at about 48:10.
 
 
 Winter break
 --------------
-
-
 
 **March 1st**
 **Winter break** No class
@@ -258,7 +241,34 @@ Winter break
 
 <br/>
 
+
+
+### Seminar part of class
+**March 8th**
+Expressivity and universal approximation theorems
+[[scribed notes](ift6169-2022/ift-6169-lecture-10-notes.pdf)]
+
+
+Reading:
+- Optional reminder: Subsections 6.1, 6.2, 6.3 from [4]
+- Required: [Simple construction for universal approximation theorem: A visual proof that neural nets can compute any function By Michael Nielsen](http://neuralnetworksanddeeplearning.com/chap4.html)
+- Required: Beginning of Section 20 until 20.4 (inclusive) in [4]
+- Required: All of [40]
+
+
+
 **March 9th**
+Weighted Sums of Random Kitchen Sinks: Replacing
+minimization with randomization in learning
+[[scribed notes](ift6085-2020/ift-6085-lecture-11-notes.pdf)]
+
+- Recommended reading: Section 16 (Kernel methods) of [4]
+- Required reading: [23]
+- Recommended viewing: [video of talk by A. Rahimi](https://www.youtube.com/watch?v=Nqi2iU7kbD0). 
+    The discussion pertaining to this paper, starts at 31:10 (though the intro might be necessary) and ends at about 48:10.
+
+
+**March 15th**
 Surprising results on the generalization error of neural networks [new lecture]
 
 - Recommended reading: [In Search of the Real Inductive Bias: On the Role of Implicit Regularization in Deep Learning](https://arxiv.org/abs/1412.6614)
@@ -266,7 +276,7 @@ Surprising results on the generalization error of neural networks [new lecture]
 - Recommended reading: [On the Bias-Variance Tradeoff: Textbooks Need an Update](https://www.bradyneal.com/bias-variance-tradeoff-textbooks-update), blog post by Brady Neal
 
 
-**March 10th**
+**March 16th**
 Where is the Bayes risk hiding? 
 
 - Recommended reading (refresher from last week): [Understanding deep learning requires rethinking generalization](https://arxiv.org/abs/1611.03530)
@@ -274,7 +284,7 @@ Where is the Bayes risk hiding?
 - Recommended reading: [Overfitting or perfect fitting? Risk bounds for classification and regression rules that interpolate](https://arxiv.org/abs/1806.05161)
 
 
-**March 16th**
+**March 22nd**
 Generative models, GANs
 [[scribed notes](ift6085-2019/ift-6085-lecture-12-notes.pdf)]
 
@@ -284,7 +294,7 @@ Generative models, GANs
 - Optional: [Applications of GANs](https://medium.com/@jonathan_hui/gan-some-cool-applications-of-gans-4c9ecca35900) 
 
 
-**March 17th**
+**March 23rd**
 The Numerics of GANs
 [[scribed notes](ift6085-2020/ift-6085-lecture-14-notes.pdf)]
 [[slides](ift6085-2019/ift-6085-gan-dynamics-slides.pdf)]
