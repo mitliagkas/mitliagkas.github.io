@@ -136,6 +136,11 @@ from Chapter 3 of [1] ('Convex Optimization...' by S.Bubeck under References)
 case. In this case the projection operator PiX(x) is the identity operator)
 
 **January 19th**
+[continuation of previous lecture]
+
+
+
+**January 25th**
 The different rates of gradient descent: from Lipschitz to strongly convex
 [[scribed notes](ift6085-2020/ift-6085-lecture-3-notes.pdf)]
 
@@ -147,7 +152,7 @@ Convergence proofs from Chapter 3 of [1] ('Convex Optimization...' by S.Bubeck u
 
 
 
-**January 25th**
+**January 26th**
 Black box models and lower bounds 
 [[scribed notes](ift6085-2019/ift-6085-lecture-4-notes.pdf)]
 
@@ -156,7 +161,7 @@ Reading:
 - Recommended: [6]
 
 
-**January 26th**
+**February 1st**
 Accelerated methods: Polyak's momentum (the heavy ball method)
 [[scribed notes](ift6085-2020/ift-6085-lecture-5-notes.pdf)]
 [[slides](ift6085-2019/ift-6085-lecture-5-slides.pdf)]
@@ -165,7 +170,8 @@ Reading:
 - Required: [8], [9, Sections 1, 2, 3, 4]
 - Recommended: [35]
 
-**February 1st**
+
+**February 2nd**
 Nesterov's Accelerated Gradient, Stochastic gradient descent
 [[scribed notes](ift6085-2020/ift-6085-lecture-6-notes.pdf)]
 
@@ -177,7 +183,7 @@ Reading:
 ### Crash course in statistical learning theory 
 
 
-**February 2nd**
+**February 8th**
 SGD [continuation of previous lecture] and 
 Elements of statistical learning theory
 [[scribed notes](ift6085-2020/ift-6085-lecture-7-notes.pdf)]
@@ -186,10 +192,10 @@ Recommended reading: Section 2 (if you need the intro) and Section 5 of [4].
 
 Required reading: Sections 3, 4 and 6 of [4].
 
-**February 8th**
+**February 9th**
 Elements of statistical learning theory [continuation of previous lecture]
 
-**February 9th**
+**February 15th**
 PAC-Bayes bounds
 [[scribed notes](ift6085-2020/ift-6085-lecture-8-notes.pdf)]
 
@@ -199,7 +205,7 @@ Recommended reading: Section 31 of [4]
 
 Recommended reading (harder): Section 6 of [2]
 
-**February 15th**
+**February 16th**
 Stability and generalization
 [[scribed notes](ift6085-2020/ift-6085-lecture-9-notes.pdf)]
 
@@ -212,16 +218,12 @@ Optional reading: Proofs that are not covevered in the scribed notes.
 <br/>
 
 
-**February 16th**
-[Overflow lecture/project discussion]
-
-
 **February 22nd**
 MIDTERM EXAM
 
 
 **February 23rd**
-GUEST LECTURE
+GUEST LECTURE/OVERFLOW
 
 ---
 
@@ -301,10 +303,7 @@ The Numerics of GANs
 - Required reading: [20]
 
 
-**March 23rd**
-Student presentations, A
-
-**March 24th**
+**March 29th**
 Optimal Transport, Wasserstein GANs
 [[scribed notes](ift6085-2019/ift-6085-lecture-13-notes.pdf)]
 - Recommended: [Practical guide into Kantorovich-Rubinstein duality](https://vincentherrmann.github.io/blog/wasserstein/), Vincent Herrmann
@@ -314,22 +313,16 @@ Optimal Transport, Wasserstein GANs
 
 
 **March 30th**
-Student presentations, B
+Student presentations
 
 
-**March 31st**
-Student presentations, C
+**April 5th**
+Student presentations
 
 <br/>
-
 
 
 **April 6th**
-**EXAM**
-
-<br/>
-
-**April 7th**
 Neural Tangent Kernel [new lecture - no scribed notes]
 - Recommended reading: [Neural Tangent Kernel: Convergence and Generalization in Neural Networks](https://arxiv.org/abs/1806.07572)
 - Recommended reading: [Blog summary of paper](https://rajatvd.github.io/NTK/) 
@@ -341,10 +334,10 @@ Recommended reading on reproducing kernel hilbert spaces:
 - [40min] Read the Wikipedia entry on [RKHSs](https://en.wikipedia.org/wiki/Reproducing_kernel_Hilbert_space) - Can skip sections 4, 8 and 9.
 - [15min] *Optional:* Read sections 1 and 2 of the Wikipedia entry on [Kernel embedding of distributions](https://en.wikipedia.org/wiki/Kernel_embedding_of_distributions)
 
-**April 13th**
-Student presentations, D
+**April 12th**
+Student presentations
 
-**April 14th**
+**April 13th**
 (Distributional) reinforcement learning
 [[scribed notes](ift6085-2020/ift-6085-lecture-19-notes.pdf)]
 - Recommended reading: Scribed notes above
@@ -352,14 +345,18 @@ Student presentations, D
 
 
 
+**April 19th**
+Student presentations
+
 **April 20th**
-Student presentations, E
+Student presentations
+
 
 <br/>
 
 
 
-**April 21st**
+**April 26th**
 Final poster presentation for projects
 
 
@@ -367,12 +364,6 @@ Final poster presentation for projects
 Determinantal point processes for ML (guest lecture by Jose Gallego)
 - Recommended reading: [Notes from Stefanie Jegelka's class at MIT](http://people.csail.mit.edu/stefje/fall15/notes_lecture21.pdf), written by Swati Gupta.
 - Recommended reading: [Determinantal Point Processes in Randomized Numerical Linear Algebra](https://arxiv.org/pdf/2005.03185.pdf), Derezinski and Mahoney.
-
-**April 21nd**
-NO LECTURE
-
-**April 22nd**
-End of semester (online) project presentations 
 
 
 
