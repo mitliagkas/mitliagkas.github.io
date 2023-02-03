@@ -184,7 +184,11 @@ Reading:
 
 
 **February 8th**
-SGD [continuation of previous lecture] and 
+Stochastic gradient descent
+[[scribed notes](ift6085-2020/ift-6085-lecture-6-notes.pdf)]
+
+
+**February 9th**
 Elements of statistical learning theory
 [[scribed notes](ift6085-2020/ift-6085-lecture-7-notes.pdf)]
 
@@ -192,10 +196,12 @@ Recommended reading: Section 2 (if you need the intro) and Section 5 of [4].
 
 Required reading: Sections 3, 4 and 6 of [4].
 
-**February 9th**
+**February 15th**
 Elements of statistical learning theory [continuation of previous lecture]
 
-**February 15th**
+
+
+**February 16th**
 PAC-Bayes bounds
 [[scribed notes](ift6085-2020/ift-6085-lecture-8-notes.pdf)]
 
@@ -205,7 +211,10 @@ Recommended reading: Section 31 of [4]
 
 Recommended reading (harder): Section 6 of [2]
 
-**February 16th**
+
+
+
+**February 22nd**
 Stability and generalization
 [[scribed notes](ift6085-2020/ift-6085-lecture-9-notes.pdf)]
 
@@ -218,12 +227,10 @@ Optional reading: Proofs that are not covevered in the scribed notes.
 <br/>
 
 
-**February 22nd**
-MIDTERM EXAM
 
 
 **February 23rd**
-GUEST LECTURE/OVERFLOW
+MIDTERM EXAM
 
 ---
 
