@@ -215,17 +215,10 @@ Recommended reading (harder): Section 6 of [2]
 
 
 **February 22nd**
-Stability and generalization
-[[scribed notes](ift6085-2020/ift-6085-lecture-9-notes.pdf)]
+Probably Approximately Correct Constrained Learning
 
-Required reading:
-- Main body of the papers [13,14] without all the proofs 
-- The two sets of scribed notes provided here, including the covered proofs
-
-Optional reading: Proofs that are not covevered in the scribed notes. 
-
-<br/>
-
+Reading:
+- [[paper](https://arxiv.org/abs/2006.05487)]
 
 
 
@@ -250,22 +243,23 @@ Winter break
 <br/>
 
 
+**March 8th**
+
+Stability and generalization
+[[scribed notes](ift6085-2020/ift-6085-lecture-9-notes.pdf)]
+
+Required reading:
+- Main body of the papers [13,14] without all the proofs 
+- The two sets of scribed notes provided here, including the covered proofs
+
+Optional reading: Proofs that are not covevered in the scribed notes. 
+
+<br/>
+
 
 ### Seminar part of class
-**March 8th**
-Expressivity and universal approximation theorems
-[[scribed notes](ift6169-2022/ift-6169-lecture-10-notes.pdf)]
-
-
-Reading:
-- Optional reminder: Subsections 6.1, 6.2, 6.3 from [4]
-- Required: [Simple construction for universal approximation theorem: A visual proof that neural nets can compute any function By Michael Nielsen](http://neuralnetworksanddeeplearning.com/chap4.html)
-- Required: Beginning of Section 20 until 20.4 (inclusive) in [4]
-- Required: All of [40]
-
-
-
 **March 9th**
+
 Weighted Sums of Random Kitchen Sinks: Replacing
 minimization with randomization in learning
 [[scribed notes](ift6085-2020/ift-6085-lecture-11-notes.pdf)]
@@ -401,14 +395,26 @@ but are still very interesting and useful.
 Students will not be examined on this material.
 
 
-**March 21st, 2018**
 Variance reduction techniques for stochastic optimization
 [[scribed notes](ift6085-2019/ift-6085-bonus-lecture-variance-reduction.pdf)]
 
 Reading: [22], Section 5.3 of [21]
 
 
-**March 29th, 2018**
+
+Expressivity and universal approximation theorems
+[[scribed notes](ift6169-2022/ift-6169-lecture-10-notes.pdf)]
+
+
+Reading:
+- Optional reminder: Subsections 6.1, 6.2, 6.3 from [4]
+- Required: [Simple construction for universal approximation theorem: A visual proof that neural nets can compute any function By Michael Nielsen](http://neuralnetworksanddeeplearning.com/chap4.html)
+- Required: Beginning of Section 20 until 20.4 (inclusive) in [4]
+- Required: All of [40]
+
+
+
+
 PacGAN: The power of two samples in generative adversarial networks
 
 Reading: [24]
