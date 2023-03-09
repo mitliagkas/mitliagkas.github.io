@@ -37,7 +37,7 @@ People
 
 Instructor: [Ioannis Mitliagkas](https://mitliagkas.github.io)
 
-TAs: [Jose Gallego](https://jgalle29.github.io/)
+TAs: [Jose Gallego](https://jgalle29.github.io/),
 [Motahareh Sohrabi](https://motahareh-sohrabi.github.io/)
 
 Class info
@@ -259,7 +259,6 @@ Optional reading: Proofs that are not covevered in the scribed notes.
 
 ### Seminar part of class
 **March 9th**
-
 Weighted Sums of Random Kitchen Sinks: Replacing
 minimization with randomization in learning
 [[scribed notes](ift6085-2020/ift-6085-lecture-11-notes.pdf)]
@@ -271,56 +270,37 @@ minimization with randomization in learning
 
 
 **March 15th**
-Surprising results on the generalization error of neural networks [new lecture]
+Student presentations
+
+**March 16th**
+Student presentations
+
+
+**March 22nd**
+Student presentations
+
+**March 23rd**
+Student presentations
+
+
+**March 29th**
+Student presentations
+
+
+**March 30th**
+Surprising results on the generalization error of neural networks 
 
 - Recommended reading: [In Search of the Real Inductive Bias: On the Role of Implicit Regularization in Deep Learning](https://arxiv.org/abs/1412.6614)
 - Recommended reading: [Understanding deep learning requires rethinking generalization](https://arxiv.org/abs/1611.03530)
 - Recommended reading: [On the Bias-Variance Tradeoff: Textbooks Need an Update](https://www.bradyneal.com/bias-variance-tradeoff-textbooks-update), blog post by Brady Neal
 
 
-**March 16th**
+**April 5th**
 Where is the Bayes risk hiding? 
 
 - Recommended reading (refresher from last week): [Understanding deep learning requires rethinking generalization](https://arxiv.org/abs/1611.03530)
 - Recommended reading: [To Understand Deep Learning We Need to Understand Kernel Learning](https://arxiv.org/abs/1802.01396)
 - Recommended reading: [Overfitting or perfect fitting? Risk bounds for classification and regression rules that interpolate](https://arxiv.org/abs/1806.05161)
-
-
-**March 22nd**
-Generative models, GANs
-[[scribed notes](ift6085-2019/ift-6085-lecture-12-notes.pdf)]
-
-- Recommended: Great [tutorial and collection resources](https://ermongroup.github.io/generative-models/) from Stefano Ermon and Aditya Grover at IJCAI.
-- Required reading: Main bodies of [16,17] without the proofs 
-- Required reaading: Scribed notes above, including discussed proofs.
-- Optional: [Applications of GANs](https://medium.com/@jonathan_hui/gan-some-cool-applications-of-gans-4c9ecca35900) 
-
-
-**March 23rd**
-The Numerics of GANs
-[[scribed notes](ift6085-2020/ift-6085-lecture-14-notes.pdf)]
-[[slides](ift6085-2019/ift-6085-gan-dynamics-slides.pdf)]
-
-- Required reading: [20]
-
-
-**March 29th**
-Optimal Transport, Wasserstein GANs
-[[scribed notes](ift6085-2019/ift-6085-lecture-13-notes.pdf)]
-- Recommended: [Practical guide into Kantorovich-Rubinstein duality](https://vincentherrmann.github.io/blog/wasserstein/), Vincent Herrmann
-- Required reading: Main bodies of [18,19] without the proofs 
-- Required reaading: Scribed notes above, including discussed proofs.
-
-
-
-**March 30th**
-Student presentations
-
-
-**April 5th**
-Student presentations
-
-<br/>
 
 
 **April 6th**
@@ -335,29 +315,18 @@ Recommended reading on reproducing kernel hilbert spaces:
 - [40min] Read the Wikipedia entry on [RKHSs](https://en.wikipedia.org/wiki/Reproducing_kernel_Hilbert_space) - Can skip sections 4, 8 and 9.
 - [15min] *Optional:* Read sections 1 and 2 of the Wikipedia entry on [Kernel embedding of distributions](https://en.wikipedia.org/wiki/Kernel_embedding_of_distributions)
 
+
+
 **April 12th**
-Student presentations
+Instructor lecture -- To be decided
 
 **April 13th**
-(Distributional) reinforcement learning
-[[scribed notes](ift6085-2020/ift-6085-lecture-19-notes.pdf)]
-- Recommended reading: Scribed notes above
-- Recommended reading: [A Distributional Perspective on Reinforcement Learning](https://arxiv.org/abs/1707.06887), by Bellemare et al. 
+Instructor lecture -- To be decided
 
 
 
-**April 19th**
-Student presentations
 
-**April 20th**
-Student presentations
-
-
-<br/>
-
-
-
-**April 26th**
+**May 3rd (Tentative)**
 Final poster presentation for projects
 
 
