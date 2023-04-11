@@ -304,7 +304,7 @@ Student presentations
 **April 5th**
 Student presentations
 
-**April 6th**
+**April 13th**
 Neural Tangent Kernel [new lecture - no scribed notes]
 - Recommended reading: [Neural Tangent Kernel: Convergence and Generalization in Neural Networks](https://arxiv.org/abs/1806.07572)
 - Recommended reading: [Blog summary of paper](https://rajatvd.github.io/NTK/) 
@@ -318,16 +318,16 @@ Recommended reading on reproducing kernel hilbert spaces:
 
 
 
-**April 12th**
-Instructor lecture -- To be decided
+**April 19th**
+1-1 discussions on course projects 
 
-**April 13th**
-Instructor lecture -- To be decided
-
-
+**April 20th**
+1-1 discussions on course projects 
 
 
-**May 3rd (Tentative)**
+
+
+**May 3rd **
 Final poster presentation for projects
 
 
