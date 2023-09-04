@@ -6,7 +6,7 @@ permalink: /ift6390-ml-class/
 order: 3
 ---
 
-IFT6390B: Fundamentals of machine learning -- Automne 2023
+IFT6390B: Fundamentals of machine learning -- Automne 2023 -- taught in person
 =========
 
 An introductory but **very intensive** class in machine learning.
