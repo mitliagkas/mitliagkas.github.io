@@ -6,11 +6,12 @@ permalink: /ift6390-ml-class/
 order: 3
 ---
 
-IFT6390: Fundamentals of machine learning -- Automne 2022 
+IFT6390B: Fundamentals of machine learning -- Automne 2023
 =========
 
 An introductory but **very intensive** class in machine learning.
-It is taught in <a href="http://pierrelucbacon.com/teaching/fondements-de-lapprentissage-machine/">Winter 2022 by Pierre-Luc Bacon</a> and will be taught again in Fall 2022 by Ioannis Mitliagkas.
+This is the anglophone section, 6390B; Guillaume Rabusseau teaches the french version of the class, 6390A, this same semester.
+It is also taught in <a href="http://pierrelucbacon.com/teaching/fondements-de-lapprentissage-machine/">winter by Pierre-Luc Bacon</a> in french.
 This page contains relevant information on Dr. Mitliagkas' fall version of the class.
 
 Listed as [IFT6390: Fondements de l'apprentissage machine](https://admission.umontreal.ca/cours-et-horaires/cours/ift-6390/)
@@ -23,8 +24,7 @@ Guillaume Rabusseau's <a href="https://www-labs.iro.umontreal.ca/~grabus/index.p
 IFT3395</a>.
 
 **IMPORTANT:
-Please do not register for this class unless you have read and carefully considered all the class requirements listed
-in the 
+Please do not register for this class unless you have read and carefully considered all the class requirements listed in the 
 [prerequisites](/ift6390-ml-class-prerequisites) page.**
 
 Quick links
@@ -42,9 +42,8 @@ If you registered late (i.e. did not have access to Studium on September 1st), t
 </span-->
 
 The following links will become active shortly before our first lecture.
-- [Piazza]() for all our communications.
-- [Gradescope]() for submitting your work and seeing your grades.
-- [Overleaf]() for downloading homework announcements and working on your solutions .
+- [Piazza](https://piazza.com/umontreal.ca/fall2023/ift6390b) for all our communications.
+- [Gradescope](https://www.gradescope.com/courses/600535) for submitting your work and seeing your grades.
 
 
 People
@@ -58,7 +57,7 @@ Teaching assistants: (TBA)
 Registering and auditing
 --------
 If you want to audit the class, please fill this [form](https://forms.gle/RUJQYevmrfsh9AMD8). 
-You will get access to the course material, but you will not be able to submit work or be graded. 
+You will get access to the course material, but you will not be able to submit work on Gradescope or be graded. 
 
 
 Communication
@@ -82,11 +81,11 @@ This is a very large class, so the instructor will not be able to respond to ind
 Class and lab times
 -----
 The instructor's lectures are on
+- Tuesday at 12:30pm-13:20am ET
 - Wednesday at 9:30am-11:10am ET
-- Thursday at 9:30am-10:20am ET
 
 Weekly labs led by a TA on
-- Thursday at 10:30am-12:30am ET
+- Tuesday at 14:30am-16:30am ET
 
 Updated information can always be found by following the instructions below "TROUVEZ L’HORAIRE D’UN COURS" at the bottom of <a href="https://admission.umontreal.ca/cours-et-horaires/cours/ift-6390/">
 this page</a>.
