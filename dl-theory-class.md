@@ -9,7 +9,7 @@ order: 2
 IFT 6169: Theoretical principles for deep learning
 =========
 
-**Winter 2023 -- Taught in person (but also available online)** 
+**THIS CLASS IS NOT OFFERED IN WINTER 2024** 
 
 
 Description
