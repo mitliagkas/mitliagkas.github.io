@@ -11,10 +11,11 @@ I try to be like them.
 
 <h2>Organizational</h2>
 
-I'm an elected board member of the <a href="https://www.ergatikos-montreal.ca/en/home/">Association des travailleurs grecs du Québec</a> (greek workers' association of Quebec). 
+I have served as an elected board member of the <a href="https://www.ergatikos-montreal.ca/en/home/">Association des travailleurs grecs du Québec</a> (greek workers' association of Quebec). 
 
 <h2>Running</h2> 
-I've <a href="https://resultscui.active.com/participants/33845739">dabbled</a> in long distance running and I'm recently back at it.
+I've <a href="https://resultscui.active.com/participants/33845739">dabbled</a> in long distance running and I'm recently 
+<a href="https://sportstats.one/results/130543/1861">back at it</a>.
 
 
 
