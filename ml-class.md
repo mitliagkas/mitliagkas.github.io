@@ -9,6 +9,11 @@ order: 3
 IFT6390B: Fundamentals of machine learning -- Automne 2023 -- taught in person
 =========
 
+**NOTE:
+In the fall semester of 2024 I am teaching the french section of the class, IFT6390A, as well as the undergraduate class, IFT3395.
+My colleague, Dhanya Sridhar, will teach the english section, IFT6390B.
+
+
 An introductory but **very intensive** class in machine learning.
 This is the anglophone section, 6390B; Guillaume Rabusseau teaches the french version of the class, 6390A, this same semester.
 It is also taught in <a href="http://pierrelucbacon.com/teaching/fondements-de-lapprentissage-machine/">winter by Pierre-Luc Bacon</a> in french.
