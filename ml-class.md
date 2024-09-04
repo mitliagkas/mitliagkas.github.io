@@ -30,7 +30,7 @@ IFT3395</a>.
 
 **IMPORTANT:
 Please do not register for this class unless you have read and carefully considered all the class requirements listed in the 
-[prerequisites](/ift6390-ml-class-prerequisites) page.**
+[prerequisites](/ml-class-prerequisites-fr) page.**
 
 Quick links
 --------- 
