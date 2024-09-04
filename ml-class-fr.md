@@ -106,9 +106,9 @@ Voici un échantillon des trois premiers laboratoires de l'année dernière pour
 
 
 
-<h2>Evaluation, IFT6390</h2>
+<h2>Evaluation, IFT3395</h2>
 
-**Quiz hebdomadaires (10%):**
+**Quiz hebdomadaires (30%):**
 Nous aurons un quiz hebdomadaire en ligne. Vous pourrez faire ce test de n'importe où.
 Il consistera en de courtes questions sur le cours de la semaine dernière et sera administré sur Gradescope. 
 Une fois que vous aurez commencé le quiz, vous aurez 15 minutes pour le terminer. 
@@ -118,20 +118,25 @@ Nous aurons au moins 12 quiz pendant le semestre ; vos 6 meilleurs scores seront
 3 séries de devoirs (10% chacune) comprenant des exercices théoriques, de la programmation et de l'expérimentation.
 La plupart des devoirs seront soumis individuellement (chaque étudiant travaillant de son côté) et certains en équipe de deux.
 
-**Compétitions de données (30%):**
+**Compétitions de données (10%):**
 Deux compétitions Kaggle.
 La première couvrira la première moitié du cours et comptera pour 10% de votre note.
  et le second s'étendra sur la seconde moitié du cours et comptera pour 20% de votre note.
 
-**Examen de mi-parcours en laboratoire (10%):**
-Cet examen testera votre connaissance du matériel de laboratoire. Il vous sera demandé de programmer des fonctions spécifiques en Python et de les soumettre à Gradescope pour une notation automatique. 
-Pour plus d'informations et un exemple de l'examen de mi-session de l'année dernière, veuillez consulter 
-la page [prerequisites](/ift6390-ml-class-prerequisites).
-Cet examen aura lieu début octobre (date exacte à confirmer). 
-
-**Examen final (20%):**
+**Examen final (30%):**
 Examen portant sur l'ensemble de la matière du cours à la fin du semestre. 
 La date exacte et le format seront annoncés ultérieurement.
+
+Fraude académique et plagiat
+---------------- 
+
+**ATTENTION:**
+L'Université de Montréal a désormais une politique stricte en cas de fraude ou de plagiat.
+Si une infraction est constatée, le professeur est tenu d'en faire rapport au directeur du département.
+Une procédure administrative est alors automatiquement déclenchée avec les conséquences suivantes : l'infraction est notée dans votre dossier,
+et une sanction est décidée (qui peut être grave et aller jusqu'au licenciement en cas de récidive). Il est important que vous fassiez le travail vous-même !
+
+
 
 *Pour la plupart de ces évaluations, vous pourrez soumettre votre travail et voir vos notes sur Gradescope. 
  Voir la section 'Communication' pour plus d'informations sur l'accès. *
