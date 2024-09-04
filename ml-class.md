@@ -1,7 +1,6 @@
 ---
 layout: default
 title: ML class
-menu: main
 permalink: /ift6390-ml-class/
 order: 3
 ---
