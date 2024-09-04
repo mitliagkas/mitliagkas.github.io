@@ -54,7 +54,7 @@ ou si vous n'avez pas obtenu de bons résultats dans ces cours, ou si vous avez 
 
 **Q : Comment puis-je m'assurer que j'ai tous les pré-requis mathématiques nécessaires avant de prendre IFT6390 ?
 
-R : Étudiez le livre [Mathematics for Machine Learning] (https://mml-book.com/).
+R : Étudiez le livre [Mathematics for Machine Learning](https://mml-book.com/).
 Passez en revue les parties suivantes du livre, et assurez-vous que vous avez déjà compris la matière **avant** de commencer l'IFT6390.
 - Section 2 : Sous-sections 2.1 à 2.6 (incluses)
 - Section 3 : Toutes les sous-sections
