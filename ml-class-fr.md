@@ -127,16 +127,6 @@ La première couvrira la première moitié du cours et comptera pour 10% de votr
 Examen portant sur l'ensemble de la matière du cours à la fin du semestre. 
 La date exacte et le format seront annoncés ultérieurement.
 
-Fraude académique et plagiat
----------------- 
-
-**ATTENTION:**
-L'Université de Montréal a désormais une politique stricte en cas de fraude ou de plagiat.
-Si une infraction est constatée, le professeur est tenu d'en faire rapport au directeur du département.
-Une procédure administrative est alors automatiquement déclenchée avec les conséquences suivantes : l'infraction est notée dans votre dossier,
-et une sanction est décidée (qui peut être grave et aller jusqu'au licenciement en cas de récidive). Il est important que vous fassiez le travail vous-même !
-
-
 
 *Pour la plupart de ces évaluations, vous pourrez soumettre votre travail et voir vos notes sur Gradescope. 
  Voir la section 'Communication' pour plus d'informations sur l'accès. *

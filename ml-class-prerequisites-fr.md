@@ -52,7 +52,7 @@ Même si vous avez suivi ces cours, vous devrez peut-être travailler dur pour a
 ou si vous n'avez pas obtenu de bons résultats dans ces cours, ou si vous avez appris un autre langage que Python. 
 
 
-**Q : Comment puis-je m'assurer que j'ai tous les pré-requis mathématiques nécessaires avant de prendre IFT6390 ?
+**Q : Comment puis-je m'assurer que j'ai tous les pré-requis mathématiques nécessaires avant de prendre IFT6390 ?**
 
 R : Étudiez le livre [Mathematics for Machine Learning](https://mml-book.com/).
 Passez en revue les parties suivantes du livre, et assurez-vous que vous avez déjà compris la matière **avant** de commencer l'IFT6390.
@@ -67,9 +67,9 @@ Si vous constatez qu'il vous est impossible de le faire par vous-même, il n'y a
 vous devez prendre un ou deux cours de mathématiques avant de suivre l'IFT6390.
 
 
-**Q : Comment puis-je m'assurer que j'ai les prérequis en programmation avant de prendre l'IFT6390 ?
+**Q : Comment puis-je m'assurer que j'ai les prérequis en programmation avant de prendre l'IFT6390 ?**
 
-R : Considérez l'examen de mi-parcours de 2019 de l'IFT6390 (ift6390-lab-midterm-A2019.py).
+R : Considérez [l'examen intra de 2019 de l'IFT6390](ift6390-lab-midterm-A2019.py).
 L'examen consiste en 10 questions en Python. 
 Dans chaque question, on vous donne une description de la fonctionnalité d'une fonction Python, ainsi que son en-tête. 
 Votre objectif est d'implémenter le corps de chaque fonction en suivant les instructions. 
