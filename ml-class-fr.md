@@ -6,13 +6,13 @@ permalink: /ml-class-fr/
 order: 3
 ---
 
-IFT3395/IFT6390A: Fondements de l'apprentissage machine -- Automne 2024 -- donné en presentiel
+IFT3395/IFT6390A: Fondements de l'apprentissage machine -- Automne 2025 -- donné en presentiel
 =========
 
 Un cours d'introduction mais **très intensif** en apprentissage automatique.
 
 **REMARQUE:
-In the fall semester of 2024 I am teaching the french section of the class, IFT6390A, as well as the undergraduate class, IFT3395.
+In the fall semester of 2025 I am teaching the french section of the class, IFT6390A, as well as the undergraduate class, IFT3395.
 My colleague, Dhanya Sridhar, will teach the english section, IFT6390B.
 
 Les cours et les travaux pratiques sont donnés en français.
@@ -59,11 +59,11 @@ Il s'agit d'une classe très nombreuse, l'instructeur ne sera donc pas en mesure
 Horaires des cours et des laboratoires
 -----
 Les cours de l'instructeur ont lieu
-- mardi à 12h30-13h20 ET
+- mardi à 13h30-14h20 ET
 - mercredi à 9h30-11h10 ET
 
 Travaux pratiques hebdomadaires dirigés par un assistant enseignant le
-- mardi à 13h30-15h30 ET
+- mardi à 14h30-16h30 ET
 
 Des informations mises à jour peuvent toujours être trouvées en suivant les instructions ci-dessous « TROUVEZ L'HORAIRE D'UN COURS » au bas de <a href="https://admission.umontreal.ca/cours-et-horaires/cours/ift-6390/">
 ce lien</a>.
@@ -106,19 +106,20 @@ Voici un échantillon des trois premiers laboratoires de l'année dernière pour
 
 
 
-<h2>Evaluation, IFT3395</h2>
+<h2>Evaluation</h2>
 
-**Quiz hebdomadaires (30%):**
+**Quiz hebdomadaires (10%):**
 Nous aurons un quiz hebdomadaire en ligne. Vous pourrez faire ce test de n'importe où.
 Il consistera en de courtes questions sur le cours de la semaine dernière et sera administré sur Gradescope. 
 Une fois que vous aurez commencé le quiz, vous aurez 15 minutes pour le terminer. 
 Nous aurons au moins 12 quiz pendant le semestre ; vos 6 meilleurs scores seront utilisés pour calculer votre score semestriel aux quiz (10% de votre note finale).
 
-**Devoirs (30%):**
-3 séries de devoirs (10% chacune) comprenant des exercices théoriques, de la programmation et de l'expérimentation.
-La plupart des devoirs seront soumis individuellement (chaque étudiant travaillant de son côté) et certains en équipe de deux.
+**Examen intra (30%):**
+L'examen de mi-semestre sera un examen écrit en classe et aura lieu le 14 octobre.
+L'examen portera sur l'ensemble du programme étudié jusqu'à cette date.
 
-**Compétitions de données (10%):**
+
+**Compétitions de données (30%):**
 Deux compétitions Kaggle.
 La première couvrira la première moitié du cours et comptera pour 10% de votre note.
  et le second s'étendra sur la seconde moitié du cours et comptera pour 20% de votre note.
