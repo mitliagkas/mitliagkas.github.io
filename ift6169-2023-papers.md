@@ -1,10 +1,12 @@
 ---
 layout: page
 section: /teaching/
-permalink: /ift6085-papers-2020/
+permalink: /ift6169-2023/papers/
+redirect_from:
+  - /ift6085-papers-2020/
 ---
 
-IFT6085: Class bibliography
+IFT 6169: Class bibliography
 =========
 
 **This list has been maintained during the previous iterations on the class. Last update, February 2020.
@@ -23,7 +25,7 @@ are relevant to the class.
 Note: some of these results are not given in a deep learning setting, however the ideas 
 and techniques there are very useful for our exploration in class.
 
-[back to class page](/ift6085-dl-theory-class/)
+[back to class page](/ift6169-2023/)
 
 
 Assorted papers
