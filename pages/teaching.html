@@ -1,0 +1,25 @@
+---
+layout: default
+title: Teaching
+permalink: /teaching/
+description: "Courses taught by Ioannis Mitliagkas at Université de Montréal."
+---
+<div class="prose">
+  <h1>Teaching</h1>
+  <p>I teach at the Département d'informatique et de recherche opérationnelle (DIRO), Université de Montréal.</p>
+</div>
+<div class="courses">
+  {% for c in site.data.teaching.courses %}
+  {% assign k = c[0] %}{% assign v = c[1] %}
+  <div>
+    <h2><a href="{{ v.url | relative_url }}">{{ v.code }}: {{ v.title }}</a></h2>
+    <p>{{ v.blurb }}</p>
+    {% if v.url_fr %}<p><a href="{{ v.url_fr | relative_url }}">Page du cours en français</a></p>{% endif %}
+    <ul class="terms">
+      {% for o in site.data.teaching.offerings %}{% if o.course == k %}
+      <li>{% if o.url %}<a href="{{ o.url | relative_url }}">{{ o.term }}</a>{% else %}{{ o.term }}{% endif %}{% if o.mode %} <span class="muted">({{ o.mode }})</span>{% endif %}</li>
+      {% endif %}{% endfor %}
+    </ul>
+  </div>
+  {% endfor %}
+</div>

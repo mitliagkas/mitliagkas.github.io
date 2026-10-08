@@ -1,8 +1,8 @@
 ---
-layout: default
+layout: page
+section: /teaching/
 title: ML class
 permalink: /ift6390-ml-class/
-order: 3
 ---
 
 IFT6390B: Fundamentals of machine learning -- Automne 2023 -- taught in person

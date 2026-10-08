@@ -1,0 +1,179 @@
+# News items, newest first. date: YYYY-MM. text: HTML allowed.
+# The home page shows the most recent ones; /news/ shows all.- date: 2026-10
+  text: I am recruiting PhD and MSc students for Fall 2027. See <a href="/#prospective">how to apply</a>.
+- date: 2026-05
+  text: Hiroki Naganuma has completed his PhD and joins NVIDIA. Congratulations Dr. Naganuma!
+- date: 2026-05
+  text: Two papers accepted at ICML 2026, on <a href="https://arxiv.org/abs/2605.11170">unlearning with public data</a> and on <a href="https://arxiv.org/abs/2602.03001">adaptive batch sizes for sign and spectral descent</a>.
+- date: 2026-01
+  text: 'Three papers accepted at ICLR 2026, including <a href="https://arxiv.org/abs/2510.14751">Beyond Multi-Token Prediction: Pretraining LLMs with Future Summaries</a>.'
+- date: 2025-09
+  text: <a href="https://arxiv.org/abs/2410.19964">Understanding Adam Requires Better Rotation Dependent Assumptions</a> accepted at NeurIPS 2025.
+- date: 2025-05
+  text: Compositional Risk Minimization accepted at ICML 2025.
+- date: 2025-01
+  text: Charles Guille-Escuret has completed his PhD and joins the MBZUAI Institute of Foundation Models. Congratulations Dr. Guille-Escuret!
+- date: 2024-06
+  text: One more strong PhD graduation, this time it is Adam Ibrahim! He continues his work as a research scientist at H, Paris. Congratulations Dr. Ibrahim!
+- date: 2024-05
+  text: '<a href="https://arxiv.org/abs/2306.11922">No Wrong Turns: The Simple Geometry Of Neural Networks Optimization Paths</a> paper accepted at ICML 2024!'
+- date: 2024-05
+  text: For the first time in a long while, I'm attending a big ML conference. I will be at ICLR 2024 in Vienna.
+- date: 2024-04
+  text: My second PhD student to graduate, Reyhane Askari Hemmat, has successfully defended her thesis. She continues her work as a research scientist at Meta, Montreal. Congratulations Dr. Askari!
+- date: 2024-01
+  text: <a href="https://iclr.cc/virtual/2024/poster/17398">Empirical Analysis of Model Selection for Heterogeneous Causal Effect Estimation</a> paper accepted at ICLR 2024 for an <strong>spotlight presentation.</strong>
+- date: 2024-01
+  text: '<a href="https://openreview.net/pdf?id=vXSsTYs6ZB">LEAD: Min-Max Optimization from a Physical Perspective</a> invited to be presented at ICLR 2024'
+- date: 2023-12
+  text: For the winter semester of 2024, I am on sabbatical at <a href="https://archimedesai.gr/en/researchers">Archimedes</a> in Athens, Greece.
+- date: 2023-09
+  text: <a href="https://nips.cc/virtual/2023/oral/73849">Additive Decoders for Latent Variables Identification and Cartesian-Product Extrapolation</a> paper accepted at NeurIPS 2023 for an <strong>oral presentation</strong>
+- date: 2023-09
+  text: '<a href="https://nips.cc/virtual/2023/poster/71706">CADet: Fully Self-Supervised Out-Of-Distribution Detection With Contrastive Learning</a> paper accepted at NeurIPS 2023'
+- date: 2023-09
+  text: Welcome to new PhD student, <a href="https://openreview.net/profile?id=~Zichu_Liu1">Zichu Liu</a>.
+- date: 2023-09
+  text: Welcome to new intern, <a href="https://github.com/AngeClementAkazan">Ange-Clement Akazan</a> who's visitting us from the African Institute for Mathematical Research and will study generative models
+- date: 2023-04
+  text: '<a href="https://openreview.net/forum?id=SykskBAkZL">Synergies between Disentanglement and Sparsity: Generalization and Identifiability in Multi-Task Learning</a> paper accepted at ICML 2023.'
+- date: 2023-01
+  text: My first PhD student to graduate, Alexia Jolicoeur-Martineau, has successfully defended her thesis. She continues her work as a research scientist at SAIL Montreal. Congratulations Dr. Jolicoeur-Martineau!!
+- date: 2023-01
+  text: <a href="https://arxiv.org/abs/2304.06879">Performative Prediction with Neural Networks </a> paper accepted at AISTASTS 2023.
+- date: 2023-01
+  text: <a href="https://iclr.cc/virtual/2023/poster/11421">Neural Networks Efficiently Learn Low-Dimensional Representations with SGD</a> paper accepted at ICLR 2023 with honorable mention.
+- date: 2022-09
+  text: I'm excited to announce that I've started part-time work as a staff research scientist at Google Brain Montreal! Looking forward to deepening my connection to larger scale problems in industry.
+- date: 2022-09
+  text: <a href="https://proceedings.neurips.cc/paper_files/paper/2022/hash/9daab3b451038ed1bc5d8e9b77996b99-Abstract-Conference.html">Gradient Descent Is Optimal Under Lower Restricted Secant Inequality And Upper Error Bound</a> paper accepted at NeurIPS 2022.
+- date: 2022-09
+  text: Kartik Ahuja has finished his postdoc and started working as a research scientist at Meta research (FAIR) Paris!
+- date: 2022-07
+  text: Graduating PhD candidate Alexia Jolicoeur-Martineau started work at Samsung SAIT AI Lab in Montreal!
+- date: 2022-06
+  text: As of June 1st, 2022 I was promoted to the post of associate professor with tenure. My sincere thanks to colleagues and my group for all their hard work.
+- date: 2021-10
+  text: Honored to be invited to the semester of <a href="https://simons.berkeley.edu/programs/games2022">Learning and Games</a> at Simons. I will be visitting Berkeley in January-March of 2022.
+- date: 2021-09
+  text: Welcome to new MSc students, <a href="https://github.com/mhrnz"> Mehrnaz Mofakhami</a> and <a href="https://divyat09.github.io/">Divyat Mahajan</a>.
+- date: 2021-09
+  text: Two papers accepted at NeurIPS 2021! [<a href="https://arxiv.org/abs/2107.00052">one</a>, <a href="https://arxiv.org/abs/2106.06607">two</a>]
+- date: 2021-04
+  text: Postdoc in our group, Nicolas Loizou accepted a tenure track position at Johns Hopkins University!
+- date: 2021-03
+  text: Postdoc in our group, Manuela Girotti accepted a tenure track position at St. Mary's University! In the meantime shewill spend time at the prestigious mathematical institute, MSRI, in Berkeley, CA.
+- date: 2021-01
+  text: Best student paper award for Charles, Baptiste and Manuela's paper at OPT2020! For their work on the <a href="https://arxiv.org/abs/2012.05782">fundamentals of condition numbers</a>. Their paper was accepted for publication at AISTATS 2021.
+- date: 2021-01
+  text: Alexia and Rémi's paper, in collaboration with MSR Montréal has been accepted at ICLR 2021! Preprint available <a href="https://arxiv.org/abs/2009.05475">here</a>.
+- date: 2020-09
+  text: Paper on <a href="https://arxiv.org/abs/2010.11924">evaluating generalization measures</a> accepted at NeurIPS'20.
+- date: 2020-09
+  text: Welcome to new PhD students, <a href="https://ca.linkedin.com/in/ryan-d-orazio-05833979">Ryan D'Orazio</a> and <a href="https://hiroki11x.github.io">Hiroki Naganuma</a>.
+- date: 2020-08
+  text: Kartik Ahuja awarded the IVADO postdoctoral scholarship. Excited to have him join us in January 2021!
+- date: 2020-04
+  text: Two papers on differentiable games (<a href="https://arxiv.org/abs/2007.04202">one</a>, <a href="https://arxiv.org/abs/1906.07300">two</a>) accepted at ICML'20.
+- date: 2020-01
+  text: Two papers on efficient methods and tight bounds for differentiable games (<a href="https://arxiv.org/pdf/2001.00602.pdf">one</a>, <a href="https://arxiv.org/pdf/1906.05945.pdf">two</a>) accepted at AISTATS'20.
+- date: 2019-12
+  text: Nicolas Loizou was awarded the IVADO postdoctoral scholarship at the prestigious Fellow tier.
+- date: 2019-12
+  text: Brady Neal graduates with an MSc. He will continue on his PhD with us.
+- date: 2019-11
+  text: Excited to be coorganizing the 2nd iteration of the <a href="https://sgo-workshop.github.io/">Smooth Games Optimization and Machine Learning Workshop</a> at NeurIPS'19.
+- date: 2019-11
+  text: <a href="https://arxiv.org/abs/1906.03532">Reducing the variance in online optimization by transporting past gradients</a> selected for <strong>spotlight oral presentation</strong> at NeurIPS'19.
+- date: 2019-10
+  text: Multiple submissions to AISTATS. Preprints on the way...
+- date: 2019-06
+  text: At ICML with 3 papers in main conference, 2 in Deep Learning Phenomena workshop.
+- date: 2019-05
+  text: <a href="https://arxiv.org/pdf/1905.11382.pdf">State-Reification Networks</a> selected for <strong>oral presentation</strong> at ICML'19.
+- date: 2019-04
+  text: Excited to be <a href="https://i.redd.it/kovwct2jeix21.png">listed</a> among the most prolific authors of accepted ICML 2019 papers.
+- date: 2019-04
+  text: I received the NSERC Discovery grant!
+- date: 2019-04
+  text: In Japan for AISTATS.
+- date: 2019-01
+  text: h-detach paper accepted at ICLR.
+- date: 2018-12
+  text: Was nominated in the first cohort of Canada CIFAR AI chairs!!
+- date: 2018-12
+  text: Co-organizing <a href="https://sgo-workshop.github.io/">Smooth Games Optimization in ML</a> workshop at NeurIPS.
+- date: 2018-12
+  text: Negative momentum for improved game dynamics. Paper accepted at AISTATS 2019.
+- date: 2018-12
+  text: Full version of YellowFin manscript accepted at SysML
+- date: 2018-09
+  text: Excited to be teaching Machine Learning to a class of 180 graduate students at UdeM.
+- date: 2018-02
+  text: <a href="https://arxiv.org/pdf/1706.03471.pdf">YellowFin</a> selected for <strong>oral presentation</strong> at SysML'18.
+- date: 2018-01
+  text: 'Teaching new class! <a href="ift6085-dl-theory-class/"> IFT 6085: Theoretical principles for deep learning </a>'
+- date: 2017-12
+  text: Accelerated power iteration via momentum, paper accepted at AISTATS 2018.
+- date: 2017-11
+  text: Talk at Google Brain, Montréal
+- date: 2017-09
+  text: Thrilled to be starting work at the University of Montreal and the Mila as an assistant professor!
+- date: 2017-08
+  text: Visiting my alma mater, UT Austin.
+- date: 2017-08
+  text: At Sydney for ICML, presenting work on YellowFin, custom scans for Gibbs sampling, and deep learning for 3D point cloud representation and generation.
+- date: 2017-07
+  text: <strong>New preprint!</strong> Representation Learning and Adversarial Generation of 3D Point Clouds <a href="https://arxiv.org/abs/1707.02392">[arxiv]</a>.
+- date: 2017-07
+  text: <strong>New preprint!</strong> Accelerated stochastic power iteration <a href="https://arxiv.org/abs/1707.02670">[arxiv]</a>.
+- date: 2017-06
+  text: <strong>New preprint!</strong> An automatic tuner for they hyperparameters of momentum SGD <a href="https://arxiv.org/pdf/1706.03471.pdf">[arxiv]</a>.
+- date: 2017-05
+  text: Custom scan sequence paper accepted for presentation at ICML 2017!
+- date: 2017-04
+  text: Invited talk at Workshop on Advances in Computing Architectures, Stanford SystemX
+- date: 2017-03
+  text: <strong>New preprint!</strong> Custom scan sequences for <a href="https://arxiv.org/pdf/1707.05807.pdf">super fast Gibbs sampling</a>.
+- date: 2017-02
+  text: Invited to talk at ITA in San Diego.
+- date: 2017-02
+  text: Spoke at the AAAI 2017 Workshop on Distributed Machine Learning.
+- date: 2017-01
+  text: Visiting Microsoft Research, Cambridge
+- date: 2016-12
+  text: At NIPS, presenting our <a href="https://arxiv.org/abs/1606.03432">Gibbs sampling paper</a> dispelling some common beliefs regarding scan orders.
+- date: 2016-11
+  text: Visiting Microsoft Research New England
+- date: 2016-11
+  text: Invited talk at SystemX Stanford Alliance Fall Conference
+- date: 2016-11
+  text: Full version of asynchrony <a href="papers/asynchrony-begets-momentum.pdf">paper</a>.
+- date: 2016-09
+  text: Talk at Allerton
+- date: 2016-08
+  text: I had the pleasure to give a talk MIT Lincoln Labs.
+- date: 2016-08
+  text: Gave an <a href="/asynchrony/">asynchronous optimization</a> talk at Google.
+- date: 2016-08
+  text: <a href="http://stanford.edu/~imit/tuneyourmomentum/">Blog post</a> on our momentum work.
+- date: 2016-07
+  text: Invited to talk at NVIDIA.
+- date: 2016-06
+  text: <a href="/asynchrony/">Poster</a> at non-convex optimization ICML <a href="http://sites.google.com/site/noncvxicml16/">workshop</a>.
+- date: 2016-06
+  text: <a href="https://arxiv.org/abs/1606.07365">Poster</a> at OptML 2016 workshop.
+- date: '2016'
+  text: In a recent <a href="http://bit.ly/22wAt0e">note</a>, we show that asynchrony in SGD introduces momentum. In the companion <a href="http://bit.ly/ovore">systems paper</a>, we use this theory to train deep networks faster.
+- date: '2016'
+  text: Does periodic model averaging always help? Recent <a href="https://arxiv.org/abs/1606.07365">results</a>.
+- date: '2015'
+  text: Excited to start Postdoc at Stanford University. Will be working with Lester Mackey and Chris Ré.
+- date: '2015'
+  text: Successfully defended my PhD thesis!
+- date: '2015'
+  text: SILO <a href="http://wid.wisc.edu/featured-events/silo032515/">seminar talk</a> at the Wisconsin Institute of Discovery.
+- date: '2015'
+  text: Densest k-Subgraph work <a href="http://devblogs.nvidia.com/parallelforall/gpu-accelerated-graph-analytics-python-numba/">picked up by NVIDIA</a>!
+- date: '2015'
+  text: Our latest <a href="/papers/FrogWild.pdf">work</a> has been accepted for presentation at VLDB 2015!

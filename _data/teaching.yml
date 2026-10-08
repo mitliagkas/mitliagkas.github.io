@@ -1,0 +1,29 @@
+# Courses, newest first. Shown on /teaching/ and summarized on the home page.
+courses:
+  ml:
+    code: "IFT 3395/6390"
+    title: "Fundamentals of Machine Learning"
+    url: /ift6390-ml-class/
+    url_fr: /ml-class-fr/
+    blurb: "An introductory but very intensive machine learning class for undergraduate and graduate students. Taught in French since 2024."
+  dltheory:
+    code: "IFT 6085/6169"
+    title: "Theoretical principles for deep learning"
+    url: /ift6085-dl-theory-class/
+    blurb: "An advanced research class on the theory of deep learning: optimization, expressivity and generalization. Students read recent papers and do a research project."
+offerings:
+  - {term: Fall 2026,   course: ml,       mode: "in person, French"}
+  - {term: Fall 2025,   course: ml,       mode: "in person, French"}
+  - {term: Fall 2024,   course: ml,       mode: "French"}
+  - {term: Fall 2023,   course: ml,       mode: "in person"}
+  - {term: Winter 2023, course: dltheory, mode: hybrid}
+  - {term: Fall 2022,   course: ml,       mode: hybrid}
+  - {term: Winter 2022, course: dltheory, mode: hybrid, url: /ift6085-dl-theory-class-2022/}
+  - {term: Fall 2021,   course: ml,       mode: hybrid}
+  - {term: Winter 2021, course: dltheory, url: /ift6085-dl-theory-class-2021/}
+  - {term: Fall 2020,   course: ml}
+  - {term: Winter 2020, course: dltheory, url: /ift6085-dl-theory-class-2020/}
+  - {term: Fall 2019,   course: ml}
+  - {term: Winter 2019, course: dltheory, url: /ift6085-dl-theory-class-2019/}
+  - {term: Fall 2018,   course: ml}
+  - {term: Winter 2018, course: dltheory, url: /ift6085-dl-theory-class-2018/}

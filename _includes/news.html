@@ -1,0 +1,6 @@
+<ul class="news">
+  {% for n in include.items limit: include.limit %}
+  {%- assign d = n.date | append: '' -%}
+  <li><time datetime="{{ d }}">{% if d.size == 7 %}{{ d | append: '-01' | date: '%B %Y' }}{% else %}{{ d }}{% endif %}</time><span>{{ n.text }}</span></li>
+  {% endfor %}
+</ul>

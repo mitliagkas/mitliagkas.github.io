@@ -1,0 +1,62 @@
+---
+layout: default
+title: Publications
+permalink: /publications/
+description: "Publications of Ioannis Mitliagkas: peer-reviewed papers, workshop papers and preprints."
+---
+<div class="prose">
+  <h1>Publications</h1>
+  <p>Peer-reviewed papers, workshop papers and preprints, newest first. Also on <a href="{{ site.links.scholar_recent }}">Google Scholar</a> and <a href="{{ site.links.dblp }}">DBLP</a>.</p>
+</div>
+
+<div class="filters" role="group" aria-label="Filter by theme">
+  <button type="button" data-topic="all" aria-pressed="true">All</button>
+  {% for t in site.data.themes %}<button type="button" data-topic="{{ t.key }}" aria-pressed="false">{{ t.name }}</button>{% endfor %}
+  <button type="button" data-topic="other" aria-pressed="false">Other</button>
+</div>
+
+{% assign sections = "accepted:Peer-reviewed,workshop:Workshop papers,preprint:Preprints" | split: "," %}
+{% for s in sections %}
+  {% assign kv = s | split: ":" %}
+  {% assign list = site.data.publications | where: "status", kv[0] %}
+  {% assign years = list | group_by: "year" | sort: "name" | reverse %}
+  <section class="prose pub-section">
+    <h2>{{ kv[1] }}</h2>
+    {% for y in years %}
+      <h3 class="year">{{ y.name }}</h3>
+      <ul class="pubs">{% for p in y.items %}{% if p.status == 'preprint' and p.arxiv == nil and p.url == nil %}{% continue %}{% endif %}{% include pub.html pub=p %}{% endfor %}</ul>
+    {% endfor %}
+  </section>
+{% endfor %}
+
+<script>
+(function () {
+  var buttons = document.querySelectorAll('.filters button');
+  function apply(topic) {
+    buttons.forEach(function (b) { b.setAttribute('aria-pressed', b.dataset.topic === topic ? 'true' : 'false'); });
+    document.querySelectorAll('.pub-section').forEach(function (sec) {
+      var any = false;
+      sec.querySelectorAll('ul.pubs').forEach(function (ul) {
+        var shown = 0;
+        ul.querySelectorAll('.pub').forEach(function (li) {
+          var ok = topic === 'all' || (' ' + li.dataset.topics + ' ').indexOf(' ' + topic + ' ') > -1;
+          li.hidden = !ok; if (ok) shown++;
+        });
+        ul.hidden = shown === 0; ul.previousElementSibling.hidden = shown === 0;
+        if (shown) any = true;
+      });
+      sec.hidden = !any;
+    });
+  }
+  buttons.forEach(function (b) {
+    b.addEventListener('click', function () {
+      apply(b.dataset.topic);
+      var u = new URL(location.href);
+      if (b.dataset.topic === 'all') u.searchParams.delete('topic'); else u.searchParams.set('topic', b.dataset.topic);
+      history.replaceState(null, '', u);
+    });
+  });
+  var t = new URLSearchParams(location.search).get('topic');
+  if (t && document.querySelector('.filters button[data-topic="' + t + '"]')) apply(t);
+})();
+</script>

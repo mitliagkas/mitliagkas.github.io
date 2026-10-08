@@ -1,0 +1,30 @@
+---
+layout: default
+title: Research
+permalink: /research/
+description: "Research themes of Ioannis Mitliagkas's group at Mila: optimization for deep learning, generalization and compositionality, privacy and unlearning, games and RL."
+---
+<div class="prose">
+  <h1>Research</h1>
+  <p>I study optimization, dynamics and learning, with a focus on modern machine learning. I have also worked at the intersection of systems and theory. Below are the themes my group works on now, with our papers on each. The full list is on the <a href="{{ '/publications/' | relative_url }}">publications page</a>.</p>
+</div>
+{% assign accepted = site.data.publications | where: "status", "accepted" %}
+{% for theme in site.data.themes %}
+<div class="section-head" id="{{ theme.key }}">
+  <h2>{{ theme.name }}</h2>
+  <a href="{{ '/publications/' | relative_url }}?topic={{ theme.key }}">All papers on this theme</a>
+</div>
+<p class="prose">{{ theme.blurb }}</p>
+{% assign list = accepted | where_exp: "p", "p.topics contains theme.key" | sort: "year" | reverse %}
+<ul class="pubs prose">
+  {% for p in list limit: 6 %}{% include pub.html pub=p %}{% endfor %}
+</ul>
+{% endfor %}
+
+<div class="section-head"><h2>Earlier work and resources</h2></div>
+<ul class="prose">
+  <li><a href="{{ '/projects/' | relative_url }}">Projects archive</a>: representative projects grouped by area, curated in early 2022.</li>
+  <li><a href="{{ '/research-contributions.pdf' | relative_url }}">Summary of research contributions</a> from my group (PDF, not fully up to date).</li>
+  <li><a href="https://docs.google.com/presentation/d/1uYUt7zSUByOGt_yAecSTBj_V0jNNGEySRU2hkXNyvKA/edit?usp=sharing">Slides</a> summarizing our work on games and min-max optimization.</li>
+  <li><a href="{{ site.links.scholar_recent }}">Recent manuscripts on Google Scholar</a>.</li>
+</ul>

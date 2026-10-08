@@ -1,0 +1,32 @@
+---
+layout: default
+title: Group
+permalink: /group/
+description: "Current members and alumni of Ioannis Mitliagkas's research group at Mila and Université de Montréal."
+---
+<div class="prose">
+  <h1>Group</h1>
+  <p>PhD and MSc students at Mila and the Université de Montréal.{% if site.recruiting.open %} I am recruiting for {{ site.recruiting.intake }}: see <a href="{{ '/#prospective' | relative_url }}">how to apply</a>.{% endif %}</p>
+</div>
+
+<h2>Current members</h2>
+<ul class="people">
+  {% for x in site.data.people.current %}{% include person.html person=x %}{% endfor %}
+</ul>
+
+<h2>Alumni</h2>
+<p class="prose muted">Year is when they finished with the group; next is where they went.</p>
+{% assign groups = "postdoc:Postdocs,phd:PhD,msc:MSc,intern:Research interns" | split: "," %}
+{% for g in groups %}
+  {% assign kv = g | split: ":" %}
+  {% assign list = site.data.people.alumni | where: "role", kv[0] | sort: "year" | reverse %}
+  <h3>{{ kv[1] }}</h3>
+  <table class="alumni">
+    <thead><tr><th scope="col">Name</th><th scope="col">Year</th><th scope="col">Next</th></tr></thead>
+    <tbody>
+    {% for x in list %}
+      <tr><td>{% if x.url %}<a href="{{ x.url }}">{{ x.name }}</a>{% else %}{{ x.name }}{% endif %}</td><td>{{ x.year }}</td><td>{{ x.next }}</td></tr>
+    {% endfor %}
+    </tbody>
+  </table>
+{% endfor %}
