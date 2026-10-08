@@ -17,6 +17,7 @@ Most content is data. Edit the YAML file; every page that uses it updates.
 | News | `_data/news.yml` | Home (latest 6), News |
 | Courses | `_data/teaching.yml` | Teaching |
 | Projects archive | `_data/projects.yml` | Projects |
+| Funding acknowledgements | `_data/funders.yml` | Research (end of page) |
 | Photo gallery | `_data/gallery.yml` | Extracurriculars |
 | Recruiting notice, nav, profile links | `_config.yml` | Home, header, footer |
 

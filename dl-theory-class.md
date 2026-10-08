@@ -101,7 +101,7 @@ Schedule
 -------
 
 For the first half of the class we will be closely following the
-[previous iteration](/ift6085-dl-theory-class-2021) of the class.
+previous iteration of the class.
 
 
 **January 12th**

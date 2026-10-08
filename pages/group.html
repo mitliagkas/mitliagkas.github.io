@@ -15,18 +15,21 @@ description: "Current members and alumni of Ioannis Mitliagkas's research group 
 </ul>
 
 <h2>Alumni</h2>
-<p class="prose muted">Year is when they finished with the group; next is where they went.</p>
+<p class="prose muted">Year they finished with the group, and where they went next.</p>
 {% assign groups = "postdoc:Postdocs,phd:PhD,msc:MSc,intern:Research interns" | split: "," %}
 {% for g in groups %}
   {% assign kv = g | split: ":" %}
   {% assign list = site.data.people.alumni | where: "role", kv[0] | sort: "year" | reverse %}
   <h3>{{ kv[1] }}</h3>
-  <table class="alumni">
-    <thead><tr><th scope="col">Name</th><th scope="col">Year</th><th scope="col">Next</th></tr></thead>
-    <tbody>
+  <ul class="people alumni-grid">
     {% for x in list %}
-      <tr><td>{% if x.url %}<a href="{{ x.url }}">{{ x.name }}</a>{% else %}{{ x.name }}{% endif %}</td><td>{{ x.year }}</td><td>{{ x.next }}</td></tr>
+    <li class="person">
+      {% if x.url %}<a href="{{ x.url }}">{% endif %}
+      {% if x.photo %}<img src="{{ '/images/' | append: x.photo | relative_url }}" alt="" loading="lazy" width="200" height="200">{% else %}<span class="nophoto" aria-hidden="true">{{ x.name | slice: 0 }}</span>{% endif %}
+      <span class="who">{{ x.name }}</span>
+      {% if x.url %}</a>{% endif %}
+      <span class="what">{{ x.year }} → {{ x.next }}</span>
+    </li>
     {% endfor %}
-    </tbody>
-  </table>
+  </ul>
 {% endfor %}
