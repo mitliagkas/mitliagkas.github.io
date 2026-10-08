@@ -16,6 +16,8 @@ jobs:
         with:
           ruby-version: "3.3"
           bundler-cache: true
+      - name: Check data files
+        run: pip install pyyaml && python3 tools/check_data.py
       - name: Build
         run: bundle exec jekyll build --trace 2>&1 | tee build.log
       - name: Check build warnings

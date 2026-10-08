@@ -1,5 +1,6 @@
 # News items, newest first. date: YYYY-MM. text: HTML allowed.
-# The home page shows the most recent ones; /news/ shows all.- date: 2026-10
+# The home page shows the most recent ones; /news/ shows all.
+- date: 2026-10
   text: I am recruiting PhD and MSc students for Fall 2027. See <a href="/#prospective">how to apply</a>.
 - date: 2026-05
   text: Hiroki Naganuma has completed his PhD and joins NVIDIA. Congratulations Dr. Naganuma!
