@@ -33,11 +33,16 @@ Prose pages: `index.html` (bio), `pages/*.html`, `photography.md`, course pages
   with `year` and `next`, and add a news item.
 - **Recruiting season over:** set `recruiting.open: false` in `_config.yml`.
 
-## CV and CCV
+## CV, CCV and BibTeX
 
-`python3 tools/cv.py OUTDIR` writes `pubs-accepted.tex`, `pubs-workshop.tex`,
-`pubs-preprints.tex`, `pubsummary.tex` (short CV counts) and `ccv-new.bib`
-(papers not yet marked `ccv: true`, for CCV's *Import Publication from file*).
+- `tools/update_cv.sh PATH_TO_OVERLEAF_CLONE` checks the data and writes the CV files into the clone.
+- `python3 tools/cv.py OUTDIR` writes `pubs-accepted.tex`, `pubs-workshop.tex`, `pubs-preprints.tex`
+  (long CV), `pubsummary.tex` (short CV counts) and `ccv-new.bib`.
+- `python3 tools/bib.py` exports BibTeX. Common uses:
+  - `python3 tools/bib.py -o publications.bib`: everything
+  - `python3 tools/bib.py --status accepted --since 2020 -o recent.bib`: peer-reviewed since 2020
+  - `python3 tools/bib.py --ccv-new --students -o ccv-new.bib`: papers not yet in CCV, with student co-authors noted
+  - `python3 tools/bib.py --mark-imported ccv-new.bib`: after a CCV import, mark those papers `ccv: true`
 
 ## Checks and previews
 
