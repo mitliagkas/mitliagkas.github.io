@@ -9,6 +9,7 @@
 #   venue      key into _data/venues.yml (accepted papers only)
 #   venue_text free-text venue (workshops, preprints, or venues without a key)
 #   highlight  oral | spotlight (optional)
+#   note       extra text after the venue, e.g. an award (optional)
 #   arxiv      arXiv id (optional);  url: other link (optional);  code: code link (optional)
 #   topics     any of: optimization, generalization, unlearning, games, other
 #   featured   true -> shown on the home page under its first topic
@@ -267,6 +268,7 @@
   venue: iclr
   arxiv: '2010.13846'
   url: https://openreview.net/forum?id=vXSsTYs6ZB
+  note: (invited); Transactions on Machine Learning Research (TMLR) [featured]
   topics:
   - games
   - optimization
@@ -509,6 +511,7 @@
   venue: aistats
   arxiv: '2012.05782'
   url: https://proceedings.mlr.press/v130/guille-escuret21a.html
+  note: '[best student paper award OPT2020]'
   topics:
   - optimization
 - id: dziugaite2020-search-robust-measures
@@ -695,7 +698,7 @@
   - I. Mitliagkas
   year: 2019
   status: accepted
-  venue: mlsys
+  venue: sysml
   url: https://proceedings.mlsys.org/paper_files/paper/2019/hash/b205b525b7ce002baae53228bab6d26b-Abstract.html
   topics:
   - optimization
@@ -720,7 +723,7 @@
   - I. Mitliagkas
   year: 2018
   status: accepted
-  venue: mlsys
+  venue: sysml
   highlight: oral
   arxiv: '1706.03471'
   topics:
@@ -904,7 +907,7 @@
 - id: nakamori2026-orth-dion-eliminating
   title: 'Orth-Dion: Eliminating Geometric Mismatch in Distributed Low-Rank Spectral Optimization'
   authors:
-  - Workshop papers T. Nakamori
+  - T. Nakamori
   - L. Gomezjurado Gonzalez
   - G. Talluri
   - A. Tiwari
@@ -987,8 +990,7 @@
 - id: review2026-surrogate-perspective-convergence
   title: A Surrogate Perspective on Convergence of Fixed-Target DQN
   authors:
-  - Preprints under review
-  - technical reports Z. Liu
+  - Z. Liu
   - N. Okolo
   - R. D'Orazio
   - D. Vucetic

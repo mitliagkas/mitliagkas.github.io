@@ -3,8 +3,8 @@ courses:
   ml:
     code: "IFT 3395/6390"
     title: "Fundamentals of Machine Learning"
-    url: /ift6390-ml-class/
-    url_fr: /ml-class-fr/
+    url: /ml-class-fr/
+    url_en: /ift6390-ml-class/
     blurb: "An introductory but very intensive machine learning class for undergraduate and graduate students. Taught in French since 2024."
   dltheory:
     code: "IFT 6085/6169"

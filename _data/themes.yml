@@ -1,13 +1,17 @@
 # Research themes, in display order. `key` matches `topics` in publications.yml.
 - key: optimization
+  short: Optimization
   name: Optimization for modern deep learning
   blurb: "Why optimizers like Adam work, and how to make training faster and more robust: batch sizes, sign and spectral methods, distributed and asynchronous training."
 - key: generalization
+  short: Generalization
   name: Generalization, out-of-distribution robustness and compositionality
   blurb: "Models that keep working when the data changes: domain shift, OOD detection, identifiable and compositional representations, and pretraining objectives."
 - key: unlearning
+  short: Unlearning
   name: Privacy and machine unlearning
   blurb: "Removing the influence of data from trained models, with guarantees, and measuring whether unlearning methods actually work."
 - key: games
+  short: Games and RL
   name: Dynamics of games and reinforcement learning
   blurb: "Min-max optimization, variational inequalities and the learning dynamics of multi-agent and reinforcement learning."

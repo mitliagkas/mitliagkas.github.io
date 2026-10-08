@@ -22,6 +22,8 @@ for p in P:
     for t in p.get("topics", []):
         if t not in topics: err(f"unknown topic '{t}': {p.get('title')}")
     if not any("Mitliagkas" in a for a in p.get("authors", [])): err(f"no I. Mitliagkas in authors: {p.get('title')}")
+    for a in p.get("authors", []):
+        if len(a.split()) > 4 or any(w in a.lower() for w in ("workshop", "preprint", "review", "report")): err(f"suspicious author name '{a}': {p.get('title')}")
 for n in data.get("news", []):
     if not isinstance(n, dict) or "date" not in n or "text" not in n: err(f"bad news item: {n}")
 people = data.get("people", {})

@@ -143,10 +143,12 @@ main { padding: 2rem 0 4rem; }
 .person a { text-decoration: none; }
 .person a:hover .who { text-decoration: underline; }
 .person .what { display: block; font: 0.85rem/1.35 var(--sans); color: var(--muted); }
-.alumni { width: 100%; border-collapse: collapse; font-size: 1rem; }
+.alumni { width: 100%; border-collapse: collapse; font-size: 1rem; table-layout: fixed; }
+.alumni th:nth-child(1) { width: 36%; }
+.alumni th:nth-child(2) { width: 4.5rem; }
 .alumni th, .alumni td { text-align: left; padding: 0.45rem 1rem 0.45rem 0; border-bottom: 1px solid var(--rule); vertical-align: top; }
 .alumni th { font: 600 0.85rem var(--sans); color: var(--muted); }
-.alumni td:first-child { white-space: nowrap; }
+
 .placements { columns: 2 18rem; column-gap: 3rem; padding-left: 1.1rem; }
 .placements li { break-inside: avoid; }
 
@@ -156,7 +158,7 @@ main { padding: 2rem 0 4rem; }
 
 /* Projects archive */
 .projects { list-style: none; padding: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 18rem), 1fr)); gap: 2rem; }
-.project img { display: block; width: 100%; aspect-ratio: 16 / 10; object-fit: cover; object-position: top; border: 1px solid var(--rule); border-radius: 3px; background: #fff; }
+.project img { display: block; width: 100%; aspect-ratio: 16 / 10; object-fit: contain; border: 1px solid var(--rule); border-radius: 3px; background: #fff; }
 .project h3 { font-size: 1rem; margin: 0.6rem 0 0.25rem; }
 .project p { font-size: 0.95rem; color: var(--muted); margin: 0 0 0.25rem; }
 

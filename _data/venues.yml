@@ -7,10 +7,11 @@ aistats:  {short: AISTATS,  name: "Artificial Intelligence and Statistics (AISTA
 tmlr:     {short: TMLR,     name: "Transactions on Machine Learning Research (TMLR)", type: journal, summary: true}
 collas:   {short: CoLLAs,   name: "Conference on Lifelong Learning Agents (CoLLAs)", type: conference}
 clear:    {short: CLeaR,    name: "Conference on Causal Learning and Reasoning (CLeaR)", type: conference}
-mlsys:    {short: MLSys,    name: "Conference on Machine Learning and Systems (SysML / MLSys)", type: conference}
-sc:       {short: Supercomputing, name: "International Conference for High Performance Computing, Networking, Storage and Analysis (SC)", type: conference}
+sysml:    {short: SysML,    name: "Systems and Machine Learning (SysML)", type: conference}
+mlsys:    {short: MLSys,    name: "Conference on Machine Learning and Systems (MLSys)", type: conference}
+sc:       {short: Supercomputing, name: "Supercomputing (SC)", type: conference}
 vldb:     {short: VLDB,     name: "International Conference on Very Large Data Bases (VLDB)", type: conference}
-allerton: {short: Allerton, name: "Allerton Conference on Communication, Control, and Computing", type: conference}
-icassp:   {short: ICASSP,   name: "IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)", type: conference}
-twc:      {short: IEEE TWC, name: "IEEE Transactions on Wireless Communications", type: journal}
+allerton: {short: Allerton, name: "Allerton Conference on Communication, Control, and Computing (Allerton)", type: conference}
+icassp:   {short: ICASSP,   name: "International Conference on Acoustics, Speech and Signal Processing (ICASSP)", type: conference}
+twc:      {short: IEEE TWC, name: "IEEE Transactions on Wireless Communications (TWC)", type: journal}
 iwcmc:    {short: IWCMC,    name: "International Wireless Communications and Mobile Computing Conference (IWCMC)", type: conference}

@@ -11,7 +11,7 @@ description: "Publications of Ioannis Mitliagkas: peer-reviewed papers, workshop
 
 <div class="filters" role="group" aria-label="Filter by theme">
   <button type="button" data-topic="all" aria-pressed="true">All</button>
-  {% for t in site.data.themes %}<button type="button" data-topic="{{ t.key }}" aria-pressed="false">{{ t.name }}</button>{% endfor %}
+  {% for t in site.data.themes %}<button type="button" data-topic="{{ t.key }}" aria-pressed="false">{{ t.short }}</button>{% endfor %}
   <button type="button" data-topic="other" aria-pressed="false">Other</button>
 </div>
 
