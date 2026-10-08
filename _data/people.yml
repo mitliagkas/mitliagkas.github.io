@@ -4,7 +4,7 @@
 current:
   - {name: "Ryan D'Orazio",        role: phd, title: PhD candidate, url: "https://ryan-dorazio.github.io", photo: person-ryan.jpg}
   - {name: Divyat Mahajan,         role: phd, title: PhD candidate, url: "https://divyat09.github.io/",   photo: person-divyat.jpg}
-  - {name: Zichu Liu,              role: phd, title: PhD student,   url: "https://openreview.net/profile?id=~Zichu_Liu1"}
+  - {name: Zichu Liu,              role: phd, title: PhD candidate,   url: "https://openreview.net/profile?id=~Zichu_Liu1"}
   - {name: Ahmed (Mehdi) Inane,    role: phd, title: PhD candidate,   photo: person-mehdi.jpg}
   - {name: Mehrab Hamidi,          role: phd, title: PhD candidate,   photo: person-mehrab.jpg}
   - {name: Yukti Makhija,          role: phd, title: PhD student}
