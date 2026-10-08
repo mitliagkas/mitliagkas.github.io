@@ -113,7 +113,7 @@
     summary: Exciting recent results on how adding a momentum term to the power iteration yields a numerically stabe, accelerated method.
     lead: Peng Xu
   - title: Asynchrony begets momentum
-    url: '{{ site.baseurl}}/asynchrony/'
+    url: '/asynchrony/'
     image: theory-prediction.png
     summary: When training large-scale systems asynchronously, you get a momentum surprise. We prove that system dynamics "bleed" into the algorithm introducing a momentum term even when the algorithm uses none. This theoretical result has very significant implications on large-scale optimization systems.
   - title: 'Parallel SGD: When does averaging help?'
@@ -168,7 +168,7 @@
     summary: A high performance system prototype combining a number of much needed algorithmic and software optmimizations. Importantly, we identify the degree of asynchronous parallelization as a key factor affecting both hardware and statistical efficiency.
     lead: Stefan Hadjis
   - title: FrogWild! - Fast PageRank approximations on Graph Engines
-    url: '{{ site.baseurl}}/frogwild/'
+    url: '/frogwild/'
     image: project-frogwild.png
     summary: Using random walks and a simple modification of the GraphLab egine, we manage to get a 7x improvement compared to the state of the art.
   - title: Finding Dense Subgraphs via Low-Rank Bilinear Optimization
