@@ -1,9 +1,9 @@
 ---
-layout: default
+layout: page
+lang: fr
+section: /teaching/
 title: ML class
-menu: main
 permalink: /ml-class-fr/
-order: 3
 ---
 
 IFT3395/IFT6390A: Fondements de l'apprentissage machine -- Automne 2025 -- donné en presentiel

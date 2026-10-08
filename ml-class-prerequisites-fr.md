@@ -1,5 +1,7 @@
 ---
-layout: default
+layout: page
+lang: fr
+section: /teaching/
 permalink: /ml-class-prerequisites-fr/
 ---
 

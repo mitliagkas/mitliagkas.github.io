@@ -1,0 +1,178 @@
+# Representative projects grouped by area (archive, last curated in early 2022).
+- area: Learning, generalization, and domain adaptation
+  items:
+  - title: Invariance Principle Meets Information Bottleneck for Out-of-Distribution Generalization
+    url: https://arxiv.org/abs/2106.06607
+    image: project-irb.png
+    summary: We prove that using the "information bottleneck" along with invariance helps address key failures of IRM. We propose an approach that incorporates both of these principles and demonstrate its effectiveness.
+    lead: Kartik Ahuja
+  - title: In Search of Robust Measures of Generalization
+    url: https://arxiv.org/abs/2010.11924
+    image: project-robust-measures.png
+    summary: We look into the experimental evaluation of generalization measures for neural networks. We argue that generalization measures should be evaluated within the framework of distributional robustness and provide methodology and experimental results on a variety of architectures.
+    lead: Karolina Dziugaite, Alexandre Drouin (ServiceNow/ElementAI)
+  - title: A Modern Take on the Bias-Variance Tradeoff in Neural Networks
+    url: https://www.bradyneal.com/bias-variance-tradeoff-textbooks-update
+    image: project-bias-variance.png
+    summary: We measure prediction bias and variance in NNs. Both bias and variance decrease as the number of parameters grows. We decompose variance into variance due to sampling and variance due to initialization.
+    lead: Brady Neal
+  - title: Generalizing to unseen domains via distribution matching
+    url: https://arxiv.org/abs/1911.00804
+    image: project-adversarial-domain-generalization.png
+    summary: We propose a process that enforces pair-wise domain invariance while training a feature extractor over a diverse set of domains. We show that this process ensures invariance to any distribution that can be expressed as a mixture of the training domains.
+    lead: Isabela Albuquerque, João Monteiro (INRS)
+  - title: In Support of Over-Parametrization in deep RL
+    url: https://openreview.net/forum?id=SkeMPEH32N
+    image: project-overparametrization-rl.png
+    summary: There is significant recent evidence in supervised learning that, in the over-parametrized setting, wider networks achieve better test error. We experiment on four OpenAI Gym tasks and provide evidence that overparametrization is also beneficial in deep RL.
+    lead: Brady Neal
+  - title: Connections between max margin classifiers and gradient penalties
+    url: https://openreview.net/forum?id=SkeMPEH32N
+    image: project-mmc-gp.png
+    summary: Maximum-margin classifiers can be formulated as Integral Probability Metrics (IPMs) or classifiers with some form of gradient norm penalty. This implies a direct link to a class of Generative adversarial networks (GANs) which penalize a gradient norm.
+    lead: Alexia Jolicoeur-Martineau,
+- area: Differentiable games
+  items:
+  - title: 'Consensus Optimization for Smooth Games: Convergence Analysis under Expected Co-coercivity'
+    url: https://arxiv.org/abs/2107.00052
+    image: project-co-coercivity.png
+    summary: We introduce expected co-coercivity and provide the first last-iterate convergence guarantees of SGDA and SCO for a class of non-monotone stochastic variational inequality problems.
+    lead: Nicolas Loizou
+  - title: 'LEAD: Least-Action Dynamics for Min-Max Optimization'
+    url: https://arxiv.org/abs/2010.13846
+    image: project-lead.png
+    summary: We leverage tools from physics to introduce LEAD (Least-Action Dynamics), a second-order optimizer for min-max games
+    lead: Reyhane Askari, Amartya Mitra
+  - title: Stochastic hamiltonian gradient methods for smooth games
+    url: https://arxiv.org/abs/2007.04202
+    image: project-shgd.png
+    summary: We provide the first complete analysis of stochastic Hamiltonian gradient descent with a decreasing step-size, a method successful in training GANs. We also present the first stochastic variance reduced Hamiltonian method.
+    lead: Nicolas Loizou
+  - title: Accelerating Smooth Games by Manipulating Spectral Shapes
+    url: https://arxiv.org/abs/2001.00602
+    image: project-games-spectral-shapes.png
+    summary: We use matrix iteration theory to characterize acceleration in smooth games. The spectral shape of a family of games is the set containing all eigenvalues of the Jacobians of standard gradient dynamics in the family.
+    lead: Waiss Azizian
+  - title: Linear Lower Bounds and Conditioning of Differentiable Games
+    url: https://arxiv.org/abs/1906.07300
+    image: project-games-lower-bounds.png
+    summary: We approach the question of fundamental iteration complexity for smooth, differentiable games by providing lower bounds to complement the linear (i.e. geometric) upper bounds observed in the literature on a wide class of problems.
+    lead: Adam Ibrahim
+  - title: A Unified Analysis of gradient methods for a Whole Spectrum of Games
+    url: https://arxiv.org/abs/2001.00602
+    image: project-games-tight-analysis.png
+    summary: We provide new analyses of the extragradient's local and global convergence properties and tighter rates for optimistic gradient and consensus optimization. Unlike in convex minimization, EG may be much faster than gradient descent.
+    lead: Waiss Azizian
+  - title: Negative Momentum for Improved Game Dynamics
+    url: https://arxiv.org/pdf/2001.00602.pdf
+    image: project-negative-momentum.png
+    summary: Alternating updates are more stable than simultaneous updates on simple games. A negative momentum term achieves convergence in a difficult toy adversarial problem, but also on the notoriously difficult to train saturating GANs
+    lead: Gauthier Gidel, Reyhane Askari-Hemmat
+- area: Generative models
+  items:
+  - title: Gotta Go Fast When Generating Data with Score-Based Models
+    url: https://ajolicoeur.wordpress.com/gotta-go-fast-with-score-based-models/
+    image: project-gotta-go-fast.png
+    summary: We borrow tools and ideas from stochastic differential equation literature to devise a more efficient solver for score-based diffusion generative models. Our approach generates data 2 to 10 times faster than EM while achieving better or equal sample quality.
+    lead: Alexia Jolicoeur-Martineau
+  - title: Adversarial score matching and sampling for image generation
+    url: https://arxiv.org/abs/2009.05475
+    image: project-dsm-als.png
+    summary: We dig into recently proposed deep generative methods based on denoising score mathing and annealed Langevin Sampling (DSM-ALS). We identify two weaknesses in existing methodology and address them to provide state-of-the-art generative performance.
+    lead: Alexia Jolicoeur-Martineau
+  - title: Multi-objective training of GANs with multiple discriminators
+    url: https://arxiv.org/abs/1901.08680
+    image: project-multiobjective-gan.png
+    summary: We study GANs with multiple discriminators by framing them as a multi-objective optimization problem. Our results indicate that hypervolume maximization presents a better compromise between sample quality and computational cost than previous methods.
+    lead: Isabela Albuquerque, João Monteiro (INRS)
+- area: Optimization and numerical analysis
+  items:
+  - title: Implicit Regularization with Feedback Alignment
+    url: https://arxiv.org/abs/2110.10815
+    image: project-feedback-alignment.png
+    summary: We analyze feedback alignment and study incremental learning phenomena for linear networks. Interestingly, certain initializations imply that negligible components are learned before the principal ones; a phenomenon we classify as implicit anti-regularization.
+    lead: Manuela Girotti
+  - title: A Study of Condition Numbers for First-Order Optimization
+    url: http://proceedings.mlr.press/v130/guille-escuret21a.html
+    image: project-condition-numbers.png
+    summary: Condition numbers are not continuous!! (seriously it wreaks havoc with tuning) We perform a comprehensive study of alternative metrics which we prove to be continuous. Finally we discuss how our work impacts the theoretical understanding of FOA and their performances.
+    lead: Charles Guille-Escuret, Baptiste Goujaud
+  - title: Reducing variance in online optimization by transporting past gradients
+    url: http://papers.nips.cc/paper/8779-reducing-the-variance-in-online-optimization-by-transporting-past-gradients
+    image: project-igt.png
+    summary: Implicit gradient transport turns past gradients into gradients evaluated at the current iterate. It reduces the variance in online optimization and can be used as a drop-in replacement for the gradient estimate in a number of well-understood methods such as heavy ball or Adam.
+    lead: Sebastien Arnold
+  - title: 'YellowFin: Self-tuning optimization for deep learning'
+    url: http://dawn.cs.stanford.edu/2017/07/05/yellowfin/
+    image: Yellowfin.png
+    summary: Simple insights on the momentum update yield an very efficient parameter-free algorithm that performs well across networks and datasets without the need to tune any parameters.
+    lead: Jian Zhang
+  - title: Accelerated stochastic power iteration
+    url: https://dawn.cs.stanford.edu/2017/08/29/accelerated-pca/
+    image: project-accelerated-stochastic-power-iteration.png
+    summary: Exciting recent results on how adding a momentum term to the power iteration yields a numerically stabe, accelerated method.
+    lead: Peng Xu
+  - title: Asynchrony begets momentum
+    url: '/asynchrony/'
+    image: theory-prediction.png
+    summary: When training large-scale systems asynchronously, you get a momentum surprise. We prove that system dynamics "bleed" into the algorithm introducing a momentum term even when the algorithm uses none. This theoretical result has very significant implications on large-scale optimization systems.
+  - title: 'Parallel SGD: When does averaging help?'
+    url: https://arxiv.org/abs/1606.07365
+    image: project-sgd-averaging.png
+    summary: Averaging as a variance-reducing mechanism. For convex objectives, we show the benefit of frequent averaging depends on the gradient variance envelope. For non-convex objectives, we illustrate that this benefit depends on the presence of multiple optimal points.
+    lead: Jian Zhang
+  - title: Memory Limited, Streaming PCA
+    url: http://papers.nips.cc/paper/5035-memory-limited-streaming-pca
+    image: pca.png
+    summary: An algorithm that uses O(kp) memory and is able to compute the k-dimensional spike with quasi-optimal, O(plogp), sample-complexity -- the first algorithm of its kind.
+- area: Deep learning and applications
+  items:
+  - title: State-Reification Networks
+    url: https://arxiv.org/abs/1905.11382
+    image: project-state-reification.png
+    summary: We model the distribution of hidden states over the training data and then project test hidden states on this distribution. This method helps neural nets generalize better, and overcome the challenge of achieving robust generalization with adversarial training
+    lead: Alex Lamb; oral presentation at ICML 2019
+  - title: 'Manifold Mixup: Better Representations by Interpolating Hidden States'
+    url: http://proceedings.mlr.press/v97/verma19a.html
+    image: project-manifold-mixup.png
+    summary: Simple regularizer that encourages neural networks to predict less confidently on interpolations of hidden representations. Manifold mixup improves strong baselines in supervised learning, robustness to single-step adversarial attacks, and test log-likelihood.
+    lead: Vikas Verma, Alex Lamb
+  - title: Deep representations and Adversarial Generation of 3D Point Clouds
+    url: https://arxiv.org/abs/1707.02392
+    image: shape-analogies.png
+    summary: The first AutoEncoder design suited to 3D point cloud data beats state of the art in reconstruction accuracy. GANs trainined in the AE's latent space generate realistic objects from every-day classes.
+    lead: Panos Achlioptas
+- area: MCMC methods
+  items:
+  - title: Dobrushin-optimized Gibbs Sampling
+    url: https://arxiv.org/pdf/1707.05807.pdf
+    image: scan-order.png
+    summary: We introduce a method for calculating custom scan orders that lead to very fast inference, targetted at specific variables. DoGS can be many orders of magnitude faster than full scans.
+  - title: Gibbs Sampling Scan Order
+    url: https://arxiv.org/pdf/1707.05807.pdf
+    image: graph.png
+    summary: Our NIPS 2016 work shows that scan order matters.<br>
+- area: Large-scale systems
+  items:
+  - title: 'MLSys: The New Frontier of Machine Learning Systems'
+    url: https://arxiv.org/abs/1904.03257
+    image: project-mlsys.png
+    summary: We propose to foster a new systems machine learning research community at the intersection of the traditional systems and ML communities, focused on topics such as
+  - title: Deep Learning at 15 Petaflops
+    url: https://arxiv.org/pdf/1708.05256.pdf
+    image: project-15pf.png
+    summary: 15-PetaFLOP Deep Learning system for solving scientific pattern classification problems on contemporary HPC architectures. We scale to 10,000 nodes by implementing a hybrid synchronous/asynchronous system and applying careful optimization of hyperparameters.
+  - title: 'Omnivore: Optimizer for multi-device deep learning'
+    url: https://arxiv.org/abs/1606.04487
+    image: project-omnivore.png
+    summary: A high performance system prototype combining a number of much needed algorithmic and software optmimizations. Importantly, we identify the degree of asynchronous parallelization as a key factor affecting both hardware and statistical efficiency.
+    lead: Stefan Hadjis
+  - title: FrogWild! - Fast PageRank approximations on Graph Engines
+    url: '/frogwild/'
+    image: project-frogwild.png
+    summary: Using random walks and a simple modification of the GraphLab egine, we manage to get a 7x improvement compared to the state of the art.
+  - title: Finding Dense Subgraphs via Low-Rank Bilinear Optimization
+    url: http://proceedings.mlr.press/v32/papailiopoulos14.pdf
+    image: project-dks.png
+    summary: Our method searches a low-dimensional space for provably dense subgraphs of graphs with billions of edges. We provide data dependent guarantees on the quality of the solution that depend on the graph spectrum.
+    lead: Dimitris Papailiopoulos

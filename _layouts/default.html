@@ -1,21 +1,14 @@
-<!DOCTYPE html>
-<html>
-
-  {% include head.html %}
-
-  <body>
-	 {% include google_analytics.html %}
-
-    {% include header.html %}
-
-    <div class="page-content">
-      <div class="wrapper">
-        {{ content }}
-      </div>
+<!doctype html>
+<html lang="{{ page.lang | default: 'en' }}">
+{% include head.html %}
+<body>
+  <a class="skip" href="#content">Skip to content</a>
+  {% include header.html %}
+  <main id="content">
+    <div class="wrap">
+      {{ content }}
     </div>
-
-    {% include footer.html %}
-
-  </body>
-
+  </main>
+  {% include footer.html %}
+</body>
 </html>

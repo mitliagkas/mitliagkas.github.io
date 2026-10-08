@@ -1,0 +1,1145 @@
+# Single source of truth for publications.
+# Used by: the website (publications page, featured papers on the home page),
+# tools/cv.py (LaTeX lists for the long CV, venue counts for the short CV, CCV BibTeX).
+#
+# Fields:
+#   id         unique slug (firstauthor + year + title words)
+#   authors    as they should appear; "I. Mitliagkas" is bolded automatically; "*" marks equal contribution
+#   status     accepted | workshop | preprint
+#   venue      key into _data/venues.yml (accepted papers only)
+#   venue_text free-text venue (workshops, preprints, or venues without a key)
+#   highlight  oral | spotlight (optional)
+#   note       extra text after the venue, e.g. an award (optional)
+#   arxiv      arXiv id (optional);  url: other link (optional);  code: code link (optional)
+#   topics     any of: optimization, generalization, unlearning, games, other
+#   featured   true -> shown on the home page under its first topic
+#   ccv        true once imported into the Canadian Common CV
+- id: mahajan2026-beyond-multi-token
+  title: 'Beyond Multi-Token Prediction: Pretraining LLMs with Future Summaries'
+  authors:
+  - D. Mahajan
+  - S. Goyal
+  - B. Youbi Idrissi
+  - M. Pezeshki
+  - I. Mitliagkas
+  - D. Lopez-Paz
+  - K. Ahuja
+  year: 2026
+  status: accepted
+  venue: iclr
+  arxiv: '2510.14751'
+  url: https://proceedings.iclr.cc/paper_files/paper/2026/hash/693d7541bd31cca2dcb780abfd8d204c-Abstract-Conference.html
+  topics:
+  - generalization
+  featured: true
+- id: tsikouras2026-derandomization-framework-structure
+  title: 'A Derandomization Framework for Structure Discovery: Applications in Neural Networks and Beyond'
+  authors:
+  - N. Tsikouras
+  - Y. Pantis
+  - I. Mitliagkas
+  - C. Tzamos
+  year: 2026
+  status: accepted
+  venue: iclr
+  arxiv: '2510.19382'
+  url: https://proceedings.iclr.cc/paper_files/paper/2026/hash/719bf718cc7e6e1b1431954ab52d5e00-Abstract-Conference.html
+  topics:
+  - generalization
+- id: yoshida2026-distac-conditioning-task
+  title: 'DisTaC: Conditioning Task Vectors via Distillation for Robust Model Merging'
+  authors:
+  - K. Yoshida
+  - Y. Naraki
+  - T. Horie
+  - R. Shimizu
+  - I. Mitliagkas
+  - H. Naganuma
+  year: 2026
+  status: accepted
+  venue: iclr
+  url: https://proceedings.iclr.cc/paper_files/paper/2026/hash/c056d6cf7b7108418f2b8c307dfaab02-Abstract-Conference.html
+  topics:
+  - generalization
+- id: inane2026-unlearning-asymmetric-sources
+  title: 'Unlearning with Asymmetric Sources: Improved Unlearning-Utility Trade-off with Public Data'
+  authors:
+  - A.M. Inane
+  - V. Quirion
+  - G.K. Dziugaite
+  - I. Mitliagkas
+  year: 2026
+  status: accepted
+  venue: icml
+  arxiv: '2605.11170'
+  topics:
+  - unlearning
+  featured: true
+- id: naganuma2026-adaptive-batch-sizes
+  title: Adaptive Batch Sizes Using Non-Euclidean Gradient Noise Scales for Stochastic Sign and Spectral Descent
+  authors:
+  - H. Naganuma
+  - S. Gupta
+  - Y. Briki
+  - I. Mitliagkas
+  - I. Rish
+  - P. Raman
+  - HJ.M. Shi
+  year: 2026
+  status: accepted
+  venue: icml
+  arxiv: '2602.03001'
+  topics:
+  - optimization
+  featured: true
+- id: naganuma2025-empirical-study-pre
+  title: An Empirical Study of Pre-trained Model Selection for Out-of-Distribution Generalization and Calibration
+  authors:
+  - H. Naganuma
+  - R. Hataya
+  - K. Yoshida
+  - I. Mitliagkas
+  year: 2025
+  status: accepted
+  venue: tmlr
+  arxiv: '2307.08187'
+  url: https://openreview.net/forum?id=tYjoHjShxF
+  topics:
+  - generalization
+- id: maes2025-understanding-adam-requires
+  title: Understanding Adam Requires Better Rotation Dependent Assumptions
+  authors:
+  - L. Maes
+  - TH. Zhang
+  - A. Jolicoeur-Martineau
+  - I. Mitliagkas
+  - D. Scieur
+  year: 2025
+  status: accepted
+  venue: neurips
+  arxiv: '2410.19964'
+  url: https://papers.nips.cc/paper_files/paper/2025/hash/a6ffe4ec7aaa6e7e7d5bd28e14827d3a-Abstract-Conference.html
+  topics:
+  - optimization
+  featured: true
+- id: naganuma2025-pseudo-asynchronous-local
+  title: 'Pseudo-Asynchronous Local SGD: Robust and Efficient Data-Parallel Training'
+  authors:
+  - H. Naganuma
+  - X. Zhang
+  - MC. Yue
+  - I. Mitliagkas
+  - PA. Witte
+  - RJ. Hewett
+  year: 2025
+  status: accepted
+  venue: tmlr
+  arxiv: '2504.18454'
+  url: https://openreview.net/forum?id=8VTrvS5vN7
+  topics:
+  - optimization
+- id: mahajan2025-compositional-risk-minimization
+  title: Compositional risk minimization
+  authors:
+  - D. Mahajan
+  - M. Pezeshki
+  - C. Arnal
+  - I. Mitliagkas
+  - K. Ahuja
+  - P. Vincent
+  year: 2025
+  status: accepted
+  venue: icml
+  arxiv: '2410.06303'
+  url: https://proceedings.mlr.press/v267/mahajan25a.html
+  topics:
+  - generalization
+  featured: true
+- id: beaglehole2024-feature-learning-as
+  title: 'Feature learning as alignment: a structural property of gradient descent in non-linear neural networks'
+  authors:
+  - D. Beaglehole
+  - I. Mitliagkas
+  - A. Agarwala
+  year: 2024
+  status: accepted
+  venue: tmlr
+  arxiv: '2402.05271'
+  url: https://openreview.net/forum?id=JXCe2ZcUXr
+  topics:
+  - generalization
+  - optimization
+- id: triantafillou2024-are-we-making
+  title: Are we making progress in unlearning? Findings from the first NeurIPS unlearning competition
+  authors:
+  - E. Triantafillou
+  - P. Kairouz
+  - F. Pedregosa
+  - J. Hayes
+  - M. Kurmanji
+  - K. Zhao
+  - V. Dumoulin
+  - J.J. Junior
+  - I. Mitliagkas
+  - J. Wan
+  - L.S. Hosoya
+  - S. Escalera
+  - G.K. Dziugaite
+  - P. Triantafillou
+  - I. Guyon
+  year: 2024
+  status: accepted
+  venue: neurips
+  arxiv: '2406.09073'
+  topics:
+  - unlearning
+  featured: true
+- id: dorazio2025-solving-hidden-monotone
+  title: Solving hidden monotone variational inequalities with surrogate losses
+  authors:
+  - R. D'Orazio
+  - D. Vucetic
+  - Z. Liu
+  - JL. Kim
+  - I. Mitliagkas
+  - G. Gidel
+  year: 2025
+  status: accepted
+  venue: iclr
+  arxiv: '2411.05228'
+  url: https://openreview.net/forum?id=4ZX2a3OKEV
+  topics:
+  - games
+  featured: true
+- id: guilleescuret2024-expecting-unexpected-towards
+  title: 'Expecting The Unexpected: Towards Broad Out-Of-Distribution Detection'
+  authors:
+  - C. Guille-Escuret
+  - PA. Noël
+  - I. Mitliagkas
+  - D. Vazquez
+  - J. Monteiro
+  year: 2024
+  status: accepted
+  venue: neurips
+  arxiv: '2308.11480'
+  url: https://papers.nips.cc/paper_files/paper/2024/hash/ec80d18205e39d42a27192d5f3ddd688-Abstract-Datasets_and_Benchmarks_Track.html
+  topics:
+  - generalization
+- id: guilleescuret2024-no-wrong-turns
+  title: 'No Wrong Turns: The Simple Geometry Of Neural Networks Optimization Paths'
+  authors:
+  - C. Guille-Escuret
+  - H. Naganuma
+  - K. Fatras
+  - I. Mitliagkas
+  year: 2024
+  status: accepted
+  venue: icml
+  arxiv: '2306.11922'
+  url: https://proceedings.mlr.press/v235/guille-escuret24a.html
+  topics:
+  - optimization
+  featured: true
+- id: mahajan2024-empirical-analysis-model
+  title: Empirical Analysis of Model Selection for Heterogeneous Causal Effect Estimation
+  authors:
+  - D. Mahajan
+  - I. Mitliagkas
+  - B. Neal
+  - V. Syrgkanis
+  year: 2024
+  status: accepted
+  venue: iclr
+  highlight: spotlight
+  arxiv: '2210.01210'
+  url: https://openreview.net/forum?id=yuy6cGt3KL
+  topics:
+  - generalization
+- id: hemmat2024-lead-least-action
+  title: 'LEAD: Least-Action Dynamics for Min-Max Optimization'
+  authors:
+  - R. Askari Hemmat*
+  - A. Mitra*
+  - G. Lajoie
+  - I. Mitliagkas
+  year: 2024
+  status: accepted
+  venue: iclr
+  arxiv: '2010.13846'
+  url: https://openreview.net/forum?id=vXSsTYs6ZB
+  note: (invited); Transactions on Machine Learning Research (TMLR) [featured]
+  topics:
+  - games
+  - optimization
+  featured: true
+- id: lachapelle2023-additive-decoders-latent
+  title: Additive Decoders for Latent Variables Identification and Cartesian-Product Extrapolation
+  authors:
+  - S. Lachapelle
+  - D. Mahajan
+  - I. Mitliagkas
+  - S. Lacoste-Julien
+  year: 2023
+  status: accepted
+  venue: neurips
+  highlight: oral
+  url: https://nips.cc/virtual/2023/poster/71706
+  topics:
+  - generalization
+  featured: true
+- id: escuret2023-cadet-fully-self
+  title: 'CADet: Fully Self-Supervised Anomaly Detection With Contrastive Learning'
+  authors:
+  - C.G. Escuret
+  - P. Rodriguez
+  - D. Vazquez
+  - I. Mitliagkas
+  - J. Monteiro
+  year: 2023
+  status: accepted
+  venue: neurips
+  arxiv: '2210.01742'
+  url: https://papers.nips.cc/paper_files/paper/2023/hash/1700ad4e6252e8f2955909f96367b34d-Abstract-Conference.html
+  topics:
+  - generalization
+- id: salvador2023-reproducible-realistic-evaluation
+  title: A Reproducible and Realistic Evaluation of Partial Domain Adaptation Methods
+  authors:
+  - T. Salvador
+  - K. Fatras
+  - I. Mitliagkas
+  - A. Oberman
+  year: 2023
+  status: accepted
+  venue: tmlr
+  arxiv: '2210.01210'
+  url: https://openreview.net/forum?id=XcVzIBXeRn
+  topics:
+  - generalization
+- id: dorazio2023-stochastic-mirror-descent
+  title: 'Stochastic Mirror Descent: Convergence Analysis and Adaptive Variants via the Mirror Stochastic Polyak Stepsize'
+  authors:
+  - R. D'Orazio
+  - N. Loizou
+  - I. Laradji
+  - I. Mitliagkas
+  year: 2023
+  status: accepted
+  venue: tmlr
+  arxiv: '2110.15412'
+  url: https://openreview.net/forum?id=28bQiPWxHl
+  topics:
+  - optimization
+- id: lachapelle2023-synergies-between-disentanglement
+  title: 'Synergies Between Disentanglement and Sparsity: a Multi-Task Learning Perspective'
+  authors:
+  - S. Lachapelle
+  - T. Deleu
+  - D. Mahajan
+  - I. Mitliagkas
+  - Y. Bengio
+  - S. Lacoste-Julien
+  - Q. Bertrand
+  year: 2023
+  status: accepted
+  venue: icml
+  arxiv: '2304.06879'
+  url: https://proceedings.mlr.press/v202/lachapelle23a.html
+  topics:
+  - generalization
+- id: naganuma2023-empirical-study-optimizer
+  title: Empirical Study on Optimizer Selection for Out-of-Distribution Generalization
+  authors:
+  - H. Naganuma
+  - K. Ahuja
+  - S. Takagi
+  - T. Motokawa
+  - R. Yokota
+  - K. Ishikawa
+  - I. Sato
+  - I. Mitliagkas
+  year: 2023
+  status: accepted
+  venue: tmlr
+  arxiv: '2211.08583'
+  url: https://openreview.net/forum?id=ipe0IMglFF
+  topics:
+  - generalization
+  - optimization
+- id: sokota2023-unified-approach-reinforcement
+  title: A Unified Approach to Reinforcement Learning, Quantal Response Equilibria, and Two-Player Zero-Sum Games
+  authors:
+  - S. Sokota
+  - R. D'Orazio
+  - J. Z. Kolter
+  - N. Loizou
+  - M. Lanctot
+  - I. Mitliagkas
+  - N. Brown
+  - C. Kroer
+  year: 2023
+  status: accepted
+  venue: iclr
+  arxiv: '2206.05825'
+  url: https://openreview.net/forum?id=DpE5UYUQzZH
+  topics:
+  - games
+  featured: true
+- id: mousavihosseini2023-neural-networks-efficiently
+  title: Neural Networks Efficiently Learn Low-Dimensional Representations with SGD
+  authors:
+  - A. Mousavi-Hosseini
+  - S. Park
+  - M. Girotti
+  - I. Mitliagkas
+  - M. A. Erdogdu
+  year: 2023
+  status: accepted
+  venue: iclr
+  url: https://proceedings.neurips.cc/paper_files/paper/2022/hash/9daab3b451038ed1bc5d8e9b77996b99-Abstract-Conference.html
+  topics:
+  - generalization
+  - optimization
+- id: mofakhami2023-performative-prediction-neural
+  title: Performative Prediction with Neural Networks
+  authors:
+  - M. Mofakhami
+  - I. Mitliagkas
+  - G. Gidel
+  year: 2023
+  status: accepted
+  venue: aistats
+  url: https://iclr.cc/virtual/2023/poster/11421
+  topics:
+  - generalization
+- id: guilleescuret2022-gradient-descent-is
+  title: Gradient Descent Is Optimal Under Lower Restricted Secant Inequality And Upper Error Bound
+  authors:
+  - C. Guille-Escuret
+  - A. Ibrahim
+  - B. Goujaud
+  - I. Mitliagkas
+  year: 2022
+  status: accepted
+  venue: neurips
+  url: https://simons.berkeley.edu/programs/games2022
+  topics:
+  - optimization
+- id: fatras2022-optimal-transport-meets
+  title: Optimal transport meets noisy label robust loss and MixUp regularization for domain adaptation
+  authors:
+  - K. Fatras
+  - H. Naganuma
+  - I. Mitliagkas
+  year: 2022
+  status: accepted
+  venue: collas
+  arxiv: '2206.11180'
+  url: https://proceedings.mlr.press/v199/fatras22a.html
+  topics:
+  - generalization
+- id: ahuja2022-towards-efficient-representation
+  title: Towards efficient representation identification in supervised learning
+  authors:
+  - K. Ahuja
+  - D. Mahajan
+  - V. Syrgkanis
+  - I. Mitliagkas
+  year: 2022
+  status: accepted
+  venue: clear
+  url: https://proceedings.mlr.press/v177/ahuja22a.html
+  topics:
+  - generalization
+- id: loizou2021-stochastic-gradient-descent
+  title: 'Stochastic Gradient Descent-Ascent and Consensus Optimization for Smooth Games: Convergence Analysis under Expected Co-coercivity'
+  authors:
+  - N. Loizou
+  - H. Berard
+  - G. Gidel
+  - I. Mitliagkas
+  - S. Lacoste-Julien
+  year: 2021
+  status: accepted
+  venue: neurips
+  arxiv: '2107.00052'
+  url: https://proceedings.neurips.cc/paper/2021/hash/9f96f36b7aae3b1ff847c26ac94c604e-Abstract.html
+  topics:
+  - games
+  - optimization
+- id: ahuja2021-invariance-principle-meets
+  title: Invariance Principle Meets Information Bottleneck for Out-of-Distribution Generalization
+  authors:
+  - K. Ahuja
+  - E. Caballero
+  - D. Zhang
+  - Y. Bengio
+  - I. Mitliagkas
+  - I. Rish
+  year: 2021
+  status: accepted
+  venue: neurips
+  highlight: spotlight
+  arxiv: '2106.06607'
+  url: https://proceedings.neurips.cc/paper/2021/hash/1c336b8080f82bcc2cd2499b4c57261d-Abstract.html
+  topics:
+  - generalization
+- id: jolicoeurmartineau2021-adversarial-score-matching
+  title: Adversarial score matching and improved sampling for image generation
+  authors:
+  - A. Jolicoeur-Martineau
+  - R. Piche-Taillefer
+  - I. Mitliagkas
+  - R. Tachet des Combes
+  year: 2021
+  status: accepted
+  venue: iclr
+  arxiv: '2009.05475'
+  url: https://openreview.net/forum?id=eLfqMl3z3lq
+  topics:
+  - other
+- id: guilleescuret2021-study-condition-numbers
+  title: A Study of Condition Numbers for First-Order Optimization
+  authors:
+  - C. Guille-Escuret*
+  - B. Goujaud*
+  - M. Girotti
+  - I. Mitliagkas
+  year: 2021
+  status: accepted
+  venue: aistats
+  arxiv: '2012.05782'
+  url: https://proceedings.mlr.press/v130/guille-escuret21a.html
+  note: '[best student paper award OPT2020]'
+  topics:
+  - optimization
+- id: dziugaite2020-search-robust-measures
+  title: In search of robust measures of generalization
+  authors:
+  - G. K. Dziugaite
+  - A. Drouin
+  - B. Neal
+  - N. Rajkumar
+  - E. Caballero
+  - L. Wang
+  - I. Mitliagkas
+  - D. Roy
+  year: 2020
+  status: accepted
+  venue: neurips
+  arxiv: '2010.11924'
+  url: https://proceedings.neurips.cc/paper/2020/hash/86d7c8a08b4aaa1bc7c599473f5dddda-Abstract.html
+  topics:
+  - generalization
+- id: loizou2020-stochastic-hamiltonian-gradient
+  title: Stochastic Hamiltonian Gradient Methods for Smooth Games
+  authors:
+  - N. Loizou
+  - H. Berard
+  - A. Jolicoeur-Martineau
+  - P. Vincent
+  - S. Lacoste-Julien
+  - I. Mitliagkas
+  year: 2020
+  status: accepted
+  venue: icml
+  url: http://proceedings.mlr.press/v119/loizou20a/loizou20a.pdf
+  topics:
+  - games
+- id: ibrahim2020-linear-lower-bounds
+  title: Linear Lower Bounds and Conditioning of Differentiable Games
+  authors:
+  - A. Ibrahim
+  - W. Azizian
+  - G. Gidel
+  - I. Mitliagkas
+  year: 2020
+  status: accepted
+  venue: icml
+  arxiv: '1906.07300'
+  url: http://proceedings.mlr.press/v119/ibrahim20a/ibrahim20a.pdf
+  topics:
+  - games
+  - optimization
+- id: azizian2020-accelerating-smooth-games
+  title: Accelerating Smooth Games by Manipulating Spectral Shapes
+  authors:
+  - W. Azizian
+  - D. Scieur
+  - I. Mitliagkas
+  - S. Lacoste-Julien
+  - G. Gidel
+  year: 2020
+  status: accepted
+  venue: aistats
+  arxiv: '2001.00602'
+  url: https://proceedings.mlr.press/v108/azizian20a.html
+  topics:
+  - games
+- id: azizian2020-tight-unified-analysis
+  title: A Tight and Unified Analysis of Gradient-Based Methods for a Whole Spectrum of Differentiable Games
+  authors:
+  - W. Azizian
+  - I. Mitliagkas
+  - S. Lacoste-Julien
+  - G. Gidel
+  year: 2020
+  status: accepted
+  venue: aistats
+  arxiv: '1906.05945'
+  url: https://proceedings.mlr.press/v108/azizian20b.html
+  topics:
+  - games
+- id: arnold2019-reducing-variance-online
+  title: Reducing the variance in online optimization by transporting past gradients
+  authors:
+  - S. M. Arnold
+  - P. A. Manzagol
+  - R. Babanezhad
+  - I. Mitliagkas
+  - N. L. Roux
+  year: 2019
+  status: accepted
+  venue: neurips
+  highlight: spotlight
+  arxiv: '1901.08680'
+  url: https://proceedings.neurips.cc/paper/2019/hash/1dba5eed8838571e1c80af145184e515-Abstract.html
+  topics:
+  - optimization
+- id: albuquerque2019-multi-objective-training
+  title: Multi-objective training of Generative Adversarial Networks
+  authors:
+  - I. Albuquerque
+  - J. Monteiro
+  - T. Doan
+  - B. Considine
+  - T. Falk
+  - I. Mitliagkas
+  year: 2019
+  status: accepted
+  venue: icml
+  arxiv: '1901.08680'
+  url: https://proceedings.mlr.press/v97/albuquerque19a.html
+  topics:
+  - games
+- id: verma2019-manifold-mixup-better
+  title: 'Manifold Mixup: Better Representations by Interpolating Hidden States'
+  authors:
+  - V. Verma
+  - A. Lamb
+  - C. Beckham
+  - A. Najafi
+  - I. Mitliagkas
+  - A. Courville
+  - D. Lopez-Paz
+  - Y. Bengio
+  year: 2019
+  status: accepted
+  venue: icml
+  arxiv: '1707.02392'
+  url: https://proceedings.mlr.press/v97/verma19a.html
+  topics:
+  - generalization
+- id: lamb2019-state-reification-networks
+  title: 'State-Reification Networks: Improving Generalization by Modeling the Distribution of Hidden Representations'
+  authors:
+  - A. Lamb
+  - J. Binas
+  - A. Goyal
+  - S. Subramanian
+  - I. Mitliagkas
+  - Y. Bengio
+  - M. Mozer
+  year: 2019
+  status: accepted
+  venue: icml
+  highlight: oral
+  arxiv: '1905.11382'
+  url: https://proceedings.mlr.press/v97/lamb19a.html
+  topics:
+  - generalization
+- id: kanuparthi2019-h-detach-modifying
+  title: 'h-detach: Modifying the LSTM Gradient Towards Better Optimization'
+  authors:
+  - B. Kanuparthi
+  - D. Arpit
+  - G. Kerg
+  - N. R. Ke
+  - I. Mitliagkas
+  - Y. Bengio
+  year: 2019
+  status: accepted
+  venue: iclr
+  url: https://openreview.net/forum?id=ryf7ioRqFX
+  topics:
+  - optimization
+- id: gidel2019-negative-momentum-improved
+  title: Negative Momentum for Improved Game Dynamics
+  authors:
+  - G. Gidel
+  - R. Askari
+  - M. Pezeshki
+  - G. Huang
+  - S. Lacoste-Julien
+  - I. Mitliagkas
+  year: 2019
+  status: accepted
+  venue: aistats
+  arxiv: '1807.04740'
+  url: https://proceedings.mlr.press/v89/gidel19a.html
+  topics:
+  - games
+  - optimization
+- id: zhang2019-yellowfin-art-momentum
+  title: YellowFin and the Art of Momentum Tuning
+  authors:
+  - J. Zhang
+  - I. Mitliagkas
+  year: 2019
+  status: accepted
+  venue: sysml
+  url: https://proceedings.mlsys.org/paper_files/paper/2019/hash/b205b525b7ce002baae53228bab6d26b-Abstract.html
+  topics:
+  - optimization
+- id: achlioptas2018-learning-representations-generative
+  title: Learning Representations and Generative Models for 3D Point Clouds
+  authors:
+  - P. Achlioptas
+  - O. Diamanti
+  - I. Mitliagkas
+  - L. Guibas
+  year: 2018
+  status: accepted
+  venue: icml
+  arxiv: '1707.02670'
+  url: https://openreview.net/forum?id=r14RP5AUz
+  topics:
+  - other
+- id: zhang2018-yellowfin-adaptive-optimization
+  title: 'YellowFin: Adaptive optimization for (A)synchronous systems'
+  authors:
+  - J. Zhang
+  - I. Mitliagkas
+  year: 2018
+  status: accepted
+  venue: sysml
+  highlight: oral
+  arxiv: '1706.03471'
+  topics:
+  - optimization
+- id: sa2018-accelerated-stochastic-power
+  title: Accelerated stochastic power iteration
+  authors:
+  - C. De Sa
+  - B. He
+  - I. Mitliagkas
+  - C. Ré
+  - P. Xu
+  year: 2018
+  status: accepted
+  venue: aistats
+  arxiv: '1707.02670'
+  url: https://proceedings.mlr.press/v84/xu18a.html
+  topics:
+  - optimization
+- id: kurth2017-deep-learning-at
+  title: 'Deep Learning at 15PF: Supervised and Semi-Supervised Classification for Scientific Data'
+  authors:
+  - T. Kurth
+  - J. Zhang
+  - N. Satish
+  - I. Mitliagkas
+  - E. Racah
+  - M.A. Patwary
+  - T. Malas
+  - N. Sundaram
+  - W. Bhimji
+  - M. Smorkalov
+  - J. Deslippe
+  - M. Shiryaev
+  - S. Sridharan
+  - P. Dubey
+  year: 2017
+  status: accepted
+  venue: sc
+  arxiv: '1708.05256'
+  url: https://doi.org/10.1145/3126908.3126916
+  topics:
+  - other
+- id: mitliagkas2017-improving-gibbs-sampler
+  title: Improving Gibbs Sampler Scan Quality with DoGS
+  authors:
+  - I. Mitliagkas
+  - L. Mackey
+  year: 2017
+  status: accepted
+  venue: icml
+  arxiv: '1707.05807'
+  url: https://proceedings.mlr.press/v70/mitliagkas17a.html
+  topics:
+  - other
+- id: mitliagkas2016-asynchrony-begets-momentum
+  title: Asynchrony begets Momentum, with an Application to Deep Learning
+  authors:
+  - I. Mitliagkas
+  - C. Zhang
+  - S. Hadjis
+  - C. Ré
+  year: 2016
+  status: accepted
+  venue: allerton
+  arxiv: '1605.09774'
+  url: https://doi.org/10.1109/ALLERTON.2016.7852343
+  topics:
+  - optimization
+- id: he2016-scan-order-gibbs
+  title: 'Scan Order in Gibbs Sampling: Models in Which it Matters and Bounds on How Much'
+  authors:
+  - B. He
+  - C. De Sa
+  - I. Mitliagkas
+  - C. Ré
+  year: 2016
+  status: accepted
+  venue: neurips
+  arxiv: '1606.03432'
+  url: https://proceedings.neurips.cc/paper/2016/hash/e4da3b7fbbce2345d7772b0674a318d5-Abstract.html
+  topics:
+  - other
+- id: mitliagkas2015-frogwild-fast-pagerank
+  title: FrogWild! – Fast PageRank Approximations on Graph Engines
+  authors:
+  - I. Mitliagkas
+  - M. Borokhovich
+  - A. Dimakis
+  - C. Caramanis
+  year: 2015
+  status: accepted
+  venue: vldb
+  url: https://www.vldb.org/pvldb/vol8/p874-mitliagkas.pdf
+  topics:
+  - other
+- id: papailiopoulos2014-finding-dense-subgraphs
+  title: Finding dense subgraphs through low-rank approximations
+  authors:
+  - D. Papailiopoulos
+  - I. Mitliagkas
+  - A. Dimakis
+  - C. Caramanis
+  year: 2014
+  status: accepted
+  venue: icml
+  url: https://proceedings.mlr.press/v32/papailiopoulos14.html
+  topics:
+  - other
+- id: mitliagkas2013-memory-limited-streaming
+  title: Memory-limited Streaming PCA
+  authors:
+  - I. Mitliagkas
+  - C. Caramanis
+  - P. Jain
+  year: 2013
+  status: accepted
+  venue: neurips
+  url: https://proceedings.neurips.cc/paper/2013/hash/76cf99d3614e23eabab16fb27e944bf9-Abstract.html
+  topics:
+  - other
+- id: mitliagkas2011-user-rankings-from
+  title: 'User Rankings from Comparisons: Learning Permutations in High Dimensions'
+  authors:
+  - I. Mitliagkas
+  - A. Gopalan
+  - C. Caramanis
+  - S. Vishwanath
+  year: 2011
+  status: accepted
+  venue: allerton
+  url: https://doi.org/10.1109/Allerton.2011.6120296
+  topics:
+  - other
+- id: mitliagkas2011-joint-power-admission
+  title: 'Joint Power and Admission Control for Ad-hoc and Cognitive Underlay Networks: Convex Approximation and Distributed Implementation'
+  authors:
+  - I. Mitliagkas
+  - N. D. Sidiropoulos
+  - and A. Swami
+  year: 2011
+  status: accepted
+  venue: twc
+  url: https://doi.org/10.1109/TWC.2011.100811.101381
+  topics:
+  - other
+- id: mitliagkas2010-strong-information-theoretic
+  title: Strong Information-Theoretic Limits for Source/Model Recovery
+  authors:
+  - I. Mitliagkas
+  - S. Vishwanath
+  year: 2010
+  status: accepted
+  venue: allerton
+  url: /papers/strongConverse2010.pdf
+  topics:
+  - other
+- id: mitliagkas2010-distributed-joint-power
+  title: Distributed Joint Power and Admission Control for Ad-hoc and Cognitive Underlay Networks
+  authors:
+  - I. Mitliagkas
+  - N. D. Sidiropoulos
+  - and A. Swami
+  year: 2010
+  status: accepted
+  venue: icassp
+  url: https://doi.org/10.1109/ICASSP.2010.5496132
+  topics:
+  - other
+- id: mitliagkas2008-convex-approximation-based
+  title: Convex Approximation-based Joint Power and Admission Control for Cognitive Underlay Networks
+  authors:
+  - I. Mitliagkas
+  - N. D. Sidiropoulos
+  - and A. Swami
+  year: 2008
+  status: accepted
+  venue: iwcmc
+  topics:
+  - other
+- id: nakamori2026-orth-dion-eliminating
+  title: 'Orth-Dion: Eliminating Geometric Mismatch in Distributed Low-Rank Spectral Optimization'
+  authors:
+  - T. Nakamori
+  - L. Gomezjurado Gonzalez
+  - G. Talluri
+  - A. Tiwari
+  - H. Kawashima
+  - I. Mitliagkas
+  - G. Rabusseau
+  - H. Naganuma
+  year: 2026
+  status: workshop
+  venue_text: ICML 2026 CoLoRAI Workshop
+  arxiv: '2605.16341'
+  topics:
+  - optimization
+- id: naganuma2024-smoothness-adaptive-sharpness
+  title: Smoothness-adaptive sharpness-aware minimization for finding flatter minima
+  authors:
+  - H. Naganuma
+  - JL. Kim
+  - A. Kyrilllidis
+  - I. Mitliagkas
+  year: 2024
+  status: workshop
+  venue_text: 5th Workshop on practical ML for limited/low resource settings
+  topics:
+  - optimization
+- id: mofakhami2024-performance-control-early
+  title: Performance Control in Early Exiting to Deploy Large Models at the Same Cost of Smaller Ones
+  authors:
+  - M. Mofakhami
+  - R. Bayat
+  - I. Mitliagkas
+  - J. Monteiro
+  - V. Zantedeschi
+  year: 2024
+  status: workshop
+  venue_text: ICML 2024 workshop on Efficient Systems for Foundational Models
+  arxiv: '2412.19325'
+  topics:
+  - other
+- id: neal2019-support-over-parametrization
+  title: 'In Support of Over-Parametrization in Deep Reinforcement Learning: an Empirical Study'
+  authors:
+  - B. Neal
+  - I. Mitliagkas
+  year: 2019
+  status: workshop
+  venue_text: ICML 2019 Workshop on Identifying and Understanding Deep Learning Phenomena
+  url: https://openreview.net/forum?id=SkeMPEH32N
+  topics:
+  - games
+- id: neal2019-modern-take-bias
+  title: A Modern Take on the Bias-Variance Tradeoff in Neural Networks
+  authors:
+  - B. Neal
+  - S. Mittal
+  - A. Baratin
+  - V. Tantia
+  - M. Scicluna
+  - S. Lacoste-Julien
+  - I. Mitliagkas
+  year: 2019
+  status: workshop
+  venue_text: ICML 2019 Workshop on Identifying and Understanding Deep Learning Phenomena
+  arxiv: '1810.08591'
+  topics:
+  - generalization
+- id: zhang2016-parallel-sgd-when
+  title: 'Parallel SGD: When does averaging help?'
+  authors:
+  - J. Zhang
+  - C. De Sa
+  - I. Mitliagkas
+  - C. Ré
+  year: 2016
+  status: workshop
+  venue_text: Optimization Methods for the Next Generation of Machine Learning Workshop, ICML 2016
+  arxiv: '1606.07365'
+  topics:
+  - optimization
+- id: review2026-surrogate-perspective-convergence
+  title: A Surrogate Perspective on Convergence of Fixed-Target DQN
+  authors:
+  - Z. Liu
+  - N. Okolo
+  - R. D'Orazio
+  - D. Vucetic
+  - I. Mitliagkas
+  - G. Gidel
+  year: 2026
+  status: preprint
+  venue_text: Submitted to NeurIPS 2026 (under review)
+  topics:
+  - games
+- id: naganuma2026-which-geometry-which
+  title: Which Geometry on Which Layer? A Principled Criterion for Mixed-Optimizer Training
+  authors:
+  - H. Naganuma
+  - L. Gomezjurado Gonzalez
+  - M. Ghaznavi
+  - A. Nitanda
+  - I. Mitliagkas
+  - S.P. Liew
+  - R. Hataya
+  year: 2026
+  status: preprint
+  venue_text: Submitted to NeurIPS 2026 (under review)
+  topics:
+  - optimization
+- id: dufortlabb2026-navigating-potholes-geometry
+  title: Navigating Potholes with Geometry-Aware Sharpness Minimization
+  authors:
+  - S. Dufort-Labbé
+  - M. Hamidi
+  - R. Pascanu
+  - I. Mitliagkas
+  - D. Scieur
+  - A. Baratin
+  year: 2026
+  status: preprint
+  arxiv: '2605.16134'
+  topics:
+  - optimization
+- id: nakai2026-revisiting-generalization-measures
+  title: 'Revisiting Generalization Measures Beyond IID: An Empirical Study under Distributional Shift'
+  authors:
+  - S. Nakai
+  - Y. Fadhloun
+  - K. Mathlouthi
+  - K. Yoshida
+  - G. Talluri
+  - I. Mitliagkas
+  - H. Naganuma
+  year: 2026
+  status: preprint
+  arxiv: '2602.01718'
+  topics:
+  - generalization
+- id: clivio2025-learning-defer-causal
+  title: Learning to Defer for Causal Discovery with Imperfect Experts
+  authors:
+  - O. Clivio
+  - D. Mahajan
+  - P. Taslakian
+  - S. Magliacane
+  - I. Mitliagkas
+  year: 2025
+  status: preprint
+  arxiv: '2502.13132'
+  topics:
+  - generalization
+- id: akazan2024-generating-tabular-data
+  title: Generating Tabular Data Using Heterogeneous Sequential Feature Forest Flow Matching
+  authors:
+  - AC. Akazan
+  - A. Jolicoeur-Martineau
+  - I. Mitliagkas
+  year: 2024
+  status: preprint
+  arxiv: '2410.15516'
+  topics:
+  - other
+- id: ibrahim2022-towards-out-distribution
+  title: Towards Out-of-Distribution Adversarial Robustness
+  authors:
+  - A. Ibrahim
+  - C. Guille-Escuret
+  - I. Mitliagkas
+  - I. Rish
+  - D. Krueger
+  - P. Bashivan
+  year: 2022
+  status: preprint
+  arxiv: '2210.03150'
+  topics:
+  - generalization
+- id: girotti2021-convergence-analysis-implicit
+  title: Convergence Analysis and Implicit Regularization of Feedback Alignment for Deep Linear Networks
+  authors:
+  - M. Girotti
+  - I. Mitliagkas
+  - Gauthier Gidel
+  year: 2021
+  status: preprint
+  arxiv: '2110.10815'
+  topics:
+  - optimization
+- id: jolicoeurmartineau2021-gotta-go-fast
+  title: Gotta Go Fast When Generating Data with Score-Based Models
+  authors:
+  - A. Jolicoeur-Martineau
+  - K. Li*
+  - R. Piché-Taillefer*
+  - T. Kachman*
+  - I. Mitliagkas
+  year: 2021
+  status: preprint
+  arxiv: '2105.14080'
+  topics:
+  - other
+- id: albuquerque2020-generalizing-unseen-domains
+  title: Generalizing to unseen domains via distribution matching
+  authors:
+  - I. Albuquerque
+  - J. Monteiro
+  - T. Falk
+  - I. Mitliagkas
+  year: 2020
+  status: preprint
+  arxiv: '1911.00804'
+  url: https://openreview.net/forum?id=SkeMPEH32N
+  topics:
+  - generalization
+- id: jolicoeurmartineau2020-gradient-penalty-from
+  title: Gradient penalty from a maximum margin perspective
+  authors:
+  - A. Jolicoeur-Martineau
+  - I. Mitliagkas
+  year: 2020
+  status: preprint
+  arxiv: '1910.06922'
+  topics:
+  - other
+- id: hadjis2016-omnivore-optimizer-multi
+  title: 'Omnivore: An Optimizer for Multi-device Deep Learning on CPUs and GPUs'
+  authors:
+  - S. Hadjis
+  - C. Zhang
+  - I. Mitliagkas
+  - C. Ré
+  year: 2016
+  status: preprint
+  venue_text: Technical report
+  arxiv: '1606.04487'
+  topics:
+  - optimization

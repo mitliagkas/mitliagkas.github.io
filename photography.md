@@ -1,42 +1,38 @@
 ---
-layout: photo
+layout: page
 title: Extracurriculars
-menu: main
 permalink: /photography/
-order: 4
+show_title: true
 ---
 
-I appreciate people who engage on creative activity outside of work. 
-I try to be like them.
+I appreciate people who engage in creative activity outside of work. I try to be like them.
 
-<h2>Organizational</h2>
+## Organizational
 
-I have served as an elected board member of the <a href="https://www.ergatikos-montreal.ca/en/home/">Association des travailleurs grecs du Québec</a> (greek workers' association of Quebec). 
+I have served as an elected board member of the [Association des travailleurs grecs du Québec](https://www.ergatikos-montreal.ca/en/home/) (Greek workers' association of Quebec).
 
-<h2>Running</h2> 
-I've <a href="https://resultscui.active.com/participants/33845739">dabbled</a> in long distance running and I'm recently 
-<a href="https://sportstats.one/results/130543/1861">back at it</a>.
+## Running
 
+I've [dabbled](https://resultscui.active.com/participants/33845739) in long-distance running and I'm recently [back at it](https://sportstats.one/results/130543/1861).
 
+## Music
 
-<h2>Music</h2>
-<h3>Garlic Beets</h3>
-In Texas, I survived the stress of grad school and emigration by founding a rebetiko band named Πατζάρια Σκορδαλιά (Patzaria Skordalia, which means Garlic Beets). 
-<br>
-<br>
+### Garlic Beets
 
-<iframe src="https://player.vimeo.com/video/126032080" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-<p><a href="https://vimeo.com/126032080">Five Dudes from Peraius - Patzaria Skordalia</a> from <a href="https://vimeo.com/user27692815">Ioannis Mitliagkas</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+In Texas, I survived the stress of grad school and emigration by founding a rebetiko band named Πατζάρια Σκορδαλιά (Patzaria Skordalia, which means Garlic Beets).
 
+<div class="video"><iframe src="https://player.vimeo.com/video/126032080" title="Five Dudes from Peraius, Patzaria Skordalia" allow="fullscreen; picture-in-picture" allowfullscreen loading="lazy"></iframe></div>
 
-<h3>Music in Montreal</h3> 
-Lately I play a variety of styles with many different musicians. Montreal is great for that! Some videos might come up soon.
+[Five Dudes from Peraius – Patzaria Skordalia](https://vimeo.com/126032080), on Vimeo.
 
-<h2>Photography</h2>
+### Music in Montreal
 
+Lately I play a variety of styles with many different musicians. Montreal is great for that!
+
+## Photography
 
 Over the years I've been interested in photography, with mixed results.
 
-<!-- {==% flickr_photoset 72157649045306388 %}
- -->
-
+<ul class="gallery">
+{% for g in site.data.gallery %}<li><a href="{{ g.full }}"><img src="{{ g.thumb }}" alt="{{ g.title | escape }}" loading="lazy" width="150" height="150"></a></li>
+{% endfor %}</ul>

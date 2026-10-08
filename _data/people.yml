@@ -1,0 +1,34 @@
+# Research group. Used by the Group page and the home page; mirrors the CV
+# ("Doctoral students" and "Past students and supervisees").
+# role: phd | msc | postdoc | intern      photo: file in /images (optional)
+current:
+  - {name: "Ryan D'Orazio",        role: phd, title: PhD candidate, url: "https://ryan-dorazio.github.io", photo: person-ryan.jpg}
+  - {name: Divyat Mahajan,         role: phd, title: PhD candidate, url: "https://divyat09.github.io/",   photo: person-divyat.jpg}
+  - {name: Zichu Liu,              role: phd, title: PhD student,   url: "https://openreview.net/profile?id=~Zichu_Liu1"}
+  - {name: Ahmed (Mehdi) Inane,    role: phd, title: PhD student,   photo: person-mehdi.jpg}
+  - {name: Mehrab Hamidi,          role: phd, title: PhD student,   photo: person-mehrab.jpg}
+  - {name: Yukti Makhija,          role: phd, title: PhD student}
+  - {name: Mahdi Ghaznavi,         role: phd, title: "PhD student (starting January 2027)", photo: person-mahdi.jpg}
+
+alumni:
+  - {name: Nicolas Loizou,             role: postdoc, year: 2021, next: "Assistant Professor, Johns Hopkins University", url: "https://nicolasloizou.github.io/", photo: person-nicolas.jpg}
+  - {name: Manuela Girotti,            role: postdoc, year: 2021, next: "Assistant Professor, Emory University",         url: "https://mathemanu.github.io/",     photo: person-manuela.jpeg}
+  - {name: Kartik Ahuja,               role: postdoc, year: 2022, next: "Research Scientist, FAIR Paris",                url: "https://ahujak.github.io",         photo: person-kartik.jpg}
+  - {name: Kilian Fatras,              role: postdoc, year: 2024, next: "Research Scientist, Dreamfold",                 url: "https://kilianfatras.github.io",   photo: person-kilian.png}
+  - {name: Hiroki Naganuma,            role: phd,     year: 2026, next: "NVIDIA",                                       url: "https://hiroki11x.github.io",      photo: person-hiroki.png}
+  - {name: Charles Guille-Escuret,     role: phd,     year: 2025, next: "MBZUAI Institute of Foundation Models",         url: "https://scholar.google.com/citations?user=VNgVRmgAAAAJ", photo: person-charles.jpg}
+  - {name: Reyhane Askari Hemmat,      role: phd,     year: 2024, next: "Research Scientist, Meta, Montréal",           url: "https://reyhaneaskari.github.io/", photo: person-reyhane.jpg}
+  - {name: Adam Ibrahim,               role: phd,     year: 2024, next: "Google DeepMind, Mountain View",               url: "https://www.adamibrahim.fr",       photo: person-adam.jpg}
+  - {name: Alexia Jolicoeur-Martineau, role: phd,     year: 2023, next: "Research Scientist, Microsoft Research",       url: "https://ajolicoeur.ca/",           photo: person-alexia.jpg}
+  - {name: Vincent Quirion,            role: msc,     year: 2026, next: "Soma Energy"}
+  - {name: Mehrnaz Mofakhami,          role: msc,     year: 2024, next: "Research assistant, Mila",                     url: "https://github.com/mhrnz",         photo: person-mehrnaz.jpeg}
+  - {name: Rémi Piché-Taillefer,       role: msc,     year: 2021, next: "Microsoft Research, Montréal"}
+  - {name: Brady Neal,                 role: msc,     year: 2019, next: "Senior Research Scientist, Dataiku",           url: "https://bradyneal.github.io/aboutme/", photo: person-brady.jpg}
+  - {name: Oscar Clivio,               role: intern,  year: 2024, next: "PhD student, University of Oxford"}
+  - {name: Lyle Kim,                   role: intern,  year: 2023, next: "PhD candidate, Rice University"}
+  - {name: Ange-Clement Akazan,        role: intern,  year: 2023, next: "MSc, African Institute for Mathematical Sciences", url: "https://github.com/AngeClementAkazan", photo: person-ange-clement.jpeg}
+  - {name: Amartya Mitra,              role: intern,  year: 2020, next: "ML Researcher, Morgan Stanley",                photo: person-amartya.jpg}
+  - {name: Baptiste Goujaud,           role: intern,  year: 2020, next: "PhD candidate, École Polytechnique"}
+  - {name: Séb Arnold,                 role: intern,  year: 2018, next: "PhD candidate, USC"}
+  - {name: Vinayak Tantia,             role: intern,  year: 2018, next: "Research engineer, FAIR Montréal"}
+  - {name: Nicolas Gagné,              role: intern,  year: 2018, next: "PhD candidate, McGill"}

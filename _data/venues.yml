@@ -1,0 +1,17 @@
+# Venue registry. `summary: true` venues get their own count in the short CV
+# ("12 published papers in NeurIPS, ..."); the rest are listed as "other venues".
+neurips:  {short: NeurIPS,  name: "Neural Information Processing Systems (NeurIPS)", type: conference, summary: true}
+icml:     {short: ICML,     name: "International Conference on Machine Learning (ICML)", type: conference, summary: true}
+iclr:     {short: ICLR,     name: "International Conference on Learning Representations (ICLR)", type: conference, summary: true}
+aistats:  {short: AISTATS,  name: "Artificial Intelligence and Statistics (AISTATS)", type: conference, summary: true}
+tmlr:     {short: TMLR,     name: "Transactions on Machine Learning Research (TMLR)", type: journal, summary: true}
+collas:   {short: CoLLAs,   name: "Conference on Lifelong Learning Agents (CoLLAs)", type: conference}
+clear:    {short: CLeaR,    name: "Conference on Causal Learning and Reasoning (CLeaR)", type: conference}
+sysml:    {short: SysML,    name: "Systems and Machine Learning (SysML)", type: conference}
+mlsys:    {short: MLSys,    name: "Conference on Machine Learning and Systems (MLSys)", type: conference}
+sc:       {short: Supercomputing, name: "Supercomputing (SC)", type: conference}
+vldb:     {short: VLDB,     name: "International Conference on Very Large Data Bases (VLDB)", type: conference}
+allerton: {short: Allerton, name: "Allerton Conference on Communication, Control, and Computing (Allerton)", type: conference}
+icassp:   {short: ICASSP,   name: "International Conference on Acoustics, Speech and Signal Processing (ICASSP)", type: conference}
+twc:      {short: IEEE TWC, name: "IEEE Transactions on Wireless Communications (TWC)", type: journal}
+iwcmc:    {short: IWCMC,    name: "International Wireless Communications and Mobile Computing Conference (IWCMC)", type: conference}

@@ -1,22 +1,49 @@
-# Site settings
 title: Ioannis (Yannis) Mitliagkas
+name_greek: Γιάννης Μητλιάγκας
 email: ioannis@iro.umontreal.ca
-#email: imit@stanford.edu
-#email: ioannis@utexas.edu
-description: > # this means to ignore newlines until "baseurl:"
-  Associate Professor, Mila, Computer Science, University of Montreal.
+description: >-
+  Associate Professor of Computer Science at Université de Montréal and core faculty at Mila.
   Machine learning and optimization.
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://mitliagkas.github.io" # the base hostname & protocol for your site
-twitter_username: bouzoukipunks
-github_username:  mitliagkas
+url: "https://mitliagkas.github.io"
+baseurl: ""
+
+# Profiles shown in the header and footer
+links:
+  scholar: "https://scholar.google.com/citations?user=K757SxgAAAAJ&hl=en"
+  scholar_recent: "https://scholar.google.com/citations?hl=en&user=K757SxgAAAAJ&view_op=list_works&sortby=pubdate"
+  twitter: "https://twitter.com/bouzoukipunks"
+  linkedin: "https://www.linkedin.com/in/ioannis-mitliagkas-6a8241131/"
+  github: "https://github.com/mitliagkas"
+  dblp: "https://dblp.org/pid/83/8757.html"
+
+# Recruitment notice on the home page. Set `open: false` outside recruiting season.
+recruiting:
+  open: true
+  intake: Fall 2027
+  programs: PhD and MSc
+  window: "October 15 and December 1, 2026"
+  mila_url: "https://mila.quebec/en/prospective-students-and-postdocs/research-programs/request-supervisor"
+
+# Main navigation, in order
+nav:
+  - {title: Research, url: /research/}
+  - {title: Group, url: /group/}
+  - {title: Publications, url: /publications/}
+  - {title: Teaching, url: /teaching/}
+  - {title: News, url: /news/}
+  - {title: Extracurriculars, url: /photography/}
 
 plugins:
   - jekyll-redirect-from
 
-highlighter: pygments
-
-# Build settings
 markdown: kramdown
 
-exclude: [vendor]
+exclude:
+  - vendor
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - UPDATING.md
+  - tools
+  - build.log
+  - _cache

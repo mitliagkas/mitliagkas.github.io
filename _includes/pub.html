@@ -1,0 +1,17 @@
+{%- assign p = include.pub -%}
+{%- if p.url -%}{%- assign link = p.url -%}{%- elsif p.arxiv -%}{%- capture link -%}https://arxiv.org/abs/{{ p.arxiv }}{%- endcapture -%}{%- else -%}{%- assign link = nil -%}{%- endif -%}
+<li class="pub" data-topics="{{ p.topics | join: ' ' }}">
+  <span class="pub-title">{% if link %}<a href="{{ link }}">{{ p.title }}</a>{% else %}{{ p.title }}{% endif %}</span>
+  <span class="pub-authors">{{ p.authors | join: ', ' | replace: 'I. Mitliagkas', '<strong>I.&nbsp;Mitliagkas</strong>' }}</span>
+  <span class="pub-meta">
+    {%- if p.status == 'accepted' and p.venue -%}{{ site.data.venues[p.venue].short }} {{ p.year }}
+    {%- elsif p.status == 'workshop' -%}{{ p.venue_text }}
+    {%- elsif p.venue_text contains 'review' -%}Under review, {{ p.year }}
+    {%- elsif p.venue_text -%}{{ p.venue_text }}, {{ p.year }}
+    {%- else -%}Preprint, {{ p.year }}{%- endif -%}
+    {%- if p.highlight %} <span class="badge">{{ p.highlight | capitalize }}</span>{% endif -%}
+    {%- if p.note %} {{ p.note }}{% endif -%}
+    {%- if p.arxiv and p.url %}<a href="https://arxiv.org/abs/{{ p.arxiv }}">arXiv</a>{% endif -%}
+    {%- if p.code %}<a href="{{ p.code }}">code</a>{% endif -%}
+  </span>
+</li>

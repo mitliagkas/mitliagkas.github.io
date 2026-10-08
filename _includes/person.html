@@ -1,0 +1,8 @@
+{%- assign x = include.person -%}
+<li class="person">
+  {% if x.url %}<a href="{{ x.url }}">{% endif %}
+  {% if x.photo %}<img src="{{ '/images/' | append: x.photo | relative_url }}" alt="" loading="lazy" width="200" height="200">{% else %}<span class="nophoto" aria-hidden="true">{{ x.name | slice: 0 }}</span>{% endif %}
+  <span class="who">{{ x.name }}</span>
+  {% if x.url %}</a>{% endif %}
+  <span class="what">{{ x.title | default: x.next }}</span>
+</li>

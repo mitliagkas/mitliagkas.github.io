@@ -1,12 +1,7 @@
-source 'https://rubygems.org'
+# Same gems and versions GitHub Pages uses. To preview locally:
+#   bundle install
+#   bundle exec jekyll serve
+source "https://rubygems.org"
 
-require 'json'
-require 'open-uri'
-versions = JSON.parse(URI.open('https://pages.github.com/versions.json').read)
-
-gem 'github-pages', versions['github-pages']
-
-gem 'pygments.rb'
-
-gem 'jekyll-redirect-from'
-
+gem "github-pages", group: :jekyll_plugins
+gem "webrick"   # needed by `jekyll serve` on Ruby 3+

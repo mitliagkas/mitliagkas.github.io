@@ -1,5 +1,6 @@
 ---
-layout: default
+layout: page
+section: /teaching/
 title: DL Theory class 2020
 permalink: /ift6085-dl-theory-class-2020/
 ---

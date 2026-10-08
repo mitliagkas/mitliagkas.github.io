@@ -1,5 +1,6 @@
 ---
-layout: default
+layout: page
+section: /teaching/
 permalink: /ift6390-ml-class-prerequisites/
 ---
 

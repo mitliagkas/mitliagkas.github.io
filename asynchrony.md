@@ -1,5 +1,6 @@
 ---
-layout: default
+layout: page
+section: /research/
 title: Asynchrony
 permalink: /asynchrony/
 ---

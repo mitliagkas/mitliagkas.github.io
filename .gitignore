@@ -1,2 +1,6 @@
 _site
 .sass-cache
+.jekyll-cache
+.bundle
+vendor
+tools/out
