@@ -1,0 +1,31 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Ioannis Mitliagkas",
+  "alternateName": {{ site.alternate_names | jsonify }},
+  "url": "{{ '/' | absolute_url }}",
+  "image": "{{ '/images/ioannis-headshot.jpg' | absolute_url }}",
+  "email": "mailto:{{ site.email }}",
+  "jobTitle": "Associate Professor of Computer Science",
+  "worksFor": [
+    {"@type": "CollegeOrUniversity", "name": "Université de Montréal", "url": "https://www.umontreal.ca"},
+    {"@type": "ResearchOrganization", "name": "Mila - Quebec Artificial Intelligence Institute", "url": "https://mila.quebec"}
+  ],
+  "alumniOf": [
+    {"@type": "CollegeOrUniversity", "name": "The University of Texas at Austin"},
+    {"@type": "CollegeOrUniversity", "name": "Technical University of Crete", "alternateName": "Πολυτεχνείο Κρήτης"}
+  ],
+  "knowsAbout": ["Machine learning", "Optimization", "Deep learning theory", "Generalization", "Machine unlearning", "Game dynamics", "Μηχανική μάθηση"],
+  "sameAs": [
+    "{{ site.links.scholar }}",
+    "{{ site.links.dblp }}",
+    "{{ site.links.orcid }}",
+    "{{ site.links.mila }}",
+    "{{ site.links.udem }}",
+    "{{ site.links.linkedin }}",
+    "{{ site.links.github }}",
+    "{{ site.links.twitter }}"
+  ]
+}
+</script>

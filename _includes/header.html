@@ -7,6 +7,7 @@
         {% if page.url == item.url or page.section == item.url %}{% assign here = true %}{% endif %}
         <a href="{{ item.url | relative_url }}"{% if here %} aria-current="page"{% endif %}>{{ item.title }}</a>
       {% endfor %}
+      {% if page.lang == 'el' %}<a href="{{ '/' | relative_url }}" hreflang="en" lang="en">English</a>{% else %}<a href="{{ '/el/' | relative_url }}" hreflang="el" lang="el">Ελληνικά</a>{% endif %}
     </nav>
   </div>
 </header>

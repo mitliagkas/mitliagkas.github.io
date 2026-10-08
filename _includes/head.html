@@ -1,13 +1,21 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  {% if page.title %}{% capture t %}{{ page.title }} | {{ site.title }}{% endcapture %}{% else %}{% assign t = site.title %}{% endif %}
+  {% if page.seo_title %}{% assign t = page.seo_title %}{% elsif page.title %}{% capture t %}{{ page.title }} | {{ site.seo_name }}{% endcapture %}{% else %}{% assign t = site.seo_name %}{% endif %}
   <title>{{ t }}</title>
   <meta name="description" content="{{ page.description | default: site.description | strip_html | strip_newlines | truncate: 160 }}">
   <link rel="canonical" href="{{ page.url | replace: 'index.html', '' | absolute_url }}">
   <meta property="og:title" content="{{ t }}">
   <meta property="og:description" content="{{ page.description | default: site.description | strip_html | strip_newlines | truncate: 160 }}">
   <meta property="og:image" content="{{ '/images/ioannis-headshot.jpg' | absolute_url }}">
+  <meta property="og:type" content="profile">
+  <meta property="og:locale" content="{% if page.lang == 'el' %}el_GR{% else %}en_US{% endif %}">
+  {% if page.url == '/' or page.url == '/el/' -%}
+  <link rel="alternate" hreflang="en" href="{{ '/' | absolute_url }}">
+  <link rel="alternate" hreflang="el" href="{{ '/el/' | absolute_url }}">
+  <link rel="alternate" hreflang="x-default" href="{{ '/' | absolute_url }}">
+  {% include person-jsonld.html %}
+  {%- endif %}
   <meta name="color-scheme" content="light dark">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>

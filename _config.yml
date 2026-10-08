@@ -1,5 +1,15 @@
 title: Ioannis (Yannis) Mitliagkas
 name_greek: Γιάννης Μητλιάγκας
+# Name used in page titles; carries the Greek spelling so Greek searches match.
+seo_name: "Ioannis Mitliagkas (Γιάννης Μητλιάγκας)"
+# Other spellings, for search engines only (structured data on the home and Greek pages).
+alternate_names:
+  - Γιάννης Μητλιάγκας
+  - Ιωάννης Μητλιάγκας
+  - Γιαννης Μητλιαγκας
+  - Yannis Mitliagkas
+  - Giannis Mitliagkas
+  - Ioannis (Yannis) Mitliagkas
 email: ioannis@iro.umontreal.ca
 description: >-
   Associate Professor of Computer Science at Université de Montréal and core faculty at Mila.
@@ -15,6 +25,9 @@ links:
   linkedin: "https://www.linkedin.com/in/ioannis-mitliagkas-6a8241131/"
   github: "https://github.com/mitliagkas"
   dblp: "https://dblp.org/pid/83/8757.html"
+  orcid: "https://orcid.org/0000-0002-4065-8654"
+  mila: "https://mila.quebec/en/person/ioannis-mitliagkas/"
+  udem: "https://diro.umontreal.ca/repertoire-departement/professeurs/professeur/in/in29391/sg/Ioannis%20Mitliagkas/"
 
 # Recruitment notice on the home page. Set `open: false` outside recruiting season.
 recruiting:
@@ -35,6 +48,7 @@ nav:
 
 plugins:
   - jekyll-redirect-from
+  - jekyll-sitemap
 
 markdown: kramdown
 
