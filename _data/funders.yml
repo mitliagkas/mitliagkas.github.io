@@ -1,0 +1,11 @@
+# Funding acknowledgements, shown at the end of /research/.
+funders:
+  - {name: CIFAR, logo: logo-cifar.jpg, url: "https://cifar.ca"}
+  - {name: Apogée, logo: logo-apogee.png}
+  - {name: IVADO, logo: logo-ivado.png, url: "https://ivado.ca"}
+  - {name: Samsung, logo: logo-samsung.png}
+  - {name: Google DeepMind, logo: logo-google.png}
+  - {name: FRQNT, logo: logo-frqnt.png, url: "https://frq.gouv.qc.ca/nature-et-technologies/"}
+  - {name: NSERC, logo: logo-nserc.png, url: "https://www.nserc-crsng.gc.ca"}
+  - {name: Microsoft Research, logo: logo-msr.png}
+thanks: "Special thanks to Intel and NVIDIA for donating access to hardware, and to SigOpt for access to their platform for some of our work."

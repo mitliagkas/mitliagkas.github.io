@@ -23,7 +23,7 @@ are relevant to the class.
 Note: some of these results are not given in a deep learning setting, however the ideas 
 and techniques there are very useful for our exploration in class.
 
-[back to class page](/ift6085-dl-theory-class-2020)
+[back to class page](/ift6085-dl-theory-class/)
 
 
 Assorted papers

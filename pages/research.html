@@ -28,3 +28,11 @@ description: "Research themes of Ioannis Mitliagkas's group at Mila: optimizatio
   <li><a href="https://docs.google.com/presentation/d/1uYUt7zSUByOGt_yAecSTBj_V0jNNGEySRU2hkXNyvKA/edit?usp=sharing">Slides</a> summarizing our work on games and min-max optimization.</li>
   <li><a href="{{ site.links.scholar_recent }}">Recent manuscripts on Google Scholar</a>.</li>
 </ul>
+
+<div class="section-head" id="funding"><h2>Funding acknowledgements</h2></div>
+<ul class="funders">
+  {% for f in site.data.funders.funders %}
+  <li>{% if f.url %}<a href="{{ f.url }}">{% endif %}<img src="{{ '/images/' | append: f.logo | relative_url }}" alt="{{ f.name }}" title="{{ f.name }}" loading="lazy">{% if f.url %}</a>{% endif %}</li>
+  {% endfor %}
+</ul>
+<p class="prose muted">{{ site.data.funders.thanks }}</p>
