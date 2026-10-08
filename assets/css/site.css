@@ -75,8 +75,9 @@ main { padding: 2rem 0 4rem; }
 .hero { position: relative; overflow-x: clip; display: grid; grid-template-columns: minmax(0, 1fr) 13rem; gap: 2rem 3rem; align-items: start; padding: 1.5rem 0 1rem; }
 .hero-text { position: relative; z-index: 1; }
 .hero .greek { font: 400 1.2rem/1.3 var(--serif); color: var(--muted); margin: 0 0 1.25rem; }
+.hero .greek a { color: inherit; text-decoration-color: var(--level); }
 .hero .lede { font-size: 1.3rem; line-height: 1.5; max-width: 34rem; }
-.hero .roles { list-style: none; padding: 0; margin: 1.25rem 0 0; font: 0.95rem/1.5 var(--sans); color: var(--muted); }
+.hero .roles { max-width: 36rem; list-style: none; padding: 0; margin: 1.25rem 0 0; font: 0.95rem/1.5 var(--sans); color: var(--muted); }
 .hero .roles li + li { margin-top: 0.15rem; }
 .hero .roles a { color: inherit; }
 .portrait { margin: 0; position: relative; z-index: 1; }
