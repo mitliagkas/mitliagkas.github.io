@@ -20,7 +20,7 @@ Most content is data. Edit the YAML file; every page that uses it updates.
 | Photo gallery | `_data/gallery.yml` | Extracurriculars |
 | Recruiting notice, nav, profile links | `_config.yml` | Home, header, footer |
 
-Prose pages: `index.html` (bio), `pages/*.html`, `photography.md`, course pages
+Prose pages: `index.html` (bio), `pages/*.html`, `extracurriculars.md`, course pages
 (`ml-class*.md`, `dl-theory-class*.md`). Images go in `images/`; student photos are
 400×400 `images/person-<name>.jpg`.
 

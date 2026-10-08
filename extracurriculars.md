@@ -1,7 +1,9 @@
 ---
 layout: page
 title: Extracurriculars
-permalink: /photography/
+permalink: /extracurriculars/
+redirect_from:
+  - /photography/
 show_title: true
 ---
 

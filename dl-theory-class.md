@@ -8,7 +8,7 @@ permalink: /ift6085-dl-theory-class/
 IFT 6169: Theoretical principles for deep learning
 =========
 
-**THIS CLASS IS NOT OFFERED IN WINTER 2024** 
+**Offered again in Winter 2027 (IFT 6169). Details for the new edition will be posted here.**
 
 
 Description

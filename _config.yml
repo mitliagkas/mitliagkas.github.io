@@ -44,7 +44,7 @@ nav:
   - {title: Publications, url: /publications/}
   - {title: Teaching, url: /teaching/}
   - {title: News, url: /news/}
-  - {title: Extracurriculars, url: /photography/}
+  - {title: Extracurriculars, url: /extracurriculars/}
 
 plugins:
   - jekyll-redirect-from

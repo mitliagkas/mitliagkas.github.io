@@ -12,6 +12,7 @@ courses:
     url: /ift6085-dl-theory-class/
     blurb: "An advanced research class on the theory of deep learning: optimization, expressivity and generalization. Students read recent papers and do a research project."
 offerings:
+  - {term: Winter 2027, course: dltheory}
   - {term: Fall 2026,   course: ml,       mode: "in person, French"}
   - {term: Fall 2025,   course: ml,       mode: "in person, French"}
   - {term: Fall 2024,   course: ml,       mode: "French"}
