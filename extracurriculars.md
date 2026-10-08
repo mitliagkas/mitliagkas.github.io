@@ -15,7 +15,7 @@ I have served as an elected board member of the [Association des travailleurs gr
 
 ## Running
 
-I've [dabbled](https://resultscui.active.com/participants/33845739) in long-distance running and I'm recently [back at it](https://sportstats.one/results/130543/1861).
+I've [dabbled](https://resultscui.active.com/participants/33845739) in long-distance running, and I'm back at it: [four half marathons in Montréal](https://sportstats.one/results/athlete/287096) since 2022, with a best of [1:43:35](https://sportstats.one/event/21k-de-montreal/leaderboard/130543?focus=1861&type=bib) at the 21K de Montréal in April 2024.
 
 ## Music
 
