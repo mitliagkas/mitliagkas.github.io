@@ -3,14 +3,16 @@
 # tools/cv.py (LaTeX lists for the long CV, venue counts for the short CV, CCV BibTeX).
 #
 # Fields:
-#   id         unique slug (firstauthor + year + title words)
+#   id         unique slug (firstauthor + year + title words), assigned once and never changed,
+#              even if the title changes: the CV and CCV (BibTeX keys) refer to it.
+#              Match papers by arxiv id first, title second.
 #   authors    as they should appear; "I. Mitliagkas" is bolded automatically; "*" marks equal contribution
 #   status     accepted | workshop | preprint
 #   venue      key into _data/venues.yml (accepted papers only)
 #   venue_text free-text venue (workshops, preprints, or venues without a key)
 #   highlight  oral | spotlight (optional)
 #   note       extra text after the venue, e.g. an award (optional)
-#   arxiv      arXiv id (optional);  url: other link (optional);  code: code link (optional)
+#   arxiv      arXiv id (optional; unique: two entries never share one);  url: other link (optional);  code: code link (optional)
 #   topics     any of: optimization, generalization, unlearning, games, other
 #   featured   true -> shown on the home page under its first topic
 #   ccv        true once imported into the Canadian Common CV
@@ -252,7 +254,7 @@
   status: accepted
   venue: iclr
   highlight: spotlight
-  arxiv: '2210.01210'
+  arxiv: '2211.01939'
   url: https://openreview.net/forum?id=yuy6cGt3KL
   topics:
   - generalization
@@ -353,7 +355,7 @@
   year: 2023
   status: accepted
   venue: icml
-  arxiv: '2304.06879'
+  arxiv: '2211.14666'
   url: https://proceedings.mlr.press/v202/lachapelle23a.html
   topics:
   - generalization
@@ -419,6 +421,7 @@
   year: 2023
   status: accepted
   venue: aistats
+  arxiv: '2304.06879'
   url: https://iclr.cc/virtual/2023/poster/11421
   topics:
   - generalization
@@ -612,7 +615,7 @@
   status: accepted
   venue: neurips
   highlight: spotlight
-  arxiv: '1901.08680'
+  arxiv: '1906.03532'
   url: https://proceedings.neurips.cc/paper/2019/hash/1dba5eed8838571e1c80af145184e515-Abstract.html
   topics:
   - optimization
@@ -646,7 +649,7 @@
   year: 2019
   status: accepted
   venue: icml
-  arxiv: '1707.02392'
+  arxiv: '1806.05236'
   url: https://proceedings.mlr.press/v97/verma19a.html
   topics:
   - generalization
@@ -721,7 +724,7 @@
   year: 2018
   status: accepted
   venue: icml
-  arxiv: '1707.02670'
+  arxiv: '1707.02392'
   url: https://openreview.net/forum?id=r14RP5AUz
   topics:
   - other
