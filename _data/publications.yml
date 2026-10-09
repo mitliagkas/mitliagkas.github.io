@@ -996,6 +996,20 @@
   arxiv: '1606.07365'
   topics:
   - optimization
+- id: liu2026-surrogate-perspective-convergence
+  title: A Surrogate Perspective on Convergence of Fixed-Target DQN
+  authors:
+  - Z. Liu
+  - N. Okolo
+  - R. D'Orazio
+  - D. Vucetic
+  - I. Mitliagkas
+  - G. Gidel
+  year: 2026
+  status: accepted
+  venue: neurips
+  topics:
+  - games
 - id: dufortlabb2026-navigating-potholes-geometry
   title: Navigating Potholes with Geometry-Aware Sharpness Minimization
   authors:
