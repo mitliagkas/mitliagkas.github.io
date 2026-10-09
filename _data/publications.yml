@@ -1008,6 +1008,7 @@
   year: 2026
   status: accepted
   venue: neurips
+  url: https://openreview.net/forum?id=kpwFUoS46p
   topics:
   - games
 - id: dufortlabb2026-navigating-potholes-geometry
