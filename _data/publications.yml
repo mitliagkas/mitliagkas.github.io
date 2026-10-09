@@ -438,7 +438,7 @@
   status: accepted
   venue: neurips
   arxiv: '2203.00342'
-  url: https://simons.berkeley.edu/programs/games2022
+  url: https://proceedings.neurips.cc/paper_files/paper/2022/hash/9daab3b451038ed1bc5d8e9b77996b99-Abstract-Conference.html
   topics:
   - optimization
 - id: fatras2022-optimal-transport-meets
