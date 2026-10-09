@@ -18,6 +18,7 @@
   topics:
   - generalization
   featured: true
+  summary: Next-token prediction trains a model to look one step ahead, which limits long- horizon reasoning and planning. We add an auxiliary head that predicts a summary of the long-term future, either handcrafted (a bag of words) or learned with a reverse language model. In 3B and 8B pretraining runs, it beats next-token and multi-token prediction on math, reasoning and coding benchmarks.
 - id: tsikouras2026-derandomization-framework-structure
   title: 'A Derandomization Framework for Structure Discovery: Applications in Neural Networks and Beyond'
   authors:
@@ -61,6 +62,7 @@
   topics:
   - unlearning
   featured: true
+  summary: Certified unlearning adds noise, and the noise costs utility, especially for large deletion requests. We show that mixing in public data cuts the cost of unlearning by a factor of O(1/n_pub²), and we account for shifts between the public and private data. This makes it practical to unlearn a constant fraction of the training set while keeping utility.
 - id: naganuma2026-adaptive-batch-sizes
   title: Adaptive Batch Sizes Using Non-Euclidean Gradient Noise Scales for Stochastic Sign and Spectral Descent
   authors:
@@ -78,6 +80,7 @@
   topics:
   - optimization
   featured: true
+  summary: Adaptive batch-size rules rely on the gradient noise scale, which assumes the Euclidean geometry of SGD. We derive the noise scale for sign and spectral methods (Signum, Muon) from their dual norms, and estimate it cheaply from gradients already on each data-parallel worker. On a 160M-parameter Llama model, this matches the loss of fixed batch sizes with up to 66% fewer training steps.
 - id: naganuma2025-empirical-study-pre
   title: An Empirical Study of Pre-trained Model Selection for Out-of-Distribution Generalization and Calibration
   authors:
@@ -108,6 +111,7 @@
   topics:
   - optimization
   featured: true
+  summary: Theory often explains Adam with assumptions that do not change when the parameter space is rotated. We show that Adam on transformers gets worse under random rotations, while some structured rotations help, and that existing rotation- dependent assumptions do not explain this. The orthogonality of Adam's update emerges as a promising quantity for a better theory.
 - id: naganuma2025-pseudo-asynchronous-local
   title: 'Pseudo-Asynchronous Local SGD: Robust and Efficient Data-Parallel Training'
   authors:
@@ -141,6 +145,7 @@
   topics:
   - generalization
   featured: true
+  summary: Classifiers fail when test data contain combinations of attributes never seen together in training. We model each attribute as an additive energy term, train a classifier with that structure, then adjust it for the new combinations. The method, compositional risk minimization, provably extrapolates beyond the training combinations and is more robust than methods built for subpopulation shift.
 - id: beaglehole2024-feature-learning-as
   title: 'Feature learning as alignment: a structural property of gradient descent in non-linear neural networks'
   authors:
@@ -180,6 +185,7 @@
   topics:
   - unlearning
   featured: true
+  summary: We ran the first NeurIPS machine unlearning competition, with nearly 1,200 teams, scoring forgetting through a formal definition of unlearning together with model utility. The top entries beat existing algorithms, and their ranking stays stable across variations of the evaluation, so it can be made cheaper. We also analyze where the methods succeed and fail.
 - id: dorazio2025-solving-hidden-monotone
   title: Solving hidden monotone variational inequalities with surrogate losses
   authors:
@@ -197,6 +203,7 @@
   topics:
   - games
   featured: true
+  summary: Many problems in deep learning, such as min-max games and projected Bellman error minimization, are variational inequalities, and standard gradient methods cycle or diverge on them. We solve them through a sequence of surrogate losses that work with standard optimizers such as Adam, with convergence guarantees under hidden monotonicity. The approach also yields a more compute- and sample-efficient variant of TD(0).
 - id: guilleescuret2024-expecting-unexpected-towards
   title: 'Expecting The Unexpected: Towards Broad Out-Of-Distribution Detection'
   authors:
@@ -227,6 +234,7 @@
   topics:
   - optimization
   featured: true
+  summary: Why do stochastic first-order methods train non-convex networks so reliably? We measure two quantities along the optimization path, tied to the restricted secant inequality and the error bound, and find that they behave predictably across vision and language tasks, architectures and optimizers. These properties are enough to guarantee linear convergence and to motivate learning-rate schedules like those used in practice.
 - id: mahajan2024-empirical-analysis-model
   title: Empirical Analysis of Model Selection for Heterogeneous Causal Effect Estimation
   authors:
@@ -278,6 +286,7 @@
   topics:
   - generalization
   featured: true
+  summary: When an image is a sum of object-specific parts, a decoder with the same additive structure recovers each object's latent variables from reconstruction alone, with no independence assumptions on the latents. The same decoder can then generate combinations of objects never seen together in training. This gives a theoretical account of object-centric decoders and of how disentanglement enables extrapolation.
 - id: escuret2023-cadet-fully-self
   title: 'CADet: Fully Self-Supervised Anomaly Detection With Contrastive Learning'
   authors:
@@ -376,6 +385,7 @@
   topics:
   - games
   featured: true
+  summary: We introduce magnetic mirror descent, one algorithm that serves both as an equilibrium solver and as a reinforcement learning method for two-player zero-sum games. It is the first solver of quantal response equilibria with linear convergence in extensive-form games from first-order feedback, and the first standard RL algorithm competitive with counterfactual regret minimization in tabular settings. As a deep self-play method, it does well on Dark Hex and Phantom Tic-Tac-Toe.
 - id: mousavihosseini2023-neural-networks-efficiently
   title: Neural Networks Efficiently Learn Low-Dimensional Representations with SGD
   authors:
