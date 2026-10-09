@@ -10,5 +10,13 @@
     </div>
   </main>
   {% include footer.html %}
+<script>
+document.addEventListener('click', function (e) {
+  var b = e.target.closest('.pub-toggle'); if (!b) return;
+  var box = b.closest('.pub').querySelector('.pub-more');
+  var open = b.getAttribute('aria-expanded') === 'true';
+  b.setAttribute('aria-expanded', String(!open)); box.hidden = open;
+});
+</script>
 </body>
 </html>
