@@ -295,6 +295,7 @@
   status: accepted
   venue: neurips
   highlight: oral
+  arxiv: '2307.02598'
   url: https://nips.cc/virtual/2023/poster/71706
   topics:
   - generalization
@@ -408,6 +409,7 @@
   year: 2023
   status: accepted
   venue: iclr
+  arxiv: '2209.14863'
   url: https://proceedings.neurips.cc/paper_files/paper/2022/hash/9daab3b451038ed1bc5d8e9b77996b99-Abstract-Conference.html
   topics:
   - generalization
@@ -435,6 +437,7 @@
   year: 2022
   status: accepted
   venue: neurips
+  arxiv: '2203.00342'
   url: https://simons.berkeley.edu/programs/games2022
   topics:
   - optimization
@@ -461,6 +464,7 @@
   year: 2022
   status: accepted
   venue: clear
+  arxiv: '2204.04606'
   url: https://proceedings.mlr.press/v177/ahuja22a.html
   topics:
   - generalization
@@ -556,6 +560,7 @@
   year: 2020
   status: accepted
   venue: icml
+  arxiv: '2007.04202'
   url: http://proceedings.mlr.press/v119/loizou20a/loizou20a.pdf
   topics:
   - games
@@ -683,6 +688,7 @@
   year: 2019
   status: accepted
   venue: iclr
+  arxiv: '1810.03023'
   url: https://openreview.net/forum?id=ryf7ioRqFX
   topics:
   - optimization
@@ -829,6 +835,7 @@
   year: 2015
   status: accepted
   venue: vldb
+  arxiv: '1502.04281'
   url: https://www.vldb.org/pvldb/vol8/p874-mitliagkas.pdf
   topics:
   - other
@@ -854,6 +861,7 @@
   year: 2013
   status: accepted
   venue: neurips
+  arxiv: '1307.0032'
   url: https://proceedings.neurips.cc/paper/2013/hash/76cf99d3614e23eabab16fb27e944bf9-Abstract.html
   topics:
   - other
