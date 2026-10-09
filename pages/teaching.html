@@ -14,7 +14,6 @@ description: "Courses taught by Ioannis Mitliagkas at Université de Montréal."
   <div>
     <h2><a href="{{ v.url | relative_url }}">{{ v.code }}: {{ v.title }}</a></h2>
     <p>{{ v.blurb }}</p>
-    {% if v.url_en %}<p><a href="{{ v.url_en | relative_url }}">Older English-section page</a></p>{% endif %}
     <ul class="terms">
       {% for o in site.data.teaching.offerings %}{% if o.course == k %}
       <li>{% if o.url %}<a href="{{ o.url | relative_url }}">{{ o.term }}</a>{% else %}{{ o.term }}{% endif %}{% if o.mode %} <span class="muted">({{ o.mode }})</span>{% endif %}</li>
