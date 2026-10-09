@@ -717,6 +717,7 @@
   year: 2019
   status: accepted
   venue: sysml
+  arxiv: '1706.03471'
   url: https://proceedings.mlsys.org/paper_files/paper/2019/hash/b205b525b7ce002baae53228bab6d26b-Abstract.html
   topics:
   - optimization
@@ -743,7 +744,6 @@
   status: accepted
   venue: sysml
   highlight: oral
-  arxiv: '1706.03471'
   topics:
   - optimization
 - id: sa2018-accelerated-stochastic-power
@@ -1051,7 +1051,7 @@
   topics:
   - optimization
 - id: nakai2026-revisiting-generalization-measures
-  title: 'Revisiting Generalization Measures Beyond IID: An Empirical Study under Distributional Shift'
+  title: 'Generalization Measures under Controlled Covariate Shift: A Regime-Aware Benchmark'
   authors:
   - S. Nakai
   - Y. Fadhloun
@@ -1150,6 +1150,99 @@
   arxiv: '1910.06922'
   topics:
   - other
+- id: ratner2019-mlsys-new-frontier
+  title: 'MLSys: The New Frontier of Machine Learning Systems'
+  authors:
+  - A. Ratner
+  - D. Alistarh
+  - G. Alonso
+  - D. G. Andersen
+  - P. Bailis
+  - S. Bird
+  - N. Carlini
+  - B. Catanzaro
+  - J. Chayes
+  - E. Chung
+  - B. Dally
+  - J. Dean
+  - I. S. Dhillon
+  - A. Dimakis
+  - P. Dubey
+  - C. Elkan
+  - G. Fursin
+  - G. R. Ganger
+  - L. Getoor
+  - P. B. Gibbons
+  - G. A. Gibson
+  - J. E. Gonzalez
+  - J. Gottschlich
+  - S. Han
+  - K. Hazelwood
+  - F. Huang
+  - M. Jaggi
+  - K. Jamieson
+  - M. I. Jordan
+  - G. Joshi
+  - R. Khalaf
+  - J. Knight
+  - J. Konečný
+  - T. Kraska
+  - A. Kumar
+  - A. Kyrillidis
+  - A. Lakshmiratan
+  - J. Li
+  - S. Madden
+  - H. B. McMahan
+  - E. Meijer
+  - I. Mitliagkas
+  - R. Monga
+  - D. Murray
+  - K. Olukotun
+  - D. Papailiopoulos
+  - G. Pekhimenko
+  - T. Rekatsinas
+  - A. Rostamizadeh
+  - C. Ré
+  - C. De Sa
+  - H. Sedghi
+  - S. Sen
+  - V. Smith
+  - A. Smola
+  - D. Song
+  - E. Sparks
+  - I. Stoica
+  - V. Sze
+  - M. Udell
+  - J. Vanschoren
+  - S. Venkataraman
+  - R. Vinayak
+  - M. Weimer
+  - A. G. Wilson
+  - E. Xing
+  - M. Zaharia
+  - C. Zhang
+  - A. Talwalkar
+  year: 2019
+  status: preprint
+  venue_text: White paper
+  arxiv: '1904.03257'
+  topics:
+  - other
+- id: lamb2018-fortified-networks-improving
+  title: 'Fortified Networks: Improving the Robustness of Deep Networks by Modeling the Manifold of Hidden Representations'
+  authors:
+  - A. Lamb
+  - J. Binas
+  - A. Goyal
+  - D. Serdyuk
+  - S. Subramanian
+  - I. Mitliagkas
+  - Y. Bengio
+  year: 2018
+  status: preprint
+  arxiv: '1804.02485'
+  topics:
+  - generalization
 - id: hadjis2016-omnivore-optimizer-multi
   title: 'Omnivore: An Optimizer for Multi-device Deep Learning on CPUs and GPUs'
   authors:
