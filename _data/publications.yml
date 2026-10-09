@@ -1,21 +1,5 @@
-# Single source of truth for publications.
-# Used by: the website (publications page, featured papers on the home page),
-# tools/cv.py (LaTeX lists for the long CV, venue counts for the short CV, CCV BibTeX).
-#
-# Fields:
-#   id         unique slug (firstauthor + year + title words), assigned once and never changed,
-#              even if the title changes: the CV and CCV (BibTeX keys) refer to it.
-#              Match papers by arxiv id first, title second.
-#   authors    as they should appear; "I. Mitliagkas" is bolded automatically; "*" marks equal contribution
-#   status     accepted | workshop | preprint
-#   venue      key into _data/venues.yml (accepted papers only)
-#   venue_text free-text venue (workshops, preprints, or venues without a key)
-#   highlight  oral | spotlight (optional)
-#   note       extra text after the venue, e.g. an award (optional)
-#   arxiv      arXiv id (optional; unique: two entries never share one);  url: other link (optional);  code: code link (optional)
-#   topics     any of: optimization, generalization, unlearning, games, other
-#   featured   true -> shown on the home page under its first topic
-#   ccv        true once imported into the Canadian Common CV
+# GENERATED FILE. Do not edit: it is overwritten on every update.
+# Publications shown on this website. Changes are made at the source and arrive here by pull request.
 - id: mahajan2026-beyond-multi-token
   title: 'Beyond Multi-Token Prediction: Pretraining LLMs with Future Summaries'
   authors:
@@ -274,15 +258,9 @@
   topics:
   - games
   - optimization
-  summary: >-
-    Min-max training, as in GANs, stalls because of rotational dynamics. Treating
-    the two players as particles under physical forces, we derive LEAD, a
-    second-order method that damps the rotation. It converges linearly on
-    quadratic games and improves GAN training on CIFAR-10.
+  summary: Min-max training, as in GANs, stalls because of rotational dynamics. Treating the two players as particles under physical forces, we derive LEAD, a second-order method that damps the rotation. It converges linearly on quadratic games and improves GAN training on CIFAR-10.
   figure: /images/papers/hemmat2024-lead-least-action.png
-  figure_alt: >-
-    Eigenvalues in the complex plane: LEAD's (red) lie inside the unit circle,
-    gradient descent-ascent's (blue) lie outside it.
+  figure_alt: 'Eigenvalues in the complex plane: LEAD''s (red) lie inside the unit circle, gradient descent-ascent''s (blue) lie outside it.'
   featured: true
 - id: lachapelle2023-additive-decoders-latent
   title: Additive Decoders for Latent Variables Identification and Cartesian-Product Extrapolation
@@ -1005,35 +983,6 @@
   status: workshop
   venue_text: Optimization Methods for the Next Generation of Machine Learning Workshop, ICML 2016
   arxiv: '1606.07365'
-  topics:
-  - optimization
-- id: review2026-surrogate-perspective-convergence
-  title: A Surrogate Perspective on Convergence of Fixed-Target DQN
-  authors:
-  - Z. Liu
-  - N. Okolo
-  - R. D'Orazio
-  - D. Vucetic
-  - I. Mitliagkas
-  - G. Gidel
-  year: 2026
-  status: preprint
-  venue_text: Submitted to NeurIPS 2026 (under review)
-  topics:
-  - games
-- id: naganuma2026-which-geometry-which
-  title: Which Geometry on Which Layer? A Principled Criterion for Mixed-Optimizer Training
-  authors:
-  - H. Naganuma
-  - L. Gomezjurado Gonzalez
-  - M. Ghaznavi
-  - A. Nitanda
-  - I. Mitliagkas
-  - S.P. Liew
-  - R. Hataya
-  year: 2026
-  status: preprint
-  venue_text: Submitted to NeurIPS 2026 (under review)
   topics:
   - optimization
 - id: dufortlabb2026-navigating-potholes-geometry
