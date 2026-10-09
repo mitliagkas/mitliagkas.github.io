@@ -683,9 +683,10 @@
 - id: gidel2019-negative-momentum-improved
   title: Negative Momentum for Improved Game Dynamics
   authors:
-  - G. Gidel
-  - R. Askari
+  - G. Gidel*
+  - R. Askari Hemmat*
   - M. Pezeshki
+  - R. Le Priol
   - G. Huang
   - S. Lacoste-Julien
   - I. Mitliagkas
