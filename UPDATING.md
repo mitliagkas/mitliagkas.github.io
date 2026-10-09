@@ -48,6 +48,16 @@ Prose pages: `index.html` (bio), `pages/*.html`, `extracurriculars.md`, course p
   `preview-site` branch.
 - Local preview: `bundle install && bundle exec jekyll serve`.
 
+## Paper ids and arXiv ids
+
+- A paper's `id` is assigned once, when the entry is created, and never changed afterwards,
+  even if the title changes. The CV and CCV (BibTeX keys) depend on it.
+- Each arXiv id belongs to exactly one entry. `tools/check_data.py` fails if two entries share
+  one, or if an id has a version suffix (`2012.05782`, not `2012.05782v2`).
+- When matching a paper against the existing data (for example a preprint that was accepted),
+  match by arXiv id first and by title only when there is no arXiv id. Titles often change
+  between versions; when they do, update `title` in place and keep the `id`.
+
 ## Conventions
 
 - Changes go through a branch and a pull request.
