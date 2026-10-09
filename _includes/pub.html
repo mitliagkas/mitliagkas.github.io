@@ -4,6 +4,7 @@
   <span class="pub-title">{% if link %}<a href="{{ link }}">{{ p.title }}</a>{% else %}{{ p.title }}{% endif %}</span>
   <span class="pub-authors">{{ p.authors | join: ', ' | replace: 'I. Mitliagkas', '<strong>I.&nbsp;Mitliagkas</strong>' }}</span>
   <span class="pub-meta">
+    {%- if p.summary %}<button type="button" class="pub-toggle" aria-expanded="false">Summary</button>{% endif -%}
     {%- if p.status == 'accepted' and p.venue -%}{{ site.data.venues[p.venue].short }} {{ p.year }}
     {%- elsif p.status == 'workshop' -%}{{ p.venue_text }}
     {%- elsif p.venue_text contains 'review' -%}Under review, {{ p.year }}
@@ -15,12 +16,9 @@
     {%- if p.code %}<a href="{{ p.code }}">code</a>{% endif -%}
   </span>
   {%- if p.summary %}
-  <details class="pub-more">
-    <summary>Summary</summary>
-    <div class="pub-more-body">
-      {%- if p.figure %}<img src="{{ p.figure | relative_url }}" alt="{{ p.figure_alt | default: '' | escape }}" loading="lazy">{% endif %}
-      <p>{{ p.summary }}</p>
-    </div>
-  </details>
+  <div class="pub-more" hidden>
+    {%- if p.figure %}<img src="{{ p.figure | relative_url }}" alt="{{ p.figure_alt | default: '' | escape }}" loading="lazy">{% endif %}
+    <p>{{ p.summary }}</p>
+  </div>
   {%- endif %}
 </li>
