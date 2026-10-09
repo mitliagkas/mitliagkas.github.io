@@ -14,4 +14,13 @@
     {%- if p.arxiv and p.url %}<a href="https://arxiv.org/abs/{{ p.arxiv }}">arXiv</a>{% endif -%}
     {%- if p.code %}<a href="{{ p.code }}">code</a>{% endif -%}
   </span>
+  {%- if p.summary %}
+  <details class="pub-more">
+    <summary>Summary</summary>
+    <div class="pub-more-body">
+      {%- if p.figure %}<img src="{{ p.figure | relative_url }}" alt="{{ p.figure_alt | default: '' | escape }}" loading="lazy">{% endif %}
+      <p>{{ p.summary }}</p>
+    </div>
+  </details>
+  {%- endif %}
 </li>

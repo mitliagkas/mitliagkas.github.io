@@ -272,6 +272,15 @@
   topics:
   - games
   - optimization
+  summary: >-
+    Min-max training, as in GANs, stalls because of rotational dynamics. Treating
+    the two players as particles under physical forces, we derive LEAD, a
+    second-order method that damps the rotation. It converges linearly on
+    quadratic games and improves GAN training on CIFAR-10.
+  figure: /images/papers/hemmat2024-lead-least-action.png
+  figure_alt: >-
+    Eigenvalues in the complex plane: LEAD's (red) lie inside the unit circle,
+    gradient descent-ascent's (blue) lie outside it.
   featured: true
 - id: lachapelle2023-additive-decoders-latent
   title: Additive Decoders for Latent Variables Identification and Cartesian-Product Extrapolation
