@@ -398,7 +398,6 @@
   status: accepted
   venue: iclr
   arxiv: '2209.14863'
-  url: https://proceedings.neurips.cc/paper_files/paper/2022/hash/9daab3b451038ed1bc5d8e9b77996b99-Abstract-Conference.html
   topics:
   - generalization
   - optimization
@@ -1112,7 +1111,6 @@
   year: 2020
   status: preprint
   arxiv: '1911.00804'
-  url: https://openreview.net/forum?id=SkeMPEH32N
   topics:
   - generalization
 - id: jolicoeurmartineau2020-gradient-penalty-from
