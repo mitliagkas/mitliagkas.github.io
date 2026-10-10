@@ -3,6 +3,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   {% if page.seo_title %}{% assign t = page.seo_title %}{% elsif page.title %}{% capture t %}{{ page.title }} | {{ site.seo_name }}{% endcapture %}{% else %}{% assign t = site.seo_name %}{% endif %}
   <title>{{ t }}</title>
+  {%- if site.search_verification.google != "" and site.search_verification.google %}
+  <meta name="google-site-verification" content="{{ site.search_verification.google }}">{% endif %}
+  {%- if site.search_verification.bing != "" and site.search_verification.bing %}
+  <meta name="msvalidate.01" content="{{ site.search_verification.bing }}">{% endif %}
   <meta name="description" content="{{ page.description | default: site.description | strip_html | strip_newlines | truncate: 160 }}">
   <link rel="canonical" href="{{ page.url | replace: 'index.html', '' | absolute_url }}">
   <meta property="og:title" content="{{ t }}">

@@ -27,6 +27,7 @@ links:
   dblp: "https://dblp.org/pid/83/8757.html"
   orcid: "https://orcid.org/0000-0002-4065-8654"
   mila: "https://mila.quebec/en/person/ioannis-mitliagkas/"
+  orcid_id: 0000-0002-4065-8654
   archimedes: https://archimedesai.gr/en/team/ioannis-mitliagkas
   udem: "https://diro.umontreal.ca/repertoire-departement/professeurs/professeur/in/in29391/sg/Ioannis%20Mitliagkas/"
 
@@ -62,3 +63,8 @@ exclude:
   - tools
   - build.log
   - _cache
+
+# Search engine ownership tags. Paste the content= value of each tag here.
+search_verification:
+  google: ""
+  bing: ""
