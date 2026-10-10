@@ -2,26 +2,35 @@
 {
   "@context": "https://schema.org",
   "@type": "Person",
+  "@id": "{{ '/' | absolute_url }}#person",
   "name": "Ioannis Mitliagkas",
+  "givenName": "Ioannis",
+  "familyName": "Mitliagkas",
   "alternateName": {{ site.alternate_names | jsonify }},
+  "description": {{ page.description | default: site.description | strip_html | strip_newlines | jsonify }},
   "url": "{{ '/' | absolute_url }}",
+  "mainEntityOfPage": "{{ page.url | absolute_url }}",
   "image": "{{ '/images/ioannis-headshot.jpg' | absolute_url }}",
   "email": "mailto:{{ site.email }}",
-  "jobTitle": "Associate Professor of Computer Science",
+  "identifier": {"@type": "PropertyValue", "propertyID": "ORCID", "value": "{{ site.links.orcid_id }}"},
+  "jobTitle": ["Associate Professor of Computer Science", "Canada CIFAR AI Chair"],
   "worksFor": [
-    {"@type": "CollegeOrUniversity", "name": "Université de Montréal", "url": "https://www.umontreal.ca"},
-    {"@type": "ResearchOrganization", "name": "Mila - Quebec Artificial Intelligence Institute", "url": "https://mila.quebec"}
+    {"@type": "CollegeOrUniversity", "name": "Université de Montréal", "alternateName": "Πανεπιστήμιο του Μόντρεαλ", "url": "https://www.umontreal.ca"},
+    {"@type": "ResearchOrganization", "name": "Mila - Quebec Artificial Intelligence Institute", "url": "https://mila.quebec"},
+    {"@type": "Organization", "name": "Google DeepMind", "url": "https://deepmind.google"}
   ],
   "affiliation": {"@type": "ResearchOrganization", "name": "Archimedes, Athena Research Center", "alternateName": "Αρχιμήδης, Ερευνητικό Κέντρο Αθηνά", "url": "https://archimedesai.gr"},
   "alumniOf": [
+    {"@type": "CollegeOrUniversity", "name": "Stanford University"},
     {"@type": "CollegeOrUniversity", "name": "The University of Texas at Austin"},
     {"@type": "CollegeOrUniversity", "name": "Technical University of Crete", "alternateName": "Πολυτεχνείο Κρήτης"}
   ],
-  "knowsAbout": ["Machine learning", "Optimization", "Deep learning theory", "Generalization", "Machine unlearning", "Game dynamics", "Μηχανική μάθηση"],
+  "workLocation": {"@type": "Place", "name": "Montréal, Canada"},
+  "knowsAbout": ["Machine learning", "Statistical machine learning", "Optimization", "Deep learning", "Generalization", "Out-of-distribution generalization", "Machine unlearning", "Game theory", "Generative models", "Distributed learning systems", "Τεχνητή νοημοσύνη", "Μηχανική μάθηση"],
   "sameAs": [
+    "{{ site.links.orcid }}",
     "{{ site.links.scholar }}",
     "{{ site.links.dblp }}",
-    "{{ site.links.orcid }}",
     "{{ site.links.mila }}",
     "{{ site.links.udem }}",
     "{{ site.links.archimedes }}",
