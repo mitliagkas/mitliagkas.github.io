@@ -1,5 +1,20 @@
 # GENERATED FILE. Do not edit: it is overwritten on every update.
 # Publications shown on this website. Changes are made at the source and arrive here by pull request.
+- id: liu2026-surrogate-perspective-convergence
+  title: A Surrogate Perspective on Convergence of Fixed-Target DQN
+  authors:
+  - Z. Liu
+  - N. Okolo
+  - R. D'Orazio
+  - D. Vucetic
+  - I. Mitliagkas
+  - G. Gidel
+  year: 2026
+  status: accepted
+  venue: neurips
+  url: https://openreview.net/forum?id=kpwFUoS46p
+  topics:
+  - games
 - id: mahajan2026-beyond-multi-token
   title: 'Beyond Multi-Token Prediction: Pretraining LLMs with Future Summaries'
   authors:
@@ -146,6 +161,24 @@
   - generalization
   featured: true
   summary: Classifiers fail when test data contain combinations of attributes never seen together in training. We model each attribute as an additive energy term, train a classifier with that structure, then adjust it for the new combinations. The method, compositional risk minimization, provably extrapolates beyond the training combinations and is more robust than methods built for subpopulation shift.
+- id: dorazio2025-solving-hidden-monotone
+  title: Solving hidden monotone variational inequalities with surrogate losses
+  authors:
+  - R. D'Orazio
+  - D. Vucetic
+  - Z. Liu
+  - JL. Kim
+  - I. Mitliagkas
+  - G. Gidel
+  year: 2025
+  status: accepted
+  venue: iclr
+  arxiv: '2411.05228'
+  url: https://openreview.net/forum?id=4ZX2a3OKEV
+  topics:
+  - games
+  featured: true
+  summary: Many problems in deep learning, such as min-max games and projected Bellman error minimization, are variational inequalities, and standard gradient methods cycle or diverge on them. We solve them through a sequence of surrogate losses that work with standard optimizers such as Adam, with convergence guarantees under hidden monotonicity. The approach also yields a more compute- and sample-efficient variant of TD(0).
 - id: beaglehole2024-feature-learning-as
   title: 'Feature learning as alignment: a structural property of gradient descent in non-linear neural networks'
   authors:
@@ -186,24 +219,6 @@
   - unlearning
   featured: true
   summary: We ran the first NeurIPS machine unlearning competition, with nearly 1,200 teams, scoring forgetting through a formal definition of unlearning together with model utility. The top entries beat existing algorithms, and their ranking stays stable across variations of the evaluation, so it can be made cheaper. We also analyze where the methods succeed and fail.
-- id: dorazio2025-solving-hidden-monotone
-  title: Solving hidden monotone variational inequalities with surrogate losses
-  authors:
-  - R. D'Orazio
-  - D. Vucetic
-  - Z. Liu
-  - JL. Kim
-  - I. Mitliagkas
-  - G. Gidel
-  year: 2025
-  status: accepted
-  venue: iclr
-  arxiv: '2411.05228'
-  url: https://openreview.net/forum?id=4ZX2a3OKEV
-  topics:
-  - games
-  featured: true
-  summary: Many problems in deep learning, such as min-max games and projected Bellman error minimization, are variational inequalities, and standard gradient methods cycle or diverge on them. We solve them through a sequence of surrogate losses that work with standard optimizers such as Adam, with convergence guarantees under hidden monotonicity. The approach also yields a more compute- and sample-efficient variant of TD(0).
 - id: guilleescuret2024-expecting-unexpected-towards
   title: 'Expecting The Unexpected: Towards Broad Out-Of-Distribution Detection'
   authors:
@@ -995,21 +1010,6 @@
   arxiv: '1606.07365'
   topics:
   - optimization
-- id: liu2026-surrogate-perspective-convergence
-  title: A Surrogate Perspective on Convergence of Fixed-Target DQN
-  authors:
-  - Z. Liu
-  - N. Okolo
-  - R. D'Orazio
-  - D. Vucetic
-  - I. Mitliagkas
-  - G. Gidel
-  year: 2026
-  status: accepted
-  venue: neurips
-  url: https://openreview.net/forum?id=kpwFUoS46p
-  topics:
-  - games
 - id: dufortlabb2026-navigating-potholes-geometry
   title: Navigating Potholes with Geometry-Aware Sharpness Minimization
   authors:
