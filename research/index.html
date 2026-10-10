@@ -1,0 +1,303 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <title>Research | Ioannis Mitliagkas (Γιάννης Μητλιάγκας)</title>
+  <meta name="google-site-verification" content="jwNPS8-26-0MEwokzcyq5lL6SGqilJFXpUOatxA2E2s">
+  <meta name="description" content="Research themes of Ioannis Mitliagkas's group at Mila: optimization for deep learning, generalization and compositionality, privacy and unlearning, games and...">
+  <link rel="canonical" href="https://mitliagkas.github.io/research/">
+  <meta property="og:title" content="Research | Ioannis Mitliagkas (Γιάννης Μητλιάγκας)">
+  <meta property="og:description" content="Research themes of Ioannis Mitliagkas's group at Mila: optimization for deep learning, generalization and compositionality, privacy and unlearning, games and...">
+  <meta property="og:image" content="https://mitliagkas.github.io/images/ioannis-headshot.jpg">
+  <meta property="og:type" content="profile">
+  <meta property="og:locale" content="en_US">
+  
+  <meta name="color-scheme" content="light dark">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;500;600&family=STIX+Two+Text:ital,wght@0,400;0,600;1,400&display=swap">
+  <link rel="stylesheet" href="/assets/css/site.css?v=1791612601">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ccircle cx='16' cy='16' r='15' fill='%230b6e78'/%3E%3Ctext x='16' y='22' font-size='17' text-anchor='middle' fill='white' font-family='serif'%3E%CE%9C%3C/text%3E%3C/svg%3E">
+</head>
+
+<body>
+  <a class="skip" href="#content">Skip to content</a>
+  <header class="site-header">
+  <div class="wrap">
+    <a class="site-name" href="/">Ioannis (Yannis) Mitliagkas</a>
+    <nav class="site-nav" aria-label="Main">
+      
+        
+        
+        <a href="/research/" aria-current="page">Research</a>
+      
+        
+        
+        <a href="/group/">Group</a>
+      
+        
+        
+        <a href="/publications/">Publications</a>
+      
+        
+        
+        <a href="/teaching/">Teaching</a>
+      
+        
+        
+        <a href="/news/">News</a>
+      
+        
+        
+        <a href="/extracurriculars/">Extracurriculars</a>
+      
+      <a href="/el/" hreflang="el" lang="el">Ελληνικά</a>
+    </nav>
+  </div>
+</header>
+
+  <main id="content">
+    <div class="wrap">
+      <div class="prose">
+  <h1>Research</h1>
+  <p>I study optimization, dynamics and learning, with a focus on modern machine learning. I have also worked at the intersection of systems and theory. Below are the themes my group works on now, with our papers on each. The full list is on the <a href="/publications/">publications page</a>.</p>
+</div>
+
+
+<div class="section-head" id="optimization">
+  <h2>Optimization for modern deep learning</h2>
+  <a href="/publications/?topic=optimization">All papers on this theme</a>
+</div>
+<p class="prose">Why optimizers like Adam work, and how to make training faster and more robust: batch sizes, sign and spectral methods, distributed and asynchronous training.</p>
+
+<ul class="pubs prose">
+  <li class="pub" data-topics="optimization">
+  <span class="pub-title"><a href="https://arxiv.org/abs/2602.03001">Adaptive Batch Sizes Using Non-Euclidean Gradient Noise Scales for Stochastic Sign and Spectral Descent</a></span>
+  <span class="pub-authors">H. Naganuma, S. Gupta, Y. Briki, <strong>I.&nbsp;Mitliagkas</strong>, I. Rish, P. Raman, HJ.M. Shi</span>
+  <span class="pub-meta">ICML 2026<button type="button" class="pub-toggle" aria-expanded="false">Summary</button></span>
+  <div class="pub-more" hidden>
+    <p>Adaptive batch-size rules rely on the gradient noise scale, which assumes the Euclidean geometry of SGD. We derive the noise scale for sign and spectral methods (Signum, Muon) from their dual norms, and estimate it cheaply from gradients already on each data-parallel worker. On a 160M-parameter Llama model, this matches the loss of fixed batch sizes with up to 66% fewer training steps.</p>
+  </div>
+</li>
+<li class="pub" data-topics="optimization">
+  <span class="pub-title"><a href="https://openreview.net/forum?id=8VTrvS5vN7">Pseudo-Asynchronous Local SGD: Robust and Efficient Data-Parallel Training</a></span>
+  <span class="pub-authors">H. Naganuma, X. Zhang, MC. Yue, <strong>I.&nbsp;Mitliagkas</strong>, PA. Witte, RJ. Hewett</span>
+  <span class="pub-meta">TMLR 2025<a href="https://arxiv.org/abs/2504.18454">arXiv</a></span>
+</li>
+<li class="pub" data-topics="optimization">
+  <span class="pub-title"><a href="https://papers.nips.cc/paper_files/paper/2025/hash/a6ffe4ec7aaa6e7e7d5bd28e14827d3a-Abstract-Conference.html">Understanding Adam Requires Better Rotation Dependent Assumptions</a></span>
+  <span class="pub-authors">L. Maes, TH. Zhang, A. Jolicoeur-Martineau, <strong>I.&nbsp;Mitliagkas</strong>, D. Scieur</span>
+  <span class="pub-meta">NeurIPS 2025<a href="https://arxiv.org/abs/2410.19964">arXiv</a><button type="button" class="pub-toggle" aria-expanded="false">Summary</button></span>
+  <div class="pub-more" hidden>
+    <p>Theory often explains Adam with assumptions that do not change when the parameter space is rotated. We show that Adam on transformers gets worse under random rotations, while some structured rotations help, and that existing rotation- dependent assumptions do not explain this. The orthogonality of Adam's update emerges as a promising quantity for a better theory.</p>
+  </div>
+</li>
+<li class="pub" data-topics="games optimization">
+  <span class="pub-title"><a href="https://openreview.net/forum?id=vXSsTYs6ZB">LEAD: Least-Action Dynamics for Min-Max Optimization</a></span>
+  <span class="pub-authors">R. Askari Hemmat*, A. Mitra*, G. Lajoie, <strong>I.&nbsp;Mitliagkas</strong></span>
+  <span class="pub-meta">ICLR 2024 (invited); Transactions on Machine Learning Research (TMLR) [featured]<a href="https://arxiv.org/abs/2010.13846">arXiv</a><button type="button" class="pub-toggle" aria-expanded="false">Summary</button></span>
+  <div class="pub-more" hidden><img src="/images/papers/hemmat2024-lead-least-action.png" alt="Eigenvalues in the complex plane: LEAD&#39;s (red) lie inside the unit circle, gradient descent-ascent&#39;s (blue) lie outside it." loading="lazy">
+    <p>Min-max training, as in GANs, stalls because of rotational dynamics. Treating the two players as particles under physical forces, we derive LEAD, a second-order method that damps the rotation. It converges linearly on quadratic games and improves GAN training on CIFAR-10.</p>
+  </div>
+</li>
+<li class="pub" data-topics="optimization">
+  <span class="pub-title"><a href="https://proceedings.mlr.press/v235/guille-escuret24a.html">No Wrong Turns: The Simple Geometry Of Neural Networks Optimization Paths</a></span>
+  <span class="pub-authors">C. Guille-Escuret, H. Naganuma, K. Fatras, <strong>I.&nbsp;Mitliagkas</strong></span>
+  <span class="pub-meta">ICML 2024<a href="https://arxiv.org/abs/2306.11922">arXiv</a><button type="button" class="pub-toggle" aria-expanded="false">Summary</button></span>
+  <div class="pub-more" hidden>
+    <p>Why do stochastic first-order methods train non-convex networks so reliably? We measure two quantities along the optimization path, tied to the restricted secant inequality and the error bound, and find that they behave predictably across vision and language tasks, architectures and optimizers. These properties are enough to guarantee linear convergence and to motivate learning-rate schedules like those used in practice.</p>
+  </div>
+</li>
+<li class="pub" data-topics="generalization optimization">
+  <span class="pub-title"><a href="https://openreview.net/forum?id=JXCe2ZcUXr">Feature learning as alignment: a structural property of gradient descent in non-linear neural networks</a></span>
+  <span class="pub-authors">D. Beaglehole, <strong>I.&nbsp;Mitliagkas</strong>, A. Agarwala</span>
+  <span class="pub-meta">TMLR 2024<a href="https://arxiv.org/abs/2402.05271">arXiv</a></span>
+</li>
+
+</ul>
+
+<div class="section-head" id="generalization">
+  <h2>Generalization, out-of-distribution robustness and compositionality</h2>
+  <a href="/publications/?topic=generalization">All papers on this theme</a>
+</div>
+<p class="prose">Models that keep working when the data changes: domain shift, OOD detection, identifiable and compositional representations, and pretraining objectives.</p>
+
+<ul class="pubs prose">
+  <li class="pub" data-topics="generalization">
+  <span class="pub-title"><a href="https://proceedings.iclr.cc/paper_files/paper/2026/hash/c056d6cf7b7108418f2b8c307dfaab02-Abstract-Conference.html">DisTaC: Conditioning Task Vectors via Distillation for Robust Model Merging</a></span>
+  <span class="pub-authors">K. Yoshida, Y. Naraki, T. Horie, R. Shimizu, <strong>I.&nbsp;Mitliagkas</strong>, H. Naganuma</span>
+  <span class="pub-meta">ICLR 2026</span>
+</li>
+<li class="pub" data-topics="generalization">
+  <span class="pub-title"><a href="https://proceedings.iclr.cc/paper_files/paper/2026/hash/719bf718cc7e6e1b1431954ab52d5e00-Abstract-Conference.html">A Derandomization Framework for Structure Discovery: Applications in Neural Networks and Beyond</a></span>
+  <span class="pub-authors">N. Tsikouras, Y. Pantis, <strong>I.&nbsp;Mitliagkas</strong>, C. Tzamos</span>
+  <span class="pub-meta">ICLR 2026<a href="https://arxiv.org/abs/2510.19382">arXiv</a></span>
+</li>
+<li class="pub" data-topics="generalization">
+  <span class="pub-title"><a href="https://proceedings.iclr.cc/paper_files/paper/2026/hash/693d7541bd31cca2dcb780abfd8d204c-Abstract-Conference.html">Beyond Multi-Token Prediction: Pretraining LLMs with Future Summaries</a></span>
+  <span class="pub-authors">D. Mahajan, S. Goyal, B. Youbi Idrissi, M. Pezeshki, <strong>I.&nbsp;Mitliagkas</strong>, D. Lopez-Paz, K. Ahuja</span>
+  <span class="pub-meta">ICLR 2026<a href="https://arxiv.org/abs/2510.14751">arXiv</a><button type="button" class="pub-toggle" aria-expanded="false">Summary</button></span>
+  <div class="pub-more" hidden>
+    <p>Next-token prediction trains a model to look one step ahead, which limits long- horizon reasoning and planning. We add an auxiliary head that predicts a summary of the long-term future, either handcrafted (a bag of words) or learned with a reverse language model. In 3B and 8B pretraining runs, it beats next-token and multi-token prediction on math, reasoning and coding benchmarks.</p>
+  </div>
+</li>
+<li class="pub" data-topics="generalization">
+  <span class="pub-title"><a href="https://proceedings.mlr.press/v267/mahajan25a.html">Compositional risk minimization</a></span>
+  <span class="pub-authors">D. Mahajan, M. Pezeshki, C. Arnal, <strong>I.&nbsp;Mitliagkas</strong>, K. Ahuja, P. Vincent</span>
+  <span class="pub-meta">ICML 2025<a href="https://arxiv.org/abs/2410.06303">arXiv</a><button type="button" class="pub-toggle" aria-expanded="false">Summary</button></span>
+  <div class="pub-more" hidden>
+    <p>Classifiers fail when test data contain combinations of attributes never seen together in training. We model each attribute as an additive energy term, train a classifier with that structure, then adjust it for the new combinations. The method, compositional risk minimization, provably extrapolates beyond the training combinations and is more robust than methods built for subpopulation shift.</p>
+  </div>
+</li>
+<li class="pub" data-topics="generalization">
+  <span class="pub-title"><a href="https://openreview.net/forum?id=tYjoHjShxF">An Empirical Study of Pre-trained Model Selection for Out-of-Distribution Generalization and Calibration</a></span>
+  <span class="pub-authors">H. Naganuma, R. Hataya, K. Yoshida, <strong>I.&nbsp;Mitliagkas</strong></span>
+  <span class="pub-meta">TMLR 2025<a href="https://arxiv.org/abs/2307.08187">arXiv</a></span>
+</li>
+<li class="pub" data-topics="generalization">
+  <span class="pub-title"><a href="https://openreview.net/forum?id=yuy6cGt3KL">Empirical Analysis of Model Selection for Heterogeneous Causal Effect Estimation</a></span>
+  <span class="pub-authors">D. Mahajan, <strong>I.&nbsp;Mitliagkas</strong>, B. Neal, V. Syrgkanis</span>
+  <span class="pub-meta">ICLR 2024 <span class="badge">Spotlight</span><a href="https://arxiv.org/abs/2211.01939">arXiv</a></span>
+</li>
+
+</ul>
+
+<div class="section-head" id="unlearning">
+  <h2>Privacy and machine unlearning</h2>
+  <a href="/publications/?topic=unlearning">All papers on this theme</a>
+</div>
+<p class="prose">Removing the influence of data from trained models, with guarantees, and measuring whether unlearning methods actually work.</p>
+
+<ul class="pubs prose">
+  <li class="pub" data-topics="unlearning">
+  <span class="pub-title"><a href="https://arxiv.org/abs/2605.11170">Unlearning with Asymmetric Sources: Improved Unlearning-Utility Trade-off with Public Data</a></span>
+  <span class="pub-authors">A.M. Inane, V. Quirion, G.K. Dziugaite, <strong>I.&nbsp;Mitliagkas</strong></span>
+  <span class="pub-meta">ICML 2026<button type="button" class="pub-toggle" aria-expanded="false">Summary</button></span>
+  <div class="pub-more" hidden>
+    <p>Certified unlearning adds noise, and the noise costs utility, especially for large deletion requests. We show that mixing in public data cuts the cost of unlearning by a factor of O(1/n_pub²), and we account for shifts between the public and private data. This makes it practical to unlearn a constant fraction of the training set while keeping utility.</p>
+  </div>
+</li>
+<li class="pub" data-topics="unlearning">
+  <span class="pub-title"><a href="https://arxiv.org/abs/2406.09073">Are we making progress in unlearning? Findings from the first NeurIPS unlearning competition</a></span>
+  <span class="pub-authors">E. Triantafillou, P. Kairouz, F. Pedregosa, J. Hayes, M. Kurmanji, K. Zhao, V. Dumoulin, J.J. Junior, <strong>I.&nbsp;Mitliagkas</strong>, J. Wan, L.S. Hosoya, S. Escalera, G.K. Dziugaite, P. Triantafillou, I. Guyon</span>
+  <span class="pub-meta">NeurIPS 2024<button type="button" class="pub-toggle" aria-expanded="false">Summary</button></span>
+  <div class="pub-more" hidden>
+    <p>We ran the first NeurIPS machine unlearning competition, with nearly 1,200 teams, scoring forgetting through a formal definition of unlearning together with model utility. The top entries beat existing algorithms, and their ranking stays stable across variations of the evaluation, so it can be made cheaper. We also analyze where the methods succeed and fail.</p>
+  </div>
+</li>
+
+</ul>
+
+<div class="section-head" id="games">
+  <h2>Dynamics of games and reinforcement learning</h2>
+  <a href="/publications/?topic=games">All papers on this theme</a>
+</div>
+<p class="prose">Min-max optimization, variational inequalities and the learning dynamics of multi-agent and reinforcement learning.</p>
+
+<ul class="pubs prose">
+  <li class="pub" data-topics="games">
+  <span class="pub-title"><a href="https://openreview.net/forum?id=kpwFUoS46p">A Surrogate Perspective on Convergence of Fixed-Target DQN</a></span>
+  <span class="pub-authors">Z. Liu, N. Okolo, R. D'Orazio, D. Vucetic, <strong>I.&nbsp;Mitliagkas</strong>, G. Gidel</span>
+  <span class="pub-meta">NeurIPS 2026</span>
+</li>
+<li class="pub" data-topics="games">
+  <span class="pub-title"><a href="https://openreview.net/forum?id=4ZX2a3OKEV">Solving hidden monotone variational inequalities with surrogate losses</a></span>
+  <span class="pub-authors">R. D'Orazio, D. Vucetic, Z. Liu, JL. Kim, <strong>I.&nbsp;Mitliagkas</strong>, G. Gidel</span>
+  <span class="pub-meta">ICLR 2025<a href="https://arxiv.org/abs/2411.05228">arXiv</a><button type="button" class="pub-toggle" aria-expanded="false">Summary</button></span>
+  <div class="pub-more" hidden>
+    <p>Many problems in deep learning, such as min-max games and projected Bellman error minimization, are variational inequalities, and standard gradient methods cycle or diverge on them. We solve them through a sequence of surrogate losses that work with standard optimizers such as Adam, with convergence guarantees under hidden monotonicity. The approach also yields a more compute- and sample-efficient variant of TD(0).</p>
+  </div>
+</li>
+<li class="pub" data-topics="games optimization">
+  <span class="pub-title"><a href="https://openreview.net/forum?id=vXSsTYs6ZB">LEAD: Least-Action Dynamics for Min-Max Optimization</a></span>
+  <span class="pub-authors">R. Askari Hemmat*, A. Mitra*, G. Lajoie, <strong>I.&nbsp;Mitliagkas</strong></span>
+  <span class="pub-meta">ICLR 2024 (invited); Transactions on Machine Learning Research (TMLR) [featured]<a href="https://arxiv.org/abs/2010.13846">arXiv</a><button type="button" class="pub-toggle" aria-expanded="false">Summary</button></span>
+  <div class="pub-more" hidden><img src="/images/papers/hemmat2024-lead-least-action.png" alt="Eigenvalues in the complex plane: LEAD&#39;s (red) lie inside the unit circle, gradient descent-ascent&#39;s (blue) lie outside it." loading="lazy">
+    <p>Min-max training, as in GANs, stalls because of rotational dynamics. Treating the two players as particles under physical forces, we derive LEAD, a second-order method that damps the rotation. It converges linearly on quadratic games and improves GAN training on CIFAR-10.</p>
+  </div>
+</li>
+<li class="pub" data-topics="games">
+  <span class="pub-title"><a href="https://openreview.net/forum?id=DpE5UYUQzZH">A Unified Approach to Reinforcement Learning, Quantal Response Equilibria, and Two-Player Zero-Sum Games</a></span>
+  <span class="pub-authors">S. Sokota, R. D'Orazio, J. Z. Kolter, N. Loizou, M. Lanctot, <strong>I.&nbsp;Mitliagkas</strong>, N. Brown, C. Kroer</span>
+  <span class="pub-meta">ICLR 2023<a href="https://arxiv.org/abs/2206.05825">arXiv</a><button type="button" class="pub-toggle" aria-expanded="false">Summary</button></span>
+  <div class="pub-more" hidden>
+    <p>We introduce magnetic mirror descent, one algorithm that serves both as an equilibrium solver and as a reinforcement learning method for two-player zero-sum games. It is the first solver of quantal response equilibria with linear convergence in extensive-form games from first-order feedback, and the first standard RL algorithm competitive with counterfactual regret minimization in tabular settings. As a deep self-play method, it does well on Dark Hex and Phantom Tic-Tac-Toe.</p>
+  </div>
+</li>
+<li class="pub" data-topics="games optimization">
+  <span class="pub-title"><a href="https://proceedings.neurips.cc/paper/2021/hash/9f96f36b7aae3b1ff847c26ac94c604e-Abstract.html">Stochastic Gradient Descent-Ascent and Consensus Optimization for Smooth Games: Convergence Analysis under Expected Co-coercivity</a></span>
+  <span class="pub-authors">N. Loizou, H. Berard, G. Gidel, <strong>I.&nbsp;Mitliagkas</strong>, S. Lacoste-Julien</span>
+  <span class="pub-meta">NeurIPS 2021<a href="https://arxiv.org/abs/2107.00052">arXiv</a></span>
+</li>
+<li class="pub" data-topics="games">
+  <span class="pub-title"><a href="https://proceedings.mlr.press/v108/azizian20b.html">A Tight and Unified Analysis of Gradient-Based Methods for a Whole Spectrum of Differentiable Games</a></span>
+  <span class="pub-authors">W. Azizian, <strong>I.&nbsp;Mitliagkas</strong>, S. Lacoste-Julien, G. Gidel</span>
+  <span class="pub-meta">AISTATS 2020<a href="https://arxiv.org/abs/1906.05945">arXiv</a></span>
+</li>
+
+</ul>
+
+
+<div class="section-head"><h2>Earlier work and resources</h2></div>
+<ul class="prose">
+  <li><a href="/research-contributions.pdf">Summary of research contributions</a> from my group (PDF, not fully up to date).</li>
+  <li><a href="https://docs.google.com/presentation/d/1uYUt7zSUByOGt_yAecSTBj_V0jNNGEySRU2hkXNyvKA/edit?usp=sharing">Slides</a> summarizing our work on games and min-max optimization.</li>
+  <li><a href="https://scholar.google.com/citations?hl=en&user=K757SxgAAAAJ&view_op=list_works&sortby=pubdate">Recent manuscripts on Google Scholar</a>.</li>
+  <li>Older project pages: <a href="/frogwild/">FrogWild!</a> (fast PageRank approximations, VLDB 2015) and <a href="/asynchrony/">Asynchrony begets momentum</a>.</li>
+</ul>
+
+<div class="section-head" id="funding"><h2>Funding acknowledgements</h2></div>
+<ul class="funders">
+  
+  <li><a href="https://cifar.ca"><img src="/images/logo-cifar.jpg" alt="CIFAR" title="CIFAR" loading="lazy"></a></li>
+  
+  <li><img src="/images/logo-apogee.png" alt="Apogée" title="Apogée" loading="lazy"></li>
+  
+  <li><a href="https://ivado.ca"><img src="/images/logo-ivado.png" alt="IVADO" title="IVADO" loading="lazy"></a></li>
+  
+  <li><img src="/images/logo-samsung.png" alt="Samsung" title="Samsung" loading="lazy"></li>
+  
+  <li><img src="/images/logo-google.png" alt="Google DeepMind" title="Google DeepMind" loading="lazy"></li>
+  
+  <li><a href="https://frq.gouv.qc.ca/nature-et-technologies/"><img src="/images/logo-frqnt.png" alt="FRQNT" title="FRQNT" loading="lazy"></a></li>
+  
+  <li><a href="https://www.nserc-crsng.gc.ca"><img src="/images/logo-nserc.png" alt="NSERC" title="NSERC" loading="lazy"></a></li>
+  
+  <li><img src="/images/logo-msr.png" alt="Microsoft Research" title="Microsoft Research" loading="lazy"></li>
+  
+</ul>
+<p class="prose muted">Special thanks to Intel and NVIDIA for donating access to hardware, and to SigOpt for access to their platform for some of our work.</p>
+
+    </div>
+  </main>
+  <footer class="site-footer">
+  <div class="wrap">
+    <div>
+      Ioannis (Yannis) Mitliagkas<br>
+      Mila and DIRO, Université de Montréal<br>
+      <a href="mailto:ioannis@iro.umontreal.ca">ioannis@iro.umontreal.ca</a>
+    </div>
+    <ul>
+      <li><a href="/cv.pdf">CV</a></li>
+      <li><a href="https://scholar.google.com/citations?user=K757SxgAAAAJ&hl=en">Google Scholar</a></li>
+      <li><a href="https://dblp.org/pid/83/8757.html">DBLP</a></li>
+      <li><a href="https://orcid.org/0000-0002-4065-8654">ORCID</a></li>
+      <li><a href="https://github.com/mitliagkas">GitHub</a></li>
+      <li><a href="https://twitter.com/bouzoukipunks">Twitter</a></li>
+      <li><a href="https://www.linkedin.com/in/ioannis-mitliagkas-6a8241131/">LinkedIn</a></li>
+    </ul>
+  </div>
+</footer>
+
+<script>
+document.addEventListener('click', function (e) {
+  var b = e.target.closest('.pub-toggle'); if (!b) return;
+  var box = b.closest('.pub').querySelector('.pub-more');
+  var open = b.getAttribute('aria-expanded') === 'true';
+  b.setAttribute('aria-expanded', String(!open)); box.hidden = open;
+});
+</script>
+</body>
+</html>

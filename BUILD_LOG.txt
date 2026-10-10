@@ -1,0 +1,8 @@
+Configuration file: /home/runner/work/mitliagkas.github.io/mitliagkas.github.io/_config.yml
+To use retry middleware with Faraday v2.0+, install `faraday-retry` gem
+            Source: /home/runner/work/mitliagkas.github.io/mitliagkas.github.io
+       Destination: /home/runner/work/mitliagkas.github.io/mitliagkas.github.io/_site
+ Incremental build: disabled. Enable with --incremental
+      Generating... 
+                    done in 0.966 seconds.
+ Auto-regeneration: disabled. Use --watch to enable.

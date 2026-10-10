@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <title>Asynchrony | Ioannis Mitliagkas (Γιάννης Μητλιάγκας)</title>
+  <meta name="google-site-verification" content="jwNPS8-26-0MEwokzcyq5lL6SGqilJFXpUOatxA2E2s">
+  <meta name="description" content="Associate Professor of Computer Science at Université de Montréal and core faculty at Mila. Machine learning and optimization.">
+  <link rel="canonical" href="https://mitliagkas.github.io/asynchrony/">
+  <meta property="og:title" content="Asynchrony | Ioannis Mitliagkas (Γιάννης Μητλιάγκας)">
+  <meta property="og:description" content="Associate Professor of Computer Science at Université de Montréal and core faculty at Mila. Machine learning and optimization.">
+  <meta property="og:image" content="https://mitliagkas.github.io/images/ioannis-headshot.jpg">
+  <meta property="og:type" content="profile">
+  <meta property="og:locale" content="en_US">
+  
+  <meta name="color-scheme" content="light dark">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;500;600&family=STIX+Two+Text:ital,wght@0,400;0,600;1,400&display=swap">
+  <link rel="stylesheet" href="/assets/css/site.css?v=1791612601">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ccircle cx='16' cy='16' r='15' fill='%230b6e78'/%3E%3Ctext x='16' y='22' font-size='17' text-anchor='middle' fill='white' font-family='serif'%3E%CE%9C%3C/text%3E%3C/svg%3E">
+</head>
+
+<body>
+  <a class="skip" href="#content">Skip to content</a>
+  <header class="site-header">
+  <div class="wrap">
+    <a class="site-name" href="/">Ioannis (Yannis) Mitliagkas</a>
+    <nav class="site-nav" aria-label="Main">
+      
+        
+        
+        <a href="/research/" aria-current="page">Research</a>
+      
+        
+        
+        <a href="/group/">Group</a>
+      
+        
+        
+        <a href="/publications/">Publications</a>
+      
+        
+        
+        <a href="/teaching/">Teaching</a>
+      
+        
+        
+        <a href="/news/">News</a>
+      
+        
+        
+        <a href="/extracurriculars/">Extracurriculars</a>
+      
+      <a href="/el/" hreflang="el" lang="el">Ελληνικά</a>
+    </nav>
+  </div>
+</header>
+
+  <main id="content">
+    <div class="wrap">
+      <article class="page-content">
+  
+  <h1 id="asynchrony-begets-momentum">Asynchrony begets Momentum</h1>
+
+<p>In a recent <a href="http://bit.ly/22wAt0e">note</a>, we show that
+asynchrony in SGD introduces an extra momentum term. 
+In the companion <a href="http://bit.ly/ovore">systems paper</a>, we use this
+theory to understand statistical efficiency and train deep networks
+faster.</p>
+
+<p>Theory discussed more extensively in this <a href="http://stanford.edu/~imit/tuneyourmomentum/theory/">blog post</a>.</p>
+
+<p><img src="/images/theory-prediction.png" alt="Momentum from asynchrony" title="Momentum vs asynchrony" /></p>
+
+</article>
+
+    </div>
+  </main>
+  <footer class="site-footer">
+  <div class="wrap">
+    <div>
+      Ioannis (Yannis) Mitliagkas<br>
+      Mila and DIRO, Université de Montréal<br>
+      <a href="mailto:ioannis@iro.umontreal.ca">ioannis@iro.umontreal.ca</a>
+    </div>
+    <ul>
+      <li><a href="/cv.pdf">CV</a></li>
+      <li><a href="https://scholar.google.com/citations?user=K757SxgAAAAJ&hl=en">Google Scholar</a></li>
+      <li><a href="https://dblp.org/pid/83/8757.html">DBLP</a></li>
+      <li><a href="https://orcid.org/0000-0002-4065-8654">ORCID</a></li>
+      <li><a href="https://github.com/mitliagkas">GitHub</a></li>
+      <li><a href="https://twitter.com/bouzoukipunks">Twitter</a></li>
+      <li><a href="https://www.linkedin.com/in/ioannis-mitliagkas-6a8241131/">LinkedIn</a></li>
+    </ul>
+  </div>
+</footer>
+
+<script>
+document.addEventListener('click', function (e) {
+  var b = e.target.closest('.pub-toggle'); if (!b) return;
+  var box = b.closest('.pub').querySelector('.pub-more');
+  var open = b.getAttribute('aria-expanded') === 'true';
+  b.setAttribute('aria-expanded', String(!open)); box.hidden = open;
+});
+</script>
+</body>
+</html>

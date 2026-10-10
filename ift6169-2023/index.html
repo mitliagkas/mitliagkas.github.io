@@ -1,0 +1,475 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <title>IFT 6169: Theoretical principles for deep learning (Winter 2023) | Ioannis Mitliagkas (Γιάννης Μητλιάγκας)</title>
+  <meta name="google-site-verification" content="jwNPS8-26-0MEwokzcyq5lL6SGqilJFXpUOatxA2E2s">
+  <meta name="description" content="Associate Professor of Computer Science at Université de Montréal and core faculty at Mila. Machine learning and optimization.">
+  <link rel="canonical" href="https://mitliagkas.github.io/ift6169-2023/">
+  <meta property="og:title" content="IFT 6169: Theoretical principles for deep learning (Winter 2023) | Ioannis Mitliagkas (Γιάννης Μητλιάγκας)">
+  <meta property="og:description" content="Associate Professor of Computer Science at Université de Montréal and core faculty at Mila. Machine learning and optimization.">
+  <meta property="og:image" content="https://mitliagkas.github.io/images/ioannis-headshot.jpg">
+  <meta property="og:type" content="profile">
+  <meta property="og:locale" content="en_US">
+  
+  <meta name="color-scheme" content="light dark">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;500;600&family=STIX+Two+Text:ital,wght@0,400;0,600;1,400&display=swap">
+  <link rel="stylesheet" href="/assets/css/site.css?v=1791612601">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ccircle cx='16' cy='16' r='15' fill='%230b6e78'/%3E%3Ctext x='16' y='22' font-size='17' text-anchor='middle' fill='white' font-family='serif'%3E%CE%9C%3C/text%3E%3C/svg%3E">
+</head>
+
+<body>
+  <a class="skip" href="#content">Skip to content</a>
+  <header class="site-header">
+  <div class="wrap">
+    <a class="site-name" href="/">Ioannis (Yannis) Mitliagkas</a>
+    <nav class="site-nav" aria-label="Main">
+      
+        
+        
+        <a href="/research/">Research</a>
+      
+        
+        
+        <a href="/group/">Group</a>
+      
+        
+        
+        <a href="/publications/">Publications</a>
+      
+        
+        
+        <a href="/teaching/" aria-current="page">Teaching</a>
+      
+        
+        
+        <a href="/news/">News</a>
+      
+        
+        
+        <a href="/extracurriculars/">Extracurriculars</a>
+      
+      <a href="/el/" hreflang="el" lang="el">Ελληνικά</a>
+    </nav>
+  </div>
+</header>
+
+  <main id="content">
+    <div class="wrap">
+      <article class="page-content">
+  
+  <h1 id="ift-6169-theoretical-principles-for-deep-learning">IFT 6169: Theoretical principles for deep learning</h1>
+
+<p><strong>This is the Winter 2023 edition of the class. The class is offered again in Winter 2027; see <a href="/teaching/">Teaching</a>.</strong></p>
+
+<h2 id="description">Description</h2>
+
+<p>Research in deep learning produces state-of-the-art results on a number of machine learning tasks. Most of those advances are driven by intuition and massive exploration through trial and error. As a result, theory is currently lagging behind practice. The ML community does not fully understand why the best methods work.</p>
+<ul>
+  <li>Why can we reliably optimize non-convex objectives?</li>
+  <li>How expressive are our architectures, in terms of the hypothesis class they describe?</li>
+  <li>Why do some of our most complex models generalize to unseen examples when we use datasets orders of magnitude smaller than what the classic statistical learning theory deems sufficient?</li>
+</ul>
+
+<p>A symptom of this lack of understanding is that deep learning methods largely lack guarantees and interpretability, two necessary properties for mission-critical applications. More importantly, a solid theoretical foundation can aid the design of a new generation of efficient methods—sans the need for blind trial-and-error-based exploration.</p>
+
+<p>In this class we will go over a number of recent publications that attempt to shed light onto these questions. Before discussing the new results in each paper we will first introduce the necessary fundamental tools from optimization, statistics, information theory and statistical mechanics. The purpose of this class is to get students engaged with new research in the area. To that end, the majority of credit will be given for a class project report and presentation on a relevant topic.</p>
+
+<p><strong>Prerequisites:</strong>
+This is a graduate class for students who want to engage in theory-driven deep learning research.
+We will introduce some theoretical tools necessary.</p>
+<ul>
+  <li>Probability</li>
+  <li>Linear algebra</li>
+  <li>Machine learning</li>
+</ul>
+
+<h2 id="people">People</h2>
+
+<p>Instructor: <a href="https://mitliagkas.github.io">Ioannis Mitliagkas</a></p>
+
+<p>TAs: <a href="https://jgalle29.github.io/">Jose Gallego</a>,
+<a href="https://motahareh-sohrabi.github.io/">Motahareh Sohrabi</a></p>
+
+<h2 id="class-info">Class info</h2>
+<p>Winter 2023 semester:</p>
+<ul>
+  <li>Wednesday 9h30-11h15  </li>
+  <li>Thursday 9h30-11h15</li>
+</ul>
+
+<p>Location (Hybrid):</p>
+<ul>
+  <li>In person at Mila’s Auditorium 2 (located at 6650 Saint-Urbain, first floor. No key card needed to access)</li>
+  <li>Online via <a href="https://umontreal.zoom.us/j/89831162230?pwd=Skc4YXlCK1ZvQWh3MytDTXVpenQ4dz09">Zoom</a></li>
+  <li>Video recordings of lectures will be made available after lectures end.</li>
+</ul>
+
+<p><strong>First class</strong>: Thursday, January 12th, 2023.</p>
+
+<p>Office hours: 11:15am-12:00pm on Thursday right after class.</p>
+
+<h2 id="registering-and-auditing">Registering and auditing</h2>
+<p>If you want to audit the class, please fill this <a href="https://forms.gle/w7LkmxWKCo9nX3aK8">form</a>.
+You will get access to the course material, but you will not be able to submit work or be graded.</p>
+
+<h2 id="communication">Communication</h2>
+<p>We will use the class’s <a href="https://studium.umontreal.ca/course/view.php?id=237083">Studium</a>to make announcements.
+We will use a Slack workspace for discussion. Please keep an eye out for an invitation to the Slack. 
+We will use Gradescope for quizzes and report submissions.
+If you have something personal/sensitive to discuss, feel free to email me or the TA.
+Starting your email subject with ‘IFT6169:’ will ensure that your email is not miscategorized.</p>
+
+<h2 id="evaluation">Evaluation</h2>
+<ul>
+  <li>Class project on a research topic: 35%</li>
+  <li>Paper presentations: 25%</li>
+  <li>Midterm exam: 15%</li>
+  <li>Quizzes: 20%</li>
+  <li>Class participation: 5%</li>
+</ul>
+
+<p>Use this Latex <a href="/ift6169-2023/scribing_template.zip">template</a> for scribing.</p>
+
+<h2 id="tentative-topicsto-be-updated-as-we-go-along">Tentative topics–to be updated as we go along</h2>
+
+<ul>
+  <li>Generalization: theoretical analysis and practical bounds </li>
+  <li>Information theory and its applications in ML (information bottleneck, lower bounds etc.) </li>
+  <li>Generative models beyond the pretty pictures: a tool for traversing the data manifold, projections, completion, substitutions etc. </li>
+  <li>Taming adversarial objectives: Wasserstein GANs, regularization approaches and controlling the dynamics </li>
+  <li>The expressive power of deep networks (deep information propagation, mean-field analysis of random networks etc.) </li>
+</ul>
+
+<h2 id="extensive-class-bibliography">Extensive class bibliography</h2>
+
+<p>You can find a large number of recent (mostly) research papers related to the class’s objectives 
+<a href="/ift6169-2023/papers/">here</a>.
+You can use those for your in-class paper presentations and projects.</p>
+
+<h2 id="schedule">Schedule</h2>
+
+<p>For the first half of the class we will be closely following the
+previous iteration of the class.</p>
+
+<p><strong>January 12th</strong>
+Class introduction
+[<a href="/ift6169-2023/ift-6169-lecture-1.pdf">slides</a>,
+<a href="/ift6169-2023/quiz-first-class.pdf">old quiz</a>]</p>
+
+<hr />
+<p><br /></p>
+
+<h3 id="crash-course-in-optimization">Crash course in optimization</h3>
+
+<p><strong>January 18th</strong>
+Basics of convex analysis and gradient descent
+[<a href="/ift6169-2023/ift-6169-lecture-2-notes.pdf">scribed notes</a>]</p>
+
+<p>Reading:</p>
+
+<p>Convex analysis basics from ‘Convex Optimization’ by Boyd, Vandenberge ([5] under references):</p>
+<ul>
+  <li>Chapter 2 (required: beginning of chapter to 2.1.4,
+recommended: 2.1.5 to end of section)</li>
+  <li>Chapter 3 (required: beginning of chapter to 3.1,
+recommended: 3.2, 3.3 and 3.4)</li>
+</ul>
+
+<p>Convergence proofs:
+from Chapter 3 of [1] (‘Convex Optimization…’ by S.Bubeck under References)</p>
+<ul>
+  <li>Required: Convergence proof of Theorem 3.2 (note that we studied the unconstrained 
+case. In this case the projection operator PiX(x) is the identity operator)</li>
+</ul>
+
+<p><strong>January 19th</strong>
+[continuation of previous lecture]</p>
+
+<p><strong>January 25th</strong>
+The different rates of gradient descent: from Lipschitz to strongly convex
+[<a href="/ift6169-2023/ift-6169-lecture-3-notes.pdf">scribed notes</a>]</p>
+
+<p>Reading:</p>
+
+<p>Convergence proofs from Chapter 3 of [1] (‘Convex Optimization…’ by S.Bubeck under References)</p>
+<ul>
+  <li>Required: Sections 3.1, 3.2, 3.4, with emphasis on the Convergence proof of Theorem 3.12</li>
+  <li>Optional: Section 3.3 and anything related to constrained optimization. Keep in mind that we still discuss in class simplified unconstrained versions of some constrained results from Bubeck. Anything in our scribed notes is also required.</li>
+</ul>
+
+<p><strong>January 26th</strong>
+Black box models and lower bounds 
+[<a href="/ift6169-2023/ift-6169-lecture-4-notes.pdf">scribed notes</a>]</p>
+
+<p>Reading:</p>
+<ul>
+  <li>Required: [1, Theorem 3.15]</li>
+  <li>Recommended: [6]</li>
+</ul>
+
+<p><strong>February 1st</strong>
+Accelerated methods: Polyak’s momentum (the heavy ball method)
+[<a href="/ift6169-2023/ift-6169-lecture-5-notes.pdf">scribed notes</a>]
+[<a href="/ift6169-2023/ift-6169-lecture-5-slides.pdf">slides</a>]</p>
+
+<p>Reading:</p>
+<ul>
+  <li>Required: [8], [9, Sections 1, 2, 3, 4]</li>
+  <li>Recommended: [35]</li>
+</ul>
+
+<p><strong>February 2nd</strong>
+Nesterov’s Accelerated Gradient, Stochastic gradient descent
+[<a href="/ift6169-2023/ift-6169-lecture-6-notes.pdf">scribed notes</a>]</p>
+
+<p>Reading:</p>
+<ul>
+  <li>Required: [6], [7, pages 67-76]</li>
+  <li>Required: [1, Section 6 until 6.2], [4, Section 14.3]</li>
+</ul>
+
+<hr />
+<h3 id="crash-course-in-statistical-learning-theory">Crash course in statistical learning theory</h3>
+
+<p><strong>February 8th</strong>
+Stochastic gradient descent
+[<a href="/ift6169-2023/ift-6169-lecture-6-notes.pdf">scribed notes</a>]</p>
+
+<p><strong>February 9th</strong>
+Elements of statistical learning theory
+[<a href="/ift6169-2023/ift-6169-lecture-7-notes.pdf">scribed notes</a>]</p>
+
+<p>Recommended reading: Section 2 (if you need the intro) and Section 5 of [4].</p>
+
+<p>Required reading: Sections 3, 4 and 6 of [4].</p>
+
+<p><strong>February 15th</strong>
+Elements of statistical learning theory [continuation of previous lecture]</p>
+
+<p><strong>February 16th</strong>
+PAC-Bayes bounds
+[<a href="/ift6169-2023/ift-6169-lecture-8-notes.pdf">scribed notes</a>]</p>
+
+<p>Required reading: [12]</p>
+
+<p>Recommended reading: Section 31 of [4]</p>
+
+<p>Recommended reading (harder): Section 6 of [2]</p>
+
+<p><strong>February 22nd</strong>
+Probably Approximately Correct Constrained Learning</p>
+
+<p>Reading:</p>
+<ul>
+  <li>[<a href="https://arxiv.org/abs/2006.05487">paper</a>]</li>
+</ul>
+
+<p><strong>February 23rd</strong>
+MIDTERM EXAM</p>
+
+<hr />
+
+<h2 id="winter-break">Winter break</h2>
+
+<p><strong>March 1st</strong>
+<strong>Winter break</strong> No class</p>
+
+<p><strong>March 2nd</strong>
+<strong>Winter break</strong> No class</p>
+
+<hr />
+
+<p><br /></p>
+
+<p><strong>March 8th</strong></p>
+
+<p>Stability and generalization
+[<a href="/ift6169-2023/ift-6169-lecture-9-notes.pdf">scribed notes</a>]</p>
+
+<p>Required reading:</p>
+<ul>
+  <li>Main body of the papers [13,14] without all the proofs</li>
+  <li>The two sets of scribed notes provided here, including the covered proofs</li>
+</ul>
+
+<p>Optional reading: Proofs that are not covevered in the scribed notes.</p>
+
+<p><br /></p>
+
+<h3 id="seminar-part-of-class">Seminar part of class</h3>
+<p><strong>March 9th</strong>
+Weighted Sums of Random Kitchen Sinks: Replacing
+minimization with randomization in learning
+[<a href="/ift6169-2023/ift-6169-lecture-11-notes.pdf">scribed notes</a>]</p>
+
+<ul>
+  <li>Recommended reading: Section 16 (Kernel methods) of [4]</li>
+  <li>Required reading: [23]</li>
+  <li>Recommended viewing: <a href="https://www.youtube.com/watch?v=Nqi2iU7kbD0">video of talk by A. Rahimi</a>. 
+  The discussion pertaining to this paper, starts at 31:10 (though the intro might be necessary) and ends at about 48:10.</li>
+</ul>
+
+<p><strong>March 15th</strong>
+Surprising results on the generalization error of neural networks</p>
+
+<ul>
+  <li>Recommended reading: <a href="https://arxiv.org/abs/1412.6614">In Search of the Real Inductive Bias: On the Role of Implicit Regularization in Deep Learning</a></li>
+  <li>Recommended reading: <a href="https://arxiv.org/abs/1611.03530">Understanding deep learning requires rethinking generalization</a></li>
+  <li>Recommended reading: <a href="https://www.bradyneal.com/bias-variance-tradeoff-textbooks-update">On the Bias-Variance Tradeoff: Textbooks Need an Update</a>, blog post by Brady Neal</li>
+</ul>
+
+<p><strong>March 16th</strong>
+Where is the Bayes risk hiding?</p>
+
+<ul>
+  <li>Recommended reading (refresher from last week): <a href="https://arxiv.org/abs/1611.03530">Understanding deep learning requires rethinking generalization</a></li>
+  <li>Recommended reading: <a href="https://arxiv.org/abs/1802.01396">To Understand Deep Learning We Need to Understand Kernel Learning</a></li>
+  <li>Recommended reading: <a href="https://arxiv.org/abs/1806.05161">Overfitting or perfect fitting? Risk bounds for classification and regression rules that interpolate</a></li>
+</ul>
+
+<p><strong>March 22nd</strong>
+Student presentations</p>
+
+<p><strong>March 23rd</strong>
+Student presentations</p>
+
+<p><strong>March 29th</strong>
+Student presentations</p>
+
+<p><strong>March 30th</strong>
+Student presentations</p>
+
+<p><strong>April 5th</strong>
+Student presentations</p>
+
+<p><strong>April 13th</strong>
+Neural Tangent Kernel [new lecture - no scribed notes]</p>
+<ul>
+  <li>Recommended reading: <a href="https://arxiv.org/abs/1806.07572">Neural Tangent Kernel: Convergence and Generalization in Neural Networks</a></li>
+  <li>Recommended reading: <a href="https://rajatvd.github.io/NTK/">Blog summary of paper</a></li>
+</ul>
+
+<p>Recommended reading on reproducing kernel hilbert spaces:</p>
+<ul>
+  <li>Guest lecture by Jose Gallego from last year<a href="https://www.dropbox.com/s/e1bhq2bbdqhx4z3/lecture-jose-rkhs.mp4?dl=0">video</a></li>
+  <li>[15min] Watch <a href="https://www.youtube.com/watch?v=LyGKycYT2v0">this great video</a> on duality.</li>
+  <li>[5min] Get familiar with the <em>statement</em> of the <a href="https://en.wikipedia.org/wiki/Riesz_representation_theorem">Riesz representation theorem</a> and think about the relationship with the video above.</li>
+  <li>[40min] Read the Wikipedia entry on <a href="https://en.wikipedia.org/wiki/Reproducing_kernel_Hilbert_space">RKHSs</a> - Can skip sections 4, 8 and 9.</li>
+  <li>[15min] <em>Optional:</em> Read sections 1 and 2 of the Wikipedia entry on <a href="https://en.wikipedia.org/wiki/Kernel_embedding_of_distributions">Kernel embedding of distributions</a></li>
+</ul>
+
+<p><strong>April 19th</strong>
+1-1 discussions on course projects</p>
+
+<p><strong>April 20th</strong>
+1-1 discussions on course projects</p>
+
+<p><strong>May 3rd</strong>
+Final poster presentation for projects</p>
+
+<p><strong>Extra material (not scheduled)</strong>
+Determinantal point processes for ML (guest lecture by Jose Gallego)</p>
+<ul>
+  <li>Recommended reading: <a href="http://people.csail.mit.edu/stefje/fall15/notes_lecture21.pdf">Notes from Stefanie Jegelka’s class at MIT</a>, written by Swati Gupta.</li>
+  <li>Recommended reading: <a href="https://arxiv.org/pdf/2005.03185.pdf">Determinantal Point Processes in Randomized Numerical Linear Algebra</a>, Derezinski and Mahoney.</li>
+</ul>
+
+<h2 id="bonus-material-from-past-iterations">Bonus material from past iterations</h2>
+<p>Older lectures that later material replaced. Not examined.</p>
+
+<ul>
+  <li><strong>Dynamical systems, with applications to neural networks.</strong> Guest lecture by Guillaume Lajoie. [<a href="/ift6169-2023/ift-6169-lecture-15-notes.pdf">scribed notes</a>] Reading: [31, 32, 33]</li>
+  <li><strong>Distributional reinforcement learning.</strong> [<a href="/ift6169-2023/ift-6169-lecture-18-notes.pdf">scribed notes</a>]</li>
+  <li><strong>Variance reduction for stochastic optimization.</strong> [<a href="/ift6169-2023/ift-6169-bonus-lecture-variance-reduction.pdf">scribed notes</a>] Reading: [22]; Section 5.3 of [21]</li>
+  <li><strong>Expressivity and universal approximation.</strong> [<a href="/ift6169-2023/ift-6169-lecture-10-notes.pdf">scribed notes</a>] Reading: <a href="http://neuralnetworksanddeeplearning.com/chap4.html">Michael Nielsen’s visual proof</a>; Section 20 to 20.4 of [4]; [40]</li>
+  <li><strong>Escaping saddle points.</strong> [<a href="/ift6169-2023/ift-6169-bonus-lecture-saddle-points-notes.pdf">scribed notes</a>] [<a href="http://www.callowbird.com/uploads/8/6/6/4/8664563/1.pdf">slides by Yang Yuan</a>] Reading: [27, 28]</li>
+  <li><strong>Reading only (2018):</strong> PacGAN [24]; non-convex optimization [25, 26]; spin glasses, guest lecture by Alex Fribergh [29]; loss surfaces of multilayer networks [30].</li>
+</ul>
+
+<h2 id="resources">Resources</h2>
+<ol>
+  <li><a href="https://arxiv.org/pdf/1405.4980.pdf">Convex Optimization: Algorithms and Complexity</a>, Sebastien Bubeck.</li>
+  <li><a href="https://www.esaim-ps.org/articles/ps/pdf/2005/01/ps0420.pdf">Theory of classification: a survey of some recent advances</a> Stephane Boucheron, Olivier Bousquet and Gabor Lugosi</li>
+  <li>iPython <a href="https://github.com/anadim/ECE901/blob/master/sgd_vs_gd.ipynb">notebook</a> 
+ demonstrating basic ideas of gradient descent and stochastic gradient descent,
+ simple and complex models as well as generalization.</li>
+  <li><a href="http://www.cs.huji.ac.il/~shais/UnderstandingMachineLearning/index.html">Understanding Machine Learning: From Theory to Algorithms</a>, by Shai Shalev-Shwartz and Shai Ben-David.</li>
+  <li><a href="https://web.stanford.edu/~boyd/cvxbook/">Convex Optimization</a>, Stephen Boyd and Lieven Vandenberghe.</li>
+  <li><a href="https://blogs.princeton.edu/imabandit/2014/03/06/nesterovs-accelerated-gradient-descent-for-smooth-and-strongly-convex-optimization/">Nesterov’s Accelerated Gradient Descent for Smooth and Strongly Convex Optimization</a>, blog post by Sebastien Bubeck.</li>
+  <li><a href="https://www.google.ca/url?sa=t&amp;rct=j&amp;q=&amp;esrc=s&amp;source=web&amp;cd=1&amp;ved=0ahUKEwjhs8Xc4-DYAhVRbK0KHYL4C1wQFgguMAA&amp;url=http%3A%2F%2Fciteseerx.ist.psu.edu%2Fviewdoc%2Fdownload%3Fdoi%3D10.1.1.693.855%26rep%3Drep1%26type%3Dpdf&amp;usg=AOvVaw3mGbk6W45sbV8b1rgS_DRV">Introductory lectures on convex optimization</a>, Yurii Nesterov.</li>
+  <li><a href="https://distill.pub/2017/momentum/">Why momentum really works</a>, blog post by Gabriel Goh (this blog post uses a slightly different parametrization of the momentum algorithm. The version we discuss in class, only applies the learning rate on the gradient.)</li>
+  <li><a href="https://arxiv.org/abs/1706.03471">YellowFin and the Art of Momentum Tuning</a>, SysML 2019, J. Zhang, I. Mitliagkas.</li>
+  <li><a href="http://papail.io/901">Large-scale Machine Learning and Optimization (class)</a>, Dimitris Papailiopoulos, University of Wisconsin.</li>
+  <li><a href="http://www.cs.cornell.edu/courses/cs6787/2017fa/">Advanced Machine Learning Systems (class)</a>, Chris De Sa, Cornell University.</li>
+  <li><a href="https://arxiv.org/abs/1307.2118">A PAC-Bayesian Tutorial with A Dropout Bound</a>, David McAllester.</li>
+  <li><a href="http://www.jmlr.org/papers/volume2/bousquet02a/bousquet02a.pdf">Stability and generalization</a>, O. Bousquet, A. Elisseeff.</li>
+  <li><a href="https://arxiv.org/pdf/1509.01240.pdf">Train faster, generalize better: Stability of stochastic gradient descent</a>, M. Hardt, B. Recht, Y. Singer.</li>
+  <li><a href="https://arxiv.org/abs/1703.11008">Computing Nonvacuous Generalization Bounds for Deep (Stochastic) Neural Networks with Many More Parameters than Training Data</a>, Gintare Karolina Dziugaite, Daniel M. Roy</li>
+  <li><a href="http://cs229.stanford.edu/notes2021fall/cs229-notes2.pdf">Lecture notes on generative learning algorithms</a>, Andrew Ng</li>
+  <li><a href="https://papers.nips.cc/paper/5423-generative-adversarial-nets.pdf">Generative Adversarial Nets</a>, Ian Goodfellow et al.</li>
+  <li><a href="https://arxiv.org/abs/1701.07875">Wasserstein GAN</a>, Martin Arjovsky, Soumith Chintala, Léon Bottou</li>
+  <li><a href="https://www.alexirpan.com/2017/02/22/wasserstein-gan.html">Read-through: Wasserstein GAN</a>, Alex Irpan</li>
+  <li><a href="https://arxiv.org/pdf/1705.10461.pdf">The Numerics of GANs</a>, Lars Mescheder, Sebastian Nowozin, Andreas Geiger</li>
+  <li><a href="https://arxiv.org/pdf/1606.04838v1.pdf">Optimization Methods for Large-Scale Machine Learning</a>, Léon Bottou, Frank E. Curtis, Jorge Nocedal</li>
+  <li><a href="http://papers.nips.cc/paper/4937-accelerating-stochastic-gradient-descent-using-predictive-variance-reduction.pdf">Accelerating Stochastic Gradient Descent using Predictive Variance Reduction</a>, Rie Johnson, Tong Zhang</li>
+  <li><a href="https://people.eecs.berkeley.edu/~brecht/papers/08.rah.rec.nips.pdf">Weighted Sums of Random Kitchen Sinks: Replacing minimization with randomization in learning</a>, Ali Rahimi, Ben Recht</li>
+  <li><a href="https://arxiv.org/abs/1712.04086">PacGAN: The power of two samples in generative adversarial networks</a>, Zinan Lin, Ashish Khetan, Giulia Fanti, Sewoong Oh</li>
+  <li><a href="https://arxiv.org/abs/1309.5549">Stochastic First- and Zeroth-order Methods for Nonconvex Stochastic Programming</a>, Saeed Ghadimi, Guanghui Lan</li>
+  <li><a href="https://arxiv.org/abs/1608.04636">Linear Convergence of Gradient and Proximal-Gradient Methods Under the Polyak-Łojasiewicz Condition</a>, Hamed Karimi, Julie Nutini, Mark Schmidt</li>
+  <li><a href="https://arxiv.org/abs/1503.02101">Escaping From Saddle Points — Online Stochastic Gradient for Tensor Decomposition</a>, Rong Ge, Furong Huang, Chi Jin, Yang Yuan</li>
+  <li><a href="https://arxiv.org/abs/1703.00887">How to Escape Saddle Points Efficiently</a>, Chi Jin, Rong Ge, Praneeth Netrapalli, Sham M. Kakade, Michael I. Jordan</li>
+  <li><a href="https://arxiv.org/pdf/1003.1129.pdf">RANDOM MATRICES AND COMPLEXITY OF SPIN GLASSES</a>, ANTONIO AUFFINGER, GERARD BEN AROUS, AND JIRI CERNY</li>
+  <li><a href="https://arxiv.org/abs/1412.0233">The Loss Surfaces of Multilayer Networks</a>, Anna Choromanska, Mikael Henaff, Michael Mathieu, Gérard Ben Arous, Yann LeCun</li>
+  <li><a href="http://www.comp.hkbu.edu.hk/~markus/teaching/comp7650/tnn-94-gradient.pdf">Learning Long-Term Dependencies with Gradient Descent is Difficult</a>, Y Bengio, P Simard, P Frasconi</li>
+  <li><a href="https://arxiv.org/abs/1211.5063">On the difficulty of training Recurrent Neural Networks</a>, Razvan Pascanu, Tomas Mikolov, Yoshua Bengio</li>
+  <li><a href="https://www.mitpressjournals.org/doi/full/10.1162/NECO_a_00409">Opening the Black Box: Low-Dimensional Dynamics in High-Dimensional Recurrent Neural Networks</a>, David Sussillo and Omri Barak</li>
+  <li><a href="http://incompleteideas.net/book/the-book-2nd.html">Reinforcement Learning: An Introduction</a>, Richard S. Sutton and Andrew G. Barto</li>
+  <li><a href="https://ee227c.github.io/notes/ee227c-lecture06.pdf">Course Notes for EE227C (Spring 2018): Convex Optimization and Approximation</a>, Moritz Hardt.</li>
+  <li><a href="https://arxiv.org/abs/1902.04742">Uniform convergence may be unable to explain generalization in deep learning
+</a>, Vaishnavh Nagarajan, J. Zico Kolter</li>
+  <li><a href="http://www.jmlr.org/papers/volume6/langford05a/langford05a.pdf">Tutorial on Practical Prediction Theory for Classification</a>, John Langford, 2005.</li>
+  <li><a href="https://arxiv.org/abs/1703.11008">Computing Nonvacuous Generalization Bounds for Deep (Stochastic) Neural Networks with Many More Parameters than Training Data</a>, Gintare Karolina Dziugaite, Daniel M. Roy, 2017.</li>
+  <li><a href="https://arxiv.org/pdf/1804.05862.pdf">Non-Vacuous Generalization Bounds at the ImageNet Scale: A PAC-Bayesian Compression Approach
+</a>, Wenda Zhou, Victor Veitch, Morgane Austern, Ryan P. Adams, Peter Orbanz, 2018.</li>
+  <li><a href="https://arxiv.org/abs/1509.08101">Representation benefits of deep feedforward</a>, Matus Telgarsky, 2015.</li>
+</ol>
+
+
+</article>
+
+    </div>
+  </main>
+  <footer class="site-footer">
+  <div class="wrap">
+    <div>
+      Ioannis (Yannis) Mitliagkas<br>
+      Mila and DIRO, Université de Montréal<br>
+      <a href="mailto:ioannis@iro.umontreal.ca">ioannis@iro.umontreal.ca</a>
+    </div>
+    <ul>
+      <li><a href="/cv.pdf">CV</a></li>
+      <li><a href="https://scholar.google.com/citations?user=K757SxgAAAAJ&hl=en">Google Scholar</a></li>
+      <li><a href="https://dblp.org/pid/83/8757.html">DBLP</a></li>
+      <li><a href="https://orcid.org/0000-0002-4065-8654">ORCID</a></li>
+      <li><a href="https://github.com/mitliagkas">GitHub</a></li>
+      <li><a href="https://twitter.com/bouzoukipunks">Twitter</a></li>
+      <li><a href="https://www.linkedin.com/in/ioannis-mitliagkas-6a8241131/">LinkedIn</a></li>
+    </ul>
+  </div>
+</footer>
+
+<script>
+document.addEventListener('click', function (e) {
+  var b = e.target.closest('.pub-toggle'); if (!b) return;
+  var box = b.closest('.pub').querySelector('.pub-more');
+  var open = b.getAttribute('aria-expanded') === 'true';
+  b.setAttribute('aria-expanded', String(!open)); box.hidden = open;
+});
+</script>
+</body>
+</html>
