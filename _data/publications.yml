@@ -15,6 +15,56 @@
   url: https://openreview.net/forum?id=kpwFUoS46p
   topics:
   - games
+- id: inane2026-unlearning-asymmetric-sources
+  title: 'Unlearning with Asymmetric Sources: Improved Unlearning-Utility Trade-off with Public Data'
+  authors:
+  - A.M. Inane
+  - V. Quirion
+  - G.K. Dziugaite
+  - I. Mitliagkas
+  year: 2026
+  status: accepted
+  venue: icml
+  arxiv: '2605.11170'
+  topics:
+  - unlearning
+  featured: true
+  summary: Certified unlearning adds noise, and the noise costs utility, especially for large deletion requests. We show that mixing in public data cuts the cost of unlearning by a factor of O(1/n_pub²), and we account for shifts between the public and private data. This makes it practical to unlearn a constant fraction of the training set while keeping utility.
+- id: naganuma2026-adaptive-batch-sizes
+  title: Adaptive Batch Sizes Using Non-Euclidean Gradient Noise Scales for Stochastic Sign and Spectral Descent
+  authors:
+  - H. Naganuma
+  - S. Gupta
+  - Y. Briki
+  - I. Mitliagkas
+  - I. Rish
+  - P. Raman
+  - HJ.M. Shi
+  year: 2026
+  status: accepted
+  venue: icml
+  arxiv: '2602.03001'
+  topics:
+  - optimization
+  featured: true
+  summary: Adaptive batch-size rules rely on the gradient noise scale, which assumes the Euclidean geometry of SGD. We derive the noise scale for sign and spectral methods (Signum, Muon) from their dual norms, and estimate it cheaply from gradients already on each data-parallel worker. On a 160M-parameter Llama model, this matches the loss of fixed batch sizes with up to 66% fewer training steps.
+- id: nakai2026-revisiting-generalization-measures
+  title: 'Generalization Measures under Controlled Covariate Shift: A Regime-Aware Benchmark'
+  authors:
+  - S. Nakai
+  - Y. Fadhloun
+  - K. Mathlouthi
+  - K. Yoshida
+  - G. Talluri
+  - I. Mitliagkas
+  - H. Naganuma
+  year: 2026
+  status: accepted
+  venue: tmlr
+  arxiv: '2602.01718'
+  url: https://openreview.net/forum?id=X4RoujAYnY
+  topics:
+  - generalization
 - id: mahajan2026-beyond-multi-token
   title: 'Beyond Multi-Token Prediction: Pretraining LLMs with Future Summaries'
   authors:
@@ -63,39 +113,6 @@
   url: https://proceedings.iclr.cc/paper_files/paper/2026/hash/c056d6cf7b7108418f2b8c307dfaab02-Abstract-Conference.html
   topics:
   - generalization
-- id: inane2026-unlearning-asymmetric-sources
-  title: 'Unlearning with Asymmetric Sources: Improved Unlearning-Utility Trade-off with Public Data'
-  authors:
-  - A.M. Inane
-  - V. Quirion
-  - G.K. Dziugaite
-  - I. Mitliagkas
-  year: 2026
-  status: accepted
-  venue: icml
-  arxiv: '2605.11170'
-  topics:
-  - unlearning
-  featured: true
-  summary: Certified unlearning adds noise, and the noise costs utility, especially for large deletion requests. We show that mixing in public data cuts the cost of unlearning by a factor of O(1/n_pub²), and we account for shifts between the public and private data. This makes it practical to unlearn a constant fraction of the training set while keeping utility.
-- id: naganuma2026-adaptive-batch-sizes
-  title: Adaptive Batch Sizes Using Non-Euclidean Gradient Noise Scales for Stochastic Sign and Spectral Descent
-  authors:
-  - H. Naganuma
-  - S. Gupta
-  - Y. Briki
-  - I. Mitliagkas
-  - I. Rish
-  - P. Raman
-  - HJ.M. Shi
-  year: 2026
-  status: accepted
-  venue: icml
-  arxiv: '2602.03001'
-  topics:
-  - optimization
-  featured: true
-  summary: Adaptive batch-size rules rely on the gradient noise scale, which assumes the Euclidean geometry of SGD. We derive the noise scale for sign and spectral methods (Signum, Muon) from their dual norms, and estimate it cheaply from gradients already on each data-parallel worker. On a 160M-parameter Llama model, this matches the loss of fixed batch sizes with up to 66% fewer training steps.
 - id: naganuma2025-empirical-study-pre
   title: An Empirical Study of Pre-trained Model Selection for Out-of-Distribution Generalization and Calibration
   authors:
@@ -113,11 +130,14 @@
 - id: maes2025-understanding-adam-requires
   title: Understanding Adam Requires Better Rotation Dependent Assumptions
   authors:
-  - L. Maes
   - TH. Zhang
+  - L. Maes
+  - A. Milligan
   - A. Jolicoeur-Martineau
   - I. Mitliagkas
   - D. Scieur
+  - S. Lacoste-Julien
+  - C. Guille-Escuret
   year: 2025
   status: accepted
   venue: neurips
@@ -136,6 +156,7 @@
   - I. Mitliagkas
   - PA. Witte
   - RJ. Hewett
+  - YT. Lee
   year: 2025
   status: accepted
   venue: tmlr
@@ -265,26 +286,6 @@
   url: https://openreview.net/forum?id=yuy6cGt3KL
   topics:
   - generalization
-- id: hemmat2024-lead-least-action
-  title: 'LEAD: Least-Action Dynamics for Min-Max Optimization'
-  authors:
-  - R. Askari Hemmat*
-  - A. Mitra*
-  - G. Lajoie
-  - I. Mitliagkas
-  year: 2024
-  status: accepted
-  venue: iclr
-  arxiv: '2010.13846'
-  url: https://openreview.net/forum?id=vXSsTYs6ZB
-  note: (invited); Transactions on Machine Learning Research (TMLR) [featured]
-  topics:
-  - games
-  - optimization
-  summary: Min-max training, as in GANs, stalls because of rotational dynamics. Treating the two players as particles under physical forces, we derive LEAD, a second-order method that damps the rotation. It converges linearly on quadratic games and improves GAN training on CIFAR-10.
-  figure: /images/papers/hemmat2024-lead-least-action.png
-  figure_alt: 'Eigenvalues in the complex plane: LEAD''s (red) lie inside the unit circle, gradient descent-ascent''s (blue) lie outside it.'
-  featured: true
 - id: lachapelle2023-additive-decoders-latent
   title: Additive Decoders for Latent Variables Identification and Cartesian-Product Extrapolation
   authors:
@@ -303,9 +304,9 @@
   featured: true
   summary: When an image is a sum of object-specific parts, a decoder with the same additive structure recovers each object's latent variables from reconstruction alone, with no independence assumptions on the latents. The same decoder can then generate combinations of objects never seen together in training. This gives a theoretical account of object-centric decoders and of how disentanglement enables extrapolation.
 - id: escuret2023-cadet-fully-self
-  title: 'CADet: Fully Self-Supervised Anomaly Detection With Contrastive Learning'
+  title: 'CADet: Fully Self-Supervised Out-Of-Distribution Detection With Contrastive Learning'
   authors:
-  - C.G. Escuret
+  - C. Guille-Escuret
   - P. Rodriguez
   - D. Vazquez
   - I. Mitliagkas
@@ -346,7 +347,7 @@
   topics:
   - optimization
 - id: lachapelle2023-synergies-between-disentanglement
-  title: 'Synergies Between Disentanglement and Sparsity: a Multi-Task Learning Perspective'
+  title: 'Synergies Between Disentanglement and Sparsity: Generalization and Identifiability in Multi-Task Learning'
   authors:
   - S. Lachapelle
   - T. Deleu
@@ -381,6 +382,26 @@
   topics:
   - generalization
   - optimization
+- id: hemmat2024-lead-least-action
+  title: 'LEAD: Min-Max Optimization from a Physical Perspective'
+  authors:
+  - R. Askari Hemmat*
+  - A. Mitra*
+  - G. Lajoie
+  - I. Mitliagkas
+  year: 2023
+  status: accepted
+  venue: tmlr
+  arxiv: '2010.13846'
+  url: https://openreview.net/forum?id=vXSsTYs6ZB
+  note: Featured Certification; invited presentation at ICLR 2024
+  topics:
+  - games
+  - optimization
+  summary: Min-max training, as in GANs, stalls because of rotational dynamics. Treating the two players as particles under physical forces, we derive LEAD, a second-order method that damps the rotation. It converges linearly on quadratic games and improves GAN training on CIFAR-10.
+  figure: /images/papers/hemmat2024-lead-least-action.png
+  figure_alt: 'Eigenvalues in the complex plane: LEAD''s (red) lie inside the unit circle, gradient descent-ascent''s (blue) lie outside it.'
+  featured: true
 - id: sokota2023-unified-approach-reinforcement
   title: A Unified Approach to Reinforcement Learning, Quantal Response Equilibria, and Two-Player Zero-Sum Games
   authors:
@@ -492,6 +513,7 @@
   - K. Ahuja
   - E. Caballero
   - D. Zhang
+  - JC. Gagnon-Audet
   - Y. Bengio
   - I. Mitliagkas
   - I. Rish
@@ -627,7 +649,7 @@
   topics:
   - optimization
 - id: albuquerque2019-multi-objective-training
-  title: Multi-objective training of Generative Adversarial Networks
+  title: Multi-objective training of Generative Adversarial Networks with multiple discriminators
   authors:
   - I. Albuquerque
   - J. Monteiro
@@ -720,6 +742,8 @@
   year: 2019
   status: accepted
   venue: sysml
+  highlight: oral
+  note: '[earlier version, titled YellowFin: Adaptive optimization for (A)synchronous systems, presented as an oral at SysML 2018]'
   arxiv: '1706.03471'
   url: https://proceedings.mlsys.org/paper_files/paper/2019/hash/b205b525b7ce002baae53228bab6d26b-Abstract.html
   topics:
@@ -738,17 +762,6 @@
   url: https://openreview.net/forum?id=r14RP5AUz
   topics:
   - other
-- id: zhang2018-yellowfin-adaptive-optimization
-  title: 'YellowFin: Adaptive optimization for (A)synchronous systems'
-  authors:
-  - J. Zhang
-  - I. Mitliagkas
-  year: 2018
-  status: accepted
-  venue: sysml
-  highlight: oral
-  topics:
-  - optimization
 - id: sa2018-accelerated-stochastic-power
   title: Accelerated stochastic power iteration
   authors:
@@ -762,6 +775,17 @@
   venue: aistats
   arxiv: '1707.02670'
   url: https://proceedings.mlr.press/v84/xu18a.html
+  topics:
+  - optimization
+- id: zhang2018-yellowfin-adaptive-optimization
+  title: 'YellowFin: Adaptive optimization for (A)synchronous systems'
+  authors:
+  - J. Zhang
+  - I. Mitliagkas
+  year: 2018
+  status: accepted
+  venue: sysml
+  highlight: oral
   topics:
   - optimization
 - id: kurth2017-deep-learning-at
@@ -780,6 +804,7 @@
   - J. Deslippe
   - M. Shiryaev
   - S. Sridharan
+  - P. Prabhat
   - P. Dubey
   year: 2017
   status: accepted
@@ -800,20 +825,6 @@
   url: https://proceedings.mlr.press/v70/mitliagkas17a.html
   topics:
   - other
-- id: mitliagkas2016-asynchrony-begets-momentum
-  title: Asynchrony begets Momentum, with an Application to Deep Learning
-  authors:
-  - I. Mitliagkas
-  - C. Zhang
-  - S. Hadjis
-  - C. Ré
-  year: 2016
-  status: accepted
-  venue: allerton
-  arxiv: '1605.09774'
-  url: https://doi.org/10.1109/ALLERTON.2016.7852343
-  topics:
-  - optimization
 - id: he2016-scan-order-gibbs
   title: 'Scan Order in Gibbs Sampling: Models in Which it Matters and Bounds on How Much'
   authors:
@@ -828,6 +839,20 @@
   url: https://proceedings.neurips.cc/paper/2016/hash/e4da3b7fbbce2345d7772b0674a318d5-Abstract.html
   topics:
   - other
+- id: mitliagkas2016-asynchrony-begets-momentum
+  title: Asynchrony begets Momentum, with an Application to Deep Learning
+  authors:
+  - I. Mitliagkas
+  - C. Zhang
+  - S. Hadjis
+  - C. Ré
+  year: 2016
+  status: accepted
+  venue: allerton
+  arxiv: '1605.09774'
+  url: https://doi.org/10.1109/ALLERTON.2016.7852343
+  topics:
+  - optimization
 - id: mitliagkas2015-frogwild-fast-pagerank
   title: FrogWild! – Fast PageRank Approximations on Graph Engines
   authors:
@@ -843,7 +868,7 @@
   topics:
   - other
 - id: papailiopoulos2014-finding-dense-subgraphs
-  title: Finding dense subgraphs through low-rank approximations
+  title: Finding Dense Subgraphs via Low-Rank Bilinear Optimization
   authors:
   - D. Papailiopoulos
   - I. Mitliagkas
@@ -901,7 +926,8 @@
   year: 2010
   status: accepted
   venue: allerton
-  url: /papers/strongConverse2010.pdf
+  note: '[also circulated as Is Capacity Defined for Source Recovery & Learning Problems?]'
+  url: https://mitliagkas.github.io/papers/strongConverse2010.pdf
   topics:
   - other
 - id: mitliagkas2010-distributed-joint-power
@@ -925,6 +951,7 @@
   year: 2008
   status: accepted
   venue: iwcmc
+  url: https://ieeexplore.ieee.org/document/4599905
   topics:
   - other
 - id: nakamori2026-orth-dion-eliminating
@@ -945,15 +972,16 @@
   topics:
   - optimization
 - id: naganuma2024-smoothness-adaptive-sharpness
-  title: Smoothness-adaptive sharpness-aware minimization for finding flatter minima
+  title: Smoothness-Adaptive Sharpness-Aware Minimization for Finding Flatter Minima
   authors:
   - H. Naganuma
   - JL. Kim
-  - A. Kyrilllidis
+  - A. Kyrillidis
   - I. Mitliagkas
   year: 2024
   status: workshop
-  venue_text: 5th Workshop on practical ML for limited/low resource settings
+  venue_text: ICLR 2024 Workshop on Practical ML for Limited/Low Resource Settings (PML4LRS)
+  url: https://openreview.net/forum?id=ZdVZNk2UF1
   topics:
   - optimization
 - id: mofakhami2024-performance-control-early
@@ -1024,21 +1052,6 @@
   arxiv: '2605.16134'
   topics:
   - optimization
-- id: nakai2026-revisiting-generalization-measures
-  title: 'Generalization Measures under Controlled Covariate Shift: A Regime-Aware Benchmark'
-  authors:
-  - S. Nakai
-  - Y. Fadhloun
-  - K. Mathlouthi
-  - K. Yoshida
-  - G. Talluri
-  - I. Mitliagkas
-  - H. Naganuma
-  year: 2026
-  status: preprint
-  arxiv: '2602.01718'
-  topics:
-  - generalization
 - id: clivio2025-learning-defer-causal
   title: Learning to Defer for Causal Discovery with Imperfect Experts
   authors:
@@ -1047,6 +1060,8 @@
   - P. Taslakian
   - S. Magliacane
   - I. Mitliagkas
+  - V. Zantedeschi
+  - A. Drouin
   year: 2025
   status: preprint
   arxiv: '2502.13132'
