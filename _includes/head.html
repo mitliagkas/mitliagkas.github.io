@@ -20,6 +20,8 @@
   <link rel="alternate" hreflang="x-default" href="{{ '/' | absolute_url }}">
   {% include person-jsonld.html %}
   {%- endif %}
+  {%- if page.noindex %}
+  <meta name="robots" content="noindex">{% endif %}
   <meta name="color-scheme" content="light dark">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>

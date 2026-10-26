@@ -1,0 +1,125 @@
+---
+layout: page
+title: Page not found
+permalink: /404.html
+noindex: true
+sitemap: false
+---
+<div class="prose">
+<h1>Page not found</h1>
+<p id="nf-msg">This page does not exist. Try the <a href="/">home page</a>, <a href="/publications/">publications</a> or <a href="/teaching/">teaching</a>.</p>
+<p id="nf-moved" hidden>This file has moved to <a id="nf-link" href="#"></a>. Redirecting.</p>
+</div>
+<script>
+(function () {
+  // Old course, paper and file URLs that moved. GitHub Pages cannot send
+  // server redirects, so this page forwards visitors to the current location.
+  var MOVED = {
+ "FrogWild.pdf": "/papers/FrogWild.pdf",
+ "biblio/biblio.bib": "/publications/",
+ "colourPortrait.jpg": "/images/ioannis-headshot.jpg",
+ "css/main.scss": "/",
+ "feed.xml": "/news/",
+ "ift6085-2018/ift-6085-lecture-1.pdf": "/ift6169-2023/ift-6169-lecture-1.pdf",
+ "ift6085-2018/ift-6085-lecture-10-notes.pdf": "/ift6169-2023/ift-6169-lecture-9-notes.pdf",
+ "ift6085-2018/ift-6085-lecture-11-notes.pdf": "/ift6169-2023/ift-6169-lecture-9-notes.pdf",
+ "ift6085-2018/ift-6085-lecture-12-notes.pdf": "/ift6169-2023/ift-6169-bonus-lecture-generative-models.pdf",
+ "ift6085-2018/ift-6085-lecture-13-notes.pdf": "/ift6169-2023/ift-6169-bonus-lecture-wasserstein-gans.pdf",
+ "ift6085-2018/ift-6085-lecture-14-notes.pdf": "/ift6169-2023/ift-6169-bonus-lecture-numerics-of-gans.pdf",
+ "ift6085-2018/ift-6085-lecture-15-notes.pdf": "/ift6169-2023/ift-6169-bonus-lecture-variance-reduction.pdf",
+ "ift6085-2018/ift-6085-lecture-16-notes.pdf": "/ift6169-2023/ift-6169-bonus-lecture-saddle-points-notes.pdf",
+ "ift6085-2018/ift-6085-lecture-2-notes.pdf": "/ift6169-2023/ift-6169-lecture-2-notes.pdf",
+ "ift6085-2018/ift-6085-lecture-3-notes.pdf": "/ift6169-2023/ift-6169-lecture-3-notes.pdf",
+ "ift6085-2018/ift-6085-lecture-4-notes.pdf": "/ift6169-2023/ift-6169-lecture-4-notes.pdf",
+ "ift6085-2018/ift-6085-lecture-5-notes.pdf": "/ift6169-2023/ift-6169-lecture-5-notes.pdf",
+ "ift6085-2018/ift-6085-lecture-6-notes.pdf": "/ift6169-2023/ift-6169-lecture-6-notes.pdf",
+ "ift6085-2018/ift-6085-lecture-7-notes.pdf": "/ift6169-2023/ift-6169-lecture-7-notes.pdf",
+ "ift6085-2018/ift-6085-lecture-8-notes.pdf": "/ift6169-2023/ift-6169-lecture-8-notes.pdf",
+ "ift6085-2018/ift-6085-lecture-9-notes.pdf": "/ift6169-2023/ift-6169-lecture-9-notes.pdf",
+ "ift6085-2018/quiz-first-class.pdf": "/ift6169-2023/quiz-first-class.pdf",
+ "ift6085-2018/scribing_template.zip": "/ift6169-2023/scribing_template.zip",
+ "ift6085-2018/student_slides/IFT6085_Presentation_Emergence.pdf": "/ift6169-2023/",
+ "ift6085-2018/student_slides/IFT6085_Presentation_FlowGAN.pdf": "/ift6169-2023/",
+ "ift6085-2018/student_slides/IFT6085_Presentation_High_Dimensional_Dynamics.pdf": "/ift6169-2023/",
+ "ift6085-2018/student_slides/IFT6085_Presentation_IB.pdf": "/ift6169-2023/",
+ "ift6085-2018/student_slides/IFT6085_Presentation_KFAC.pdf": "/ift6169-2023/",
+ "ift6085-2018/student_slides/IFT6085_Presentation_Rethinking.pdf": "/ift6169-2023/",
+ "ift6085-2018/student_slides/IFT6085_Presentation_WhyAndWhen.pdf": "/ift6169-2023/",
+ "ift6085-2019/ift-6085-bonus-lecture-saddle-points-notes.pdf": "/ift6169-2023/ift-6169-bonus-lecture-saddle-points-notes.pdf",
+ "ift6085-2019/ift-6085-bonus-lecture-variance-reduction.pdf": "/ift6169-2023/ift-6169-bonus-lecture-variance-reduction.pdf",
+ "ift6085-2019/ift-6085-gan-dynamics-slides.pdf": "/ift6169-2023/",
+ "ift6085-2019/ift-6085-guest-lecture-expressivity.pdf": "/ift6169-2023/ift-6169-lecture-10-notes.pdf",
+ "ift6085-2019/ift-6085-lecture-1.pdf": "/ift6169-2023/ift-6169-lecture-1.pdf",
+ "ift6085-2019/ift-6085-lecture-10-notes.pdf": "/ift6169-2023/ift-6169-lecture-9-notes.pdf",
+ "ift6085-2019/ift-6085-lecture-11-notes.pdf": "/ift6169-2023/ift-6169-lecture-9-notes.pdf",
+ "ift6085-2019/ift-6085-lecture-12-notes.pdf": "/ift6169-2023/ift-6169-bonus-lecture-generative-models.pdf",
+ "ift6085-2019/ift-6085-lecture-13-notes.pdf": "/ift6169-2023/ift-6169-bonus-lecture-wasserstein-gans.pdf",
+ "ift6085-2019/ift-6085-lecture-14-notes.pdf": "/ift6169-2023/ift-6169-bonus-lecture-numerics-of-gans.pdf",
+ "ift6085-2019/ift-6085-lecture-15-notes.pdf": "/ift6169-2023/ift-6169-lecture-15-notes.pdf",
+ "ift6085-2019/ift-6085-lecture-16-notes.pdf": "/ift6169-2023/ift-6169-lecture-11-notes.pdf",
+ "ift6085-2019/ift-6085-lecture-17-notes.pdf": "/ift6169-2023/ift-6169-bonus-lecture-basic-rl.pdf",
+ "ift6085-2019/ift-6085-lecture-18-notes.pdf": "/ift6169-2023/ift-6169-lecture-18-notes.pdf",
+ "ift6085-2019/ift-6085-lecture-2-notes.pdf": "/ift6169-2023/ift-6169-lecture-2-notes.pdf",
+ "ift6085-2019/ift-6085-lecture-3-notes.pdf": "/ift6169-2023/ift-6169-lecture-3-notes.pdf",
+ "ift6085-2019/ift-6085-lecture-4-notes.pdf": "/ift6169-2023/ift-6169-lecture-4-notes.pdf",
+ "ift6085-2019/ift-6085-lecture-5-notes.pdf": "/ift6169-2023/ift-6169-lecture-5-notes.pdf",
+ "ift6085-2019/ift-6085-lecture-5-slides.pdf": "/ift6169-2023/ift-6169-lecture-5-slides.pdf",
+ "ift6085-2019/ift-6085-lecture-6-notes.pdf": "/ift6169-2023/ift-6169-lecture-6-notes.pdf",
+ "ift6085-2019/ift-6085-lecture-7-notes.pdf": "/ift6169-2023/ift-6169-lecture-7-notes.pdf",
+ "ift6085-2019/ift-6085-lecture-8-notes.pdf": "/ift6169-2023/ift-6169-lecture-8-notes.pdf",
+ "ift6085-2019/ift-6085-lecture-9-notes.pdf": "/ift6169-2023/ift-6169-lecture-9-notes.pdf",
+ "ift6085-2019/quiz-first-class.pdf": "/ift6169-2023/quiz-first-class.pdf",
+ "ift6085-2019/scribing_template.zip": "/ift6169-2023/scribing_template.zip",
+ "ift6085-2020/ift-6085-lecture-1.pdf": "/ift6169-2023/ift-6169-lecture-1.pdf",
+ "ift6085-2020/ift-6085-lecture-10-notes.pdf": "/ift6169-2023/ift-6169-lecture-10-notes.pdf",
+ "ift6085-2020/ift-6085-lecture-11-notes.pdf": "/ift6169-2023/ift-6169-lecture-11-notes.pdf",
+ "ift6085-2020/ift-6085-lecture-14-notes.pdf": "/ift6169-2023/ift-6169-bonus-lecture-numerics-of-gans.pdf",
+ "ift6085-2020/ift-6085-lecture-19-notes.pdf": "/ift6169-2023/ift-6169-bonus-lecture-basic-rl.pdf",
+ "ift6085-2020/ift-6085-lecture-2-notes.pdf": "/ift6169-2023/ift-6169-lecture-2-notes.pdf",
+ "ift6085-2020/ift-6085-lecture-3-notes.pdf": "/ift6169-2023/ift-6169-lecture-3-notes.pdf",
+ "ift6085-2020/ift-6085-lecture-5-notes.pdf": "/ift6169-2023/ift-6169-lecture-5-notes.pdf",
+ "ift6085-2020/ift-6085-lecture-6-notes.pdf": "/ift6169-2023/ift-6169-lecture-6-notes.pdf",
+ "ift6085-2020/ift-6085-lecture-7-notes.pdf": "/ift6169-2023/ift-6169-lecture-7-notes.pdf",
+ "ift6085-2020/ift-6085-lecture-8-notes.pdf": "/ift6169-2023/ift-6169-lecture-8-notes.pdf",
+ "ift6085-2020/ift-6085-lecture-9-notes.pdf": "/ift6169-2023/ift-6169-lecture-9-notes.pdf",
+ "ift6085-2020/student-notes-RMT-ML.pdf": "/ift6169-2023/",
+ "ift6085-2020/student-slides-RMT-ML.pdf": "/ift6169-2023/",
+ "ift6085-2020/student-slides-distribution-free-PAC-learning-massart.pdf": "/ift6169-2023/",
+ "ift6085-2021/ift-6085-lecture-1.pdf": "/ift6169-2023/ift-6169-lecture-1.pdf",
+ "ift6085-2021/student_slides/ift6085-presentation-expressivity-complexity-learnability.pdf": "/ift6169-2023/",
+ "ift6085-2021/student_slides/ift6085-presentation-performative-prediction.pdf": "/ift6169-2023/",
+ "ift6085/scribing_template.zip": "/ift6169-2023/scribing_template.zip",
+ "ift6169-2022/ift-6169-lecture-1.pdf": "/ift6169-2023/ift-6169-lecture-1.pdf",
+ "ift6169-2022/ift-6169-lecture-10-notes.pdf": "/ift6169-2023/ift-6169-lecture-10-notes.pdf",
+ "interactive/graphs/barbell.json": "/frogwild/",
+ "interactive/graphs/cycle.json": "/frogwild/",
+ "interactive/graphs/networkcost/force.js": "/frogwild/",
+ "interactive/graphs/networkcost/graph.json": "/frogwild/",
+ "interactive/graphs/powerlaw.json": "/frogwild/",
+ "interactive/graphs/scalefree.json": "/frogwild/",
+ "ioannis-headshot-scaled-2025.jpg": "/images/ioannis-headshot.jpg",
+ "ioannis-headshot-scaled.jpg": "/images/ioannis-headshot.jpg",
+ "old/default.css": "/",
+ "old/fonts.css": "/",
+ "papers/DKS_ICML.pdf": "https://proceedings.mlr.press/v32/papailiopoulos14.html",
+ "papers/icml2014Presentation.pdf": "/publications/",
+ "papers/kdd2014long.pdf": "/papers/erasures2014long.pdf",
+ "papers/nips2013CameraReady.pdf": "https://proceedings.neurips.cc/paper_files/paper/2013/file/76cf99d3614e23eabab16fb27e944bf9-Paper.pdf",
+ "papers/userRankings2011.pdf": "https://doi.org/10.1109/Allerton.2011.6120296",
+ "photos/.DS_Store": "/",
+ "photos/styannis.jpg": "/images/ioannis-headshot.jpg",
+ "presentation/DKS_ICML.pdf": "https://proceedings.mlr.press/v32/papailiopoulos14.html",
+ "rs.pdf": "/research/",
+ "slides/DKS_ICML.pdf": "https://proceedings.mlr.press/v32/papailiopoulos14.html"
+};
+  var path = '';
+  try { path = decodeURIComponent(location.pathname).replace(/^\/+/, ''); } catch (e) { return; }
+  var to = Object.prototype.hasOwnProperty.call(MOVED, path) ? MOVED[path] : null;
+  if (!to) return;
+  var link = document.getElementById('nf-link');
+  link.href = to; link.textContent = to;
+  document.getElementById('nf-moved').hidden = false;
+  document.getElementById('nf-msg').hidden = true;
+  location.replace(to);
+})();
+</script>

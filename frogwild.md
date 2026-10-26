@@ -2,6 +2,11 @@
 layout: page
 section: /research/
 permalink: /frogwild/
+redirect_from:
+  - /interactive/graphs/graphs.html
+  - /interactive/graphs/cycle.html
+  - /interactive/graphs/teleportationdeath.html
+  - /interactive/graphs/networkcost/network.html
 ---
 
 FrogWild!
