@@ -4,6 +4,8 @@ section: /teaching/
 permalink: /ift6169-2023/papers/
 redirect_from:
   - /ift6085-papers-2020/
+  - /ift6085-papers/
+  - /ift6085-papers-2019/
 ---
 
 IFT 6169: Class bibliography

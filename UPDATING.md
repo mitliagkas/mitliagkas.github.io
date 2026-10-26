@@ -19,6 +19,7 @@ Most content is data. Edit the YAML file; every page that uses it updates.
 | Funding acknowledgements | `_data/funders.yml` | Research (end of page) |
 | Photo gallery | `_data/gallery.yml` | Extracurriculars |
 | Recruiting notice, nav, profile links | `_config.yml` | Home, header, footer |
+| Redirects for removed files (PDFs and other non-page URLs) | `404.html` (the `MOVED` table); page URLs use `redirect_from` | Old links from other sites |
 
 Prose pages: `index.html` (bio), `pages/*.html`, `extracurriculars.md`, course pages
 (`ml-class*.md`, `dl-theory-class*.md`). Images go in `images/`; student photos are
