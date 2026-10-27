@@ -6,11 +6,11 @@ noindex: true
 sitemap: false
 ---
 <div class="prose">
-<h1>Page not found</h1>
+<h1 id="nf-h">Page not found</h1>
 <p id="nf-msg">This page does not exist. Try the <a href="/">home page</a>, <a href="/publications/">publications</a> or <a href="/teaching/">teaching</a>.</p>
 <p id="nf-moved" hidden>This file has moved to <a id="nf-link" href="#"></a>. Redirecting.</p>
 <div id="nf-choice" hidden>
-<p>This material has two versions.</p>
+<p>This material was updated in a later edition of the class.</p>
 <ul>
 <li><a id="nf-original" href="#">Original version</a>, the one this link was made for.</li>
 <li><a id="nf-updated" href="#">Updated version</a>, from a later edition of the class.</li>
@@ -126,13 +126,16 @@ sitemap: false
   var to = Object.prototype.hasOwnProperty.call(MOVED, path) ? MOVED[path] : null;
   if (!to) return;
   document.getElementById('nf-msg').hidden = true;
+  var h = document.getElementById('nf-h');
   if (typeof to === 'object') {
+    h.textContent = 'Two versions available';
     // Superseded material: let the reader choose, do not redirect.
     document.getElementById('nf-original').href = to.original;
     document.getElementById('nf-updated').href = to.updated;
     document.getElementById('nf-choice').hidden = false;
     return;
   }
+  h.textContent = 'This file has moved';
   var link = document.getElementById('nf-link');
   link.href = to; link.textContent = to;
   document.getElementById('nf-moved').hidden = false;
