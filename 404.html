@@ -9,11 +9,20 @@ sitemap: false
 <h1>Page not found</h1>
 <p id="nf-msg">This page does not exist. Try the <a href="/">home page</a>, <a href="/publications/">publications</a> or <a href="/teaching/">teaching</a>.</p>
 <p id="nf-moved" hidden>This file has moved to <a id="nf-link" href="#"></a>. Redirecting.</p>
+<div id="nf-choice" hidden>
+<p>This material has two versions.</p>
+<ul>
+<li><a id="nf-original" href="#">Original version</a>, the one this link was made for.</li>
+<li><a id="nf-updated" href="#">Updated version</a>, from a later edition of the class.</li>
+</ul>
+</div>
 </div>
 <script>
 (function () {
   // Old course, paper and file URLs that moved. GitHub Pages cannot send
   // server redirects, so this page forwards visitors to the current location.
+  // A value is either a URL (redirect) or {"original": URL, "updated": URL}
+  // (no redirect; the reader picks). See UPDATING.md, "Class editions".
   var MOVED = {
  "FrogWild.pdf": "/papers/FrogWild.pdf",
  "biblio/biblio.bib": "/publications/",
@@ -116,10 +125,17 @@ sitemap: false
   try { path = decodeURIComponent(location.pathname).replace(/^\/+/, ''); } catch (e) { return; }
   var to = Object.prototype.hasOwnProperty.call(MOVED, path) ? MOVED[path] : null;
   if (!to) return;
+  document.getElementById('nf-msg').hidden = true;
+  if (typeof to === 'object') {
+    // Superseded material: let the reader choose, do not redirect.
+    document.getElementById('nf-original').href = to.original;
+    document.getElementById('nf-updated').href = to.updated;
+    document.getElementById('nf-choice').hidden = false;
+    return;
+  }
   var link = document.getElementById('nf-link');
   link.href = to; link.textContent = to;
   document.getElementById('nf-moved').hidden = false;
-  document.getElementById('nf-msg').hidden = true;
   location.replace(to);
 })();
 </script>
