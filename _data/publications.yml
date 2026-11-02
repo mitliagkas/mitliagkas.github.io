@@ -957,8 +957,8 @@
 - id: nakamori2026-orth-dion-eliminating
   title: 'Orth-Dion: Eliminating Geometric Mismatch in Distributed Low-Rank Spectral Optimization'
   authors:
-  - T. Nakamori
   - L. Gomezjurado Gonzalez
+  - T. Nakamori
   - G. Talluri
   - A. Tiwari
   - H. Kawashima
@@ -971,6 +971,22 @@
   arxiv: '2605.16341'
   topics:
   - optimization
+- id: clivio2025-learning-defer-causal
+  title: Learning to Defer for Causal Discovery with Imperfect Experts
+  authors:
+  - O. Clivio
+  - D. Mahajan
+  - P. Taslakian
+  - S. Magliacane
+  - I. Mitliagkas
+  - V. Zantedeschi
+  - A. Drouin
+  year: 2025
+  status: workshop
+  venue_text: ICLR 2025 Workshop on Reasoning and Planning for LLMs
+  arxiv: '2502.13132'
+  topics:
+  - generalization
 - id: naganuma2024-smoothness-adaptive-sharpness
   title: Smoothness-Adaptive Sharpness-Aware Minimization for Finding Flatter Minima
   authors:
@@ -998,6 +1014,21 @@
   arxiv: '2412.19325'
   topics:
   - other
+- id: ibrahim2022-towards-out-distribution
+  title: Towards Out-of-Distribution Adversarial Robustness
+  authors:
+  - A. Ibrahim
+  - C. Guille-Escuret
+  - I. Mitliagkas
+  - I. Rish
+  - D. Krueger
+  - P. Bashivan
+  year: 2023
+  status: workshop
+  venue_text: ICML 2023 Workshop on New Frontiers in Adversarial Machine Learning (AdvML-Frontiers)
+  arxiv: '2210.03150'
+  topics:
+  - generalization
 - id: neal2019-support-over-parametrization
   title: 'In Support of Over-Parametrization in Deep Reinforcement Learning: an Empirical Study'
   authors:
@@ -1038,6 +1069,36 @@
   arxiv: '1606.07365'
   topics:
   - optimization
+- id: inane2026-towards-faithful-data
+  title: 'Towards Faithful Data Selection: Statistical Limits and Scalable Algorithms'
+  authors:
+  - A.M. Inane
+  - M. Haghifam
+  - G.K. Dziugaite
+  - I. Mitliagkas
+  year: 2026
+  status: preprint
+  arxiv: '2610.30442'
+  topics:
+  - generalization
+  featured: true
+  summary: 'Selecting a subset with the lowest population error is impossible without a validation set much larger than the training set. We target faithfulness instead: a subset whose trained model stays close to the one trained on all the data. Modelling training as Langevin dynamics, we bound this gap by the accumulated gradient discrepancy, show that minimizing it is NP-hard, and give a swap-based local search that tightens the bound and can refine the output of any selector.'
+- id: naganuma2026-which-geometry-which
+  title: Which Geometry on Which Layer? Measured Sign-Spectral Assignment in Mixed-Optimizer Training
+  authors:
+  - H. Naganuma
+  - L. Gomezjurado Gonzalez
+  - M. Ghaznavi
+  - G. Talluri
+  - A. Nitanda
+  - S.P. Liew
+  - R. Hataya
+  - I. Mitliagkas
+  year: 2026
+  status: preprint
+  arxiv: '2610.17285'
+  topics:
+  - optimization
 - id: dufortlabb2026-navigating-potholes-geometry
   title: Navigating Potholes with Geometry-Aware Sharpness Minimization
   authors:
@@ -1052,21 +1113,6 @@
   arxiv: '2605.16134'
   topics:
   - optimization
-- id: clivio2025-learning-defer-causal
-  title: Learning to Defer for Causal Discovery with Imperfect Experts
-  authors:
-  - O. Clivio
-  - D. Mahajan
-  - P. Taslakian
-  - S. Magliacane
-  - I. Mitliagkas
-  - V. Zantedeschi
-  - A. Drouin
-  year: 2025
-  status: preprint
-  arxiv: '2502.13132'
-  topics:
-  - generalization
 - id: akazan2024-generating-tabular-data
   title: Generating Tabular Data Using Heterogeneous Sequential Feature Forest Flow Matching
   authors:
@@ -1078,20 +1124,6 @@
   arxiv: '2410.15516'
   topics:
   - other
-- id: ibrahim2022-towards-out-distribution
-  title: Towards Out-of-Distribution Adversarial Robustness
-  authors:
-  - A. Ibrahim
-  - C. Guille-Escuret
-  - I. Mitliagkas
-  - I. Rish
-  - D. Krueger
-  - P. Bashivan
-  year: 2022
-  status: preprint
-  arxiv: '2210.03150'
-  topics:
-  - generalization
 - id: girotti2021-convergence-analysis-implicit
   title: Convergence Analysis and Implicit Regularization of Feedback Alignment for Deep Linear Networks
   authors:
