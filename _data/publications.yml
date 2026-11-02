@@ -954,6 +954,19 @@
   url: https://ieeexplore.ieee.org/document/4599905
   topics:
   - other
+- id: dorazio2026-surrogate-loss-gradient
+  title: Surrogate Loss Gradient Descent in Variational Inequalities with Linear Approximation
+  authors:
+  - R. D'Orazio
+  - S. Anand
+  - I. Mitliagkas
+  - G. Gidel
+  year: 2026
+  status: workshop
+  venue_text: NeurIPS 2026 Workshop on Optimization for Machine Learning (OPT)
+  url: https://neurips.cc/virtual/2026/161434
+  topics:
+  - games
 - id: nakamori2026-orth-dion-eliminating
   title: 'Orth-Dion: Eliminating Geometric Mismatch in Distributed Low-Rank Spectral Optimization'
   authors:
