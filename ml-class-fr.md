@@ -2,25 +2,23 @@
 layout: page
 lang: fr
 section: /teaching/
-title: ML class
+title: "IFT 3395/6390 : Fondements de l'apprentissage machine"
 permalink: /ml-class-fr/
 ---
 
-IFT3395/IFT6390A: Fondements de l'apprentissage machine -- Automne 2025 -- donné en presentiel
+IFT 3395/6390A : Fondements de l'apprentissage machine -- Automne 2026 -- en présentiel
 =========
 
 Un cours d'introduction mais **très intensif** en apprentissage automatique.
 
-**REMARQUE:
-In the fall semester of 2025 I am teaching the french section of the class, IFT6390A, as well as the undergraduate class, IFT3395.
-My colleague, Dhanya Sridhar, will teach the english section, IFT6390B.
+Je donne la section francophone du cours aux cycles supérieurs, IFT 6390A, ainsi que le cours de premier cycle, IFT 3395.
+Le cours est aussi offert en anglais (IFT 6390B) par Dhanya Sridhar : voir [la page de son cours](https://www.dsridhar.com/courses/3089-fundamentals-of-machine-learning).
 
 Les cours et les travaux pratiques sont donnés en français.
 Les devoirs et les examens seront disponibles en français et en anglais. 
 Les étudiants sont toujours encouragés à soumettre leur travail et à poser des questions dans la langue de leur choix.
 
-**IMPORTANT :
-Veuillez ne vous inscrire à ce cours qu'après avoir lu et examiné attentivement toutes les conditions requises énumérées dans la page [prerequisites](/ml-class-prerequisites-fr).**
+**IMPORTANT : Veuillez ne vous inscrire à ce cours qu'après avoir lu et examiné attentivement toutes les conditions requises énumérées dans la page des [préalables](/ml-class-prerequisites-fr/).**
 
 
 Ressources
@@ -49,7 +47,7 @@ La soumission et l'évaluation des devoirs se feront sur Gradescope. Vous serez 
 
 **Important:** Assurez-vous d'apprendre à utiliser et de vérifier votre boîte de courriel @umontreal.ca. C'est là que vous recevrez les annonces et les invitations aux services en ligne de la classe.
 
-Les classes ne seront utilisées que pour la coordination initiale avec les étudiants inscrits jusqu'à ce qu'ils aient accès à Piazza. Il n'y aura pas de discussions sur Studium. 
+La page StudiUM du cours ne sera utilisée que pour la coordination initiale avec les étudiants inscrits jusqu'à ce qu'ils aient accès à Piazza. Il n'y aura pas de discussions sur Studium. 
 
 **Avis important sur la communication par email:**
 Il s'agit d'une classe très nombreuse, l'instructeur ne sera donc pas en mesure de répondre aux questions individuelles sur le cours par courrier électronique.  **Exclusivement dans le cas où vous avez une question de nature sensible et personnelle:** N'hésitez pas à envoyer un courriel à l'instructeur.  Veuillez commencer l'objet de votre courriel par « [IFT6390] », sinon votre courriel risque d'être perdu.
@@ -99,14 +97,14 @@ Notions couvertes (titres indicatifs) :
 <h2>Labo</h2>
 Voici un échantillon des trois premiers laboratoires de l'année dernière pour vous aider à démarrer jusqu'à ce que vous ayez accès au matériel de cette année.
 
-- <a href="https://docs.google.com/presentation/d/1DB5-BGoImjcnsd1amnjQ4s4nhjUZhknCd5rra3eFnaU/edit?usp=sharing">Lab 0 Slides: Class tools (Thursday, September 5th, 2019)</a> 
-- <a href="https://drive.google.com/file/d/1XizC8QB33mAhG5FaenF5ILo8La4vdX-9/view?usp=sharing">Lab 1 Notebook: Numpy (Thursday, September 12th, 2019)</a> 
-- <a href="https://drive.google.com/file/d/1odCUuWRKk6SBIGpQtkSBVdPErTQ_fEzy/view?usp=sharing">Lab 1 Notebook: k-NN (Thursday, September 12th, 2019)</a> 
+- <a href="https://docs.google.com/presentation/d/1DB5-BGoImjcnsd1amnjQ4s4nhjUZhknCd5rra3eFnaU/edit?usp=sharing">Lab 0 Diapositives : outils du cours (jeudi 5 septembre 2019)</a> 
+- <a href="https://drive.google.com/file/d/1XizC8QB33mAhG5FaenF5ILo8La4vdX-9/view?usp=sharing">Lab 1, carnet : NumPy (jeudi 12 septembre 2019)</a> 
+- <a href="https://drive.google.com/file/d/1odCUuWRKk6SBIGpQtkSBVdPErTQ_fEzy/view?usp=sharing">Lab 1, carnet : k-NN (jeudi 12 septembre 2019)</a> 
 
 
 
 
-<h2>Evaluation</h2>
+<h2>Évaluation</h2>
 
 **Quiz hebdomadaires (10%):**
 Nous aurons un quiz hebdomadaire en ligne. Vous pourrez faire ce test de n'importe où.
@@ -130,8 +128,18 @@ La date exacte et le format seront annoncés ultérieurement.
 
 
 *Pour la plupart de ces évaluations, vous pourrez soumettre votre travail et voir vos notes sur Gradescope. 
- Voir la section 'Communication' pour plus d'informations sur l'accès. *
+ Voir la section « Communication » pour plus d'informations sur l'accès.*
 
+
+Utilisation de l'intelligence artificielle générative
+----------------
+
+**Niveau d'autorisation : utilisation permise, mais restreinte.**
+Dans ce cours, les outils d'IA générative peuvent être employés en soutien aux activités d'apprentissage, uniquement pour des tâches d'aide technique ou linguistique.
+Leur emploi est interdit pour la rédaction finale des travaux remis.
+Il est de la responsabilité de la personne étudiante d'assurer l'exactitude du matériel utilisé, généré par ces outils.
+Toute utilisation non conforme à cette règle est traitée comme une fraude (voir la section suivante).
+Pour plus d'information, voir l'[encadrement de l'utilisation de l'IA générative à l'UdeM](https://cpu.umontreal.ca/iag/enseigner-avec-l-iag/encadrement-utilisation-iag-udem/).
 
 Fraude académique et plagiat
 ---------------- 
@@ -140,7 +148,7 @@ Fraude académique et plagiat
 L'Université de Montréal a désormais une politique stricte en cas de fraude ou de plagiat.
 Si une infraction est constatée, le professeur est tenu d'en faire rapport au directeur du département.
 Une procédure administrative est alors automatiquement déclenchée avec les conséquences suivantes : l'infraction est notée dans votre dossier,
-et une sanction est décidée (qui peut être grave et aller jusqu'au licenciement en cas de récidive). Il est important que vous fassiez le travail vous-même !
+et une sanction est décidée (qui peut être grave et aller jusqu'au renvoi en cas de récidive). Il est important que vous fassiez le travail vous-même !
 
 
 
