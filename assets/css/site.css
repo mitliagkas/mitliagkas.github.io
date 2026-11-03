@@ -218,7 +218,37 @@ main { padding: 2rem 0 4rem; }
 .course blockquote { margin: 1.25rem 0; padding: 0.9rem 1.2rem; border-left: 3px solid var(--accent); background: var(--accent-soft); }
 .course blockquote > :last-child { margin-bottom: 0; }
 .course blockquote.warn { border-left-color: var(--warn); background: var(--warn-soft); }
+/* Course schedule (_includes/course-schedule.html) */
+.sched-part h3 { margin: 2.25rem 0 0.25rem; }
+.sched-note { font: 0.92rem/1.5 var(--sans); color: var(--muted); margin: 0 0 0.5rem; }
+.sched { list-style: none; padding: 0; margin: 0.5rem 0 0; }
+.course .sched li + li { margin-top: 0; }
+.session { display: grid; grid-template-columns: 5.5rem minmax(0, 1fr); gap: 0 1.25rem; padding: 0.75rem 0; border-bottom: 1px solid var(--rule); }
+.session-nodate { grid-template-columns: minmax(0, 1fr); }
+.session-dates { font: 600 0.85rem/1.55 var(--sans); color: var(--muted); padding-top: 0.15rem; }
+.session-dates span { display: block; }
+.session-topic { font: 600 1rem/1.4 var(--sans); margin: 0; }
+.session-materials { display: flex; flex-wrap: wrap; gap: 0.35rem; margin: 0.4rem 0 0; font: 500 0.8rem/1.3 var(--sans); }
+.session-materials a { text-decoration: none; padding: 0.15rem 0.55rem; border: 1px solid var(--rule); border-radius: 999px; background: var(--accent-soft); }
+.session-materials a:hover { border-color: var(--accent); }
+.session-reading { margin-top: 0.4rem; font-size: 0.95rem; }
+.session-reading summary { cursor: pointer; font: 500 0.82rem/1.4 var(--sans); color: var(--accent); width: max-content; }
+.session-reading[open] summary { margin-bottom: 0.4rem; }
+.session-reading > :last-child { margin-bottom: 0; }
+.session-reading ul { padding-left: 1.2rem; }
+.session-exam .session-topic, .session-project .session-topic { color: var(--mark); }
+.session-break { background: var(--accent-soft); padding-left: 0.6rem; padding-right: 0.6rem; }
+.session-break .session-topic, .session-presentations .session-topic { font-weight: 500; }
+.session-presentations .session-dates span, .session-break .session-dates span { display: inline; }
+.session-presentations .session-dates span + span::before, .session-break .session-dates span + span::before { content: ", "; }
+.refs { font-size: 0.95rem; padding-left: 1.8rem; }
+.refs li { scroll-margin-top: 1rem; }
+.refs li:target { background: var(--accent-soft); outline: 0.3rem solid var(--accent-soft); }
+
 @media (max-width: 44rem) {
+  .session { grid-template-columns: 1fr; }
+  .session-dates span { display: inline; }
+  .session-dates span + span::before { content: ", "; }
   .glance { grid-template-columns: 1fr; gap: 0 0; }
   .glance dd { margin-bottom: 0.5rem; }
 }
