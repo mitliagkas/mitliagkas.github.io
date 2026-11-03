@@ -26,7 +26,7 @@ IFT3395</a>.
 
 **IMPORTANT:
 Please do not register for this class unless you have read and carefully considered all the class requirements listed in the 
-[prerequisites](/ml-class-prerequisites-fr) page.**
+[prerequisites](/ift6390-ml-class-prerequisites/) page.**
 
 Quick links
 --------- 
@@ -82,11 +82,11 @@ This is a very large class, so the instructor will not be able to respond to ind
 Class and lab times
 -----
 The instructor's lectures are on
-- Tuesday at 12:30pm-13:20am ET
+- Tuesday at 12:30pm-1:20pm ET
 - Wednesday at 9:30am-11:10am ET
 
 Weekly labs led by a TA on
-- Tuesday at 14:30am-16:30am ET
+- Tuesday at 2:30pm-4:30pm ET
 
 Updated information can always be found by following the instructions below "TROUVEZ L’HORAIRE D’UN COURS" at the bottom of <a href="https://admission.umontreal.ca/cours-et-horaires/cours/ift-6390/">
 this page</a>.

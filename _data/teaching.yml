@@ -16,7 +16,7 @@ offerings:
   - {term: Fall 2025,   course: ml,       mode: "in person, French"}
   - {term: Fall 2024,   course: ml,       mode: "French"}
   - {term: Fall 2023,   course: ml,       mode: "in person, English", url: /ift6390-ml-class/}
-  - {term: Winter 2023, course: dltheory, mode: hybrid}
+  - {term: Winter 2023, course: dltheory, mode: hybrid, url: /ift6169-2023/}
   - {term: Fall 2022,   course: ml,       mode: hybrid}
   - {term: Winter 2022, course: dltheory, mode: hybrid}
   - {term: Fall 2021,   course: ml,       mode: hybrid}
