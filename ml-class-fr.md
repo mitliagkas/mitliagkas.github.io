@@ -145,7 +145,7 @@ Dans ce cours, les outils d'IA générative peuvent être employés en soutien a
 
 L'emploi de ces outils est toutefois interdit dans les activités suivantes :
 
-- pour rédiger le rapport final du cours;
+- pour rédiger les rapports des compétitions Kaggle;
 - pour écrire du code à votre place.
 
 La transparence est de mise : [l'utilisation du Formulaire de déclaration de l'utilisation de l'intelligence artificielle générative, disponible sur le site web des bibliothèques](https://bib.umontreal.ca/evaluer-analyser-rediger/iag), est recommandée.
