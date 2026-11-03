@@ -2,6 +2,7 @@
 layout: page
 section: /research/
 title: Asynchrony
+description: "Asynchrony begets momentum: asynchronous SGD behaves like SGD with an extra momentum term. Note and companion systems paper by Mitliagkas and coauthors."
 permalink: /asynchrony/
 ---
 

@@ -3,6 +3,7 @@ layout: course
 section: /teaching/
 permalink: /ift6390-ml-class-prerequisites/
 title: "IFT 6390B: Prerequisites (Fall 2023)"
+description: "IFT 6390B, Fundamentals of machine learning, Fall 2023: mathematics and programming prerequisites to check before enrolling."
 codes: "IFT 6390B"
 course_title: "Fundamentals of machine learning: prerequisites"
 term: "Fall 2023"

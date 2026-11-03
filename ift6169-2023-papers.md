@@ -7,6 +7,7 @@ redirect_from:
   - /ift6085-papers/
   - /ift6085-papers-2019/
 title: "IFT 6169: Class bibliography (Winter 2023)"
+description: "Reading list for IFT 6169, Theoretical principles for deep learning: recent papers on optimization, expressivity and generalization. Winter 2023 edition."
 codes: "IFT 6169"
 course_title: "Class bibliography"
 term: "Winter 2023"

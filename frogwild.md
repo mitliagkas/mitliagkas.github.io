@@ -1,5 +1,6 @@
 ---
 layout: page
+description: "FrogWild!: fast PageRank approximation on graph engines using random walks (VLDB 2015). Joint work of Mitliagkas, Borokhovich, Dimakis and Caramanis."
 section: /research/
 permalink: /frogwild/
 redirect_from:
