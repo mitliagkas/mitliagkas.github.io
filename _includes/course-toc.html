@@ -1,0 +1,15 @@
+{%- comment -%} Builds "On this page" from the h2 headings kramdown gives ids to. {%- endcomment -%}
+{%- assign parts = include.html | split: '<h2 id="' -%}
+{%- if parts.size > 2 -%}
+<nav class="course-toc" aria-label="{% if include.fr %}Sur cette page{% else %}On this page{% endif %}">
+  <p>{% if include.fr %}Sur cette page{% else %}On this page{% endif %}</p>
+  <ol>
+  {%- for p in parts offset: 1 -%}
+    {%- assign id = p | split: '"' | first -%}
+    {%- assign rest = p | split: '</h2>' | first -%}
+    {%- assign label = rest | remove_first: id | remove_first: '">' | strip_html | strip -%}
+    <li><a href="#{{ id }}">{{ label }}</a></li>
+  {%- endfor -%}
+  </ol>
+</nav>
+{%- endif -%}

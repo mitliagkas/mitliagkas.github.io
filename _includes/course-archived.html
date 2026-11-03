@@ -1,0 +1,12 @@
+{%- assign a = page.archived -%}
+<aside class="notice notice-archived" role="note">
+  {% if page.lang == 'fr' %}
+  <h2>Édition archivée{% if a.edition %} : {{ a.edition }}{% endif %}</h2>
+  <p>Cette page est conservée pour référence. Les dates, les personnes, les liens et les règles qu'elle contient ne sont plus à jour.{% if a.note %} {{ a.note }}{% endif %}</p>
+  {% if a.current_url %}<p><a class="notice-action" href="{{ a.current_url | relative_url }}">{{ a.current_label | default: "Voir l'édition actuelle" }} →</a></p>{% endif %}
+  {% else %}
+  <h2>Archived edition{% if a.edition %}: {{ a.edition }}{% endif %}</h2>
+  <p>This page is kept for reference. Its dates, people, links and rules are no longer current.{% if a.note %} {{ a.note }}{% endif %}</p>
+  {% if a.current_url %}<p><a class="notice-action" href="{{ a.current_url | relative_url }}">{{ a.current_label | default: "See the current edition" }} →</a></p>{% endif %}
+  {% endif %}
+</aside>
