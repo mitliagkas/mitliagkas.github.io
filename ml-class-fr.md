@@ -9,10 +9,11 @@ permalink: /ml-class-fr/
 IFT 3395/6390A : Fondements de l'apprentissage machine -- Automne 2026 -- en présentiel
 =========
 
+> **English:** This class is taught in French. The English section, IFT 6390B, is taught by Dhanya Sridhar: see [her course page](https://www.dsridhar.com/courses/3089-fundamentals-of-machine-learning).
+
 Un cours d'introduction mais **très intensif** en apprentissage automatique.
 
 Je donne la section francophone du cours aux cycles supérieurs, IFT 6390A, ainsi que le cours de premier cycle, IFT 3395.
-Le cours est aussi offert en anglais (IFT 6390B) par Dhanya Sridhar : voir [la page de son cours](https://www.dsridhar.com/courses/3089-fundamentals-of-machine-learning).
 
 Les cours et les travaux pratiques sont donnés en français.
 Les devoirs et les examens seront disponibles en français et en anglais. 
@@ -113,7 +114,7 @@ Une fois que vous aurez commencé le quiz, vous aurez 15 minutes pour le termine
 Nous aurons au moins 12 quiz pendant le semestre ; vos 6 meilleurs scores seront utilisés pour calculer votre score semestriel aux quiz (10% de votre note finale).
 
 **Examen intra (30%):**
-L'examen de mi-semestre sera un examen écrit en classe et aura lieu le 14 octobre.
+L'examen de mi-semestre sera un examen écrit en classe et aura lieu le 13 octobre.
 L'examen portera sur l'ensemble du programme étudié jusqu'à cette date.
 
 
@@ -134,12 +135,24 @@ La date exacte et le format seront annoncés ultérieurement.
 Utilisation de l'intelligence artificielle générative
 ----------------
 
-**Niveau d'autorisation : utilisation permise, mais restreinte.**
-Dans ce cours, les outils d'IA générative peuvent être employés en soutien aux activités d'apprentissage, uniquement pour des tâches d'aide technique ou linguistique.
-Leur emploi est interdit pour la rédaction finale des travaux remis.
+Dans ce cours, les outils d'IA générative peuvent être employés en soutien aux activités d'apprentissage des personnes participantes, par exemple :
+
+- pour trouver des définitions de concepts;
+- pour planifier une présentation;
+- pour effectuer la révision linguistique de textes;
+- pour vous aider à comprendre des concepts complexes;
+- pour vous aider à apprendre à programmer et à améliorer votre propre code (sans programmer à votre place sans discernement : les examens écrits vous demanderont d'écrire du code sur papier).
+
+L'emploi de ces outils est toutefois interdit dans les activités suivantes :
+
+- pour rédiger le rapport final du cours;
+- pour écrire du code à votre place.
+
+La transparence est de mise : [l'utilisation du Formulaire de déclaration de l'utilisation de l'intelligence artificielle générative, disponible sur le site web des bibliothèques](https://bib.umontreal.ca/evaluer-analyser-rediger/iag), est recommandée.
+Il est obligatoire de consigner les conversations avec l'IAg. [Le site web des bibliothèques offre des repères à ce sujet](https://bib.umontreal.ca/evaluer-analyser-rediger/iag?tab=5377614).
+Lorsque vous remettez un travail pour lequel vous avez utilisé des outils d'IA, vous devez y inclure une courte section « Utilisation de l'IA » dans votre rapport (ou dans les commentaires du code) expliquant en détail comment vous avez utilisé l'IA.
+
 Il est de la responsabilité de la personne étudiante d'assurer l'exactitude du matériel utilisé, généré par ces outils.
-Toute utilisation non conforme à cette règle est traitée comme une fraude (voir la section suivante).
-Pour plus d'information, voir l'[encadrement de l'utilisation de l'IA générative à l'UdeM](https://cpu.umontreal.ca/iag/enseigner-avec-l-iag/encadrement-utilisation-iag-udem/).
 
 Fraude académique et plagiat
 ---------------- 
