@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Extracurriculars
+description: "Ioannis Mitliagkas outside research: organizing, running, music and photography."
 permalink: /extracurriculars/
 redirect_from:
   - /photography/

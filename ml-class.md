@@ -2,6 +2,7 @@
 layout: course
 section: /teaching/
 title: "IFT 6390B: Fundamentals of machine learning (Fall 2023)"
+description: "IFT 6390B, Fundamentals of machine learning, Université de Montréal, Fall 2023 (English): syllabus, schedule and materials. Archived edition."
 permalink: /ift6390-ml-class/
 codes: "IFT 6390B"
 course_title: "Fundamentals of machine learning"

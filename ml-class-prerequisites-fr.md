@@ -4,6 +4,7 @@ lang: fr
 section: /teaching/
 permalink: /ml-class-prerequisites-fr/
 title: "IFT 3395/6390 : préalables"
+description: "IFT 3395/6390, Fondements de l'apprentissage machine : préalables en mathématiques et en programmation à vérifier avant de s'inscrire."
 codes: "IFT 3395 · IFT 6390A"
 course_title: "Fondements de l'apprentissage machine : préalables"
 ---
