@@ -135,7 +135,7 @@ La date exacte et le format seront annoncés ultérieurement.
 Utilisation de l'intelligence artificielle générative
 ----------------
 
-Dans ce cours, les outils d'IA générative peuvent être employés en soutien aux activités d'apprentissage des personnes participantes, par exemple :
+**Dans ce cours, l'utilisation des outils d'IA générative est permise, mais restreinte.** Ces outils peuvent être employés uniquement pour des usages précis de soutien à l'apprentissage, énumérés ci-dessous. Toute utilisation au-delà de ces usages est considérée comme une fraude académique. Les usages permis sont :
 
 - pour trouver des définitions de concepts;
 - pour planifier une présentation;
@@ -153,6 +153,8 @@ Il est obligatoire de consigner les conversations avec l'IAg. [Le site web des b
 Lorsque vous remettez un travail pour lequel vous avez utilisé des outils d'IA, vous devez y inclure une courte section « Utilisation de l'IA » dans votre rapport (ou dans les commentaires du code) expliquant en détail comment vous avez utilisé l'IA.
 
 Il est de la responsabilité de la personne étudiante d'assurer l'exactitude du matériel utilisé, généré par ces outils.
+
+Toute utilisation des outils d'IA générative qui dépasse les usages permis ci-dessus est considérée comme une fraude académique (voir la section suivante).
 
 Fraude académique et plagiat
 ---------------- 
