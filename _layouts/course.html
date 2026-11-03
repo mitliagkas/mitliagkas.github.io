@@ -1,0 +1,39 @@
+---
+layout: default
+---
+{%- comment -%}
+Course pages. Front matter:
+  codes, course_title       shown as the page heading
+  term, format              shown under the heading
+  archived                  {current_url, current_label}: marks a past edition (banner at the top)
+  glance                    list of {label, value}; value may contain Markdown links
+  intro_notice              short Markdown note shown in a box above the page (e.g. English pointer)
+  toc: false                hides the "On this page" list
+Labels follow page.lang (fr or en).
+{%- endcomment -%}
+{%- assign fr = false -%}{%- if page.lang == 'fr' -%}{%- assign fr = true -%}{%- endif -%}
+<article class="page-content course">
+  {% if page.archived %}{% include course-archived.html %}{% endif %}
+
+  <header class="course-head">
+    {% if page.codes %}<p class="course-codes">{{ page.codes }}</p>{% endif %}
+    <h1>{{ page.course_title | default: page.title }}</h1>
+    {% if page.term or page.format %}<p class="course-term">{{ page.term }}{% if page.term and page.format %} · {% endif %}{{ page.format }}</p>{% endif %}
+  </header>
+
+  {% if page.intro_notice %}
+  <aside class="notice notice-info" lang="{{ page.intro_notice_lang | default: page.lang }}">{{ page.intro_notice | markdownify }}</aside>
+  {% endif %}
+
+  {% if page.glance %}
+  <dl class="glance" aria-label="{% if fr %}En bref{% else %}At a glance{% endif %}">
+    {% for g in page.glance %}
+    <div><dt>{{ g.label }}</dt><dd>{{ g.value | markdownify | remove: '<p>' | remove: '</p>' | strip }}</dd></div>
+    {% endfor %}
+  </dl>
+  {% endif %}
+
+  {% unless page.toc == false %}{% include course-toc.html html=content fr=fr %}{% endunless %}
+
+  {{ content }}
+</article>
