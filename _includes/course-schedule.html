@@ -1,0 +1,31 @@
+{%- comment -%}
+Renders part of a course edition from _data/editions/<include.edition>.yml.
+  include.list: "schedule" (default), "bonus" or "references"
+schedule: list of parts {part, note, sessions}
+session:  {dates: [..], topic, kind (exam|break|presentations|project), materials: [{label, url}], reading: Markdown}
+bonus:    list of sessions (no dates)
+references: list of Markdown strings, numbered; anchors #ref-1, #ref-2, ...
+{%- endcomment -%}
+{%- assign ed = site.data.editions[include.edition] -%}
+{%- assign which = include.list | default: "schedule" -%}
+{%- if which == "references" -%}
+<ol class="refs">
+  {%- for r in ed.references %}
+  <li id="ref-{{ forloop.index }}">{{ r | markdownify | remove: '<p>' | remove: '</p>' | strip }}</li>
+  {%- endfor %}
+</ol>
+{%- elsif which == "bonus" -%}
+<ol class="sched">
+  {%- for s in ed.bonus -%}{% include course-session.html s=s %}{%- endfor -%}
+</ol>
+{%- else -%}
+{%- for p in ed.schedule -%}
+<section class="sched-part">
+  <h3>{{ p.part }}</h3>
+  {% if p.note %}<p class="sched-note">{{ p.note }}</p>{% endif %}
+  <ol class="sched">
+    {%- for s in p.sessions -%}{% include course-session.html s=s %}{%- endfor -%}
+  </ol>
+</section>
+{%- endfor -%}
+{%- endif -%}

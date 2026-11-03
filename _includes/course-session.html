@@ -1,0 +1,9 @@
+{%- assign s = include.s -%}
+<li class="session{% if s.kind %} session-{{ s.kind }}{% endif %}{% if s.dates.size == 0 %} session-nodate{% endif %}">
+  {% if s.dates.size > 0 %}<div class="session-dates">{% for d in s.dates %}<span>{{ d }}</span>{% endfor %}</div>{% endif %}
+  <div class="session-body">
+    <p class="session-topic">{{ s.topic }}</p>
+    {% if s.materials %}<p class="session-materials">{% for m in s.materials %}<a href="{{ m.url | relative_url }}">{{ m.label }}</a>{% endfor %}</p>{% endif %}
+    {% if s.reading %}<details class="session-reading"><summary>{% if page.lang == 'fr' %}Lectures{% else %}Reading{% endif %}</summary>{{ s.reading | markdownify }}</details>{% endif %}
+  </div>
+</li>
