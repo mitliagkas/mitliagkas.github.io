@@ -6,79 +6,79 @@ schedule:
 - part: Foundations
   note: Tools reused all term. Convex analysis and basic learning theory are pre-reading, checked by a diagnostic Homework 0.
   sessions:
-  - dates: [Jan 7]
-    topic: "Introduction: approximation, optimization, generalization, and where each classical answer breaks"
   - dates: [Jan 12]
-    topic: "Gradient descent and SGD toolbox: smoothness, the PL condition, SGD noise, gradient flow"
+    topic: "Introduction: approximation, optimization, generalization, and where each classical answer breaks"
   - dates: [Jan 14]
-    topic: "Acceleration, preconditioning and steepest descent; the bridge to Adam and Muon"
+    topic: "Gradient descent and SGD toolbox: smoothness, the PL condition, SGD noise, gradient flow"
   - dates: [Jan 19]
+    topic: "Acceleration, preconditioning and steepest descent; the bridge to Adam and Muon"
+  - dates: [Jan 21]
     topic: "Generalization toolbox: uniform convergence, Rademacher complexity, margins, and why they fail"
 - part: A. Function classes
   note: What networks can represent, and what kernels cannot.
   sessions:
-  - dates: [Jan 21]
-    topic: "Expressivity: universal approximation, variation norms and Barron spaces, depth separation"
   - dates: [Jan 26]
+    topic: "Expressivity: universal approximation, variation norms and Barron spaces, depth separation"
+  - dates: [Jan 28]
     topic: "Random features, RKHS and the limits of kernels in high dimension"
 - part: B. Lazy vs. rich training
   note: The same network can behave as a kernel machine or learn features, depending on scale and parameterization.
   sessions:
-  - dates: [Jan 28]
-    topic: "The neural tangent kernel and lazy training: when does the network stay near initialization?"
   - dates: [Feb 2]
-    topic: "Mean-field two-layer networks and Wasserstein gradient flow"
+    topic: "The neural tangent kernel and lazy training: when does the network stay near initialization?"
   - dates: [Feb 4]
+    topic: "Mean-field two-layer networks and Wasserstein gradient flow"
+  - dates: [Feb 9]
     topic: "Parameterization: abc-scalings, muP and hyperparameter transfer"
 - part: C. Provable feature learning
   note: How SGD finds low-dimensional structure, how many samples it needs, and where computation sets the limit.
   sessions:
-  - dates: [Feb 9]
-    topic: "Single-index models: the information exponent, online SGD, weak recovery"
   - dates: [Feb 11]
-    topic: "Multi-index and hierarchical targets: the merged staircase, leap complexity, three-layer networks"
+    topic: "Single-index models: the information exponent, online SGD, weak recovery"
   - dates: [Feb 16]
-    topic: "Computational limits: statistical-query and low-degree lower bounds, the generative leap exponent"
+    topic: "Multi-index and hierarchical targets: the merged staircase, leap complexity, three-layer networks"
   - dates: [Feb 18]
+    topic: "Computational limits: statistical-query and low-degree lower bounds, the generative leap exponent"
+  - dates: [Feb 23]
     topic: "Case studies (student-led): mechanisms of feature learning and limits of SGD"
     kind: presentations
 - part: D. Training dynamics
   note: What gradient descent selects among the many solutions, and how it gets there.
   sessions:
-  - dates: [Feb 23]
-    topic: "Implicit bias I: margins and homogeneous networks"
   - dates: [Feb 25]
-    topic: "Implicit bias II: diagonal and deep linear networks, kernel and rich regimes"
+    topic: "Implicit bias I: margins and homogeneous networks"
   - dates: [Mar 2, Mar 4]
     topic: Winter break, no class
     kind: break
   - dates: [Mar 9]
-    topic: "Incremental learning, saddle-to-saddle dynamics, grokking"
+    topic: "Implicit bias II: diagonal and deep linear networks, kernel and rich regimes"
   - dates: [Mar 11]
+    topic: "Incremental learning, saddle-to-saddle dynamics, grokking"
+  - dates: [Mar 16]
     topic: "The edge of stability, self-stabilization and central flows"
 - part: E. Generalization
   note: Why classical uniform convergence fails for overparameterized models, and what replaces it.
   sessions:
-  - dates: [Mar 16]
-    topic: "Interpolation: double descent and benign overfitting"
   - dates: [Mar 18]
-    topic: "PAC-Bayes revisited: non-vacuous bounds, compression, language models"
+    topic: "Interpolation: double descent and benign overfitting"
   - dates: [Mar 23]
-    topic: "Stability and information-theoretic generalization bounds"
+    topic: "PAC-Bayes revisited: non-vacuous bounds, compression, language models"
   - dates: [Mar 25]
+    topic: "Stability and information-theoretic generalization bounds"
+  - dates: [Mar 30]
     topic: "Theory of scaling laws: data, model size and compute"
 - part: F. Frontier topics
   note: Lectures paired with student presentations.
   sessions:
-  - dates: [Mar 30]
-    topic: "Transformers and in-context learning"
   - dates: [Apr 1]
-    topic: "Optimization at LLM scale: learning-rate schedules, Muon, critical batch size"
+    topic: "Transformers and in-context learning"
   - dates: [Apr 6]
+    topic: "Optimization at LLM scale: learning-rate schedules, Muon, critical batch size"
+  - dates: [Apr 8]
     topic: "Diffusion models: memorization versus generalization"
 - part: Projects
   sessions:
-  - dates: [Apr 8, Apr 13]
+  - dates: [Apr 13]
     topic: One-on-one discussions on course projects
     kind: project
   - dates: [Apr 15]
