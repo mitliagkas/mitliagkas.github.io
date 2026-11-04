@@ -15,6 +15,7 @@ glance:
   - {label: Cours, value: "mardi 13h30-14h20 et mercredi 9h30-11h10"}
   - {label: Travaux pratiques, value: "mardi 14h30-16h30, avec un auxiliaire d'enseignement"}
   - {label: Enseignant, value: "[Ioannis Mitliagkas](/)"}
+  - {label: Inscription, value: "[IFT 3395](https://admission.umontreal.ca/cours-et-horaires/cours/ift-3395/) (premier cycle) · [IFT 6390](https://admission.umontreal.ca/cours-et-horaires/cours/ift-6390/) (cycles supérieurs), Université de Montréal"}
   - {label: Examen intra, value: "13 octobre, en classe"}
   - {label: Plateformes, value: "Piazza (communication), Gradescope (travaux et notes)"}
   - {label: Préalables, value: "[À lire avant de vous inscrire](/ml-class-prerequisites-fr/)"}
