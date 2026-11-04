@@ -8,10 +8,10 @@ courses:
   dltheory:
     code: "IFT 6169"
     title: "Theoretical principles for deep learning"
-    url: /ift6169-2023/
-    blurb: "An advanced research class on the theory of deep learning: optimization, expressivity and generalization. Students read recent papers and do a research project."
+    url: /ift6169-2027/
+    blurb: "An advanced research class on the theory of deep learning: lazy and rich training, provable feature learning, training dynamics and generalization. Students scribe notes, present papers and do a research project."
 offerings:
-  - {term: Winter 2027, course: dltheory}
+  - {term: Winter 2027, course: dltheory, mode: "in person, English", url: /ift6169-2027/}
   - {term: Fall 2026,   course: ml,       mode: "in person, French"}
   - {term: Fall 2025,   course: ml,       mode: "in person, French"}
   - {term: Fall 2024,   course: ml,       mode: "French"}
