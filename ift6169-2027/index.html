@@ -1,0 +1,526 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <title>IFT 6169: Theoretical principles for deep learning (Winter 2027) | Ioannis Mitliagkas (Γιάννης Μητλιάγκας)</title>
+  <meta name="google-site-verification" content="jwNPS8-26-0MEwokzcyq5lL6SGqilJFXpUOatxA2E2s">
+  <meta name="description" content="IFT 6169, Theoretical principles for deep learning, Winter 2027 at Université de Montréal and Mila: lazy and rich training, provable feature learning, traini...">
+  <link rel="canonical" href="https://mitliagkas.github.io/ift6169-2027/">
+  <meta property="og:title" content="IFT 6169: Theoretical principles for deep learning (Winter 2027) | Ioannis Mitliagkas (Γιάννης Μητλιάγκας)">
+  <meta property="og:description" content="IFT 6169, Theoretical principles for deep learning, Winter 2027 at Université de Montréal and Mila: lazy and rich training, provable feature learning, traini...">
+  <meta property="og:image" content="https://mitliagkas.github.io/images/ioannis-headshot.jpg">
+  <meta property="og:type" content="profile">
+  <meta property="og:locale" content="en_US">
+  
+  <meta name="color-scheme" content="light dark">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;500;600&family=STIX+Two+Text:ital,wght@0,400;0,600;1,400&display=swap">
+  <link rel="stylesheet" href="/assets/css/site.css?v=1793846554">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ccircle cx='16' cy='16' r='15' fill='%230b6e78'/%3E%3Ctext x='16' y='22' font-size='17' text-anchor='middle' fill='white' font-family='serif'%3E%CE%9C%3C/text%3E%3C/svg%3E">
+</head>
+
+<body>
+  <a class="skip" href="#content">Skip to content</a>
+  <header class="site-header">
+  <div class="wrap">
+    <a class="site-name" href="/">Ioannis (Yannis) Mitliagkas</a>
+    <nav class="site-nav" aria-label="Main">
+      
+        
+        
+        <a href="/research/">Research</a>
+      
+        
+        
+        <a href="/group/">Group</a>
+      
+        
+        
+        <a href="/publications/">Publications</a>
+      
+        
+        
+        <a href="/teaching/" aria-current="page">Teaching</a>
+      
+        
+        
+        <a href="/news/">News</a>
+      
+        
+        
+        <a href="/extracurriculars/">Extracurriculars</a>
+      
+      <a href="/el/" hreflang="el" lang="el">Ελληνικά</a>
+    </nav>
+  </div>
+</header>
+
+  <main id="content">
+    <div class="wrap">
+      <article class="page-content course">
+  
+
+  <header class="course-head">
+    <p class="course-codes">IFT 6169</p>
+    <h1>Theoretical principles for deep learning</h1>
+    <p class="course-term">Winter 2027 · in person, in English</p>
+  </header>
+
+  
+  <aside class="notice notice-info" lang=""><p><strong>New for 2027.</strong> The class is rebuilt around feature learning, training dynamics and modern generalization theory. <strong>Everything on this page is a first draft and may change until the start of the semester.</strong> The <a href="/ift6169-2023/">2023 edition</a> remains online.</p>
+</aside>
+  
+
+  
+  <dl class="glance" aria-label="At a glance">
+    
+    <div><dt>Lectures</dt><dd>Tuesday and Thursday, 9h30-11h30</dd></div>
+    
+    <div><dt>Dates</dt><dd>January 12 to April 15, 2027; no class during the winter break (March 1-5)</dd></div>
+    
+    <div><dt>First class</dt><dd>Tuesday, January 12, 2027</dd></div>
+    
+    <div><dt>Location</dt><dd>Mila, room TBA</dd></div>
+    
+    <div><dt>Instructor</dt><dd><a href="/">Ioannis Mitliagkas</a></dd></div>
+    
+    <div><dt>Registration</dt><dd><a href="https://admission.umontreal.ca/cours-et-horaires/cours/ift-6169/">IFT 6169 on the Université de Montréal course page</a>, section A (class number 12767)</dd></div>
+    
+    <div><dt>Language</dt><dd>English</dd></div>
+    
+  </dl>
+  
+
+  <nav class="course-toc" aria-label="On this page">
+  <p>On this page</p>
+  <ol><li><a href="#description">Description</a></li><li><a href="#prerequisites">Prerequisites</a></li><li><a href="#evaluation">Evaluation</a></li><li><a href="#schedule">Schedule</a></li><li><a href="#generative-ai-use">Generative AI use</a></li><li><a href="#references">References</a></li><li><a href="#past-editions">Past editions</a></li></ol>
+</nav>
+
+  <h2 id="description">Description</h2>
+
+<p>Deep learning works far better than classical theory predicts.
+Networks with more parameters than data points generalize.
+Non-convex training reliably finds good solutions.
+Small changes in scale or parameterization change what a network learns.
+Over the past few years, theory has started to give sharp answers to these puzzles.</p>
+
+<p>This is a graduate research class on those answers.
+Its through-line: the same network can behave as a kernel machine or as a feature learner, depending on its scale, its parameterization, the structure of the data and the optimizer.
+We start from the classical tools of optimization and statistical learning theory, see where they break, and study what replaces them:</p>
+
+<ul>
+  <li><strong>Lazy versus rich training:</strong> the neural tangent kernel, mean-field limits, and parameterizations such as muP.</li>
+  <li><strong>Provable feature learning:</strong> how SGD learns low-dimensional structure in single- and multi-index models, how many samples it needs, and the computational limits.</li>
+  <li><strong>Training dynamics:</strong> implicit bias, incremental and saddle-to-saddle learning, the edge of stability.</li>
+  <li><strong>Generalization:</strong> double descent and benign overfitting, non-vacuous PAC-Bayes bounds, information-theoretic bounds, the theory of scaling laws.</li>
+  <li><strong>Frontier topics:</strong> transformers and in-context learning, optimization at LLM scale, diffusion models.</li>
+</ul>
+
+<p>Lectures are proof-driven.
+Each session aims for one result that students can reproduce from the notes, and one small experiment that checks its prediction.
+Students scribe lecture notes, present papers and carry out a research project.</p>
+
+<h2 id="prerequisites">Prerequisites</h2>
+
+<p>This is a graduate class for students who want to do theory-driven deep learning research.</p>
+
+<ul>
+  <li>Probability and linear algebra, at the level of a strong undergraduate.</li>
+  <li>Machine learning, for example <a href="/ml-class-fr/">IFT 3395/6390</a>.</li>
+  <li>Comfort with reading and writing proofs.</li>
+</ul>
+
+<p>Basic convex optimization and statistical learning theory are pre-reading, not lecture material.
+A diagnostic Homework 0 at the start of the term tells you what to review; the <a href="#references">references</a> below include the texts for it.</p>
+
+<h2 id="evaluation">Evaluation</h2>
+
+<p>These weights are a first draft and may change before the start of the semester.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Component</th>
+      <th>Weight</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Research project</td>
+      <td>35%</td>
+    </tr>
+    <tr>
+      <td>Paper presentation</td>
+      <td>20%</td>
+    </tr>
+    <tr>
+      <td>Problem sets (proofs and numerics)</td>
+      <td>20%</td>
+    </tr>
+    <tr>
+      <td>Scribed lecture notes</td>
+      <td>15%</td>
+    </tr>
+    <tr>
+      <td>Short in-class quizzes</td>
+      <td>5%</td>
+    </tr>
+    <tr>
+      <td>Participation</td>
+      <td>5%</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><strong>Research project.</strong> Three options: reproduce and extend a theorem numerically, write a literature synthesis around one of the themes of the class, or do original research. Every project has a check-in midway through the term and ends with a presentation.</p>
+
+<p><strong>Paper presentation.</strong> One paper per student, drawn from the reading lists of the feature-learning, dynamics and frontier blocks.</p>
+
+<p><strong>Scribing.</strong> Students take turns writing up lectures in LaTeX, using the class template. Scribed notes are due one week after the lecture.</p>
+
+<h2 id="schedule">Schedule</h2>
+
+<p>First draft: topics and order may change before the start of the semester, and during the term.
+Notes, slides and readings will be posted here as the term goes.</p>
+
+<section class="sched-part">
+  <h3>Foundations</h3>
+  <p class="sched-note">Tools reused all term. Convex analysis and basic learning theory are pre-reading, checked by a diagnostic Homework 0.</p>
+  <ol class="sched"><li class="session">
+  <div class="session-dates"><span>Jan 12</span></div>
+  <div class="session-body">
+    <p class="session-topic">Introduction: approximation, optimization, generalization, and where each classical answer breaks</p>
+    
+    
+  </div>
+</li>
+<li class="session">
+  <div class="session-dates"><span>Jan 14</span></div>
+  <div class="session-body">
+    <p class="session-topic">Gradient descent and SGD toolbox: smoothness, the PL condition, SGD noise, gradient flow</p>
+    
+    
+  </div>
+</li>
+<li class="session">
+  <div class="session-dates"><span>Jan 19</span></div>
+  <div class="session-body">
+    <p class="session-topic">Acceleration, preconditioning and steepest descent; the bridge to Adam and Muon</p>
+    
+    
+  </div>
+</li>
+<li class="session">
+  <div class="session-dates"><span>Jan 21</span></div>
+  <div class="session-body">
+    <p class="session-topic">Generalization toolbox: uniform convergence, Rademacher complexity, margins, and why they fail</p>
+    
+    
+  </div>
+</li>
+</ol>
+</section>
+<section class="sched-part">
+  <h3>A. Function classes</h3>
+  <p class="sched-note">What networks can represent, and what kernels cannot.</p>
+  <ol class="sched"><li class="session">
+  <div class="session-dates"><span>Jan 26</span></div>
+  <div class="session-body">
+    <p class="session-topic">Expressivity: universal approximation, variation norms and Barron spaces, depth separation</p>
+    
+    
+  </div>
+</li>
+<li class="session">
+  <div class="session-dates"><span>Jan 28</span></div>
+  <div class="session-body">
+    <p class="session-topic">Random features, RKHS and the limits of kernels in high dimension</p>
+    
+    
+  </div>
+</li>
+</ol>
+</section>
+<section class="sched-part">
+  <h3>B. Lazy vs. rich training</h3>
+  <p class="sched-note">The same network can behave as a kernel machine or learn features, depending on scale and parameterization.</p>
+  <ol class="sched"><li class="session">
+  <div class="session-dates"><span>Feb 2</span></div>
+  <div class="session-body">
+    <p class="session-topic">The neural tangent kernel and lazy training: when does the network stay near initialization?</p>
+    
+    
+  </div>
+</li>
+<li class="session">
+  <div class="session-dates"><span>Feb 4</span></div>
+  <div class="session-body">
+    <p class="session-topic">Mean-field two-layer networks and Wasserstein gradient flow</p>
+    
+    
+  </div>
+</li>
+<li class="session">
+  <div class="session-dates"><span>Feb 9</span></div>
+  <div class="session-body">
+    <p class="session-topic">Parameterization: abc-scalings, muP and hyperparameter transfer</p>
+    
+    
+  </div>
+</li>
+</ol>
+</section>
+<section class="sched-part">
+  <h3>C. Provable feature learning</h3>
+  <p class="sched-note">How SGD finds low-dimensional structure, how many samples it needs, and where computation sets the limit.</p>
+  <ol class="sched"><li class="session">
+  <div class="session-dates"><span>Feb 11</span></div>
+  <div class="session-body">
+    <p class="session-topic">Single-index models: the information exponent, online SGD, weak recovery</p>
+    
+    
+  </div>
+</li>
+<li class="session">
+  <div class="session-dates"><span>Feb 16</span></div>
+  <div class="session-body">
+    <p class="session-topic">Multi-index and hierarchical targets: the merged staircase, leap complexity, three-layer networks</p>
+    
+    
+  </div>
+</li>
+<li class="session">
+  <div class="session-dates"><span>Feb 18</span></div>
+  <div class="session-body">
+    <p class="session-topic">Computational limits: statistical-query and low-degree lower bounds, the generative leap exponent</p>
+    
+    
+  </div>
+</li>
+<li class="session session-presentations">
+  <div class="session-dates"><span>Feb 23</span></div>
+  <div class="session-body">
+    <p class="session-topic">Case studies (student-led): mechanisms of feature learning and limits of SGD</p>
+    
+    
+  </div>
+</li>
+</ol>
+</section>
+<section class="sched-part">
+  <h3>D. Training dynamics</h3>
+  <p class="sched-note">What gradient descent selects among the many solutions, and how it gets there.</p>
+  <ol class="sched"><li class="session">
+  <div class="session-dates"><span>Feb 25</span></div>
+  <div class="session-body">
+    <p class="session-topic">Implicit bias I: margins and homogeneous networks</p>
+    
+    
+  </div>
+</li>
+<li class="session session-break">
+  <div class="session-dates"><span>Mar 2</span><span>Mar 4</span></div>
+  <div class="session-body">
+    <p class="session-topic">Winter break, no class</p>
+    
+    
+  </div>
+</li>
+<li class="session">
+  <div class="session-dates"><span>Mar 9</span></div>
+  <div class="session-body">
+    <p class="session-topic">Implicit bias II: diagonal and deep linear networks, kernel and rich regimes</p>
+    
+    
+  </div>
+</li>
+<li class="session">
+  <div class="session-dates"><span>Mar 11</span></div>
+  <div class="session-body">
+    <p class="session-topic">Incremental learning, saddle-to-saddle dynamics, grokking</p>
+    
+    
+  </div>
+</li>
+<li class="session">
+  <div class="session-dates"><span>Mar 16</span></div>
+  <div class="session-body">
+    <p class="session-topic">The edge of stability, self-stabilization and central flows</p>
+    
+    
+  </div>
+</li>
+</ol>
+</section>
+<section class="sched-part">
+  <h3>E. Generalization</h3>
+  <p class="sched-note">Why classical uniform convergence fails for overparameterized models, and what replaces it.</p>
+  <ol class="sched"><li class="session">
+  <div class="session-dates"><span>Mar 18</span></div>
+  <div class="session-body">
+    <p class="session-topic">Interpolation: double descent and benign overfitting</p>
+    
+    
+  </div>
+</li>
+<li class="session">
+  <div class="session-dates"><span>Mar 23</span></div>
+  <div class="session-body">
+    <p class="session-topic">PAC-Bayes revisited: non-vacuous bounds, compression, language models</p>
+    
+    
+  </div>
+</li>
+<li class="session">
+  <div class="session-dates"><span>Mar 25</span></div>
+  <div class="session-body">
+    <p class="session-topic">Stability and information-theoretic generalization bounds</p>
+    
+    
+  </div>
+</li>
+<li class="session">
+  <div class="session-dates"><span>Mar 30</span></div>
+  <div class="session-body">
+    <p class="session-topic">Theory of scaling laws: data, model size and compute</p>
+    
+    
+  </div>
+</li>
+</ol>
+</section>
+<section class="sched-part">
+  <h3>F. Frontier topics</h3>
+  <p class="sched-note">Lectures paired with student presentations.</p>
+  <ol class="sched"><li class="session">
+  <div class="session-dates"><span>Apr 1</span></div>
+  <div class="session-body">
+    <p class="session-topic">Transformers and in-context learning</p>
+    
+    
+  </div>
+</li>
+<li class="session">
+  <div class="session-dates"><span>Apr 6</span></div>
+  <div class="session-body">
+    <p class="session-topic">Optimization at LLM scale: learning-rate schedules, Muon, critical batch size</p>
+    
+    
+  </div>
+</li>
+<li class="session">
+  <div class="session-dates"><span>Apr 8</span></div>
+  <div class="session-body">
+    <p class="session-topic">Diffusion models: memorization versus generalization</p>
+    
+    
+  </div>
+</li>
+</ol>
+</section>
+<section class="sched-part">
+  <h3>Projects</h3>
+  
+  <ol class="sched"><li class="session session-project">
+  <div class="session-dates"><span>Apr 13</span></div>
+  <div class="session-body">
+    <p class="session-topic">One-on-one discussions on course projects</p>
+    
+    
+  </div>
+</li>
+<li class="session session-project">
+  <div class="session-dates"><span>Apr 15</span></div>
+  <div class="session-body">
+    <p class="session-topic">Final project presentations</p>
+    
+    
+  </div>
+</li>
+</ol>
+</section>
+
+<h2 id="generative-ai-use">Generative AI use</h2>
+
+<p><strong>In this class, the use of generative AI tools is permitted, but restricted.</strong> These tools may be used only for the specific learning-support uses listed below. Any use beyond these is considered academic fraud. The permitted uses are:</p>
+
+<ul>
+  <li>finding definitions of concepts;</li>
+  <li>planning a presentation;</li>
+  <li>language revision of texts;</li>
+  <li>helping you understand complex concepts;</li>
+  <li>helping you learn to program and improve your own code.</li>
+</ul>
+
+<p>The use of these tools is forbidden for the following:</p>
+
+<ul>
+  <li>writing solutions to problem sets, including proofs;</li>
+  <li>writing scribed lecture notes;</li>
+  <li>writing the project report.</li>
+</ul>
+
+<p>Transparency is required: <a href="https://bib.umontreal.ca/evaluer-analyser-rediger/iag">the generative AI use declaration form, available on the libraries’ website</a>, is recommended.
+Logging your conversations with generative AI is mandatory. <a href="https://bib.umontreal.ca/evaluer-analyser-rediger/iag?tab=5377614">The libraries’ website gives guidance on this</a>.
+When you submit work for which you used AI tools, you must include a short “AI use” section in your report explaining in detail how you used AI.</p>
+
+<p>Students are responsible for the accuracy of any material produced with these tools.</p>
+
+<p>Any use of generative AI tools beyond the permitted uses above is considered academic fraud.</p>
+
+<h2 id="references">References</h2>
+
+<p>Main texts and surveys for the class. Readings for each session will be added to the schedule.</p>
+
+<ol class="refs">
+  <li id="ref-1"><a href="https://www.di.ens.fr/~fbach/ltfp_book.pdf">Learning Theory from First Principles</a>, Francis Bach. MIT Press, 2024 (free PDF).</li>
+  <li id="ref-2"><a href="https://mjt.cs.illinois.edu/dlt/two.pdf">Deep Learning Theory</a>, lecture notes, Matus Telgarsky.</li>
+  <li id="ref-3"><a href="https://arxiv.org/abs/2308.13431">Six Lectures on Linearized Neural Networks</a>, Theodor Misiakiewicz and Andrea Montanari.</li>
+  <li id="ref-4"><a href="https://arxiv.org/abs/2504.05426">A Survey on Algorithms for Multi-Index Models</a>, Joan Bruna and Daniel Hsu. Statistical Science, 2025.</li>
+  <li id="ref-5"><a href="https://arxiv.org/abs/2106.10165">The Principles of Deep Learning Theory</a>, Daniel A. Roberts, Sho Yaida and Boris Hanin. Cambridge University Press, 2022.</li>
+  <li id="ref-6"><a href="https://arxiv.org/abs/2103.09177">Deep learning: a statistical viewpoint</a>, Peter L. Bartlett, Andrea Montanari and Alexander Rakhlin. Acta Numerica, 2021.</li>
+  <li id="ref-7"><a href="https://arxiv.org/abs/2105.14368">Fit without fear: remarkable mathematical phenomena of deep learning through the prism of interpolation</a>, Mikhail Belkin. Acta Numerica, 2021.</li>
+  <li id="ref-8"><a href="https://arxiv.org/abs/2110.11216">User-friendly introduction to PAC-Bayes bounds</a>, Pierre Alquier. Foundations and Trends in Machine Learning, 2024.</li>
+  <li id="ref-9"><a href="https://arxiv.org/abs/1405.4980">Convex Optimization: Algorithms and Complexity</a>, Sébastien Bubeck. Pre-reading for Homework 0.</li>
+</ol>
+
+<h2 id="past-editions">Past editions</h2>
+
+<p>The <a href="/ift6169-2023/">Winter 2023 edition</a> is the last edition of the original class. It covers the optimization and learning-theory foundations in more depth, and its lecture notes remain online.</p>
+
+</article>
+
+    </div>
+  </main>
+  <footer class="site-footer">
+  <div class="wrap">
+    <div>
+      Ioannis (Yannis) Mitliagkas<br>
+      Mila and DIRO, Université de Montréal<br>
+      <a href="mailto:ioannis@iro.umontreal.ca">ioannis@iro.umontreal.ca</a>
+    </div>
+    <ul>
+      <li><a href="/cv.pdf">CV</a></li>
+      <li><a href="https://scholar.google.com/citations?user=K757SxgAAAAJ&hl=en">Google Scholar</a></li>
+      <li><a href="https://dblp.org/pid/83/8757.html">DBLP</a></li>
+      <li><a href="https://orcid.org/0000-0002-4065-8654">ORCID</a></li>
+      <li><a href="https://github.com/mitliagkas">GitHub</a></li>
+      <li><a href="https://twitter.com/bouzoukipunks">Twitter</a></li>
+      <li><a href="https://www.linkedin.com/in/ioannis-mitliagkas-6a8241131/">LinkedIn</a></li>
+    </ul>
+  </div>
+</footer>
+
+<script>
+document.addEventListener('click', function (e) {
+  var b = e.target.closest('.pub-toggle'); if (!b) return;
+  var box = b.closest('.pub').querySelector('.pub-more');
+  var open = b.getAttribute('aria-expanded') === 'true';
+  b.setAttribute('aria-expanded', String(!open)); box.hidden = open;
+});
+</script>
+</body>
+</html>
